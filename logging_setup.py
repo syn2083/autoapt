@@ -7,6 +7,31 @@ import datetime
 master_logger = None
 
 
+def boot_log(self, message, *args, **kws):
+    if self.level <= 31:
+        self._log(31, message, args, **kws)
+
+
+def socket_log(self, message, *args, **kws):
+    if self.level <= 30:
+        self._log(31, message, args, **kws)
+
+
+def demo_state(self, message, *args, **kws):
+    if self.level <= 29:
+        self._log(29, message, args, **kws)
+
+
+def io_handler(self, message, *args, **kws):
+    if self.level <= 28:
+        self._log(29, message, args, **kws)
+
+
+def jifgen(self, message, *args, **kws):
+    if self.level <= 27:
+        self._log(29, message, args, **kws)
+
+
 def init_logging():
     global master_logger
     if master_logger is None:
@@ -19,6 +44,16 @@ def init_logging():
                             level=logging.DEBUG,
                             format='[%(levelname)-7s] %(asctime)s %(module)15s| %(message)s',
                             datefmt='%m/%d/%Y %I:%M:%S %p')
+        logging.addLevelName(31, 'BOOT')
+        logging.addLevelName(30, 'SOCK_SERVER')
+        logging.addLevelName(29, 'DEMO_STATE')
+        logging.addLevelName(28, 'IO_HANDLER')
+        logging.addLevelName(27, 'JIFGEN')
+        logging.Logger.boot = boot_log
+        logging.Logger.sock = socket_log
+        logging.Logger.demo = demo_state
+        logging.Logger.io = io_handler
+        logging.Logger.jifgen = jifgen
         master_logger = logging.getLogger()
     return master_logger
 

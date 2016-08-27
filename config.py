@@ -24,20 +24,27 @@ DEMO_CONF_FILE = os.path.join(DEMO_CONF_DIR, 'demo.config')
 JIF_CONF_FILE = os.path.join(DEMO_CONF_DIR, 'jif.config')
 
 DEF_DEMO_CONF = [{'icd_1': {'path': 'C:/APTApplication/ICD/icd_1', 'sph': 60000, 'piece_sheet': 'sheet',
-                            'multi_step': 1},
+                            'multi_step': 1, 'jobid': []},
                   'icd_2': {'path': 'C:/APTApplication/ICD/icd_2', 'sph': 12000, 'piece_sheet': 'piece',
-                            'multi_step': 0},
+                            'multi_step': 0, 'jobid': []},
                   'icd_3': {'path': 'C:/APTApplication/ICD/icd_3', 'sph': 20000, 'piece_sheet': 'piece',
-                            'multi_step': 0},
+                            'multi_step': 0, 'jobid': []},
                   'icd_4': {'path': 'C:/APTApplication/ICD/icd_4', 'sph': 6000, 'piece_sheet': 'piece',
-                            'multi_step': 0},
+                            'multi_step': 0, 'jobid': []},
+                  'icd_5': {'path': 'C:/APTApplication/ICD/icd_5', 'sph': 6000, 'piece_sheet': 'piece',
+                            'multi_step': 0, 'jobid': []},
+                  'icd_6': {'path': 'C:/APTApplication/ICD/icd_6', 'sph': 6000, 'piece_sheet': 'piece',
+                            'multi_step': 0, 'jobid': []},
                   'td': {'path': 'C:/APTApplication/ICD/tdinput', 'sph': 12000, 'piece_sheet': 'piece',
-                         'multi_step': 0}},
+                         'multi_step': 0, 'jobid': []}},
                  {'APTDirs': {'JDF': 'C:/APTApplication/Server/Inputs/JDFInput',
                               'JIFACK': 'C:/APTApplication/Server/Inputs/JIFAcks',
                               'PROC': 'C:/APTApplication/Server/Outputs/WIP',
                               'REPRINT': 'C:/APTApplication/Server/Outputs/ReprintFiles'},
-                  'DemoDirs': {'exit_data': EXIT_DATA, 'jif_data': JIF_DATA}}]
+                  'DemoDirs': {'exit_data': EXIT_DATA, 'jif_data': JIF_DATA}},
+                 {'active_targets': ['icd_1', 'icd_2', 'icd_3', 'td'],
+                  'reprint_pool': ['icd_4', 'icd_5', 'icd_6'],
+                  'all_targets': ['icd_1', 'icd_2', 'icd_3', 'icd_4', 'icd_5', 'icd_6', 'td']}]
 
 DEF_JIF_CONF = [{'JIF': {'temp_name': 'APTDemo', 'jtype': 'Checks, Statements, New Member', 'jnum': '0001, 9000',
                          'jclass': 'XG1, DP99, A1, C3', 'jname': '0X-', 'jpref': 'A',

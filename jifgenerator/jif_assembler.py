@@ -5,9 +5,7 @@ from random import choice, randint, sample
 from os import path
 from .jif_templater import Template
 from .prog_utilities import folder_construct, str_to_list, find_shift
-from django.shortcuts import get_object_or_404
-from ..models import DemoConfig
-from automated_APTDemo import logging_setup
+from logging_setup import init_logging
 
 __author__ = 'venom'
 
@@ -20,12 +18,14 @@ Output
 --exit_data
 --jif_output"""
 
-logger = logging_setup.init_logging()
+logger = init_logging()
 
 
 class JIFBuilder(Template):
     def __init__(self, icd_target, jdf_folder, multi_step, dconf, jconf):
         super().__init__()
+        for k in jconf.keys():
+            setattr(self, k, jconf[k])
         self.out = jdf_folder
         self.target = icd_target
         self.multi_step = multi_step
@@ -33,20 +33,20 @@ class JIFBuilder(Template):
             self.site_prefix = 'A10'
             self.proc_phase = '10, 30'
             self.end_phase = '30'
-            self.piece_or_sheet = demo.idc_1_ps
-            self.speed = ((demo.idc_1_time // 60) // 60)
+            self.piece_or_sheet = dconf[0]['icd_1']['piece_sheet']
+            self.speed = ((dconf[0]['icd_1']['sph'] // 60) // 60)
         if icd_target == 'icd_2':
             self.site_prefix = 'A20'
             self.proc_phase = '20'
             self.end_phase = '20'
-            self.piece_or_sheet = demo.idc_2_ps
-            self.speed = ((demo.idc_2_time // 60) // 60)
+            self.piece_or_sheet = dconf[0]['icd_2']['piece_sheet']
+            self.speed = ((dconf[0]['icd_2']['sph'] // 60) // 60)
         if icd_target == 'icd_3':
             self.site_prefix = 'A30'
             self.proc_phase = '30'
             self.end_phase = '30'
-            self.piece_or_sheet = demo.idc_3_ps
-            self.speed = ((demo.idc_3_time // 60) // 60)
+            self.piece_or_sheet = dconf[0]['icd_3']['piece_sheet']
+            self.speed = ((dconf[0]['icd_3']['sph'] // 60) // 60)
         if icd_target == 'td':
             self.site_prefix = 'A40'
             self.proc_phase = '30'

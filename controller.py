@@ -14,14 +14,10 @@ logger = init_logging()
 class DemoController:
     def __init__(self, dconf, jconf):
         self.demo_status = 0
-        self.icd_1 = []
-        self.icd_1_multi = True
-        self.icd_2 = []
-        self.icd_3 = []
-        self.icd_4 = []
-        self.td = []
-        self.icd_5 = []
-        self.icd_6 = []
+        for k in dconf[0].keys():
+            setattr(self, k, dconf[0][k])
+        for k in dconf[2].keys():
+            setattr(self, k, dconf[2][k])
         self.monitors = []
         self.lock = None
         self.dispatcher = None
@@ -32,12 +28,9 @@ class DemoController:
         self.jif_data = dconf[1]['DemoDirs']['jif_data']
         self.jif_folder = dconf[1]['APTDirs']['JDF']
         self.first_run = 1
-        self.target_dirs = {'icd_1': dconf[0]['icd_1']['path'], 'icd_2': dconf[0]['icd_2']['path'],
-                            'icd_3': dconf[0]['icd_3']['path'], 'icd_4': dconf[0]['icd_4']['path'],
-                            'td': dconf[0]['td']['path'],
-                            'icd_5': 'C:\\APTApplication\\ICD\\icd_5',
-                            'icd_6': 'C:\\APTApplication\\ICD\\icd_6'}
+        self.target_dirs = {k: dconf[0][k]['path'] for k in dconf[0].keys()}
         self.jifconfig = jconf
+        self.democonf = dconf
 
     def __repr__(self):
         if self.demo_status == 0:
@@ -56,7 +49,7 @@ class DemoController:
     def multi_job(self, jobid=None):
         if not jobid:
             logger.debug('Multi-job processor called with no jobid.')
-        if not self.icd_1_multi:
+        if not self.multi_step:
             pass
         if jobid in self.icd_1:
             if self.td:
@@ -72,35 +65,29 @@ class DemoController:
     def start_demo(self):
         # clean up any outstanding exit data
         files = os.listdir(self.exit_data)
-        logger.debug('Demo Start called, cleaning exit directory.')
+        logger.demo('--Demo Startup--')
         for file in files:
             os.remove(self.exit_data + '/' + file)
+        logger.demo('Exit directory cleaned up.')
         self.first_run = 0
-        logger.debug('Setting demo status to 1, starting Demo.')
+        logger.demo('Demo Status == 1')
         self.demo_status = 1
-        icd_1 = jif_assembler.JIFBuilder('icd_1', self.jif_folder, 1)
-        logger.debug('Creating ICD 1 JIF/Exit Data')
-        self.icd_1.append(icd_1.gen_jifs())
-        icd_2 = jif_assembler.JIFBuilder('icd_2', self.jif_folder, None)
-        logger.debug('Creating ICD 2 JIF/Exit Data')
-        self.icd_2.append(icd_2.gen_jifs())
-        icd_3 = jif_assembler.JIFBuilder('icd_3', self.jif_folder, None)
-        logger.debug('Creating ICD 3 JIF/Exit Data')
-        self.icd_3.append(icd_3.gen_jifs())
-        td = jif_assembler.JIFBuilder('td', self.jif_folder, None)
-        logger.debug('Creating Initial TD JIF/Exit Data')
-        self.td.append(td.gen_jifs())
+        for k in self.active_targets:
+            jifconstruct = jif_assembler.JIFBuilder(k, self.jif_folder, getattr(self, k)['multi_step'],
+                                                    self.democonf, self.jifconfig)
+
+            getattr(self, k)['jobid'].append(jifconstruct.gen_jifs())
+            logger.demo('Creating initial job for target: {}'.format(k.upper()))
         logger.debug('Demo Initialized.')
         return 'Demo initialization and startup complete.'
 
     def stop_demo(self):
-        logger.debug('Setting demo status to 0, stopping demo.')
+        logger.demo('--Demo Shutdown Initiated--')
+        logger.demo('Setting demo status to 0, stopping demo.')
         self.demo_status = 0
-        self.icd_1 = []
-        self.icd_2 = []
-        self.icd_3 = []
-        self.icd_4 = []
-        self.td = []
+
+        for k in self.all_targets:
+            getattr(self, k)['jobid'] = []
         # clean up exit data
         for observer in self.observers:
             observer.stop()
@@ -110,43 +97,38 @@ class DemoController:
         self.dispatcher.join()
         self.dispatcher = None
         files = os.listdir(self.exit_data)
-        logger.debug('Cleaning exit directory.')
+        logger.demo('Cleaning exit directory.')
         for file in files:
             os.remove(self.exit_data + '/' + file)
-        logger.debug('Resetting demo state')
+        logger.demo('Resetting demo state')
         self.first_run = 1
+        logger.demo('--Demo Shutdown Complete--')
         return 'Demo shut down complete.'
 
     def new_job(self, data):
         jobid = data[1]
-        if data[0] == 'Accepted':
-            if jobid in self.icd_1:
-                logger.debug('Copying {} to target directory')
-                exit_dir = self.exit_data
-                data_file = os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid))
-                logger.debug('Copying {} to target directory'.format(jobid))
-                target = os.path.join(self.target_dirs['icd_1'], 'sheet_{}.txt'.format(jobid))
-                shutil.copyfile(data_file, target)
-            if jobid in self.icd_2:
-                exit_dir = self.exit_data
-                data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
-                logger.debug('Copying {} to target directory'.format(jobid))
-                target = os.path.join(self.target_dirs['icd_2'], 'piece_{}.txt'.format(jobid))
-                shutil.copyfile(data_file, target)
-            if jobid in self.icd_3:
-                exit_dir = self.exit_data
-                data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
-                logger.debug('Copying {} to target directory'.format(jobid))
-                target = os.path.join(self.target_dirs['icd_3'], 'piece_{}.txt'.format(jobid))
-                shutil.copyfile(data_file, target)
-            if jobid in self.icd_4:
-                pass
-            if jobid in self.td:
-                exit_dir = self.exit_data
-                data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
-                logger.debug('Copying {} to target directory'.format(jobid))
-                target = os.path.join(self.target_dirs['td'], 'piece_{}.txt'.format(jobid))
-                shutil.copyfile(data_file, target)
+        not_found = True
+
+        for k in self.active_targets:
+            if data[0] == 'Accepted':
+                if jobid in getattr(self, k)['jobid']:
+                    exit_dir = self.exit_data
+
+                    logger.iohandler('--New Job--\n Copying data for job {}.'.format(jobid))
+                    if getattr(self, k)['piece_sheet'].lower() == 'piece':
+                        data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
+                        target = os.path.join(getattr(self, k)['path'], 'piece_{}.txt'.format(jobid))
+                    else:
+                        data_file = os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid))
+                        target = os.path.join(getattr(self, k)['path'], 'sheet_{}.txt'.format(jobid))
+                    shutil.copyfile(data_file, target)
+                    not_found = False
+            if data[0] == 'Failed':
+                logger.iohandler('--New Job--\n JIF for Job {} failed to load into APT.'.format(jobid))
+                self.complete_job(['Complete', jobid])
+
+        if not_found:
+            logger.error('--New Job--\n Job {} was not found in an ICD, could not complete copy.'.format(jobid))
 
     def proc_phase(self, data):
         jobid = data[1]

@@ -12,7 +12,7 @@ def do_some_stuffs_with_input(input_string):
     return input_string[::-1]
 
 
-# server
+
 def rec_data(conn, MAX_BUFFER_SIZE):
     input_from_client_bytes = conn.recv(MAX_BUFFER_SIZE)
 
@@ -24,6 +24,7 @@ def rec_data(conn, MAX_BUFFER_SIZE):
     input_from_client = input_from_client_bytes.decode("utf8").rstrip()
 
     return input_from_client
+
 
 def client_thread(conn, ip, port, MAX_BUFFER_SIZE = 88888):
 

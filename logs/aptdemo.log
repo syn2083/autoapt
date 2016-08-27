@@ -357,3 +357,403 @@
 [DEBUG  ] 08/26/2016 05:00:23 PM           pulse| Tick len == 300.000000
 [DEBUG  ] 08/26/2016 05:00:23 PM           pulse| Tick time == Fri Aug 26 17:05:23 2016 (1472245523.585007)
 [INFO   ] 08/26/2016 05:00:23 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 09:56:18 PM            init| --System Booting--
+[INFO   ] 08/26/2016 09:56:18 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276656128, free=1632120086528, percent=18.4),
+                               'I/O': sdiskio(read_count=2891252, write_count=3335305, read_bytes=112094156800, write_bytes=75679833600, read_time=511582710, write_time=533839320)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649075941, bytes_recv=10397478368, packets_sent=7140688, packets_recv=11783887, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18577741972938994,
+                               'Stats': pmem(rss=15925248, vms=9441280, num_page_faults=4157, peak_wset=15925248, wset=15925248, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=13040, nonpaged_pool=12880, pagefile=9441280, peak_pagefile=9441280, private=9441280)}},
+    'Sys Info': {   'Boot Time': 1472262977.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 09:56:18 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 09:56:18 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 09:56:18 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 09:56:18 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 09:56:18 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 09:56:18 PM       utilities| --Creating Config Directory--
+[INFO   ] 08/26/2016 09:56:18 PM       utilities| Loading Demo Config
+[ERROR  ] 08/26/2016 09:56:18 PM       utilities| --Demo Config not found, Loading Default--
+[INFO   ] 08/26/2016 09:56:18 PM       utilities| Loading JIF Config
+[ERROR  ] 08/26/2016 09:56:18 PM       utilities| --JIF Config not found, Loading Default--
+[INFO   ] 08/26/2016 09:56:18 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 09:56:18 PM           pulse| Now == Fri Aug 26 21:56:18 2016 (1472262978.601701)
+[DEBUG  ] 08/26/2016 09:56:18 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 09:56:18 PM           pulse| Tick time == Fri Aug 26 22:01:18 2016 (1472263278.601701)
+[INFO   ] 08/26/2016 09:56:18 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 10:06:12 PM            init| --System Booting--
+[INFO   ] 08/26/2016 10:06:12 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276676608, free=1632120066048, percent=18.4),
+                               'I/O': sdiskio(read_count=2892625, write_count=3339913, read_bytes=112285343232, write_bytes=75956734464, read_time=511769790, write_time=534614290)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649555060, bytes_recv=10399166926, packets_sent=7144392, packets_recv=11787539, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18654193585996356,
+                               'Stats': pmem(rss=15990784, vms=9584640, num_page_faults=4199, peak_wset=15990784, wset=15990784, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=13040, nonpaged_pool=12880, pagefile=9584640, peak_pagefile=9584640, private=9584640)}},
+    'Sys Info': {   'Boot Time': 1472263572.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 10:06:12 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:06:12 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:06:12 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:06:12 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:06:12 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:06:12 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:06:12 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:06:12 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:06:12 PM           pulse| Now == Fri Aug 26 22:06:12 2016 (1472263572.467589)
+[DEBUG  ] 08/26/2016 10:06:12 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:06:12 PM           pulse| Tick time == Fri Aug 26 22:11:12 2016 (1472263872.467589)
+[INFO   ] 08/26/2016 10:06:12 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 10:06:23 PM            init| --System Booting--
+[INFO   ] 08/26/2016 10:06:23 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276680704, free=1632120061952, percent=18.4),
+                               'I/O': sdiskio(read_count=2892839, write_count=3340127, read_bytes=112286584320, write_bytes=75967459328, read_time=511787610, write_time=534678860)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649559669, bytes_recv=10399172671, packets_sent=7144438, packets_recv=11787579, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.1816203632693959,
+                               'Stats': pmem(rss=15568896, vms=8937472, num_page_faults=4147, peak_wset=15568896, wset=15568896, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=12880, nonpaged_pool=12744, pagefile=8937472, peak_pagefile=8937472, private=8937472)}},
+    'Sys Info': {   'Boot Time': 1472263582.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 10:06:23 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:06:23 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:06:23 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:06:23 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:06:23 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:06:23 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:06:23 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:06:23 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:06:23 PM           pulse| Now == Fri Aug 26 22:06:23 2016 (1472263583.135255)
+[DEBUG  ] 08/26/2016 10:06:23 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:06:23 PM           pulse| Tick time == Fri Aug 26 22:11:23 2016 (1472263883.135255)
+[INFO   ] 08/26/2016 10:06:23 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 10:06:44 PM            init| --System Booting--
+[INFO   ] 08/26/2016 10:06:44 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276680704, free=1632120061952, percent=18.4),
+                               'I/O': sdiskio(read_count=2892839, write_count=3340289, read_bytes=112286584320, write_bytes=75989343744, read_time=511787610, write_time=534703030)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649569955, bytes_recv=10399188897, packets_sent=7144556, packets_recv=11787675, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17875342777974482,
+                               'Stats': pmem(rss=15323136, vms=8654848, num_page_faults=4097, peak_wset=15577088, wset=15323136, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=12880, nonpaged_pool=12744, pagefile=8654848, peak_pagefile=8949760, private=8654848)}},
+    'Sys Info': {   'Boot Time': 1472263604.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 10:06:44 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:06:44 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:06:44 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:06:44 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:06:44 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:06:44 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:06:44 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:06:44 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:06:44 PM           pulse| Now == Fri Aug 26 22:06:44 2016 (1472263604.426224)
+[DEBUG  ] 08/26/2016 10:06:44 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:06:44 PM           pulse| Tick time == Fri Aug 26 22:11:44 2016 (1472263904.426224)
+[INFO   ] 08/26/2016 10:06:44 PM            init| --System Startup Complete, Entering Main Loop--
+[DEBUG  ] 08/26/2016 10:07:39 PM           pulse| I made it!
+[INFO   ] 08/26/2016 10:07:39 PM            init| Connection established from 127.0.0.1:64502
+[INFO   ] 08/26/2016 10:11:23 PM            init| --System Booting--
+[INFO   ] 08/26/2016 10:11:23 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276688896, free=1632120053760, percent=18.4),
+                               'I/O': sdiskio(read_count=2893980, write_count=3342561, read_bytes=112317372928, write_bytes=76151808512, read_time=511876850, write_time=535178210)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649670937, bytes_recv=10399426109, packets_sent=7145394, packets_recv=11788407, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18252822617445208,
+                               'Stats': pmem(rss=15646720, vms=8966144, num_page_faults=4258, peak_wset=15646720, wset=15646720, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=12880, nonpaged_pool=12744, pagefile=8966144, peak_pagefile=8966144, private=8966144)}},
+    'Sys Info': {   'Boot Time': 1472263883.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 10:11:23 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:11:23 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:11:23 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:11:23 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:11:23 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:11:23 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:11:23 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:11:23 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:11:23 PM           pulse| Now == Fri Aug 26 22:11:23 2016 (1472263883.611886)
+[DEBUG  ] 08/26/2016 10:11:23 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:11:23 PM           pulse| Tick time == Fri Aug 26 22:16:23 2016 (1472264183.611886)
+[INFO   ] 08/26/2016 10:11:23 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 10:12:06 PM            init| --System Booting--
+[INFO   ] 08/26/2016 10:12:06 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276688896, free=1632120053760, percent=18.4),
+                               'I/O': sdiskio(read_count=2893982, write_count=3343074, read_bytes=112317389312, write_bytes=76200316928, read_time=511877040, write_time=535273870)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649681319, bytes_recv=10399453851, packets_sent=7145511, packets_recv=11788501, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18109475842962652,
+                               'Stats': pmem(rss=15523840, vms=8921088, num_page_faults=4090, peak_wset=15523840, wset=15523840, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=12880, nonpaged_pool=12744, pagefile=8921088, peak_pagefile=8921088, private=8921088)}},
+    'Sys Info': {   'Boot Time': 1472263925.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 10:12:06 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:12:06 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:12:06 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:12:06 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:12:06 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:12:06 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:12:06 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:12:06 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| Now == Fri Aug 26 22:12:06 2016 (1472263926.026432)
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| Tick time == Fri Aug 26 22:17:06 2016 (1472264226.026432)
+[INFO   ] 08/26/2016 10:12:06 PM            init| --System Startup Complete, Entering Main Loop--
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:06 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:07 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:07 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:07 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:07 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:08 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:08 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:08 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:08 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:09 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:09 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:09 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:09 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:10 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:10 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:10 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:10 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:11 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:11 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:11 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:11 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:12 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:12 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:12 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:12 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:13 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:13 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:13 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:13 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:14 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:14 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:14 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:14 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:15 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:15 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:15 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:15 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:16 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:16 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:16 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:16 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:17 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:17 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:17 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:17 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:18 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:18 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:18 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:18 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:19 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:19 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:19 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:19 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:20 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:20 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:20 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:20 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:21 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:21 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:21 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:21 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:22 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:22 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:22 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:22 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:23 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:23 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:23 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:23 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:24 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:24 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:24 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:24 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:25 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:25 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:25 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:25 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:26 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:26 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:26 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:26 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:27 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:27 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:27 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:27 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:28 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:28 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:28 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:28 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:29 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:29 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:29 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:29 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:30 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:30 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:30 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:30 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:31 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:31 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:31 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:31 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:32 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:32 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:32 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:32 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:33 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:33 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:33 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:33 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:34 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:34 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:34 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:34 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:35 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:35 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:35 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:35 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:36 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:36 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:36 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:36 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:37 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:37 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:37 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:37 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:38 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:38 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:38 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:38 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:39 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:39 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:39 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:39 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:40 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:40 PM           pulse| I made it!
+[DEBUG  ] 08/26/2016 10:12:40 PM           pulse| I made it!
+[INFO   ] 08/26/2016 10:12:41 PM            init| --System Booting--
+[INFO   ] 08/26/2016 10:12:41 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=2000396742656, used=368276701184, free=1632120041472, percent=18.4),
+                               'I/O': sdiskio(read_count=2894068, write_count=3343639, read_bytes=112352609280, write_bytes=76251349504, read_time=512129960, write_time=535380530)},
+                    'NIC': {   'I/O': snetio(bytes_sent=1649686119, bytes_recv=10399473701, packets_sent=7145565, packets_recv=11788539, errin=0, errout=2, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18558629069674656,
+                               'Stats': pmem(rss=15908864, vms=9445376, num_page_faults=4169, peak_wset=15908864, wset=15908864, peak_paged_pool=193256, paged_pool=193080, peak_nonpaged_pool=13040, nonpaged_pool=12880, pagefile=9445376, peak_pagefile=9445376, private=9445376)}},
+    'Sys Info': {   'Boot Time': 1472263961.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 10:12:41 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:12:41 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:12:41 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:12:41 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:12:41 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:12:41 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:12:41 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:12:41 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:12:41 PM           pulse| Now == Fri Aug 26 22:12:41 2016 (1472263961.917562)
+[DEBUG  ] 08/26/2016 10:12:41 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:12:41 PM           pulse| Tick time == Fri Aug 26 22:17:41 2016 (1472264261.917562)
+[INFO   ] 08/26/2016 10:12:41 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 10:14:20 PM            init| --System Booting--
+[BOOT   ] 08/26/2016 10:22:04 PM            init| --System Booting--
+[BOOT   ] 08/26/2016 10:22:04 PM            init| Snapshot time: 2016-08-26 22:22:04
+                                                   System booted at: 2016-08-19 20:27:29
+                                                   System has 3253M of 8175M available (60.200% used)
+                                                   Driver started at: 2016-08-26 22:22:04
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 153 read and 2 write I/O operations.
+[BOOT   ] 08/26/2016 10:22:04 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 10:22:04 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 10:22:04 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 10:22:04 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 10:22:04 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 10:22:04 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 10:22:04 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 10:22:04 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 10:22:04 PM           pulse| Now == Fri Aug 26 22:22:04 2016 (1472264524.996948)
+[DEBUG  ] 08/26/2016 10:22:04 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 10:22:04 PM           pulse| Tick time == Fri Aug 26 22:27:04 2016 (1472264824.996948)
+[BOOT   ] 08/26/2016 10:22:04 PM            init| --System Startup Complete, Entering Main Loop--
+[DEBUG  ] 08/26/2016 10:27:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 10:32:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 10:37:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 10:42:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 10:47:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 10:52:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 10:57:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:02:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:07:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:12:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:17:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:22:05 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:27:05 PM           pulse| Checking log updates
+[BOOT   ] 08/26/2016 11:32:04 PM            init| --System Booting--
+[BOOT   ] 08/26/2016 11:32:04 PM            init| Snapshot time: 2016-08-26 23:32:04
+                                                   System booted at: 2016-08-19 20:27:30
+                                                   System has 3393M of 8175M available (58.500% used)
+                                                   Driver started at: 2016-08-26 23:32:04
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 165 read and 6 write I/O operations.
+[BOOT   ] 08/26/2016 11:32:04 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 11:32:04 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 11:32:04 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 11:32:04 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 11:32:04 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 11:32:04 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 11:32:04 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 11:32:04 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 11:32:04 PM           pulse| Now == Fri Aug 26 23:32:04 2016 (1472268724.540364)
+[DEBUG  ] 08/26/2016 11:32:04 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 11:32:04 PM           pulse| Tick time == Fri Aug 26 23:37:04 2016 (1472269024.540364)
+[BOOT   ] 08/26/2016 11:32:29 PM            init| --System Booting--
+[BOOT   ] 08/26/2016 11:32:29 PM            init| Snapshot time: 2016-08-26 23:32:29
+                                                   System booted at: 2016-08-19 20:27:30
+                                                   System has 3375M of 8175M available (58.700% used)
+                                                   Driver started at: 2016-08-26 23:32:29
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 163 read and 1 write I/O operations.
+[BOOT   ] 08/26/2016 11:32:29 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 11:32:29 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 11:32:29 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 11:32:29 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 11:32:29 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 11:32:29 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 11:32:29 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 11:32:29 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 11:32:29 PM           pulse| Now == Fri Aug 26 23:32:29 2016 (1472268749.429036)
+[DEBUG  ] 08/26/2016 11:32:29 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 11:32:29 PM           pulse| Tick time == Fri Aug 26 23:37:29 2016 (1472269049.429036)
+[BOOT   ] 08/26/2016 11:32:29 PM            init| --System Startup Complete, Entering Main Loop--
+[DEBUG  ] 08/26/2016 11:37:29 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:42:29 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:47:29 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:52:29 PM           pulse| Checking log updates
+[DEBUG  ] 08/26/2016 11:57:29 PM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 12:02:30 AM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 12:07:30 AM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 12:12:30 AM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 12:17:30 AM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 12:22:30 AM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 12:27:30 AM           pulse| Checking log updates
