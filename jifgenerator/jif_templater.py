@@ -1,45 +1,42 @@
 from os import path
 import datetime
-from django.shortcuts import get_object_or_404
-from ..models import JIFTemplate
-from automated_APTDemo import logging_setup
+from logging_setup import init_logging
 
-logger = logging_setup.init_logging()
+logger = init_logging()
 
 __author__ = 'venom'
 
 
 class Template(object):
     def __init__(self):
-        jif = get_object_or_404(JIFTemplate, pk=1)
         t = datetime.datetime.now() - datetime.timedelta(hours=3)
         self.initial_seed = '0000001'
         self.site_prefix = None
         self.job_id = '0000001'
-        self.template_name = jif.template_name
-        self.piece_range = jif.piece_range
-        self.sheet_range = '1, 8'
-        self.num_jifs = 1
-        self.account = jif.account_id
-        self.job_name = jif.job_name
-        self.job_type = jif.job_type
-        self.jobclass = jif.job_class
-        self.job_number = jif.job_number
-        self.envelope_id = jif.envelope_id
-        self.stock_id = jif.stock_id
-        self.stock_type = jif.stock_type
-        self.prod_loc = jif.production_location
-        self.product_name = jif.product_name
-        self.userinfo1 = jif.user_info_1
-        self.userinfo2 = jif.user_info_2
-        self.userinfo3 = jif.user_info_3
-        self.userinfo4 = jif.user_info_4
-        self.userinfo5 = jif.user_info_5
-        self.contact_email = jif.contact_email
+        self.temp_name = None
+        self.prange = None
+        self.srange = None
+        self.num_jifs = None
+        self.actid = None
+        self.jname = None
+        self.jtype = None
+        self.jclass = None
+        self.jnum = None
+        self.envid = None
+        self.stockid = None
+        self.stocktype = None
+        self.prodloc = None
+        self.prodname = None
+        self.ui1 = None
+        self.ui2 = None
+        self.ui3 = None
+        self.ui4 = None
+        self.ui5 = None
+        self.cemail = None
         self.imp_mult = '1,2'
-        self.shift_1_operators = jif.shift_1_operators
-        self.shift_2_operators = jif.shift_2_operators
-        self.shift_3_operators = jif.shift_3_operators
+        self.shift1 = None
+        self.shift2 = None
+        self.shift3 = None
         self.creation = [str(t), t]
         self.deadline = ''
         self.current_jobid = None

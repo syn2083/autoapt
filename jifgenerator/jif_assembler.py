@@ -24,10 +24,9 @@ logger = logging_setup.init_logging()
 
 
 class JIFBuilder(Template):
-    def __init__(self, icd_target, jdf_folder, multi_step):
+    def __init__(self, icd_target, jdf_folder, multi_step, dconf, jconf):
         super().__init__()
         self.out = jdf_folder
-        demo = get_object_or_404(DemoConfig, pk=1)
         self.target = icd_target
         self.multi_step = multi_step
         if icd_target == 'icd_1':
@@ -62,7 +61,7 @@ class JIFBuilder(Template):
 
         plist.append("   <Piece>")
         plist.append("    <ID>{pieceid}</ID>".format(pieceid=str(piece_id).zfill(6)))
-        rlist = [i.strip() for i in self.sheet_range.split(',')]
+        rlist = [i.strip() for i in self.srange.split(',')]
         sheet_count = randint(int(rlist[0]), int(rlist[1]))
         plist.append("    <TotalSheets>{totals}</TotalSheets>".format(totals=str(sheet_count)))
         plist.append("   </Piece>")
@@ -74,25 +73,25 @@ class JIFBuilder(Template):
 
         self.jobid_loader()
         logger.debug('Starting to build JIF {}{}.'.format(self.site_prefix, self.id_to_str(self.current_jobid)))
-        conv_dict = {'job_type': [self.job_type, None],
-                     'job_name': [self.job_name, None],
-                     'job_number': [self.job_number, None],
-                     'product_name': [self.product_name, None],
-                     'prod_loc': [self.prod_loc, None],
-                     'envelope_id': [self.envelope_id, None],
-                     'stock_id': [self.stock_id, None],
-                     'stock_type': [self.stock_type, None],
-                     'account': [self.account, None],
-                     'jobclass': [self.jobclass, None],
+        conv_dict = {'jtype': [self.jtype, None],
+                     'jname': [self.jname, None],
+                     'jnum': [self.jnum, None],
+                     'prodname': [self.prodname, None],
+                     'prodloc': [self.prodloc, None],
+                     'envid': [self.envid, None],
+                     'stockid': [self.stockid, None],
+                     'stocktype': [self.stocktype, None],
+                     'actid': [self.actid, None],
+                     'jclass': [self.jclass, None],
                      'imp_mult': [self.imp_mult, None],
-                     'userinfo1': [self.userinfo1, None],
-                     'userinfo2': [self.userinfo2, None],
-                     'userinfo3': [self.userinfo3, None],
-                     'userinfo4': [self.userinfo4, None],
-                     'userinfo5': [self.userinfo5, None],
-                     'shift_1_ops': [self.shift_1_operators, None],
-                     'shift_2_ops': [self.shift_2_operators, None],
-                     'shift_3_ops': [self.shift_3_operators, None]}
+                     'ui1': [self.ui1, None],
+                     'ui2': [self.ui2, None],
+                     'ui3': [self.ui3, None],
+                     'ui4': [self.ui4, None],
+                     'ui5': [self.ui5, None],
+                     'shift_1_ops': [self.shift1, None],
+                     'shift_2_ops': [self.shift2, None],
+                     'shift_3_ops': [self.shift3, None]}
 
         for k,v in conv_dict.items():
             v[1] = str_to_list(v[0])
@@ -113,13 +112,13 @@ class JIFBuilder(Template):
             jif_strings.append("""<?xml version="1.0" encoding="UTF-8"?>\n <JobTicket>\n <Version>2.2</Version>""")
             jif_strings.append(" <JobID>{pref}{jobid}</JobID>".format(pref=self.site_prefix,
                                                                       jobid=self.id_to_str(self.current_jobid)))
-            jif_strings.append(" <JobType>{}</JobType>".format(choice(conv_dict['job_type'][1])))
-            jif_strings.append(" <JobName>{}</JobName>".format(choice(conv_dict['job_name'][1])))
-            jif_strings.append(" <JobNumber>{}</JobNumber>".format(choice(conv_dict['job_number'][1])))
-            jif_strings.append(" <ProductName>{}</ProductName>".format(choice(conv_dict['product_name'][1])))
-            jif_strings.append(" <AccountID>{}</AccountID>".format(choice(conv_dict['account'][1])))
+            jif_strings.append(" <JobType>{}</JobType>".format(choice(conv_dict['jtype'][1])))
+            jif_strings.append(" <JobName>{}</JobName>".format(choice(conv_dict['jname'][1])))
+            jif_strings.append(" <JobNumber>{}</JobNumber>".format(choice(conv_dict['jnum'][1])))
+            jif_strings.append(" <ProductName>{}</ProductName>".format(choice(conv_dict['prodname'][1])))
+            jif_strings.append(" <AccountID>{}</AccountID>".format(choice(conv_dict['actid'][1])))
             jif_strings.append(" <StartSequence>000001</StartSequence>")
-            count = [i.strip() for i in self.piece_range.split(',')]
+            count = [i.strip() for i in self.prange.split(',')]
             self.current_piececount = randint(int(count[0]), int(count[1]))
             jif_strings.append(" <EndSequence>{}</EndSequence>".format(str(self.current_piececount).zfill(6)))
             jif_strings.append(" <PieceCount>{}</PieceCount>".format(str(self.current_piececount)))
@@ -128,16 +127,16 @@ class JIFBuilder(Template):
             jif_strings.append(" <PrintMode>1</PrintMode>\n <PageComposition>2</PageComposition>")
             jif_strings.append(" <ProcessingPhases>{}</ProcessingPhases>".format(self.proc_phase))
             jif_strings.append(" <EndProcess>{}</EndProcess>".format(self.end_phase))
-            jif_strings.append(" <ProductionLocation>{}</ProductionLocation>".format(choice(conv_dict['prod_loc'][1])))
-            jif_strings.append(" <Class>{}</Class>".format(choice(conv_dict['jobclass'][1])))
-            jif_strings.append(" <EnvelopeID>{}</EnvelopeID>".format(choice(conv_dict['envelope_id'][1])))
-            jif_strings.append(" <StockID>{}</StockID>".format(choice(conv_dict['stock_id'][1])))
-            jif_strings.append(" <StockType>{}</StockType>".format(choice(conv_dict['stock_type'][1])))
-            jif_strings.append(" <UserInfo1>{}</UserInfo1>".format(choice(conv_dict['userinfo1'][1])))
-            jif_strings.append(" <UserInfo2>{}</UserInfo2>".format(choice(conv_dict['userinfo2'][1])))
-            jif_strings.append(" <UserInfo3>{}</UserInfo3>".format(choice(conv_dict['userinfo3'][1])))
-            jif_strings.append(" <UserInfo4>{}</UserInfo4>".format(choice(conv_dict['userinfo4'][1])))
-            jif_strings.append(" <UserInfo5>{}</UserInfo5>".format(choice(conv_dict['userinfo5'][1])))
+            jif_strings.append(" <ProductionLocation>{}</ProductionLocation>".format(choice(conv_dict['prodloc'][1])))
+            jif_strings.append(" <Class>{}</Class>".format(choice(conv_dict['jclass'][1])))
+            jif_strings.append(" <EnvelopeID>{}</EnvelopeID>".format(choice(conv_dict['envid'][1])))
+            jif_strings.append(" <StockID>{}</StockID>".format(choice(conv_dict['stockid'][1])))
+            jif_strings.append(" <StockType>{}</StockType>".format(choice(conv_dict['stocktype'][1])))
+            jif_strings.append(" <UserInfo1>{}</UserInfo1>".format(choice(conv_dict['ui1'][1])))
+            jif_strings.append(" <UserInfo2>{}</UserInfo2>".format(choice(conv_dict['ui2'][1])))
+            jif_strings.append(" <UserInfo3>{}</UserInfo3>".format(choice(conv_dict['ui3'][1])))
+            jif_strings.append(" <UserInfo4>{}</UserInfo4>".format(choice(conv_dict['ui4'][1])))
+            jif_strings.append(" <UserInfo5>{}</UserInfo5>".format(choice(conv_dict['ui5'][1])))
             # jif_strings.append("  <JobManifest>")
             logger.debug('Building Sheets.')
             for t in range(1, self.current_piececount + 1):

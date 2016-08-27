@@ -1,0 +1,359 @@
+---Logging Init---[DEBUG] init-08/26/2016 09:14:16 AM: --Socket Server startup called--
+[DEBUG] server-08/26/2016 09:14:16 AM: Socket Server initializing.
+[DEBUG] server-08/26/2016 09:14:16 AM: Server bound to 127.0.0.1, port 8091
+[DEBUG] server-08/26/2016 09:14:16 AM: ---Server now listening---
+[INFO] utilities-08/26/2016 09:14:16 AM: --Creating Config Directory--
+[INFO] utilities-08/26/2016 09:14:16 AM: --Trying to load Demo Config--
+[ERROR] utilities-08/26/2016 09:14:16 AM: --Demo Config not found, Loading Default--
+[INFO] utilities-08/26/2016 09:14:16 AM: --Trying to load JIF Config--
+[ERROR] utilities-08/26/2016 09:14:16 AM: --JIF Config not found, Loading Default--
+[DEBUG] init-08/26/2016 09:26:42 AM: --Socket Server startup called--
+[DEBUG] server-08/26/2016 09:26:42 AM: Socket Server initializing.
+[DEBUG] server-08/26/2016 09:26:42 AM: Server bound to 127.0.0.1, port 8091
+[DEBUG] server-08/26/2016 09:26:42 AM: ---Server now listening---
+[INFO] utilities-08/26/2016 09:26:42 AM: --Creating Config Directory--
+[INFO] utilities-08/26/2016 09:26:42 AM: --Trying to load Demo Config--
+[ERROR] utilities-08/26/2016 09:26:42 AM: --Demo Config not found, Loading Default--
+[INFO] utilities-08/26/2016 09:26:42 AM: --Trying to load JIF Config--
+[ERROR] utilities-08/26/2016 09:26:42 AM: --JIF Config not found, Loading Default--
+[DEBUG] init-08/26/2016 04:38:30 PM: --System Booting--
+[DEBUG] init-08/26/2016 04:38:30 PM: {   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218825457664, free=281543471104, percent=43.7),
+                               'I/O': sdiskio(read_count=8101640, write_count=11903519, read_bytes=282767695360, write_bytes=207181336064, read_time=9341752400, write_time=4103050490)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5553297350, bytes_recv=19499047251, packets_sent=16124085, packets_recv=21399193, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18127936393205638,
+                               'Stats': pmem(rss=15409152, vms=9224192, num_page_faults=4186, peak_wset=15409152, wset=15409152, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12472, nonpaged_pool=12200, pagefile=9224192, peak_pagefile=9224192, private=9224192)}},
+    'Sys Info': {   'Boot Time': 1472243910.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG] init-08/26/2016 04:38:30 PM: --Socket Server startup called--
+[DEBUG] server-08/26/2016 04:38:30 PM: Socket Server initializing.
+[DEBUG] server-08/26/2016 04:38:30 PM: Server bound to 127.0.0.1, port 8091
+[DEBUG] server-08/26/2016 04:38:30 PM: ---Server now listening---
+[INFO] utilities-08/26/2016 04:38:30 PM: --Trying to load Demo Config--
+[DEBUG] init-08/26/2016 04:39:26 PM: --System Booting--
+[DEBUG] init-08/26/2016 04:39:26 PM: {   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218825830400, free=281543098368, percent=43.7),
+                               'I/O': sdiskio(read_count=8101681, write_count=11903967, read_bytes=282768446976, write_bytes=207221152768, read_time=9341846940, write_time=4103116010)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5554120606, bytes_recv=19499180510, packets_sent=16124331, packets_recv=21399650, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17824358511022767,
+                               'Stats': pmem(rss=15151104, vms=8998912, num_page_faults=4214, peak_wset=15474688, wset=15151104, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=8998912, peak_pagefile=9338880, private=8998912)}},
+    'Sys Info': {   'Boot Time': 1472243966.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG] init-08/26/2016 04:39:26 PM: --Socket Server startup called--
+[DEBUG] server-08/26/2016 04:39:26 PM: Socket Server initializing.
+[DEBUG] server-08/26/2016 04:39:26 PM: Server bound to 127.0.0.1, port 8091
+[DEBUG] server-08/26/2016 04:39:26 PM: ---Server now listening---
+[INFO] utilities-08/26/2016 04:39:26 PM: --Trying to load Demo Config--
+[INFO] utilities-08/26/2016 04:39:26 PM: --Trying to load JIF Config--
+[DEBUG] pulse-08/26/2016 04:39:26 PM: Now == Fri Aug 26 16:39:26 2016 (1472243966.760941)
+[DEBUG] pulse-08/26/2016 04:39:26 PM: Tick len == 300.000000
+[DEBUG] pulse-08/26/2016 04:39:26 PM: Tick time == Fri Aug 26 16:44:26 2016 (1472244266.760941)
+[DEBUG] init-08/26/2016 04:40:48 PM: --System Booting--
+[DEBUG] init-08/26/2016 04:40:48 PM: ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218825850880, free=281543077888, percent=43.7),
+                               'I/O': sdiskio(read_count=8101981, write_count=11904829, read_bytes=282772873216, write_bytes=207262035456, read_time=9342016450, write_time=4103228000)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5555723853, bytes_recv=19499428356, packets_sent=16124804, packets_recv=21400586, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17511143235754728,
+                               'Stats': pmem(rss=14884864, vms=8527872, num_page_faults=4119, peak_wset=15183872, wset=14884864, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12192, nonpaged_pool=12064, pagefile=8527872, peak_pagefile=8859648, private=8527872)}},
+    'Sys Info': {   'Boot Time': 1472244048.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG] init-08/26/2016 04:40:48 PM: --Socket Server startup called--
+[DEBUG] server-08/26/2016 04:40:48 PM: Socket Server initializing.
+[DEBUG] server-08/26/2016 04:40:48 PM: Server bound to 127.0.0.1, port 8091
+[DEBUG] server-08/26/2016 04:40:48 PM: ---Server now listening---
+[INFO] utilities-08/26/2016 04:40:48 PM: --Trying to load Demo Config--
+[INFO] utilities-08/26/2016 04:40:48 PM: --Trying to load JIF Config--
+[DEBUG] pulse-08/26/2016 04:40:48 PM: Now == Fri Aug 26 16:40:48 2016 (1472244048.926249)
+[DEBUG] pulse-08/26/2016 04:40:48 PM: Tick len == 300.000000
+[DEBUG] pulse-08/26/2016 04:40:48 PM: Tick time == Fri Aug 26 16:45:48 2016 (1472244348.926249)
+[DEBUG] init    -08/26/2016 04:43:07 PM| --System Booting--
+[DEBUG] init    -08/26/2016 04:43:07 PM| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218825732096, free=281543196672, percent=43.7),
+                               'I/O': sdiskio(read_count=8102066, write_count=11905966, read_bytes=282775689728, write_bytes=207304140800, read_time=9342269480, write_time=4103425580)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5557887224, bytes_recv=19499842568, packets_sent=16125607, packets_recv=21401968, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17925551138417056,
+                               'Stats': pmem(rss=15237120, vms=8974336, num_page_faults=4185, peak_wset=15527936, wset=15237120, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=8974336, peak_pagefile=9314304, private=8974336)}},
+    'Sys Info': {   'Boot Time': 1472244187.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG] init    -08/26/2016 04:43:07 PM| --Socket Server startup called--
+[DEBUG] server  -08/26/2016 04:43:07 PM| Socket Server initializing.
+[DEBUG] server  -08/26/2016 04:43:07 PM| Server bound to 127.0.0.1, port 8091
+[DEBUG] server  -08/26/2016 04:43:07 PM| ---Server now listening---
+[INFO] utilities-08/26/2016 04:43:07 PM| --Trying to load Demo Config--
+[INFO] utilities-08/26/2016 04:43:07 PM| --Trying to load JIF Config--
+[DEBUG] pulse   -08/26/2016 04:43:07 PM| Now == Fri Aug 26 16:43:07 2016 (1472244187.352246)
+[DEBUG] pulse   -08/26/2016 04:43:07 PM| Tick len == 300.000000
+[DEBUG] pulse   -08/26/2016 04:43:07 PM| Tick time == Fri Aug 26 16:48:07 2016 (1472244487.352246)
+[   DEBUG] init     08/26/2016 04:44:31 PM| --System Booting--
+[   DEBUG] init     08/26/2016 04:44:31 PM| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218826919936, free=281542008832, percent=43.7),
+                               'I/O': sdiskio(read_count=8102234, write_count=11906930, read_bytes=282779910656, write_bytes=207344114688, read_time=9342493210, write_time=4103574800)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5559470341, bytes_recv=19500179766, packets_sent=16126222, packets_recv=21403006, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18190579448259245,
+                               'Stats': pmem(rss=15462400, vms=9261056, num_page_faults=4011, peak_wset=15462400, wset=15462400, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=9261056, peak_pagefile=9261056, private=9261056)}},
+    'Sys Info': {   'Boot Time': 1472244271.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[   DEBUG] init     08/26/2016 04:44:31 PM| --Socket Server startup called--
+[   DEBUG] server   08/26/2016 04:44:31 PM| Socket Server initializing.
+[   DEBUG] server   08/26/2016 04:44:31 PM| Server bound to 127.0.0.1, port 8091
+[   DEBUG] server   08/26/2016 04:44:31 PM| ---Server now listening---
+[    INFO] utilities 08/26/2016 04:44:31 PM| --Trying to load Demo Config--
+[    INFO] utilities 08/26/2016 04:44:31 PM| --Trying to load JIF Config--
+[   DEBUG] pulse    08/26/2016 04:44:31 PM| Now == Fri Aug 26 16:44:31 2016 (1472244271.755211)
+[   DEBUG] pulse    08/26/2016 04:44:31 PM| Tick len == 300.000000
+[   DEBUG] pulse    08/26/2016 04:44:31 PM| Tick time == Fri Aug 26 16:49:31 2016 (1472244571.755211)
+[DEBUG   ]  08/26/2016 04:45:43 PM             init| --System Booting--
+[DEBUG   ]  08/26/2016 04:45:43 PM             init| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827448320, free=281541480448, percent=43.7),
+                               'I/O': sdiskio(read_count=8102249, write_count=11907452, read_bytes=282780140544, write_bytes=207372046848, read_time=9342542340, write_time=4103627230)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5560612936, bytes_recv=19500357120, packets_sent=16126556, packets_recv=21403658, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18306228165281294,
+                               'Stats': pmem(rss=15560704, vms=9363456, num_page_faults=4062, peak_wset=15560704, wset=15560704, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=9363456, peak_pagefile=9363456, private=9363456)}},
+    'Sys Info': {   'Boot Time': 1472244342.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG   ]  08/26/2016 04:45:43 PM             init| --Socket Server startup called--
+[DEBUG   ]  08/26/2016 04:45:43 PM           server| Socket Server initializing.
+[DEBUG   ]  08/26/2016 04:45:43 PM           server| Server bound to 127.0.0.1, port 8091
+[DEBUG   ]  08/26/2016 04:45:43 PM           server| ---Server now listening---
+[INFO    ]  08/26/2016 04:45:43 PM        utilities| --Trying to load Demo Config--
+[INFO    ]  08/26/2016 04:45:43 PM        utilities| --Trying to load JIF Config--
+[DEBUG   ]  08/26/2016 04:45:43 PM            pulse| Now == Fri Aug 26 16:45:43 2016 (1472244343.155300)
+[DEBUG   ]  08/26/2016 04:45:43 PM            pulse| Tick len == 300.000000
+[DEBUG   ]  08/26/2016 04:45:43 PM            pulse| Tick time == Fri Aug 26 16:50:43 2016 (1472244643.155300)
+[DEBUG  ]  08/26/2016 04:46:14 PM       init| --System Booting--
+[DEBUG  ]  08/26/2016 04:46:14 PM       init| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827493376, free=281541435392, percent=43.7),
+                               'I/O': sdiskio(read_count=8102279, write_count=11907883, read_bytes=282781051904, write_bytes=207405224960, read_time=9342615140, write_time=4103735420)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5561144512, bytes_recv=19500475089, packets_sent=16126821, packets_recv=21404057, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18253222503312852,
+                               'Stats': pmem(rss=15515648, vms=9265152, num_page_faults=4047, peak_wset=15515648, wset=15515648, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=9265152, peak_pagefile=9265152, private=9265152)}},
+    'Sys Info': {   'Boot Time': 1472244374.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG  ]  08/26/2016 04:46:14 PM       init| --Socket Server startup called--
+[DEBUG  ]  08/26/2016 04:46:14 PM     server| Socket Server initializing.
+[DEBUG  ]  08/26/2016 04:46:14 PM     server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ]  08/26/2016 04:46:14 PM     server| ---Server now listening---
+[INFO   ]  08/26/2016 04:46:14 PM  utilities| --Trying to load Demo Config--
+[INFO   ]  08/26/2016 04:46:14 PM  utilities| --Trying to load JIF Config--
+[DEBUG  ]  08/26/2016 04:46:14 PM      pulse| Now == Fri Aug 26 16:46:14 2016 (1472244374.463233)
+[DEBUG  ]  08/26/2016 04:46:14 PM      pulse| Tick len == 300.000000
+[DEBUG  ]  08/26/2016 04:46:14 PM      pulse| Tick time == Fri Aug 26 16:51:14 2016 (1472244674.463233)
+[DEBUG]  08/26/2016 04:47:03 PM     init| --System Booting--
+[DEBUG]  08/26/2016 04:47:03 PM     init| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827493376, free=281541435392, percent=43.7),
+                               'I/O': sdiskio(read_count=8102293, write_count=11908112, read_bytes=282781281792, write_bytes=207429210624, read_time=9342648340, write_time=4103778380)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5561967260, bytes_recv=19500632065, packets_sent=16127149, packets_recv=21404611, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.1784363329719311,
+                               'Stats': pmem(rss=15167488, vms=8953856, num_page_faults=4181, peak_wset=15470592, wset=15167488, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=8953856, peak_pagefile=9261056, private=8953856)}},
+    'Sys Info': {   'Boot Time': 1472244423.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG]  08/26/2016 04:47:03 PM     init| --Socket Server startup called--
+[DEBUG]  08/26/2016 04:47:03 PM   server| Socket Server initializing.
+[DEBUG]  08/26/2016 04:47:03 PM   server| Server bound to 127.0.0.1, port 8091
+[DEBUG]  08/26/2016 04:47:03 PM   server| ---Server now listening---
+[INFO ]  08/26/2016 04:47:03 PM utilities| --Trying to load Demo Config--
+[INFO ]  08/26/2016 04:47:03 PM utilities| --Trying to load JIF Config--
+[DEBUG]  08/26/2016 04:47:03 PM    pulse| Now == Fri Aug 26 16:47:03 2016 (1472244423.488719)
+[DEBUG]  08/26/2016 04:47:03 PM    pulse| Tick len == 300.000000
+[DEBUG]  08/26/2016 04:47:03 PM    pulse| Tick time == Fri Aug 26 16:52:03 2016 (1472244723.488719)
+[DEBUG ]  08/26/2016 04:47:38 PM         init| --System Booting--
+[DEBUG ]  08/26/2016 04:47:38 PM         init| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827567104, free=281541361664, percent=43.7),
+                               'I/O': sdiskio(read_count=8102308, write_count=11908300, read_bytes=282781593600, write_bytes=207455253504, read_time=9342671580, write_time=4103807870)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5562474835, bytes_recv=19500748936, packets_sent=16127375, packets_recv=21404960, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17896638959161548,
+                               'Stats': pmem(rss=15212544, vms=8957952, num_page_faults=4111, peak_wset=15536128, wset=15212544, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=8957952, peak_pagefile=9310208, private=8957952)}},
+    'Sys Info': {   'Boot Time': 1472244458.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG ]  08/26/2016 04:47:38 PM         init| --Socket Server startup called--
+[DEBUG ]  08/26/2016 04:47:38 PM       server| Socket Server initializing.
+[DEBUG ]  08/26/2016 04:47:38 PM       server| Server bound to 127.0.0.1, port 8091
+[DEBUG ]  08/26/2016 04:47:38 PM       server| ---Server now listening---
+[INFO  ]  08/26/2016 04:47:38 PM    utilities| --Trying to load Demo Config--
+[INFO  ]  08/26/2016 04:47:38 PM    utilities| --Trying to load JIF Config--
+[DEBUG ]  08/26/2016 04:47:38 PM        pulse| Now == Fri Aug 26 16:47:38 2016 (1472244458.850215)
+[DEBUG ]  08/26/2016 04:47:38 PM        pulse| Tick len == 300.000000
+[DEBUG ]  08/26/2016 04:47:38 PM        pulse| Tick time == Fri Aug 26 16:52:38 2016 (1472244758.850215)
+[DEBUG  ] 08/26/2016 04:48:38 PM            init| --System Booting--
+[DEBUG  ] 08/26/2016 04:48:38 PM            init| ---System Snapshot---
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827587584, free=281541341184, percent=43.7),
+                               'I/O': sdiskio(read_count=8102341, write_count=11908857, read_bytes=282782753280, write_bytes=207487907328, read_time=9342768270, write_time=4103948420)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5563444969, bytes_recv=19500899264, packets_sent=16127697, packets_recv=21405515, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18233947717142512,
+                               'Stats': pmem(rss=15499264, vms=9265152, num_page_faults=4021, peak_wset=15499264, wset=15499264, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=9265152, peak_pagefile=9265152, private=9265152)}},
+    'Sys Info': {   'Boot Time': 1472244518.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG  ] 08/26/2016 04:48:38 PM            init| --Socket Server startup called--
+[DEBUG  ] 08/26/2016 04:48:38 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 04:48:38 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 04:48:38 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 04:48:38 PM       utilities| --Trying to load Demo Config--
+[INFO   ] 08/26/2016 04:48:38 PM       utilities| --Trying to load JIF Config--
+[DEBUG  ] 08/26/2016 04:48:38 PM           pulse| Now == Fri Aug 26 16:48:38 2016 (1472244518.482407)
+[DEBUG  ] 08/26/2016 04:48:38 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 04:48:38 PM           pulse| Tick time == Fri Aug 26 16:53:38 2016 (1472244818.482407)
+[DEBUG  ] 08/26/2016 04:49:09 PM            init| --System Booting--
+[DEBUG  ] 08/26/2016 04:49:09 PM            init| --System Snapshot--
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827722752, free=281541206016, percent=43.7),
+                               'I/O': sdiskio(read_count=8102356, write_count=11909058, read_bytes=282783114240, write_bytes=207509031936, read_time=9342803430, write_time=4103980710)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5564080134, bytes_recv=19500988807, packets_sent=16127854, packets_recv=21405853, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.1741958800144561,
+                               'Stats': pmem(rss=14807040, vms=8429568, num_page_faults=4132, peak_wset=15134720, wset=14807040, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12192, nonpaged_pool=12064, pagefile=8429568, peak_pagefile=8781824, private=8429568)}},
+    'Sys Info': {   'Boot Time': 1472244548.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG  ] 08/26/2016 04:49:09 PM            init| --Socket Server startup called--
+[DEBUG  ] 08/26/2016 04:49:09 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 04:49:09 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 04:49:09 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 04:49:09 PM       utilities| --Trying to load Demo Config--
+[INFO   ] 08/26/2016 04:49:09 PM       utilities| --Trying to load JIF Config--
+[DEBUG  ] 08/26/2016 04:49:09 PM           pulse| Now == Fri Aug 26 16:49:09 2016 (1472244549.176858)
+[DEBUG  ] 08/26/2016 04:49:09 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 04:49:09 PM           pulse| Tick time == Fri Aug 26 16:54:09 2016 (1472244849.176858)
+[DEBUG  ] 08/26/2016 04:51:03 PM            init| --System Booting--
+[DEBUG  ] 08/26/2016 04:51:03 PM            init| --System Snapshot--
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827702272, free=281541226496, percent=43.7),
+                               'I/O': sdiskio(read_count=8102374, write_count=11909817, read_bytes=282783487488, write_bytes=207540857344, read_time=9342856580, write_time=4104170650)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5565877024, bytes_recv=19501276599, packets_sent=16128392, packets_recv=21406902, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.1779062763522467,
+                               'Stats': pmem(rss=15122432, vms=8830976, num_page_faults=4125, peak_wset=15122432, wset=15122432, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12192, nonpaged_pool=12064, pagefile=8830976, peak_pagefile=8830976, private=8830976)}},
+    'Sys Info': {   'Boot Time': 1472244663.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[DEBUG  ] 08/26/2016 04:51:03 PM            init| --Socket Server startup called--
+[DEBUG  ] 08/26/2016 04:51:03 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 04:51:03 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 04:51:03 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 04:51:03 PM       utilities| --Trying to load Demo Config--
+[INFO   ] 08/26/2016 04:51:03 PM       utilities| --Trying to load JIF Config--
+[DEBUG  ] 08/26/2016 04:51:03 PM           pulse| Now == Fri Aug 26 16:51:03 2016 (1472244663.545375)
+[DEBUG  ] 08/26/2016 04:51:03 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 04:51:03 PM           pulse| Tick time == Fri Aug 26 16:56:03 2016 (1472244963.545375)
+[INFO   ] 08/26/2016 04:51:03 PM            init| --System Snapshot--
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218827706368, free=281541222400, percent=43.7),
+                               'I/O': sdiskio(read_count=8102374, write_count=11909817, read_bytes=282783487488, write_bytes=207540857344, read_time=9342856580, write_time=4104170650)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5565877024, bytes_recv=19501276599, packets_sent=16128392, packets_recv=21406902, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.18421876882303337,
+                               'Stats': pmem(rss=15659008, vms=8884224, num_page_faults=4259, peak_wset=15663104, wset=15659008, peak_paged_pool=189432, paged_pool=189432, peak_nonpaged_pool=14584, nonpaged_pool=13136, pagefile=8884224, peak_pagefile=9146368, private=8884224)}},
+    'Sys Info': {   'Boot Time': 1472244663.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 04:53:26 PM            init| --System Booting--
+[INFO   ] 08/26/2016 04:53:26 PM            init| --System Snapshot--
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218826002432, free=281542926336, percent=43.7),
+                               'I/O': sdiskio(read_count=8102446, write_count=11910885, read_bytes=282784851968, write_bytes=207589490688, read_time=9342967490, write_time=4104392820)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5568309883, bytes_recv=19501690648, packets_sent=16129192, packets_recv=21408354, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17882182869533791,
+                               'Stats': pmem(rss=15200256, vms=8851456, num_page_faults=4118, peak_wset=15200256, wset=15200256, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12192, nonpaged_pool=12064, pagefile=8851456, peak_pagefile=8851456, private=8851456)}},
+    'Sys Info': {   'Boot Time': 1472244806.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 04:53:26 PM            init| --Socket Server startup called--
+[DEBUG  ] 08/26/2016 04:53:26 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 04:53:26 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 04:53:26 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 04:53:26 PM       utilities| --Trying to load Demo Config--
+[INFO   ] 08/26/2016 04:53:26 PM       utilities| --Trying to load JIF Config--
+[DEBUG  ] 08/26/2016 04:53:26 PM           pulse| Now == Fri Aug 26 16:53:26 2016 (1472244806.984882)
+[DEBUG  ] 08/26/2016 04:53:26 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 04:53:26 PM           pulse| Tick time == Fri Aug 26 16:58:26 2016 (1472245106.984882)
+[INFO   ] 08/26/2016 04:53:26 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 04:55:58 PM            init| --System Booting--
+[INFO   ] 08/26/2016 04:55:58 PM            init| --System Snapshot--
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218825949184, free=281542979584, percent=43.7),
+                               'I/O': sdiskio(read_count=8102480, write_count=11911963, read_bytes=282786208768, write_bytes=207633614848, read_time=9343061620, write_time=4104626320)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5570775589, bytes_recv=19502116304, packets_sent=16130028, packets_recv=21409863, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.1795446331767257,
+                               'Stats': pmem(rss=15261696, vms=8876032, num_page_faults=4090, peak_wset=15261696, wset=15261696, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12192, nonpaged_pool=12064, pagefile=8876032, peak_pagefile=8876032, private=8876032)}},
+    'Sys Info': {   'Boot Time': 1472244957.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 04:55:58 PM            init| --Socket Server startup called--
+[DEBUG  ] 08/26/2016 04:55:58 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 04:55:58 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 04:55:58 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 04:55:58 PM       utilities| --Trying to load Demo Config--
+[INFO   ] 08/26/2016 04:55:58 PM       utilities| --Trying to load JIF Config--
+[DEBUG  ] 08/26/2016 04:55:58 PM           pulse| Now == Fri Aug 26 16:55:58 2016 (1472244958.234384)
+[DEBUG  ] 08/26/2016 04:55:58 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 04:55:58 PM           pulse| Tick time == Fri Aug 26 17:00:58 2016 (1472245258.234384)
+[INFO   ] 08/26/2016 04:55:58 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/26/2016 05:00:23 PM            init| --System Booting--
+[INFO   ] 08/26/2016 05:00:23 PM            init| -System Snapshot
+{   'Hardware': {   'CPU': {   'Cores': 4,
+                               'Current Utilization': 0.0,
+                               'Threads': 4},
+                    'HDD': {   'Disk Usage': sdiskusage(total=500368928768, used=218826686464, free=281542242304, percent=43.7),
+                               'I/O': sdiskio(read_count=8102600, write_count=11913887, read_bytes=282789172736, write_bytes=207680216064, read_time=9343295430, write_time=4105031230)},
+                    'NIC': {   'I/O': snetio(bytes_sent=5575175617, bytes_recv=19502859649, packets_sent=16131442, packets_recv=21412541, errin=0, errout=4, dropin=0, dropout=0)},
+                    'RAM': {   '% of Memory': 0.17853270690278278,
+                               'Stats': pmem(rss=15175680, vms=8978432, num_page_faults=4291, peak_wset=15466496, wset=15175680, peak_paged_pool=188072, paged_pool=187896, peak_nonpaged_pool=12328, nonpaged_pool=12200, pagefile=8978432, peak_pagefile=9297920, private=8978432)}},
+    'Sys Info': {   'Boot Time': 1472245223.0,
+                    'Process Name': 'python.exe',
+                    'Status': 'running'}}
+[INFO   ] 08/26/2016 05:00:23 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/26/2016 05:00:23 PM          server| Socket Server initializing.
+[DEBUG  ] 08/26/2016 05:00:23 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/26/2016 05:00:23 PM          server| ---Server now listening---
+[INFO   ] 08/26/2016 05:00:23 PM       utilities| --Config Initialization--
+[INFO   ] 08/26/2016 05:00:23 PM       utilities| Loading Demo Config
+[INFO   ] 08/26/2016 05:00:23 PM       utilities| Loading JIF Config
+[INFO   ] 08/26/2016 05:00:23 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/26/2016 05:00:23 PM           pulse| Now == Fri Aug 26 17:00:23 2016 (1472245223.585007)
+[DEBUG  ] 08/26/2016 05:00:23 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/26/2016 05:00:23 PM           pulse| Tick time == Fri Aug 26 17:05:23 2016 (1472245523.585007)
+[INFO   ] 08/26/2016 05:00:23 PM            init| --System Startup Complete, Entering Main Loop--

@@ -2,9 +2,8 @@ import os
 import shutil
 import threading
 from collections import deque
-from . import settings
-from automated_APTDemo.logging_setup import init_logging
-from .jifgenerator import jif_assembler
+from logging_setup import init_logging
+from jifgenerator import jif_assembler
 
 """
 This is the Demo Controller Brain.
@@ -13,7 +12,7 @@ logger = init_logging()
 
 
 class DemoController:
-    def __init__(self, jdf_folder, icd_folders):
+    def __init__(self, dconf, jconf):
         self.demo_status = 0
         self.icd_1 = []
         self.icd_1_multi = True
@@ -21,20 +20,24 @@ class DemoController:
         self.icd_3 = []
         self.icd_4 = []
         self.td = []
+        self.icd_5 = []
+        self.icd_6 = []
         self.monitors = []
         self.lock = None
         self.dispatcher = None
         self.observers = []
         self.command_queue = deque()
         self.completed_jobs = []
-        self.data_folder = settings.EXIT_DIR
-        self.icd_5 = []
-        self.icd_6 = []
-        self.jif_folder = jdf_folder
+        self.exit_data = dconf[1]['DemoDirs']['exit_data']
+        self.jif_data = dconf[1]['DemoDirs']['jif_data']
+        self.jif_folder = dconf[1]['APTDirs']['JDF']
         self.first_run = 1
-        self.target_dirs = {'icd_1': icd_folders[0], 'icd_2': icd_folders[1], 'icd_3': icd_folders[2],
-                            'icd_4': icd_folders[3], 'td': icd_folders[4], 'icd_5': 'C:\\APTApplication\\ICD\\icd_5',
+        self.target_dirs = {'icd_1': dconf[0]['icd_1']['path'], 'icd_2': dconf[0]['icd_2']['path'],
+                            'icd_3': dconf[0]['icd_3']['path'], 'icd_4': dconf[0]['icd_4']['path'],
+                            'td': dconf[0]['td']['path'],
+                            'icd_5': 'C:\\APTApplication\\ICD\\icd_5',
                             'icd_6': 'C:\\APTApplication\\ICD\\icd_6'}
+        self.jifconfig = jconf
 
     def __repr__(self):
         if self.demo_status == 0:
@@ -68,10 +71,10 @@ class DemoController:
 
     def start_demo(self):
         # clean up any outstanding exit data
-        files = os.listdir(self.data_folder)
+        files = os.listdir(self.exit_data)
         logger.debug('Demo Start called, cleaning exit directory.')
         for file in files:
-            os.remove(self.data_folder + '/' + file )
+            os.remove(self.exit_data + '/' + file)
         self.first_run = 0
         logger.debug('Setting demo status to 1, starting Demo.')
         self.demo_status = 1
@@ -106,10 +109,10 @@ class DemoController:
         self.dispatcher.stop()
         self.dispatcher.join()
         self.dispatcher = None
-        files = os.listdir(self.data_folder)
+        files = os.listdir(self.exit_data)
         logger.debug('Cleaning exit directory.')
         for file in files:
-            os.remove(self.data_folder + '/' + file)
+            os.remove(self.exit_data + '/' + file)
         logger.debug('Resetting demo state')
         self.first_run = 1
         return 'Demo shut down complete.'
@@ -119,19 +122,19 @@ class DemoController:
         if data[0] == 'Accepted':
             if jobid in self.icd_1:
                 logger.debug('Copying {} to target directory')
-                exit_dir = self.data_folder
+                exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid))
                 logger.debug('Copying {} to target directory'.format(jobid))
                 target = os.path.join(self.target_dirs['icd_1'], 'sheet_{}.txt'.format(jobid))
                 shutil.copyfile(data_file, target)
             if jobid in self.icd_2:
-                exit_dir = self.data_folder
+                exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
                 logger.debug('Copying {} to target directory'.format(jobid))
                 target = os.path.join(self.target_dirs['icd_2'], 'piece_{}.txt'.format(jobid))
                 shutil.copyfile(data_file, target)
             if jobid in self.icd_3:
-                exit_dir = self.data_folder
+                exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
                 logger.debug('Copying {} to target directory'.format(jobid))
                 target = os.path.join(self.target_dirs['icd_3'], 'piece_{}.txt'.format(jobid))
@@ -139,7 +142,7 @@ class DemoController:
             if jobid in self.icd_4:
                 pass
             if jobid in self.td:
-                exit_dir = self.data_folder
+                exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
                 logger.debug('Copying {} to target directory'.format(jobid))
                 target = os.path.join(self.target_dirs['td'], 'piece_{}.txt'.format(jobid))
@@ -154,7 +157,7 @@ class DemoController:
             if self.td:
                 logger.debug('Multi process collision detected in TD.')
             self.td.append(self.icd_1.pop())
-            exit_dir = self.data_folder
+            exit_dir = self.exit_data
             data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
             target = os.path.join(self.target_dirs['td'], 'piece_{}.txt'.format(jobid))
             shutil.copyfile(data_file, target)
@@ -180,7 +183,7 @@ class DemoController:
                 if jobid in self.td:
                     logger.debug('Transferring TD reprint {}'.format(jobid))
                     self.icd_4.append(self.td.pop())
-                exit_dir = self.data_folder
+                exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
                 logger.debug('Copying {} to reprint directory'.format(jobid))
                 done = None
@@ -219,7 +222,7 @@ class DemoController:
     def complete_job(self, data):
         jobid = data[1]
 
-        exit_dir = self.data_folder
+        exit_dir = self.exit_data
         files = [os.path.join(exit_dir, 'piece_{}.txt'.format(jobid)),
                  os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)),
                  os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))]
