@@ -72,7 +72,7 @@ class JIFBuilder(Template):
         make_damages = 0
 
         self.jobid_loader()
-        logger.debug('Starting to build JIF {}{}.'.format(self.site_prefix, self.id_to_str(self.current_jobid)))
+        logger.jifgen('Starting to build JIF {}{}.'.format(self.site_prefix, self.id_to_str(self.current_jobid)))
         conv_dict = {'jtype': [self.jtype, None],
                      'jname': [self.jname, None],
                      'jnum': [self.jnum, None],

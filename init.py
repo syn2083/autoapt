@@ -1,38 +1,40 @@
 __author__ = 'Syn'
-import server
-import utilities
-import time
+import threading
+from config import DEF_DEMO_CONF
+from config import DEF_JIF_CONF
 from controller import DemoController
-from pulse import Pulse
 from logging_setup import init_logging
+from dispatcher import Dispatcher
+from watchdog.observers import Observer
+from folder_monitor import folder_monitor_handler as fmh
 
 logger = init_logging()
 
 
-def autoapt():
-    logger.boot('--System Booting--')
-    start_snapshot = utilities.ResourceSnapshot()
-    logger.boot(start_snapshot.log_data())
-    logger.sock('--Socket Server Initialization-')
-    serv = server.server_init()
-    demc, jifc = utilities.init_configs()
-    logger.info('--Pulse Updater Initialization--')
-    pulse = Pulse()
-    control = DemoController(demc, jifc)
-    logger.boot('--System Startup Complete, Entering Main Loop--')
-    while True:
-        top_of_loop = time.time()
-        # conn, addr = serv.accept()
-        pulse.perform_updates()
-        # if conn:
-        # logger.info('Connection established from {}:{}'.format(addr[0], addr[1]))
-        # conn.close()
-        time_spent = time.time() - top_of_loop
-        nap_time = pulse.width - time_spent
-        if nap_time > 0.0:
-            time.sleep(nap_time)
-        else:
-            logger.warn('Exceeded time slice by %.3f seconds!', abs(nap_time))
+def init_controller():
+    control = DemoController(DEF_DEMO_CONF, DEF_JIF_CONF)
+    control.lock = threading.Lock()
+    control.dispatcher = Dispatcher(control)
+    control.dispatcher.start()
 
-if __name__ == '__main__':
-    autoapt()
+    logger.boot('Starting jif monitor.')
+    jifack = Observer()
+    jifack.schedule(fmh.JIFAckHandler(control.command_queue, control.lock),
+                    path=DEF_DEMO_CONF[1]['APTDirs']['JIFACK'])
+    jifack.start()
+    control.observers.append(jifack)
+    logger.boot('Starting reprint monitor.')
+    reprintmon = Observer()
+    reprintmon.schedule(fmh.ReprintHandler(control.command_queue, control.lock),
+                        path=DEF_DEMO_CONF[1]['APTDirs']['REPRINT'])
+    reprintmon.start()
+    control.observers.append(reprintmon)
+    logger.boot('Starting proc change monitor.')
+    proc_mon = Observer()
+    proc_mon.schedule(fmh.ProcChangeManager(control.command_queue, control.lock),
+                      path=DEF_DEMO_CONF[1]['APTDirs']['PROC'])
+    proc_mon.start()
+    control.observers.append(proc_mon)
+    logger.boot('Monitors initialized.')
+    return control
+

@@ -1,9 +1,9 @@
 import os
 import xmltodict
-from automated_APTDemo import logging_setup
+from logging_setup import init_logging
 from watchdog.events import PatternMatchingEventHandler
 
-logger = logging_setup.init_logging()
+logger = init_logging()
 
 
 class JIFAckHandler(PatternMatchingEventHandler):

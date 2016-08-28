@@ -93,7 +93,6 @@ class DemoController:
             observer.stop()
             observer.join()
         self.observers = []
-        self.dispatcher.stop()
         self.dispatcher.join()
         self.dispatcher = None
         files = os.listdir(self.exit_data)
@@ -114,7 +113,7 @@ class DemoController:
                 if jobid in getattr(self, k)['jobid']:
                     exit_dir = self.exit_data
 
-                    logger.iohandler('--New Job--\n Copying data for job {}.'.format(jobid))
+                    logger.io('--New Job--\n Copying data for job {}.'.format(jobid))
                     if getattr(self, k)['piece_sheet'].lower() == 'piece':
                         data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
                         target = os.path.join(getattr(self, k)['path'], 'piece_{}.txt'.format(jobid))
@@ -124,7 +123,7 @@ class DemoController:
                     shutil.copyfile(data_file, target)
                     not_found = False
             if data[0] == 'Failed':
-                logger.iohandler('--New Job--\n JIF for Job {} failed to load into APT.'.format(jobid))
+                logger.io('--New Job--\n JIF for Job {} failed to load into APT.'.format(jobid))
                 self.complete_job(['Complete', jobid])
 
         if not_found:
@@ -132,18 +131,18 @@ class DemoController:
 
     def proc_phase(self, data):
         jobid = data[1]
-        logger.debug('Multi-step input id {} icd_1 id {}'.format(jobid, self.icd_1))
 
-        if jobid in self.icd_1:
-            logger.debug('Multi process change from print to insert - removing {}'.format(jobid))
-            if self.td:
-                logger.debug('Multi process collision detected in TD.')
-            self.td.append(self.icd_1.pop())
+        if jobid in self.icd_1['jobid']:
+            logger.io('Multi process change from print to insert - removing {}'.format(jobid))
+            if self.td['jobid']:
+                logger.io('Multi process collision detected in TD.')
+            self.td['jobid'].append(self.icd_1['jobid'].pop())
             exit_dir = self.exit_data
             data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
-            target = os.path.join(self.target_dirs['td'], 'piece_{}.txt'.format(jobid))
+            target = os.path.join(self.td['path'], 'piece_{}.txt'.format(jobid))
+            logger.io('Sending data to TD from multi-step.')
             shutil.copyfile(data_file, target)
-            logger.debug('Cleaning print data.')
+            logger.io('Cleaning print data.')
             os.remove(os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)))
 
     def reprint_job(self, data):
@@ -152,93 +151,73 @@ class DemoController:
         if data[0] == 'Complete':
             self.complete_job(data)
         else:
-            if jobid in self.icd_1:
-                logger.debug('ICD1 transition not complete - reprint call {}'.format(jobid))
+            if jobid in self.icd_1['jobid']:
+                logger.io('ICD1 transition not complete - reprint call {}'.format(jobid))
 
             else:
                 if jobid in self.icd_2:
-                    logger.debug('Transferring ICD2 reprint {}'.format(jobid))
-                    self.icd_4.append(self.icd_2.pop())
+                    logger.io('Transferring ICD2 reprint {}'.format(jobid))
+                    self.icd_4['jobid'].append(self.icd_2['jobid'].pop())
                 if jobid in self.icd_3:
-                    logger.debug('Transferring ICD3 reprint {}'.format(jobid))
-                    self.icd_4.append(self.icd_3.pop())
+                    logger.io('Transferring ICD3 reprint {}'.format(jobid))
+                    self.icd_4['jobid'].append(self.icd_3['jobid'].pop())
                 if jobid in self.td:
-                    logger.debug('Transferring TD reprint {}'.format(jobid))
-                    self.icd_4.append(self.td.pop())
+                    logger.io('Transferring TD reprint {}'.format(jobid))
+                    self.icd_4['jobid'].append(self.td['jobid'].pop())
                 exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
-                logger.debug('Copying {} to reprint directory'.format(jobid))
+                logger.io('Copying {} to reprint directory'.format(jobid))
                 done = None
-                while True:
-                    if not done:
-                        for dirpath, dirnames, files in os.walk(self.target_dirs['icd_4']):
+                while not done:
+                    for station in self.reprint_pool:
+
+                        for dirpath, dirnames, files in os.walk(getattr(self, station)['path']):
                             if not done:
                                 if not files:
-                                    target = os.path.join(self.target_dirs['icd_4'], 'reprint_{}.txt'.format(jobid))
+                                    target = os.path.join(getattr(self, station)['path'],
+                                                          'reprint_{}.txt'.format(jobid))
                                     shutil.copyfile(data_file, target)
                                     done = True
-                                    break
                                 else:
                                     pass
-                        for dirpath, dirnames, files in os.walk(self.target_dirs['icd_5']):
-                            if not done:
-                                if not files:
-                                    target = os.path.join(self.target_dirs['icd_5'], 'reprint_{}.txt'.format(jobid))
-                                    shutil.copyfile(data_file, target)
-                                    done = True
-                                    break
-                                else:
-                                    pass
-                        for dirpath, dirnames, files in os.walk(self.target_dirs['icd_6']):
-                            if not done:
-                                if not files:
-                                    target = os.path.join(self.target_dirs['icd_6'], 'reprint_{}.txt'.format(jobid))
-                                    shutil.copyfile(data_file, target)
-                                    done = True
-                                    break
-                                else:
-                                    pass
-                    else:
-                        break
 
     def complete_job(self, data):
         jobid = data[1]
+        prefix = jobid[:2]
+        origin = None
+        if prefix == 'A1':
+            origin = 'icd_1'
+        if prefix == 'A2':
+            origin = 'icd_2'
+        if prefix == 'A3':
+            origin = 'icd_3'
 
         exit_dir = self.exit_data
         files = [os.path.join(exit_dir, 'piece_{}.txt'.format(jobid)),
                  os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)),
                  os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))]
 
-        logger.debug('Cleaning old job data.')
-
-        self.completed_jobs.append(jobid)
+        logger.io('--Job Completed--\n JobID {}'.format(jobid))
+        logger.io('Cleaning old job data.')
 
         for file in files:
             if os.path.exists(file):
                 os.remove(file)
 
-        if jobid in self.icd_4:
-            self.icd_4.remove(jobid)
-
-        if 'A4' in jobid:
-            if jobid in self.td:
-                self.td.remove(jobid)
-                logger.debug('Initial TD job completed: {}'.format(self.td.pop()))
-
-        if 'A1' in jobid:
-            self.td.remove(jobid)
-            icd_1 = jif_assembler.JIFBuilder('icd_1', self.jif_folder, 1)
-            logger.debug('Creating ICD 1 JIF/Exit Data')
-            self.icd_1.append(icd_1.gen_jifs())
-        if 'A2' in jobid:
-            icd_2 = jif_assembler.JIFBuilder('icd_2', self.jif_folder, None)
-            logger.debug('Creating ICD 2 JIF/Exit Data')
-            self.icd_2.append(icd_2.gen_jifs())
-        if 'A3' in jobid:
-            icd_3 = jif_assembler.JIFBuilder('icd_3', self.jif_folder, None)
-            logger.debug('Creating ICD 3 JIF/Exit Data')
-            self.icd_3.append(icd_3.gen_jifs())
-        self.completed_jobs.append(jobid)
+        for target in self.all_targets:
+            if jobid in getattr(self, target)['jobid']:
+                icd = getattr(self, target)
+                try:
+                    self.completed_jobs.append(icd['jobid'].pop(jobid))
+                except AttributeError:
+                    logger.error('Attempted to remove {} from {}, non existent jobid'.format(jobid, target))
+                if prefix == 'A4':
+                    logger.io('Initial TD Job Completed. {}'.format(jobid))
+                else:
+                    gen = jif_assembler.JIFBuilder(origin, self.jif_folder, getattr(self, origin)['multi_step'],
+                                                   self.democonf, self.jifconfig)
+                    logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
+                    getattr(self, origin)['jobid'].append(gen.gen_jifs())
 
     def command_init(self):
         pass

@@ -757,3 +757,120 @@
 [DEBUG  ] 08/27/2016 12:17:30 AM           pulse| Checking log updates
 [DEBUG  ] 08/27/2016 12:22:30 AM           pulse| Checking log updates
 [DEBUG  ] 08/27/2016 12:27:30 AM           pulse| Checking log updates
+[BOOT   ] 08/27/2016 09:38:17 PM            init| --System Booting--
+[BOOT   ] 08/27/2016 09:38:17 PM            init| Snapshot time: 2016-08-27 21:38:17
+                                                   System booted at: 2016-08-27 20:35:08
+                                                   System has 4635M of 8175M available (43.300% used)
+                                                   Driver started at: 2016-08-27 21:38:16
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 169 read and 4 write I/O operations.
+[BOOT   ] 08/27/2016 09:38:17 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/27/2016 09:38:17 PM          server| Socket Server initializing.
+[DEBUG  ] 08/27/2016 09:38:17 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/27/2016 09:38:17 PM          server| ---Server now listening---
+[INFO   ] 08/27/2016 09:38:17 PM       utilities| --Config Initialization--
+[INFO   ] 08/27/2016 09:38:17 PM       utilities| Loading Demo Config
+[ERROR  ] 08/27/2016 09:38:17 PM       utilities| --Demo Config not found, Loading Default--
+[INFO   ] 08/27/2016 09:38:17 PM       utilities| Loading JIF Config
+[ERROR  ] 08/27/2016 09:38:17 PM       utilities| --JIF Config not found, Loading Default--
+[INFO   ] 08/27/2016 09:38:17 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 09:38:17 PM           pulse| Now == Sat Aug 27 21:38:17 2016 (1472348297.072804)
+[DEBUG  ] 08/27/2016 09:38:17 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 09:38:17 PM           pulse| Tick time == Sat Aug 27 21:43:17 2016 (1472348597.072804)
+[BOOT   ] 08/27/2016 09:38:17 PM            init| --System Startup Complete, Entering Main Loop--
+[BOOT   ] 08/27/2016 09:47:24 PM            init| --System Booting--
+[BOOT   ] 08/27/2016 09:47:24 PM            init| Snapshot time: 2016-08-27 21:47:24
+                                                   System booted at: 2016-08-27 20:35:08
+                                                   System has 4539M of 8175M available (44.500% used)
+                                                   Driver started at: 2016-08-27 21:47:23
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 163 read and 1 write I/O operations.
+[BOOT   ] 08/27/2016 09:47:24 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/27/2016 09:47:24 PM          server| Socket Server initializing.
+[DEBUG  ] 08/27/2016 09:47:24 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/27/2016 09:47:24 PM          server| ---Server now listening---
+[INFO   ] 08/27/2016 09:47:24 PM       utilities| --Config Initialization--
+[INFO   ] 08/27/2016 09:47:24 PM       utilities| Loading Demo Config
+[INFO   ] 08/27/2016 09:47:24 PM       utilities| Loading JIF Config
+[INFO   ] 08/27/2016 09:47:24 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 09:47:24 PM           pulse| Now == Sat Aug 27 21:47:24 2016 (1472348844.125221)
+[DEBUG  ] 08/27/2016 09:47:24 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 09:47:24 PM           pulse| Tick time == Sat Aug 27 21:52:24 2016 (1472349144.125221)
+[BOOT   ] 08/27/2016 09:47:24 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/27/2016 09:47:29 PM            init| Connection established from 127.0.0.1:55002
+[BOOT   ] 08/27/2016 09:47:58 PM            init| --System Booting--
+[BOOT   ] 08/27/2016 09:47:58 PM            init| Snapshot time: 2016-08-27 21:47:58
+                                                   System booted at: 2016-08-27 20:35:08
+                                                   System has 4535M of 8175M available (44.500% used)
+                                                   Driver started at: 2016-08-27 21:47:58
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 163 read and 1 write I/O operations.
+[BOOT   ] 08/27/2016 09:47:58 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/27/2016 09:47:58 PM          server| Socket Server initializing.
+[DEBUG  ] 08/27/2016 09:47:58 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/27/2016 09:47:58 PM          server| ---Server now listening---
+[INFO   ] 08/27/2016 09:47:58 PM       utilities| --Config Initialization--
+[INFO   ] 08/27/2016 09:47:58 PM       utilities| Loading Demo Config
+[INFO   ] 08/27/2016 09:47:58 PM       utilities| Loading JIF Config
+[INFO   ] 08/27/2016 09:47:58 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 09:47:58 PM           pulse| Now == Sat Aug 27 21:47:58 2016 (1472348878.322015)
+[DEBUG  ] 08/27/2016 09:47:58 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 09:47:58 PM           pulse| Tick time == Sat Aug 27 21:52:58 2016 (1472349178.322015)
+[BOOT   ] 08/27/2016 09:47:58 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/27/2016 09:48:00 PM            init| Connection established from 127.0.0.1:55033
+[INFO   ] 08/27/2016 09:48:00 PM            init| ['demo control', 'start']
+[INFO   ] 08/27/2016 09:48:00 PM            init| nap time
+[INFO   ] 08/27/2016 09:48:00 PM            init| Connection established from 127.0.0.1:55033
+[BOOT   ] 08/27/2016 09:52:21 PM            init| --System Booting--
+[BOOT   ] 08/27/2016 09:52:21 PM            init| Snapshot time: 2016-08-27 21:52:21
+                                                   System booted at: 2016-08-27 20:35:07
+                                                   System has 4453M of 8175M available (45.500% used)
+                                                   Driver started at: 2016-08-27 21:52:21
+                                                   Driver is currently using 15M of RAM
+                                                   Driver has performed 163 read and 1 write I/O operations.
+[BOOT   ] 08/27/2016 09:52:21 PM            init| --Socket Server Initialization-
+[DEBUG  ] 08/27/2016 09:52:21 PM          server| Socket Server initializing.
+[DEBUG  ] 08/27/2016 09:52:21 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/27/2016 09:52:21 PM          server| ---Server now listening---
+[INFO   ] 08/27/2016 09:52:21 PM       utilities| --Config Initialization--
+[INFO   ] 08/27/2016 09:52:21 PM       utilities| Loading Demo Config
+[INFO   ] 08/27/2016 09:52:21 PM       utilities| Loading JIF Config
+[INFO   ] 08/27/2016 09:52:21 PM            init| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 09:52:21 PM           pulse| Now == Sat Aug 27 21:52:21 2016 (1472349141.471575)
+[DEBUG  ] 08/27/2016 09:52:21 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 09:52:21 PM           pulse| Tick time == Sat Aug 27 21:57:21 2016 (1472349441.471575)
+[BOOT   ] 08/27/2016 09:52:21 PM            init| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/27/2016 09:52:32 PM            init| Connection established from 127.0.0.1:55401
+[INFO   ] 08/27/2016 09:52:32 PM            init| ['demo control', 'start']
+[SOCK_SERVER] 08/27/2016 09:52:32 PM            init| Exceeded time slice by 10.628 seconds!
+[BOOT   ] 08/27/2016 10:20:27 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 10:20:27 PM         autoapt| Snapshot time: 2016-08-27 22:20:27
+                                                   System booted at: 2016-08-27 20:35:08
+                                                   System has 4290M of 8175M available (47.500% used)
+                                                   Driver started at: 2016-08-27 22:20:26
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 289 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 10:20:27 PM         autoapt| --Socket Server Initialization-
+[DEBUG  ] 08/27/2016 10:20:27 PM          server| Socket Server initializing.
+[DEBUG  ] 08/27/2016 10:20:27 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/27/2016 10:20:27 PM          server| ---Server now listening---
+[INFO   ] 08/27/2016 10:20:27 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 10:20:27 PM           pulse| Now == Sat Aug 27 22:20:27 2016 (1472350827.181274)
+[DEBUG  ] 08/27/2016 10:20:27 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 10:20:27 PM           pulse| Tick time == Sat Aug 27 22:25:27 2016 (1472351127.181274)
+[BOOT   ] 08/27/2016 10:21:25 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 10:21:25 PM         autoapt| Snapshot time: 2016-08-27 22:21:25
+                                                   System booted at: 2016-08-27 20:35:07
+                                                   System has 4302M of 8175M available (47.400% used)
+                                                   Driver started at: 2016-08-27 22:21:25
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 291 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 10:21:25 PM         autoapt| --Socket Server Initialization-
+[DEBUG  ] 08/27/2016 10:21:25 PM          server| Socket Server initializing.
+[DEBUG  ] 08/27/2016 10:21:25 PM          server| Server bound to 127.0.0.1, port 8091
+[DEBUG  ] 08/27/2016 10:21:25 PM          server| ---Server now listening---
+[INFO   ] 08/27/2016 10:21:25 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 10:21:25 PM           pulse| Now == Sat Aug 27 22:21:25 2016 (1472350885.696174)
+[DEBUG  ] 08/27/2016 10:21:25 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 10:21:25 PM           pulse| Tick time == Sat Aug 27 22:26:25 2016 (1472351185.696174)
+[BOOT   ] 08/27/2016 10:21:25 PM            init| Starting jif monitor.

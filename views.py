@@ -28,8 +28,6 @@ class Dispatcher(threading.Thread):
     def run(self):
         while True:
             try:
-                #self.lock.acquire()
-                #logger.debug('Dispatcher acquired a lock..')
                 payload = self.command_queue.popleft()
                 if payload[0] in ['Accepted', 'Failed']:
                     logger.debug('Calling new job controller')
@@ -38,7 +36,13 @@ class Dispatcher(threading.Thread):
                     control.reprint_job(payload)
                 if payload[0] in 'Proc':
                     control.proc_phase(payload)
-                #self.lock.release()
+                if payload[0] == 'demo state':
+                    if payload[1] == 'start':
+                        control.start_demo()
+                    if payload[1] == 'stop':
+                        control.stop_demo()
+                    if payload[1] == 'pause':
+                        pass
             except IndexError:
                 pass
 

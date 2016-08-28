@@ -8,7 +8,7 @@ BUFFER_SIZE = 4096
 MESSAGE = "Hello, World!"
 eod = '-eod'
 
-t = json.dumps({'Test': 'me', 1: 3})
+t = json.dumps(['demo control', 'start'])
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((TCP_IP, TCP_PORT))

@@ -14,7 +14,7 @@ def boot_log(self, message, *args, **kws):
 
 def socket_log(self, message, *args, **kws):
     if self.level <= 30:
-        self._log(31, message, args, **kws)
+        self._log(30, message, args, **kws)
 
 
 def demo_state(self, message, *args, **kws):
@@ -24,12 +24,17 @@ def demo_state(self, message, *args, **kws):
 
 def io_handler(self, message, *args, **kws):
     if self.level <= 28:
-        self._log(29, message, args, **kws)
+        self._log(28, message, args, **kws)
 
 
 def jifgen(self, message, *args, **kws):
     if self.level <= 27:
-        self._log(29, message, args, **kws)
+        self._log(27, message, args, **kws)
+
+
+def dispatch(self, message, *args, **kws):
+    if self.level <= 26:
+        self._log(26, message, args, **kws)
 
 
 def init_logging():
@@ -49,11 +54,13 @@ def init_logging():
         logging.addLevelName(29, 'DEMO_STATE')
         logging.addLevelName(28, 'IO_HANDLER')
         logging.addLevelName(27, 'JIFGEN')
+        logging.addLevelName(26, 'DISPATCH')
         logging.Logger.boot = boot_log
         logging.Logger.sock = socket_log
         logging.Logger.demo = demo_state
         logging.Logger.io = io_handler
         logging.Logger.jifgen = jifgen
+        logging.Logger.dispatch = dispatch
         master_logger = logging.getLogger()
     return master_logger
 
