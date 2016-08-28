@@ -22,6 +22,7 @@ class DemoController:
         self.lock = None
         self.dispatcher = None
         self.observers = []
+        self.socket_server = None
         self.command_queue = deque()
         self.completed_jobs = []
         self.exit_data = dconf[1]['DemoDirs']['exit_data']

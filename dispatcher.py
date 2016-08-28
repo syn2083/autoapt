@@ -9,7 +9,7 @@ class Dispatcher(threading.Thread):
     def __init__(self, controller):
         super().__init__()
         self.controller = controller
-        self.command_queue = self.controller.command_queue
+        self.command_queue = controller.command_queue
 
     def run(self):
         while True:

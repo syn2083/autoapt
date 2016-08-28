@@ -1,5 +1,6 @@
 __author__ = 'Syn'
 import threading
+import server
 from config import DEF_DEMO_CONF
 from config import DEF_JIF_CONF
 from controller import DemoController
@@ -9,6 +10,10 @@ from watchdog.observers import Observer
 from folder_monitor import folder_monitor_handler as fmh
 
 logger = init_logging()
+
+
+
+
 
 
 def init_controller():
