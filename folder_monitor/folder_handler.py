@@ -114,17 +114,6 @@ class ProcChangeManager(PatternMatchingEventHandler):
                 self.lock.acquire()
                 self.command_queue.append(['Proc', element['ID']])
                 self.lock.release()
-        if element['ID'][:2] == 'A2':
-            if element['JobStatus'] == '2176':
-                logger.debug('Proc Mon - Reprint workaround for Finisher Job {}'.format(element['ID']))
-                self.lock.acquire()
-                self.command_queue.append(['Reprint', element['ID']])
-                self.lock.release()
-            if element['JobStatus'] == '2048':
-                logger.debug('Proc Mon - Complete workaround for Finisher Job {}'.format(element['ID']))
-                self.lock.acquire()
-                self.command_queue.append(['Complete', element['ID']])
-                self.lock.release()
 
     def on_created(self, event):
         self.process(event)

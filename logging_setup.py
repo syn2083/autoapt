@@ -47,7 +47,7 @@ def init_logging():
 
         logging.basicConfig(filename='{}'.format(config.log_file),
                             level=logging.DEBUG,
-                            format='[%(levelname)-7s] %(asctime)s %(module)15s| %(message)s',
+                            format='[%(levelname)-11s] %(asctime)s %(module)14s| %(message)s',
                             datefmt='%m/%d/%Y %I:%M:%S %p')
         logging.addLevelName(31, 'BOOT')
         logging.addLevelName(30, 'SOCK_SERVER')

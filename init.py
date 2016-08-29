@@ -7,7 +7,7 @@ from controller import DemoController
 from logging_setup import init_logging
 from dispatcher import Dispatcher
 from watchdog.observers import Observer
-from folder_monitor import folder_monitor_handler as fmh
+from folder_monitor import folder_handler as fmh
 
 logger = init_logging()
 

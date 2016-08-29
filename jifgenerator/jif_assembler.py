@@ -3,7 +3,6 @@ import os
 import shutil
 from random import choice, randint, sample
 from os import path
-from .jif_templater import Template
 from .prog_utilities import folder_construct, str_to_list, find_shift
 from logging_setup import init_logging
 
@@ -21,14 +20,16 @@ Output
 logger = init_logging()
 
 
-class JIFBuilder(Template):
+class JIFBuilder:
     def __init__(self, icd_target, jdf_folder, multi_step, dconf, jconf):
-        super().__init__()
-        for k in jconf.keys():
-            setattr(self, k, jconf[k])
+        for k in jconf[0]['JIF'].keys():
+            setattr(self, k, jconf[0]['JIF'][k])
+        for k in jconf[0]['OPTS'].keys():
+            setattr(self, k, jconf[0]['OPTS'][k])
         self.out = jdf_folder
         self.target = icd_target
         self.multi_step = multi_step
+        self.site_prefix = None
         if icd_target == 'icd_1':
             self.site_prefix = 'A10'
             self.proc_phase = '10, 30'
@@ -54,6 +55,64 @@ class JIFBuilder(Template):
             self.piece_or_sheet = 'piece'
             self.speed = 1
         self.r_speed = 2
+        t = datetime.datetime.now() - datetime.timedelta(hours=3)
+        self.initial_seed = '0000001'
+        self.job_id = '0000001'
+        self.imp_mult = '1,2'
+        self.creation = [str(t), t]
+        self.deadline = ''
+        self.current_jobid = None
+        self.current_piececount = None
+        self.damages = None
+        self.generated_jobs = None
+        self.curr_time = None
+        self.curr_exit_time = None
+        self.damage_count = 0
+        self.current_bad = 0
+
+    def id_to_int(self):
+        try:
+            return int(self.job_id)
+        except ValueError:
+            return None
+
+    def id_to_str(self, input_id):
+        try:
+            return str(input_id).zfill(7)
+        except:
+            return None
+
+    def jobid_loader(self):
+        logger.debug('JobID Loader called')
+        local_path = path.dirname(path.abspath(__file__))
+        logger.debug('Data path = {}'.format(local_path))
+        seeder = path.join(local_path, "job_seed.txt")
+        if not path.isfile(seeder):
+            with open(seeder, 'w') as fp:
+                fp.write('0000001')
+            fp.close()
+            self.current_jobid = 1
+            logger.debug('Jobid set to 1 called inside non found seed file.')
+        else:
+            with open(seeder, 'r') as fp:
+                self.current_jobid = int(fp.read())
+                logger.debug('Jobid = {}'.format(self.current_jobid))
+            fp.close()
+
+    def jobid_saver(self):
+        local_path = path.dirname(path.abspath(__file__))
+        seeder = path.join(local_path, "job_seed.txt")
+        if not path.isfile(seeder):
+            with open(seeder, 'w') as fp:
+                fp.write('0000001')
+            fp.close()
+        else:
+            with open(seeder, 'w') as fp:
+                fp.write(str(self.current_jobid))
+            fp.close()
+
+    def add_seconds(self, in_time, secs):
+        return in_time + datetime.timedelta(seconds=secs)
 
     def piece_builder(self, piece_id):
         plist = []
@@ -190,7 +249,10 @@ class JIFBuilder(Template):
             logger.debug('Copying JIF to JDF folder.')
             shutil.copyfile(filename, os.path.join(self.out, present_jobid + '.jif'))
             logger.debug('Cleaning temp JIF')
-            os.remove(filename)
+            try:
+                os.remove(filename)
+            except PermissionError:
+                pass
             logger.debug('JIF creation completed. {} has been sent to APT.'.format(present_jobid))
             return present_jobid
 
@@ -212,7 +274,7 @@ class JIFBuilder(Template):
             operator = choice(ops['shift_3_ops'][1])
 
         if create_damages:
-            damage_list = sample(range(1, self.current_piececount), choice([1, 5, 10, 15, 20, 25]))
+            damage_list = sample(range(1, self.current_piececount + 1), choice([1, 5, 10, 15, 20, 25]))
 
         for n, i in enumerate(range(1, self.current_piececount + 1)):
             if 'piece' in self.piece_or_sheet.lower():
@@ -272,15 +334,23 @@ class JIFBuilder(Template):
 
         if create_damages:
             if create_damages:
-                damage_list = sample(range(1, self.current_piececount), choice([1, 5, 10, 15, 20, 25]))
+                damage_list = sample(range(1, self.current_piececount + 1), choice([1, 5, 10, 15, 20, 25]))
 
         for i in range(1, self.current_piececount + 1):
             if i in damage_list:
-                if self.multi_step or self.target.lower() == 'td':
-                    if 5 <= randint(1, 10):
-                        piece_strings.append('')
+                if self.multi_step == 1 or self.target.lower() == 'td':
+                    if i == 1:
+                        damage_list.remove(1)
+                        piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
+                                                                                             pieceid=str(i).zfill(6),
+                                                                                             time=self.curr_time,
+                                                                                             result=choice(['1', '2']),
+                                                                                             op=operator))
                     else:
-                        pass
+                        if 5 <= randint(1, 10):
+                            piece_strings.append('')
+                        else:
+                            pass
                 else:
                     piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
                                                                                          pieceid=str(i).zfill(6),
@@ -310,7 +380,10 @@ class JIFBuilder(Template):
         out_str = "\n"
         out_path = folder_construct()[2]
         reprint_strings = []
-        self.curr_time = self.creation[1] + datetime.timedelta(hours=2)
+        if self.multi_step == 1 or self.target == 'td':
+            self.curr_time = datetime.datetime.now()
+        else:
+            self.curr_time = self.creation[1] + datetime.timedelta(hours=2)
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         operator = None
 

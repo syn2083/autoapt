@@ -20,6 +20,7 @@ def autoapt():
     pulse = Pulse()
     control = init_controller()
     control.socket_server = SocketServer(control)
+    control.socket_server.start()
     logger.boot('--System Startup Complete, Entering Main Loop--')
 
     while True:
@@ -29,7 +30,6 @@ def autoapt():
         nap_time = pulse.width - time_spent
         if nap_time > 0.0:
             time.sleep(nap_time)
-            logger.info('nap time')
         else:
             logger.warn('Exceeded time slice by %.3f seconds!', abs(nap_time))
 

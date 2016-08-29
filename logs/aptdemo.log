@@ -874,3 +874,2050 @@
 [DEBUG  ] 08/27/2016 10:21:25 PM           pulse| Tick len == 300.000000
 [DEBUG  ] 08/27/2016 10:21:25 PM           pulse| Tick time == Sat Aug 27 22:26:25 2016 (1472351185.696174)
 [BOOT   ] 08/27/2016 10:21:25 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:00:18 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:00:18 PM         autoapt| Snapshot time: 2016-08-27 23:00:18
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1700M of 8106M available (79.000% used)
+                                                   Driver started at: 2016-08-27 23:00:17
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 305 read and 11 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:00:18 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:00:18 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:00:18 PM           pulse| Now == Sat Aug 27 23:00:18 2016 (1472353218.205492)
+[DEBUG  ] 08/27/2016 11:00:18 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:00:18 PM           pulse| Tick time == Sat Aug 27 23:05:18 2016 (1472353518.205492)
+[BOOT   ] 08/27/2016 11:00:18 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:00:18 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:00:18 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:00:18 PM            init| Monitors initialized.
+[BOOT   ] 08/27/2016 11:00:18 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/27/2016 11:00:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:00:38 PM         autoapt| nap time
+[BOOT   ] 08/27/2016 11:01:47 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:01:47 PM         autoapt| Snapshot time: 2016-08-27 23:01:47
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1661M of 8106M available (79.500% used)
+                                                   Driver started at: 2016-08-27 23:01:46
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:01:47 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:01:47 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:01:47 PM           pulse| Now == Sat Aug 27 23:01:47 2016 (1472353307.083878)
+[DEBUG  ] 08/27/2016 11:01:47 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:01:47 PM           pulse| Tick time == Sat Aug 27 23:06:47 2016 (1472353607.083878)
+[BOOT   ] 08/27/2016 11:01:47 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:01:47 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:01:47 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:01:47 PM            init| Monitors initialized.
+[BOOT   ] 08/27/2016 11:01:47 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[INFO   ] 08/27/2016 11:01:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:01:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:02:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:07 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:08 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:09 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:10 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:11 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:12 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:13 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:14 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:15 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:16 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:17 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:18 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:19 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:20 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:21 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:22 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:23 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:24 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:25 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:26 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:27 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:28 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:29 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:30 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:31 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:32 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:33 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:34 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:35 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:36 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:37 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:38 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:39 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:40 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:41 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:42 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:43 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:44 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:45 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:46 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:47 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:48 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:49 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:50 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:51 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:52 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:53 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:54 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:55 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:56 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:57 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:58 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:03:59 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:00 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:01 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:02 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:03 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:04 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:05 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:06 PM         autoapt| nap time
+[INFO   ] 08/27/2016 11:04:07 PM         autoapt| nap time
+[BOOT   ] 08/27/2016 11:04:42 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:04:42 PM         autoapt| Snapshot time: 2016-08-27 23:04:42
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1734M of 8106M available (78.600% used)
+                                                   Driver started at: 2016-08-27 23:04:41
+                                                   Driver is currently using 18M of RAM
+                                                   Driver has performed 294 read and 1 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:04:42 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:04:42 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:04:42 PM           pulse| Now == Sat Aug 27 23:04:42 2016 (1472353482.115190)
+[DEBUG  ] 08/27/2016 11:04:42 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:04:42 PM           pulse| Tick time == Sat Aug 27 23:09:42 2016 (1472353782.115190)
+[BOOT   ] 08/27/2016 11:04:42 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:04:42 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:04:42 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:04:42 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:04:42 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:04:42 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:04:42 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:04:42 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:05:16 PM          server| Connection established from 127.0.0.1:24821
+[SOCK_SERVER] 08/27/2016 11:05:16 PM          server| Incoming data: ['demo control', 'start']
+[BOOT   ] 08/27/2016 11:05:44 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:05:44 PM         autoapt| Snapshot time: 2016-08-27 23:05:44
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1710M of 8106M available (78.900% used)
+                                                   Driver started at: 2016-08-27 23:05:43
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:05:44 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:05:44 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:05:44 PM           pulse| Now == Sat Aug 27 23:05:44 2016 (1472353544.025601)
+[DEBUG  ] 08/27/2016 11:05:44 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:05:44 PM           pulse| Tick time == Sat Aug 27 23:10:44 2016 (1472353844.025601)
+[BOOT   ] 08/27/2016 11:05:44 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:05:44 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:05:44 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:05:44 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:05:44 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:05:44 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:05:44 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:05:44 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:05:50 PM          server| Connection established from 127.0.0.1:24826
+[SOCK_SERVER] 08/27/2016 11:05:50 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:05:50 PM      dispatcher| Start Demo Request
+[DEBUG  ] 08/27/2016 11:10:44 PM           pulse| Checking log updates
+[BOOT   ] 08/27/2016 11:11:04 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:11:04 PM         autoapt| Snapshot time: 2016-08-27 23:11:04
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1773M of 8106M available (78.100% used)
+                                                   Driver started at: 2016-08-27 23:11:04
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:11:04 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:11:04 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:11:04 PM           pulse| Now == Sat Aug 27 23:11:04 2016 (1472353864.742991)
+[DEBUG  ] 08/27/2016 11:11:04 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:11:04 PM           pulse| Tick time == Sat Aug 27 23:16:04 2016 (1472354164.742991)
+[BOOT   ] 08/27/2016 11:11:04 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:11:04 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:11:04 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:11:04 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:11:04 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:11:04 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:11:04 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:11:04 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:11:11 PM          server| Connection established from 127.0.0.1:24910
+[SOCK_SERVER] 08/27/2016 11:11:11 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:11:11 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:11:11 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:11:11 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:11:11 PM      controller| Demo Status == 1
+[BOOT   ] 08/27/2016 11:12:44 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:12:44 PM         autoapt| Snapshot time: 2016-08-27 23:12:44
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1777M of 8106M available (78.100% used)
+                                                   Driver started at: 2016-08-27 23:12:43
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:12:44 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:12:44 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:12:44 PM           pulse| Now == Sat Aug 27 23:12:44 2016 (1472353964.388896)
+[DEBUG  ] 08/27/2016 11:12:44 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:12:44 PM           pulse| Tick time == Sat Aug 27 23:17:44 2016 (1472354264.388896)
+[BOOT   ] 08/27/2016 11:12:44 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:12:44 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:12:44 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:12:44 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:12:44 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:12:44 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:12:44 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:12:44 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:12:47 PM          server| Connection established from 127.0.0.1:24922
+[SOCK_SERVER] 08/27/2016 11:12:47 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:12:47 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:12:47 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:12:47 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:12:47 PM      controller| Demo Status == 1
+[BOOT   ] 08/27/2016 11:13:19 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:13:19 PM         autoapt| Snapshot time: 2016-08-27 23:13:19
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1754M of 8106M available (78.400% used)
+                                                   Driver started at: 2016-08-27 23:13:19
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:13:19 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:13:19 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:13:19 PM           pulse| Now == Sat Aug 27 23:13:19 2016 (1472353999.874025)
+[DEBUG  ] 08/27/2016 11:13:19 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:13:19 PM           pulse| Tick time == Sat Aug 27 23:18:19 2016 (1472354299.874025)
+[BOOT   ] 08/27/2016 11:13:19 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:13:19 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:13:19 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:13:20 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:13:20 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:13:20 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:13:20 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:13:20 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:13:23 PM          server| Connection established from 127.0.0.1:24929
+[SOCK_SERVER] 08/27/2016 11:13:23 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:13:23 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:13:23 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:13:23 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:13:23 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:18:20 PM           pulse| Checking log updates
+[BOOT   ] 08/27/2016 11:18:45 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:18:45 PM         autoapt| Snapshot time: 2016-08-27 23:18:45
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1829M of 8106M available (77.400% used)
+                                                   Driver started at: 2016-08-27 23:18:44
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:18:45 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:18:45 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:18:45 PM           pulse| Now == Sat Aug 27 23:18:45 2016 (1472354325.529677)
+[DEBUG  ] 08/27/2016 11:18:45 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:18:45 PM           pulse| Tick time == Sat Aug 27 23:23:45 2016 (1472354625.529677)
+[BOOT   ] 08/27/2016 11:18:45 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:18:45 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:18:45 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:18:45 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:18:45 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:18:45 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:18:45 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:18:45 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:18:49 PM          server| Connection established from 127.0.0.1:25028
+[SOCK_SERVER] 08/27/2016 11:18:49 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:18:49 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:18:49 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:18:49 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:18:49 PM      controller| Demo Status == 1
+[BOOT   ] 08/27/2016 11:20:18 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:20:18 PM         autoapt| Snapshot time: 2016-08-27 23:20:18
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1915M of 8106M available (76.400% used)
+                                                   Driver started at: 2016-08-27 23:20:18
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:20:18 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:20:18 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:20:18 PM           pulse| Now == Sat Aug 27 23:20:18 2016 (1472354418.905019)
+[DEBUG  ] 08/27/2016 11:20:18 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:20:18 PM           pulse| Tick time == Sat Aug 27 23:25:18 2016 (1472354718.905019)
+[BOOT   ] 08/27/2016 11:20:18 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:20:18 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:20:18 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:20:19 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:20:19 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:20:19 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:20:19 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:20:19 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:20:22 PM          server| Connection established from 127.0.0.1:25068
+[SOCK_SERVER] 08/27/2016 11:20:22 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:20:22 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:20:22 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:20:22 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:20:22 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:20:22 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[BOOT   ] 08/27/2016 11:20:59 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:20:59 PM         autoapt| Snapshot time: 2016-08-27 23:20:59
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1898M of 8106M available (76.600% used)
+                                                   Driver started at: 2016-08-27 23:20:58
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:20:59 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:20:59 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:20:59 PM           pulse| Now == Sat Aug 27 23:20:59 2016 (1472354459.369627)
+[DEBUG  ] 08/27/2016 11:20:59 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:20:59 PM           pulse| Tick time == Sat Aug 27 23:25:59 2016 (1472354759.369627)
+[BOOT   ] 08/27/2016 11:20:59 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:20:59 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:20:59 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:20:59 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:20:59 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:20:59 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:20:59 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:20:59 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:21:03 PM          server| Connection established from 127.0.0.1:25073
+[SOCK_SERVER] 08/27/2016 11:21:03 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:21:03 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:21:03 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:21:03 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:21:03 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:21:03 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:21:03 PM      controller| i am in the start loop..
+[BOOT   ] 08/27/2016 11:24:34 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:24:34 PM         autoapt| Snapshot time: 2016-08-27 23:24:34
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1942M of 8106M available (76.000% used)
+                                                   Driver started at: 2016-08-27 23:24:34
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 294 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:24:34 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:24:34 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:24:34 PM           pulse| Now == Sat Aug 27 23:24:34 2016 (1472354674.952655)
+[DEBUG  ] 08/27/2016 11:24:34 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:24:34 PM           pulse| Tick time == Sat Aug 27 23:29:34 2016 (1472354974.952655)
+[BOOT   ] 08/27/2016 11:24:34 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:24:35 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:24:35 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:24:35 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:24:35 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:24:35 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:24:35 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:24:35 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:24:38 PM          server| Connection established from 127.0.0.1:25129
+[SOCK_SERVER] 08/27/2016 11:24:38 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:24:38 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:24:38 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:24:38 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:24:38 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:24:38 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:24:38 PM      controller| i am in the start loop..
+[DEBUG  ] 08/27/2016 11:29:35 PM           pulse| Checking log updates
+[BOOT   ] 08/27/2016 11:30:16 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:30:16 PM         autoapt| Snapshot time: 2016-08-27 23:30:16
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1880M of 8106M available (76.800% used)
+                                                   Driver started at: 2016-08-27 23:30:15
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 3 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:30:16 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:30:16 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:30:16 PM           pulse| Now == Sat Aug 27 23:30:16 2016 (1472355016.376662)
+[DEBUG  ] 08/27/2016 11:30:16 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:30:16 PM           pulse| Tick time == Sat Aug 27 23:35:16 2016 (1472355316.376662)
+[BOOT   ] 08/27/2016 11:30:16 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:30:16 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:30:16 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:30:16 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:30:16 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:30:16 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:30:16 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:30:16 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:30:20 PM          server| Connection established from 127.0.0.1:25209
+[SOCK_SERVER] 08/27/2016 11:30:20 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:30:20 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:30:20 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:30:20 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:30:20 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:30:20 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:30:20 PM      controller| i am in the start loop..
+[DEBUG  ] 08/27/2016 11:30:20 PM      controller| Target icd_1
+[DEBUG  ] 08/27/2016 11:30:20 PM   jif_assembler| In jif init..
+[BOOT   ] 08/27/2016 11:31:16 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:31:16 PM         autoapt| Snapshot time: 2016-08-27 23:31:16
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1878M of 8106M available (76.800% used)
+                                                   Driver started at: 2016-08-27 23:31:16
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 294 read and 2 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:31:16 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:31:16 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:31:16 PM           pulse| Now == Sat Aug 27 23:31:16 2016 (1472355076.710439)
+[DEBUG  ] 08/27/2016 11:31:16 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:31:16 PM           pulse| Tick time == Sat Aug 27 23:36:16 2016 (1472355376.710439)
+[BOOT   ] 08/27/2016 11:31:16 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:31:16 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:31:16 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:31:16 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:31:16 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:31:16 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:31:16 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:31:16 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:31:17 PM          server| Connection established from 127.0.0.1:25220
+[SOCK_SERVER] 08/27/2016 11:31:17 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:31:17 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:31:17 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:31:17 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:31:17 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:31:17 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:31:17 PM      controller| i am in the start loop..
+[DEBUG  ] 08/27/2016 11:31:17 PM      controller| Target icd_1
+[DEBUG  ] 08/27/2016 11:31:17 PM   jif_assembler| In jif init..
+[DEBUG  ] 08/27/2016 11:31:17 PM   jif_assembler| Made it past the first setattr?
+[BOOT   ] 08/27/2016 11:34:40 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:34:40 PM         autoapt| Snapshot time: 2016-08-27 23:34:40
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1872M of 8106M available (76.900% used)
+                                                   Driver started at: 2016-08-27 23:34:39
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 298 read and 4 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:34:40 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:34:40 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:34:40 PM           pulse| Now == Sat Aug 27 23:34:40 2016 (1472355280.412624)
+[DEBUG  ] 08/27/2016 11:34:40 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:34:40 PM           pulse| Tick time == Sat Aug 27 23:39:40 2016 (1472355580.412624)
+[BOOT   ] 08/27/2016 11:34:40 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:34:40 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:34:40 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:34:40 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:34:40 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:34:40 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:34:40 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:34:40 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:34:42 PM          server| Connection established from 127.0.0.1:25274
+[SOCK_SERVER] 08/27/2016 11:34:42 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:34:42 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:34:42 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:34:42 PM      controller| Target icd_1
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Jobid = 174
+[JIFGEN ] 08/27/2016 11:34:42 PM   jif_assembler| Starting to build JIF A100000174.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JIF creation completed. A100000174 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| Creating initial job for target: ICD_1
+[DEBUG  ] 08/27/2016 11:34:42 PM      controller| Target icd_2
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Jobid = 175
+[JIFGEN ] 08/27/2016 11:34:42 PM   jif_assembler| Starting to build JIF A200000175.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JIF creation completed. A200000175 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| Creating initial job for target: ICD_2
+[DEBUG  ] 08/27/2016 11:34:42 PM      controller| Target icd_3
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Jobid = 176
+[JIFGEN ] 08/27/2016 11:34:42 PM   jif_assembler| Starting to build JIF A300000176.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JIF creation completed. A300000176 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| Creating initial job for target: ICD_3
+[DEBUG  ] 08/27/2016 11:34:42 PM      controller| Target td
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Jobid = 177
+[JIFGEN ] 08/27/2016 11:34:42 PM   jif_assembler| Starting to build JIF A400000177.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:34:42 PM   jif_assembler| JIF creation completed. A400000177 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:34:42 PM      controller| Creating initial job for target: TD
+[DEBUG  ] 08/27/2016 11:34:42 PM      controller| Demo Initialized.
+[BOOT   ] 08/27/2016 11:35:58 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:35:58 PM         autoapt| Snapshot time: 2016-08-27 23:35:58
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1816M of 8106M available (77.600% used)
+                                                   Driver started at: 2016-08-27 23:35:57
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 292 read and 1 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:35:58 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:35:58 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:35:58 PM           pulse| Now == Sat Aug 27 23:35:58 2016 (1472355358.481436)
+[DEBUG  ] 08/27/2016 11:35:58 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:35:58 PM           pulse| Tick time == Sat Aug 27 23:40:58 2016 (1472355658.481436)
+[BOOT   ] 08/27/2016 11:35:58 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:35:58 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:35:58 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:35:58 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:35:58 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:35:58 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:35:58 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:35:58 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:36:00 PM          server| Connection established from 127.0.0.1:25286
+[SOCK_SERVER] 08/27/2016 11:36:00 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:36:00 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:36:00 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:36:00 PM      controller| Target icd_1
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Jobid = 300
+[JIFGEN ] 08/27/2016 11:36:00 PM   jif_assembler| Starting to build JIF A100000300.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JIF creation completed. A100000300 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| Creating initial job for target: ICD_1
+[DEBUG  ] 08/27/2016 11:36:00 PM      controller| Target icd_2
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Jobid = 301
+[JIFGEN ] 08/27/2016 11:36:00 PM   jif_assembler| Starting to build JIF A200000301.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JIF creation completed. A200000301 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| Creating initial job for target: ICD_2
+[DEBUG  ] 08/27/2016 11:36:00 PM      controller| Target icd_3
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Jobid = 302
+[JIFGEN ] 08/27/2016 11:36:00 PM   jif_assembler| Starting to build JIF A300000302.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JIF creation completed. A300000302 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| Creating initial job for target: ICD_3
+[DEBUG  ] 08/27/2016 11:36:00 PM      controller| Target td
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Jobid = 303
+[JIFGEN ] 08/27/2016 11:36:00 PM   jif_assembler| Starting to build JIF A400000303.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:36:00 PM   jif_assembler| JIF creation completed. A400000303 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:36:00 PM      controller| Creating initial job for target: TD
+[DEBUG  ] 08/27/2016 11:36:00 PM      controller| Demo Initialized.
+[DEBUG  ] 08/27/2016 11:36:07 PM folder_monitor_handler| JIF ACK - Accepted Job A100000300
+[DISPATCH] 08/27/2016 11:36:07 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:36:07 PM      controller| --New Job--
+ Copying data for job A100000300.
+[DEBUG  ] 08/27/2016 11:36:07 PM folder_monitor_handler| JIF ACK - Accepted Job A200000301
+[DISPATCH] 08/27/2016 11:36:07 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:36:07 PM      controller| --New Job--
+ Copying data for job A200000301.
+[DEBUG  ] 08/27/2016 11:36:10 PM folder_monitor_handler| JIF ACK - Accepted Job A300000302
+[DISPATCH] 08/27/2016 11:36:10 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:36:10 PM      controller| --New Job--
+ Copying data for job A300000302.
+[DEBUG  ] 08/27/2016 11:36:12 PM folder_monitor_handler| JIF ACK - Accepted Job A400000303
+[DISPATCH] 08/27/2016 11:36:12 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:36:12 PM      controller| --New Job--
+ Copying data for job A400000303.
+[DEBUG  ] 08/27/2016 11:38:47 PM folder_monitor_handler| Reprint - Reprint Job A400000303
+[IO_HANDLER] 08/27/2016 11:38:47 PM      controller| Copying A400000303 to reprint directory
+[DEBUG  ] 08/27/2016 11:39:51 PM folder_monitor_handler| Reprint - Completed Job A300000302
+[IO_HANDLER] 08/27/2016 11:39:51 PM      controller| --Job Completed--
+ JobID A300000302
+[IO_HANDLER] 08/27/2016 11:39:51 PM      controller| Cleaning old job data.
+[DEBUG  ] 08/27/2016 11:40:05 PM folder_monitor_handler| Reprint - Completed Job A400000303
+[DEBUG  ] 08/27/2016 11:40:14 PM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000300
+[DEBUG  ] 08/27/2016 11:40:14 PM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000300
+[DEBUG  ] 08/27/2016 11:40:51 PM folder_monitor_handler| Proc Mon - Reprint workaround for Finisher Job A200000301
+[DEBUG  ] 08/27/2016 11:40:51 PM folder_monitor_handler| Proc Mon - Reprint workaround for Finisher Job A200000301
+[DEBUG  ] 08/27/2016 11:40:58 PM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 11:41:57 PM folder_monitor_handler| Reprint - Reprint Job A200000301
+[BOOT   ] 08/27/2016 11:52:15 PM         autoapt| --System Booting--
+[BOOT   ] 08/27/2016 11:52:15 PM         autoapt| Snapshot time: 2016-08-27 23:52:15
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1792M of 8106M available (77.900% used)
+                                                   Driver started at: 2016-08-27 23:52:14
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 3 write I/O operations.
+[SOCK_SERVER] 08/27/2016 11:52:15 PM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/27/2016 11:52:15 PM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/27/2016 11:52:15 PM           pulse| Now == Sat Aug 27 23:52:15 2016 (1472356335.041635)
+[DEBUG  ] 08/27/2016 11:52:15 PM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/27/2016 11:52:15 PM           pulse| Tick time == Sat Aug 27 23:57:15 2016 (1472356635.041635)
+[BOOT   ] 08/27/2016 11:52:15 PM            init| Starting jif monitor.
+[BOOT   ] 08/27/2016 11:52:15 PM            init| Starting reprint monitor.
+[BOOT   ] 08/27/2016 11:52:15 PM            init| Starting proc change monitor.
+[BOOT   ] 08/27/2016 11:52:15 PM            init| Monitors initialized.
+[SOCK_SERVER] 08/27/2016 11:52:15 PM          server| Socket Server initializing.
+[BOOT   ] 08/27/2016 11:52:15 PM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/27/2016 11:52:15 PM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/27/2016 11:52:15 PM          server| ---Server now listening---
+[SOCK_SERVER] 08/27/2016 11:52:24 PM          server| Connection established from 127.0.0.1:25513
+[SOCK_SERVER] 08/27/2016 11:52:24 PM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/27/2016 11:52:24 PM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/27/2016 11:52:24 PM      controller| --Demo Startup--
+[DEMO_STATE] 08/27/2016 11:52:24 PM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/27/2016 11:52:24 PM      controller| Demo Status == 1
+[DEBUG  ] 08/27/2016 11:52:24 PM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/27/2016 11:52:24 PM      controller| Target icd_1
+[DEBUG  ] 08/27/2016 11:52:24 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:52:24 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:52:24 PM   jif_assembler| Jobid = 304
+[JIFGEN ] 08/27/2016 11:52:24 PM   jif_assembler| Starting to build JIF A100000304.
+[DEBUG  ] 08/27/2016 11:52:24 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JIF creation completed. A100000304 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:52:25 PM      controller| Creating initial job for target: ICD_1
+[DEBUG  ] 08/27/2016 11:52:25 PM      controller| Target icd_2
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Jobid = 305
+[JIFGEN ] 08/27/2016 11:52:25 PM   jif_assembler| Starting to build JIF A200000305.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JIF creation completed. A200000305 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:52:25 PM      controller| Creating initial job for target: ICD_2
+[DEBUG  ] 08/27/2016 11:52:25 PM      controller| Target icd_3
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Jobid = 306
+[JIFGEN ] 08/27/2016 11:52:25 PM   jif_assembler| Starting to build JIF A300000306.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JIF creation completed. A300000306 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:52:25 PM      controller| Creating initial job for target: ICD_3
+[DEBUG  ] 08/27/2016 11:52:25 PM      controller| Target td
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Jobid = 307
+[JIFGEN ] 08/27/2016 11:52:25 PM   jif_assembler| Starting to build JIF A400000307.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:52:25 PM   jif_assembler| JIF creation completed. A400000307 has been sent to APT.
+[DEMO_STATE] 08/27/2016 11:52:25 PM      controller| Creating initial job for target: TD
+[DEBUG  ] 08/27/2016 11:52:25 PM      controller| Demo Initialized.
+[DEBUG  ] 08/27/2016 11:52:33 PM folder_monitor_handler| JIF ACK - Accepted Job A100000304
+[DISPATCH] 08/27/2016 11:52:33 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:52:33 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:52:33 PM      controller| Creating new job for target icd_1
+[DEBUG  ] 08/27/2016 11:52:33 PM folder_monitor_handler| JIF ACK - Accepted Job A200000305
+[DISPATCH] 08/27/2016 11:52:33 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:52:33 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:52:33 PM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/27/2016 11:52:34 PM folder_monitor_handler| JIF ACK - Accepted Job A300000306
+[DISPATCH] 08/27/2016 11:52:34 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:52:34 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:52:34 PM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/27/2016 11:52:34 PM folder_monitor_handler| JIF ACK - Accepted Job A400000307
+[DISPATCH] 08/27/2016 11:52:34 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:52:34 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:52:34 PM      controller| Creating new job for target td
+[DEBUG  ] 08/27/2016 11:55:41 PM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000304
+[IO_HANDLER] 08/27/2016 11:55:41 PM      controller| Multi process change from print to insert - removing A100000304
+[IO_HANDLER] 08/27/2016 11:55:41 PM      controller| Multi process collision detected in TD.
+[IO_HANDLER] 08/27/2016 11:55:41 PM      controller| Sending data to TD from multi-step.
+[DEBUG  ] 08/27/2016 11:55:41 PM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000304
+[IO_HANDLER] 08/27/2016 11:55:41 PM      controller| Cleaning print data.
+[DEBUG  ] 08/27/2016 11:55:42 PM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000304
+[DEBUG  ] 08/27/2016 11:55:42 PM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000304
+[DEBUG  ] 08/27/2016 11:56:30 PM folder_monitor_handler| Reprint - Reprint Job A300000306
+[IO_HANDLER] 08/27/2016 11:56:30 PM      controller| Copying A300000306 to reprint directory
+[DEBUG  ] 08/27/2016 11:56:55 PM folder_monitor_handler| Reprint - Completed Job A100000304
+[IO_HANDLER] 08/27/2016 11:56:55 PM      controller| --Job Completed--
+ JobID A100000304
+[IO_HANDLER] 08/27/2016 11:56:55 PM      controller| Cleaning old job data.
+[IO_HANDLER] 08/27/2016 11:56:55 PM      controller| Creating ICD_1 JIF/Exit Data
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Jobid = 308
+[JIFGEN ] 08/27/2016 11:56:55 PM   jif_assembler| Starting to build JIF A100000308.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:56:55 PM   jif_assembler| JIF creation completed. A100000308 has been sent to APT.
+[DEBUG  ] 08/27/2016 11:57:04 PM folder_monitor_handler| JIF ACK - Accepted Job A100000308
+[DISPATCH] 08/27/2016 11:57:04 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:57:04 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:57:04 PM      controller| Creating new job for target icd_1
+[DEBUG  ] 08/27/2016 11:57:15 PM           pulse| Checking log updates
+[DEBUG  ] 08/27/2016 11:57:43 PM folder_monitor_handler| Reprint - Completed Job A300000306
+[IO_HANDLER] 08/27/2016 11:57:43 PM      controller| --Job Completed--
+ JobID A300000306
+[IO_HANDLER] 08/27/2016 11:57:43 PM      controller| Cleaning old job data.
+[IO_HANDLER] 08/27/2016 11:57:43 PM      controller| Creating ICD_3 JIF/Exit Data
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Jobid = 309
+[JIFGEN ] 08/27/2016 11:57:43 PM   jif_assembler| Starting to build JIF A300000309.
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:57:43 PM   jif_assembler| JIF creation completed. A300000309 has been sent to APT.
+[DEBUG  ] 08/27/2016 11:57:45 PM folder_monitor_handler| JIF ACK - Accepted Job A300000309
+[DISPATCH] 08/27/2016 11:57:45 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:57:45 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:57:45 PM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/27/2016 11:57:57 PM folder_monitor_handler| Reprint - Reprint Job A200000305
+[IO_HANDLER] 08/27/2016 11:57:57 PM      controller| Copying A200000305 to reprint directory
+[DEBUG  ] 08/27/2016 11:59:12 PM folder_monitor_handler| Reprint - Completed Job A200000305
+[IO_HANDLER] 08/27/2016 11:59:12 PM      controller| --Job Completed--
+ JobID A200000305
+[IO_HANDLER] 08/27/2016 11:59:12 PM      controller| Cleaning old job data.
+[IO_HANDLER] 08/27/2016 11:59:12 PM      controller| Creating ICD_2 JIF/Exit Data
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Jobid = 310
+[JIFGEN ] 08/27/2016 11:59:12 PM   jif_assembler| Starting to build JIF A200000310.
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/27/2016 11:59:12 PM   jif_assembler| JIF creation completed. A200000310 has been sent to APT.
+[DEBUG  ] 08/27/2016 11:59:16 PM folder_monitor_handler| JIF ACK - Accepted Job A200000310
+[DISPATCH] 08/27/2016 11:59:16 PM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/27/2016 11:59:16 PM      controller| --New Job--
+[IO_HANDLER] 08/27/2016 11:59:16 PM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/28/2016 12:00:42 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000308
+[IO_HANDLER] 08/28/2016 12:00:42 AM      controller| Multi process change from print to insert - removing A100000308
+[IO_HANDLER] 08/28/2016 12:00:42 AM      controller| Multi process collision detected in TD.
+[IO_HANDLER] 08/28/2016 12:00:42 AM      controller| Sending data to TD from multi-step.
+[DEBUG  ] 08/28/2016 12:00:42 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000308
+[IO_HANDLER] 08/28/2016 12:00:42 AM      controller| Cleaning print data.
+[DEBUG  ] 08/28/2016 12:01:11 AM folder_monitor_handler| Reprint - Reprint Job A300000309
+[IO_HANDLER] 08/28/2016 12:01:11 AM      controller| Copying A300000309 to reprint directory
+[DEBUG  ] 08/28/2016 12:02:15 AM           pulse| Checking log updates
+[DEBUG  ] 08/28/2016 12:02:21 AM folder_monitor_handler| Reprint - Completed Job A300000309
+[IO_HANDLER] 08/28/2016 12:02:21 AM      controller| --Job Completed--
+ JobID A300000309
+[IO_HANDLER] 08/28/2016 12:02:21 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:02:21 AM      controller| Creating ICD_3 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Jobid = 311
+[JIFGEN ] 08/28/2016 12:02:21 AM   jif_assembler| Starting to build JIF A300000311.
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:02:21 AM   jif_assembler| JIF creation completed. A300000311 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:02:26 AM folder_monitor_handler| JIF ACK - Accepted Job A300000311
+[DISPATCH] 08/28/2016 12:02:26 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:02:26 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:02:26 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:03:00 AM folder_monitor_handler| Reprint - Reprint Job A100000308
+[IO_HANDLER] 08/28/2016 12:03:00 AM      controller| Copying A100000308 to reprint directory
+[DEBUG  ] 08/28/2016 12:03:45 AM folder_monitor_handler| Reprint - Reprint Job A200000310
+[IO_HANDLER] 08/28/2016 12:03:45 AM      controller| Copying A200000310 to reprint directory
+[BOOT   ] 08/28/2016 12:07:34 AM         autoapt| --System Booting--
+[BOOT   ] 08/28/2016 12:07:34 AM         autoapt| Snapshot time: 2016-08-28 00:07:34
+                                                   System booted at: 2016-08-15 12:11:53
+                                                   System has 1668M of 8106M available (79.400% used)
+                                                   Driver started at: 2016-08-28 00:07:34
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 294 read and 2 write I/O operations.
+[SOCK_SERVER] 08/28/2016 12:07:34 AM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/28/2016 12:07:34 AM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/28/2016 12:07:34 AM           pulse| Now == Sun Aug 28 00:07:34 2016 (1472357254.951012)
+[DEBUG  ] 08/28/2016 12:07:34 AM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/28/2016 12:07:34 AM           pulse| Tick time == Sun Aug 28 00:12:34 2016 (1472357554.951012)
+[BOOT   ] 08/28/2016 12:07:34 AM            init| Starting jif monitor.
+[BOOT   ] 08/28/2016 12:07:34 AM            init| Starting reprint monitor.
+[BOOT   ] 08/28/2016 12:07:35 AM            init| Starting proc change monitor.
+[BOOT   ] 08/28/2016 12:07:35 AM            init| Monitors initialized.
+[SOCK_SERVER] 08/28/2016 12:07:35 AM          server| Socket Server initializing.
+[BOOT   ] 08/28/2016 12:07:35 AM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/28/2016 12:07:35 AM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/28/2016 12:07:35 AM          server| ---Server now listening---
+[SOCK_SERVER] 08/28/2016 12:07:38 AM          server| Connection established from 127.0.0.1:25733
+[SOCK_SERVER] 08/28/2016 12:07:38 AM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/28/2016 12:07:38 AM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| --Demo Startup--
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| Demo Status == 1
+[DEBUG  ] 08/28/2016 12:07:38 AM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/28/2016 12:07:38 AM      controller| Target icd_1
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Jobid = 312
+[JIFGEN ] 08/28/2016 12:07:38 AM   jif_assembler| Starting to build JIF A100000312.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JIF creation completed. A100000312 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| Creating initial job for target: ICD_1
+[DEBUG  ] 08/28/2016 12:07:38 AM      controller| Target icd_2
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Jobid = 313
+[JIFGEN ] 08/28/2016 12:07:38 AM   jif_assembler| Starting to build JIF A200000313.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JIF creation completed. A200000313 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| Creating initial job for target: ICD_2
+[DEBUG  ] 08/28/2016 12:07:38 AM      controller| Target icd_3
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Jobid = 314
+[JIFGEN ] 08/28/2016 12:07:38 AM   jif_assembler| Starting to build JIF A300000314.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JIF creation completed. A300000314 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| Creating initial job for target: ICD_3
+[DEBUG  ] 08/28/2016 12:07:38 AM      controller| Target td
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Jobid = 315
+[JIFGEN ] 08/28/2016 12:07:38 AM   jif_assembler| Starting to build JIF A400000315.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:07:38 AM   jif_assembler| JIF creation completed. A400000315 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:07:38 AM      controller| Creating initial job for target: TD
+[DEBUG  ] 08/28/2016 12:07:38 AM      controller| Demo Initialized.
+[DEBUG  ] 08/28/2016 12:07:47 AM folder_monitor_handler| JIF ACK - Accepted Job A100000312
+[DISPATCH] 08/28/2016 12:07:47 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:07:47 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:07:47 AM      controller| Creating new job for target icd_1
+[DEBUG  ] 08/28/2016 12:07:47 AM folder_monitor_handler| JIF ACK - Accepted Job A200000313
+[DISPATCH] 08/28/2016 12:07:47 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:07:47 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:07:47 AM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/28/2016 12:07:48 AM folder_monitor_handler| JIF ACK - Accepted Job A300000314
+[DISPATCH] 08/28/2016 12:07:48 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:07:48 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:07:48 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:07:48 AM folder_monitor_handler| JIF ACK - Accepted Job A400000315
+[DISPATCH] 08/28/2016 12:07:48 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:07:48 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:07:48 AM      controller| Creating new job for target td
+[DEBUG  ] 08/28/2016 12:09:50 AM folder_monitor_handler| Reprint - Reprint Job A400000315
+[IO_HANDLER] 08/28/2016 12:09:50 AM      controller| Copying A400000315 to reprint directory
+[DEBUG  ] 08/28/2016 12:11:10 AM folder_monitor_handler| Reprint - Completed Job A400000315
+[IO_HANDLER] 08/28/2016 12:11:10 AM      controller| --Job Completed--
+ JobID A400000315
+[IO_HANDLER] 08/28/2016 12:11:10 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:11:10 AM      controller| Initial TD Job Completed. A400000315
+[DEBUG  ] 08/28/2016 12:11:31 AM folder_monitor_handler| Reprint - Reprint Job A300000314
+[IO_HANDLER] 08/28/2016 12:11:31 AM      controller| Copying A300000314 to reprint directory
+[DEBUG  ] 08/28/2016 12:12:23 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000312
+[IO_HANDLER] 08/28/2016 12:12:23 AM      controller| Multi process change from print to insert - removing A100000312
+[IO_HANDLER] 08/28/2016 12:12:23 AM      controller| Sending data to TD from multi-step.
+[IO_HANDLER] 08/28/2016 12:12:23 AM      controller| Cleaning print data.
+[DEBUG  ] 08/28/2016 12:12:34 AM           pulse| Checking log updates
+[DEBUG  ] 08/28/2016 12:12:44 AM folder_monitor_handler| Reprint - Completed Job A300000314
+[IO_HANDLER] 08/28/2016 12:12:44 AM      controller| --Job Completed--
+ JobID A300000314
+[IO_HANDLER] 08/28/2016 12:12:44 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:12:44 AM      controller| Creating ICD_3 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Jobid = 316
+[JIFGEN ] 08/28/2016 12:12:44 AM   jif_assembler| Starting to build JIF A300000316.
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:12:44 AM   jif_assembler| JIF creation completed. A300000316 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:12:49 AM folder_monitor_handler| JIF ACK - Accepted Job A300000316
+[DISPATCH] 08/28/2016 12:12:49 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:12:49 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:12:49 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:14:14 AM folder_monitor_handler| Reprint - Reprint Job A200000313
+[IO_HANDLER] 08/28/2016 12:14:14 AM      controller| Copying A200000313 to reprint directory
+[DEBUG  ] 08/28/2016 12:14:58 AM folder_monitor_handler| Reprint - Reprint Job A100000312
+[IO_HANDLER] 08/28/2016 12:14:58 AM      controller| Copying A100000312 to reprint directory
+[DEBUG  ] 08/28/2016 12:15:04 AM folder_monitor_handler| Reprint - Completed Job A200000313
+[IO_HANDLER] 08/28/2016 12:15:04 AM      controller| --Job Completed--
+ JobID A200000313
+[IO_HANDLER] 08/28/2016 12:15:04 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:15:04 AM      controller| Creating ICD_2 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Jobid = 317
+[JIFGEN ] 08/28/2016 12:15:04 AM   jif_assembler| Starting to build JIF A200000317.
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:15:04 AM   jif_assembler| JIF creation completed. A200000317 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:15:10 AM folder_monitor_handler| JIF ACK - Accepted Job A200000317
+[DISPATCH] 08/28/2016 12:15:10 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:15:10 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:15:10 AM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/28/2016 12:17:19 AM folder_monitor_handler| Reprint - Reprint Job A300000316
+[IO_HANDLER] 08/28/2016 12:17:19 AM      controller| Copying A300000316 to reprint directory
+[DEBUG  ] 08/28/2016 12:17:20 AM folder_monitor_handler| Reprint - Completed Job A100000312
+[IO_HANDLER] 08/28/2016 12:17:20 AM      controller| --Job Completed--
+ JobID A100000312
+[IO_HANDLER] 08/28/2016 12:17:20 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:17:20 AM      controller| Creating ICD_1 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Jobid = 318
+[JIFGEN ] 08/28/2016 12:17:20 AM   jif_assembler| Starting to build JIF A100000318.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:17:20 AM   jif_assembler| JIF creation completed. A100000318 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:17:21 AM folder_monitor_handler| JIF ACK - Accepted Job A100000318
+[DISPATCH] 08/28/2016 12:17:21 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:17:21 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:17:21 AM      controller| Creating new job for target icd_1
+[DEBUG  ] 08/28/2016 12:17:35 AM           pulse| Checking log updates
+[DEBUG  ] 08/28/2016 12:18:43 AM folder_monitor_handler| Reprint - Completed Job A300000316
+[IO_HANDLER] 08/28/2016 12:18:43 AM      controller| --Job Completed--
+ JobID A300000316
+[IO_HANDLER] 08/28/2016 12:18:43 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:18:43 AM      controller| Creating ICD_3 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Jobid = 319
+[JIFGEN ] 08/28/2016 12:18:43 AM   jif_assembler| Starting to build JIF A300000319.
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:18:43 AM   jif_assembler| JIF creation completed. A300000319 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:18:54 AM folder_monitor_handler| JIF ACK - Accepted Job A300000319
+[DISPATCH] 08/28/2016 12:18:54 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:18:54 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:18:54 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:21:25 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000318
+[IO_HANDLER] 08/28/2016 12:21:25 AM      controller| Multi process change from print to insert - removing A100000318
+[IO_HANDLER] 08/28/2016 12:21:25 AM      controller| Sending data to TD from multi-step.
+[DEBUG  ] 08/28/2016 12:21:25 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000318
+[IO_HANDLER] 08/28/2016 12:21:25 AM      controller| Cleaning print data.
+[DEBUG  ] 08/28/2016 12:21:52 AM folder_monitor_handler| Reprint - Reprint Job A200000317
+[IO_HANDLER] 08/28/2016 12:21:52 AM      controller| Copying A200000317 to reprint directory
+[DEBUG  ] 08/28/2016 12:22:35 AM           pulse| Checking log updates
+[DEBUG  ] 08/28/2016 12:23:10 AM folder_monitor_handler| Reprint - Reprint Job A300000319
+[IO_HANDLER] 08/28/2016 12:23:10 AM      controller| Copying A300000319 to reprint directory
+[DEBUG  ] 08/28/2016 12:23:14 AM folder_monitor_handler| Reprint - Completed Job A200000317
+[IO_HANDLER] 08/28/2016 12:23:14 AM      controller| --Job Completed--
+ JobID A200000317
+[IO_HANDLER] 08/28/2016 12:23:14 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:23:14 AM      controller| Creating ICD_2 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Jobid = 320
+[JIFGEN ] 08/28/2016 12:23:14 AM   jif_assembler| Starting to build JIF A200000320.
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:23:14 AM   jif_assembler| JIF creation completed. A200000320 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:23:25 AM folder_monitor_handler| JIF ACK - Accepted Job A200000320
+[DISPATCH] 08/28/2016 12:23:25 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:23:25 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:23:25 AM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/28/2016 12:23:50 AM folder_monitor_handler| Reprint - Reprint Job A100000318
+[IO_HANDLER] 08/28/2016 12:23:50 AM      controller| Copying A100000318 to reprint directory
+[DEBUG  ] 08/28/2016 12:23:53 AM folder_monitor_handler| Reprint - Completed Job A300000319
+[IO_HANDLER] 08/28/2016 12:23:53 AM      controller| --Job Completed--
+ JobID A300000319
+[IO_HANDLER] 08/28/2016 12:23:53 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:23:53 AM      controller| Creating ICD_3 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Jobid = 321
+[JIFGEN ] 08/28/2016 12:23:53 AM   jif_assembler| Starting to build JIF A300000321.
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:23:53 AM   jif_assembler| JIF creation completed. A300000321 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:23:55 AM folder_monitor_handler| JIF ACK - Accepted Job A300000321
+[DISPATCH] 08/28/2016 12:23:55 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:23:55 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:23:55 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:27:13 AM folder_monitor_handler| Reprint - Reprint Job A300000321
+[IO_HANDLER] 08/28/2016 12:27:13 AM      controller| Copying A300000321 to reprint directory
+[BOOT   ] 08/28/2016 12:35:30 AM         autoapt| --System Booting--
+[BOOT   ] 08/28/2016 12:35:30 AM         autoapt| Snapshot time: 2016-08-28 00:35:30
+                                                   System booted at: 2016-08-15 12:11:53
+                                                   System has 1800M of 8106M available (77.800% used)
+                                                   Driver started at: 2016-08-28 00:35:30
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 294 read and 2 write I/O operations.
+[SOCK_SERVER] 08/28/2016 12:35:30 AM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/28/2016 12:35:30 AM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/28/2016 12:35:30 AM           pulse| Now == Sun Aug 28 00:35:30 2016 (1472358930.961461)
+[DEBUG  ] 08/28/2016 12:35:30 AM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/28/2016 12:35:30 AM           pulse| Tick time == Sun Aug 28 00:40:30 2016 (1472359230.961461)
+[BOOT   ] 08/28/2016 12:35:30 AM            init| Starting jif monitor.
+[BOOT   ] 08/28/2016 12:35:31 AM            init| Starting reprint monitor.
+[BOOT   ] 08/28/2016 12:35:31 AM            init| Starting proc change monitor.
+[BOOT   ] 08/28/2016 12:35:31 AM            init| Monitors initialized.
+[SOCK_SERVER] 08/28/2016 12:35:31 AM          server| Socket Server initializing.
+[BOOT   ] 08/28/2016 12:35:31 AM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/28/2016 12:35:31 AM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/28/2016 12:35:31 AM          server| ---Server now listening---
+[SOCK_SERVER] 08/28/2016 12:35:32 AM          server| Connection established from 127.0.0.1:26101
+[SOCK_SERVER] 08/28/2016 12:35:32 AM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/28/2016 12:35:32 AM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/28/2016 12:35:32 AM      controller| --Demo Startup--
+[DEMO_STATE] 08/28/2016 12:35:32 AM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/28/2016 12:35:32 AM      controller| Demo Status == 1
+[DEBUG  ] 08/28/2016 12:35:32 AM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/28/2016 12:35:32 AM      controller| Target icd_1
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| Jobid = 322
+[JIFGEN ] 08/28/2016 12:35:32 AM   jif_assembler| Starting to build JIF A100000322.
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:35:32 AM   jif_assembler| Writing Piece File.
+[BOOT   ] 08/28/2016 12:39:29 AM         autoapt| --System Booting--
+[BOOT   ] 08/28/2016 12:39:29 AM         autoapt| Snapshot time: 2016-08-28 00:39:29
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1709M of 8106M available (78.900% used)
+                                                   Driver started at: 2016-08-28 00:39:29
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 294 read and 2 write I/O operations.
+[SOCK_SERVER] 08/28/2016 12:39:29 AM         autoapt| --Socket Server Initialization-
+[INFO   ] 08/28/2016 12:39:29 AM         autoapt| --Pulse Updater Initialization--
+[DEBUG  ] 08/28/2016 12:39:29 AM           pulse| Now == Sun Aug 28 00:39:29 2016 (1472359169.637771)
+[DEBUG  ] 08/28/2016 12:39:29 AM           pulse| Tick len == 300.000000
+[DEBUG  ] 08/28/2016 12:39:29 AM           pulse| Tick time == Sun Aug 28 00:44:29 2016 (1472359469.637771)
+[BOOT   ] 08/28/2016 12:39:29 AM            init| Starting jif monitor.
+[BOOT   ] 08/28/2016 12:39:29 AM            init| Starting reprint monitor.
+[BOOT   ] 08/28/2016 12:39:29 AM            init| Starting proc change monitor.
+[BOOT   ] 08/28/2016 12:39:29 AM            init| Monitors initialized.
+[SOCK_SERVER] 08/28/2016 12:39:29 AM          server| Socket Server initializing.
+[BOOT   ] 08/28/2016 12:39:29 AM         autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/28/2016 12:39:29 AM          server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/28/2016 12:39:29 AM          server| ---Server now listening---
+[SOCK_SERVER] 08/28/2016 12:39:31 AM          server| Connection established from 127.0.0.1:26149
+[SOCK_SERVER] 08/28/2016 12:39:31 AM          server| Incoming data: ['demo control', 'start']
+[DISPATCH] 08/28/2016 12:39:31 AM      dispatcher| Start Demo Request
+[DEMO_STATE] 08/28/2016 12:39:31 AM      controller| --Demo Startup--
+[DEMO_STATE] 08/28/2016 12:39:31 AM      controller| Exit directory cleaned up.
+[DEMO_STATE] 08/28/2016 12:39:31 AM      controller| Demo Status == 1
+[DEBUG  ] 08/28/2016 12:39:31 AM      controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG  ] 08/28/2016 12:39:31 AM      controller| Target icd_1
+[DEBUG  ] 08/28/2016 12:39:31 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:39:31 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:39:31 AM   jif_assembler| Jobid = 322
+[JIFGEN ] 08/28/2016 12:39:31 AM   jif_assembler| Starting to build JIF A100000322.
+[DEBUG  ] 08/28/2016 12:39:31 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:39:31 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JIF creation completed. A100000322 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:39:32 AM      controller| Creating initial job for target: ICD_1
+[DEBUG  ] 08/28/2016 12:39:32 AM      controller| Target icd_2
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Jobid = 323
+[JIFGEN ] 08/28/2016 12:39:32 AM   jif_assembler| Starting to build JIF A200000323.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JIF creation completed. A200000323 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:39:32 AM      controller| Creating initial job for target: ICD_2
+[DEBUG  ] 08/28/2016 12:39:32 AM      controller| Target icd_3
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Jobid = 324
+[JIFGEN ] 08/28/2016 12:39:32 AM   jif_assembler| Starting to build JIF A300000324.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JIF creation completed. A300000324 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:39:32 AM      controller| Creating initial job for target: ICD_3
+[DEBUG  ] 08/28/2016 12:39:32 AM      controller| Target td
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Jobid = 325
+[JIFGEN ] 08/28/2016 12:39:32 AM   jif_assembler| Starting to build JIF A400000325.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:39:32 AM   jif_assembler| JIF creation completed. A400000325 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:39:32 AM      controller| Creating initial job for target: TD
+[DEBUG  ] 08/28/2016 12:39:32 AM      controller| Demo Initialized.
+[DEBUG  ] 08/28/2016 12:39:36 AM folder_monitor_handler| JIF ACK - Accepted Job A100000322
+[DISPATCH] 08/28/2016 12:39:36 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:39:36 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:39:36 AM      controller| Creating new job for target icd_1
+[DEBUG  ] 08/28/2016 12:39:36 AM folder_monitor_handler| JIF ACK - Accepted Job A200000323
+[DISPATCH] 08/28/2016 12:39:36 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:39:36 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:39:36 AM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/28/2016 12:39:37 AM folder_monitor_handler| JIF ACK - Accepted Job A300000324
+[DISPATCH] 08/28/2016 12:39:37 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:39:37 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:39:37 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:39:38 AM folder_monitor_handler| JIF ACK - Accepted Job A400000325
+[DISPATCH] 08/28/2016 12:39:38 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:39:38 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:39:38 AM      controller| Creating new job for target td
+[DEBUG  ] 08/28/2016 12:41:02 AM folder_monitor_handler| Reprint - Reprint Job A400000325
+[IO_HANDLER] 08/28/2016 12:41:02 AM      controller| Copying A400000325 to reprint directory
+[DEBUG  ] 08/28/2016 12:42:20 AM folder_monitor_handler| Reprint - Completed Job A400000325
+[IO_HANDLER] 08/28/2016 12:42:20 AM      controller| --Job Completed--
+ JobID A400000325
+[IO_HANDLER] 08/28/2016 12:42:20 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:42:20 AM      controller| Initial TD Job Completed. A400000325
+[DEBUG  ] 08/28/2016 12:42:22 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000322
+[IO_HANDLER] 08/28/2016 12:42:22 AM      controller| Multi process change from print to insert - removing A100000322
+[IO_HANDLER] 08/28/2016 12:42:22 AM      controller| Sending data to TD from multi-step.
+[IO_HANDLER] 08/28/2016 12:42:22 AM      controller| Cleaning print data.
+[DEBUG  ] 08/28/2016 12:42:23 AM folder_monitor_handler| Proc Mon - Multi-Step Print Finished Job A100000322
+[DEBUG  ] 08/28/2016 12:43:26 AM folder_monitor_handler| Reprint - Reprint Job A300000324
+[IO_HANDLER] 08/28/2016 12:43:26 AM      controller| Copying A300000324 to reprint directory
+[DEBUG  ] 08/28/2016 12:44:16 AM folder_monitor_handler| Reprint - Completed Job A100000322
+[IO_HANDLER] 08/28/2016 12:44:16 AM      controller| --Job Completed--
+ JobID A100000322
+[IO_HANDLER] 08/28/2016 12:44:16 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:44:16 AM      controller| Creating ICD_1 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Jobid = 326
+[JIFGEN ] 08/28/2016 12:44:16 AM   jif_assembler| Starting to build JIF A100000326.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Writing Sheet File.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:44:16 AM   jif_assembler| JIF creation completed. A100000326 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:44:18 AM folder_monitor_handler| JIF ACK - Accepted Job A100000326
+[DISPATCH] 08/28/2016 12:44:18 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:44:18 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:44:18 AM      controller| Creating new job for target icd_1
+[DEBUG  ] 08/28/2016 12:44:29 AM           pulse| Checking log updates
+[DEBUG  ] 08/28/2016 12:44:32 AM folder_monitor_handler| Reprint - Completed Job A300000324
+[IO_HANDLER] 08/28/2016 12:44:32 AM      controller| --Job Completed--
+ JobID A300000324
+[IO_HANDLER] 08/28/2016 12:44:32 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:44:32 AM      controller| Creating ICD_3 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Jobid = 327
+[JIFGEN ] 08/28/2016 12:44:32 AM   jif_assembler| Starting to build JIF A300000327.
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:44:32 AM   jif_assembler| JIF creation completed. A300000327 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:44:38 AM folder_monitor_handler| JIF ACK - Accepted Job A300000327
+[DISPATCH] 08/28/2016 12:44:38 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:44:38 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:44:38 AM      controller| Creating new job for target icd_3
+[DEBUG  ] 08/28/2016 12:45:24 AM folder_monitor_handler| Reprint - Completed Job A200000323
+[IO_HANDLER] 08/28/2016 12:45:24 AM      controller| --Job Completed--
+ JobID A200000323
+[IO_HANDLER] 08/28/2016 12:45:24 AM      controller| Cleaning old job data.
+[IO_HANDLER] 08/28/2016 12:45:24 AM      controller| Creating ICD_2 JIF/Exit Data
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| JobID Loader called
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Jobid = 328
+[JIFGEN ] 08/28/2016 12:45:24 AM   jif_assembler| Starting to build JIF A200000328.
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Building Sheets.
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Generating ICD Data.
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Writing Piece File.
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Writing Reprint File.
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Saving Job Seed
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Copying JIF to JDF folder.
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| Cleaning temp JIF
+[DEBUG  ] 08/28/2016 12:45:24 AM   jif_assembler| JIF creation completed. A200000328 has been sent to APT.
+[DEBUG  ] 08/28/2016 12:45:29 AM folder_monitor_handler| JIF ACK - Accepted Job A200000328
+[DISPATCH] 08/28/2016 12:45:29 AM      dispatcher| Calling new job controller
+[IO_HANDLER] 08/28/2016 12:45:29 AM      controller| --New Job--
+[IO_HANDLER] 08/28/2016 12:45:29 AM      controller| Creating new job for target icd_2
+[DEBUG  ] 08/28/2016 12:47:47 AM folder_monitor_handler| Reprint - Reprint Job A300000327
+[IO_HANDLER] 08/28/2016 12:47:47 AM      controller| Copying A300000327 to reprint directory
+[BOOT      ] 08/28/2016 12:50:14 AM          autoapt| --System Booting--
+[BOOT      ] 08/28/2016 12:50:14 AM          autoapt| Snapshot time: 2016-08-28 00:50:14
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1782M of 8106M available (78.000% used)
+                                                   Driver started at: 2016-08-28 00:50:14
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 298 read and 5 write I/O operations.
+[SOCK_SERVER] 08/28/2016 12:50:14 AM          autoapt| --Socket Server Initialization-
+[INFO      ] 08/28/2016 12:50:14 AM          autoapt| --Pulse Updater Initialization--
+[DEBUG     ] 08/28/2016 12:50:14 AM            pulse| Now == Sun Aug 28 00:50:14 2016 (1472359814.810731)
+[DEBUG     ] 08/28/2016 12:50:14 AM            pulse| Tick len == 300.000000
+[DEBUG     ] 08/28/2016 12:50:14 AM            pulse| Tick time == Sun Aug 28 00:55:14 2016 (1472360114.810731)
+[BOOT      ] 08/28/2016 12:50:14 AM             init| Starting jif monitor.
+[BOOT      ] 08/28/2016 12:50:14 AM             init| Starting reprint monitor.
+[BOOT      ] 08/28/2016 12:50:14 AM             init| Starting proc change monitor.
+[BOOT      ] 08/28/2016 12:50:14 AM             init| Monitors initialized.
+[SOCK_SERVER] 08/28/2016 12:50:14 AM           server| Socket Server initializing.
+[BOOT      ] 08/28/2016 12:50:14 AM          autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/28/2016 12:50:14 AM           server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/28/2016 12:50:14 AM           server| ---Server now listening---
+[SOCK_SERVER] 08/28/2016 12:50:16 AM           server| Connection established from 127.0.0.1:26284
+[SOCK_SERVER] 08/28/2016 12:50:16 AM           server| Incoming data: ['demo control', 'start']
+[DISPATCH  ] 08/28/2016 12:50:16 AM       dispatcher| Start Demo Request
+[DEMO_STATE] 08/28/2016 12:50:16 AM       controller| --Demo Startup--
+[DEMO_STATE] 08/28/2016 12:50:16 AM       controller| Exit directory cleaned up.
+[DEMO_STATE] 08/28/2016 12:50:16 AM       controller| Demo Status == 1
+[DEBUG     ] 08/28/2016 12:50:16 AM       controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG     ] 08/28/2016 12:50:16 AM       controller| Target icd_1
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| JobID Loader called
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Jobid = 329
+[JIFGEN    ] 08/28/2016 12:50:16 AM    jif_assembler| Starting to build JIF A100000329.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Building Sheets.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Generating ICD Data.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Sheet File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Piece File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Reprint File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Sheet File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Saving Job Seed
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Copying JIF to JDF folder.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Cleaning temp JIF
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| JIF creation completed. A100000329 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:50:16 AM       controller| Creating initial job for target: ICD_1
+[DEBUG     ] 08/28/2016 12:50:16 AM       controller| Target icd_2
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| JobID Loader called
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Jobid = 330
+[JIFGEN    ] 08/28/2016 12:50:16 AM    jif_assembler| Starting to build JIF A200000330.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Building Sheets.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Generating ICD Data.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Piece File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Reprint File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Saving Job Seed
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Copying JIF to JDF folder.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Cleaning temp JIF
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| JIF creation completed. A200000330 has been sent to APT.
+[DEMO_STATE] 08/28/2016 12:50:16 AM       controller| Creating initial job for target: ICD_2
+[DEBUG     ] 08/28/2016 12:50:16 AM       controller| Target icd_3
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| JobID Loader called
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Jobid = 331
+[JIFGEN    ] 08/28/2016 12:50:16 AM    jif_assembler| Starting to build JIF A300000331.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Building Sheets.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Generating ICD Data.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Piece File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Writing Reprint File.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Saving Job Seed
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Copying JIF to JDF folder.
+[DEBUG     ] 08/28/2016 12:50:16 AM    jif_assembler| Cleaning temp JIF
+[DEBUG     ] 08/28/2016 12:50:20 AM   folder_handler| JIF ACK - Accepted Job A100000329
+[DEBUG     ] 08/28/2016 12:50:20 AM   folder_handler| JIF ACK - Accepted Job A200000330
+[DEBUG     ] 08/28/2016 12:50:21 AM   folder_handler| JIF ACK - Accepted Job A300000331
+[BOOT       ] 08/28/2016 12:52:51 AM        autoapt| --System Booting--
+[BOOT       ] 08/28/2016 12:52:51 AM        autoapt| Snapshot time: 2016-08-28 00:52:51
+                                                   System booted at: 2016-08-15 12:11:54
+                                                   System has 1750M of 8106M available (78.400% used)
+                                                   Driver started at: 2016-08-28 00:52:51
+                                                   Driver is currently using 19M of RAM
+                                                   Driver has performed 296 read and 3 write I/O operations.
+[SOCK_SERVER] 08/28/2016 12:52:51 AM        autoapt| --Socket Server Initialization-
+[INFO       ] 08/28/2016 12:52:51 AM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 08/28/2016 12:52:51 AM          pulse| Now == Sun Aug 28 00:52:51 2016 (1472359971.835357)
+[DEBUG      ] 08/28/2016 12:52:51 AM          pulse| Tick len == 300.000000
+[DEBUG      ] 08/28/2016 12:52:51 AM          pulse| Tick time == Sun Aug 28 00:57:51 2016 (1472360271.835357)
+[BOOT       ] 08/28/2016 12:52:51 AM           init| Starting jif monitor.
+[BOOT       ] 08/28/2016 12:52:51 AM           init| Starting reprint monitor.
+[BOOT       ] 08/28/2016 12:52:51 AM           init| Starting proc change monitor.
+[BOOT       ] 08/28/2016 12:52:51 AM           init| Monitors initialized.
+[SOCK_SERVER] 08/28/2016 12:52:51 AM         server| Socket Server initializing.
+[BOOT       ] 08/28/2016 12:52:51 AM        autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 08/28/2016 12:52:51 AM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 08/28/2016 12:52:52 AM         server| ---Server now listening---
+[SOCK_SERVER] 08/28/2016 12:52:55 AM         server| Connection established from 127.0.0.1:26312
+[SOCK_SERVER] 08/28/2016 12:52:55 AM         server| Incoming data: ['demo control', 'start']
+[DISPATCH   ] 08/28/2016 12:52:55 AM     dispatcher| Start Demo Request
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| --Demo Startup--
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| Demo Status == 1
+[DEBUG      ] 08/28/2016 12:52:55 AM     controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG      ] 08/28/2016 12:52:55 AM     controller| Target icd_1
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JobID Loader called
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Jobid = 332
+[JIFGEN     ] 08/28/2016 12:52:55 AM  jif_assembler| Starting to build JIF A100000332.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Building Sheets.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Generating ICD Data.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Sheet File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Piece File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Reprint File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Sheet File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Saving Job Seed
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Copying JIF to JDF folder.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Cleaning temp JIF
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JIF creation completed. A100000332 has been sent to APT.
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| Creating initial job for target: ICD_1
+[DEBUG      ] 08/28/2016 12:52:55 AM     controller| Target icd_2
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JobID Loader called
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Jobid = 333
+[JIFGEN     ] 08/28/2016 12:52:55 AM  jif_assembler| Starting to build JIF A200000333.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Building Sheets.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Generating ICD Data.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Piece File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Reprint File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Saving Job Seed
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Copying JIF to JDF folder.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Cleaning temp JIF
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JIF creation completed. A200000333 has been sent to APT.
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| Creating initial job for target: ICD_2
+[DEBUG      ] 08/28/2016 12:52:55 AM     controller| Target icd_3
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JobID Loader called
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Jobid = 334
+[JIFGEN     ] 08/28/2016 12:52:55 AM  jif_assembler| Starting to build JIF A300000334.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Building Sheets.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Generating ICD Data.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Piece File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Reprint File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Saving Job Seed
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Copying JIF to JDF folder.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Cleaning temp JIF
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JIF creation completed. A300000334 has been sent to APT.
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| Creating initial job for target: ICD_3
+[DEBUG      ] 08/28/2016 12:52:55 AM     controller| Target td
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JobID Loader called
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Jobid = 335
+[JIFGEN     ] 08/28/2016 12:52:55 AM  jif_assembler| Starting to build JIF A400000335.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Building Sheets.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Generating ICD Data.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Piece File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Writing Reprint File.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Saving Job Seed
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Copying JIF to JDF folder.
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| Cleaning temp JIF
+[DEBUG      ] 08/28/2016 12:52:55 AM  jif_assembler| JIF creation completed. A400000335 has been sent to APT.
+[DEMO_STATE ] 08/28/2016 12:52:55 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 08/28/2016 12:52:55 AM     controller| Demo Initialized.
+[DEBUG      ] 08/28/2016 12:53:01 AM folder_handler| JIF ACK - Accepted Job A100000332
+[DISPATCH   ] 08/28/2016 12:53:01 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 08/28/2016 12:53:01 AM     controller| --New Job--
+[IO_HANDLER ] 08/28/2016 12:53:01 AM     controller| Creating new job for target icd_1
+[DEBUG      ] 08/28/2016 12:53:02 AM folder_handler| JIF ACK - Accepted Job A200000333
+[DISPATCH   ] 08/28/2016 12:53:02 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 08/28/2016 12:53:02 AM     controller| --New Job--
+[IO_HANDLER ] 08/28/2016 12:53:02 AM     controller| Creating new job for target icd_2
+[DEBUG      ] 08/28/2016 12:53:02 AM folder_handler| JIF ACK - Accepted Job A300000334
+[DISPATCH   ] 08/28/2016 12:53:02 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 08/28/2016 12:53:02 AM     controller| --New Job--
+[IO_HANDLER ] 08/28/2016 12:53:02 AM     controller| Creating new job for target icd_3
+[DEBUG      ] 08/28/2016 12:53:02 AM folder_handler| JIF ACK - Accepted Job A400000335
+[DISPATCH   ] 08/28/2016 12:53:02 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 08/28/2016 12:53:02 AM     controller| --New Job--
+[IO_HANDLER ] 08/28/2016 12:53:02 AM     controller| Creating new job for target td
+[DEBUG      ] 08/28/2016 12:55:18 AM folder_handler| Reprint - Reprint Job A400000335
+[IO_HANDLER ] 08/28/2016 12:55:18 AM     controller| Copying A400000335 to reprint directory
+[DEBUG      ] 08/28/2016 12:56:13 AM folder_handler| Reprint - Reprint Job A300000334
+[IO_HANDLER ] 08/28/2016 12:56:13 AM     controller| Copying A300000334 to reprint directory
+[DEBUG      ] 08/28/2016 12:56:19 AM folder_handler| Reprint - Completed Job A400000335
+[IO_HANDLER ] 08/28/2016 12:56:19 AM     controller| --Job Completed--
+[IO_HANDLER ] 08/28/2016 12:56:19 AM     controller| JobID A400000335
+[IO_HANDLER ] 08/28/2016 12:56:19 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 08/28/2016 12:56:19 AM     controller| Initial TD Job Completed. A400000335
+[DEBUG      ] 08/28/2016 12:56:44 AM folder_handler| Proc Mon - Multi-Step Print Finished Job A100000332
+[IO_HANDLER ] 08/28/2016 12:56:44 AM     controller| Multi process change from print to insert - removing A100000332
+[IO_HANDLER ] 08/28/2016 12:56:44 AM     controller| Sending data to TD from multi-step.
+[DEBUG      ] 08/28/2016 12:56:44 AM folder_handler| Proc Mon - Multi-Step Print Finished Job A100000332
+[IO_HANDLER ] 08/28/2016 12:56:44 AM     controller| Cleaning print data.
+[DEBUG      ] 08/28/2016 12:57:33 AM folder_handler| Reprint - Completed Job A300000334
+[IO_HANDLER ] 08/28/2016 12:57:33 AM     controller| --Job Completed--
+[IO_HANDLER ] 08/28/2016 12:57:33 AM     controller| JobID A300000334
+[IO_HANDLER ] 08/28/2016 12:57:33 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 08/28/2016 12:57:33 AM     controller| Creating ICD_3 JIF/Exit Data
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| JobID Loader called
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Jobid = 336
+[JIFGEN     ] 08/28/2016 12:57:33 AM  jif_assembler| Starting to build JIF A300000336.
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Building Sheets.
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Generating ICD Data.
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Writing Piece File.
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Saving Job Seed
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Copying JIF to JDF folder.
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| Cleaning temp JIF
+[DEBUG      ] 08/28/2016 12:57:33 AM  jif_assembler| JIF creation completed. A300000336 has been sent to APT.
+[DEBUG      ] 08/28/2016 12:57:43 AM folder_handler| JIF ACK - Accepted Job A300000336
+[DISPATCH   ] 08/28/2016 12:57:43 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 08/28/2016 12:57:43 AM     controller| --New Job--
+[IO_HANDLER ] 08/28/2016 12:57:43 AM     controller| Creating new job for target icd_3
+[DEBUG      ] 08/28/2016 12:57:51 AM          pulse| Checking log updates
+[DEBUG      ] 08/28/2016 12:58:31 AM folder_handler| Reprint - Reprint Job A100000332
+[IO_HANDLER ] 08/28/2016 12:58:31 AM     controller| Copying A100000332 to reprint directory
+[DEBUG      ] 08/28/2016 12:58:54 AM folder_handler| Reprint - Reprint Job A200000333
+[IO_HANDLER ] 08/28/2016 12:58:54 AM     controller| Copying A200000333 to reprint directory

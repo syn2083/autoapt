@@ -9,7 +9,7 @@ from .forms import DemoConfigForm, JIFTemplateForm
 from .controller import DemoController
 from django.views.decorators.csrf import csrf_exempt
 from django.template import RequestContext
-from .folder_monitor import folder_monitor_handler as fmh
+from .folder_monitor import folder_handler as fmh
 
 logger = logging_setup.init_logging()
 

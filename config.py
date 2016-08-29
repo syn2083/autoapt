@@ -52,7 +52,7 @@ DEF_JIF_CONF = [{'JIF': {'temp_name': 'APTDemo', 'jtype': 'Checks, Statements, N
                          'prodloc': 'Westford', 'envid': '10, 6x9, 9x12', 'stockid': 'A3, GL5, BB4',
                          'stocktype': 'Matte, Gloss', 'ui1': '', 'ui2': '', 'ui3': '', 'ui4': '', 'ui5': '',
                          'cemail': 'support@ironsidestech.com'},
-                 'OPTS': {'prange': '500, 1000', 'srange': '1, 8', 'num_jifs': 1,
+                'OPTS': {'prange': '500, 1000', 'srange': '1, 8', 'num_jifs': 1,
                           'shift1': 'Jim, John, Amy, Ashley, Alec, Paul, Zach, Ted, Sharon',
                           'shift2': 'Kent, Laura, Chris, Erin, Susan, Pete, Wendy, Sara, Ken',
                           'shift3': 'Jason, Ray, Sean, Bill, Tom, Roman, Dennis, Henry, Heather'}}]

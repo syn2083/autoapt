@@ -64,6 +64,11 @@ class DemoController:
         pass
 
     def start_demo(self):
+        # create exit directories if needed
+        if not os.path.exists(self.democonf[1]['DemoDirs']['exit_data']):
+            os.makedirs(self.democonf[1]['DemoDirs']['exit_data'])
+        if not os.path.exists(self.democonf[1]['DemoDirs']['jif_data']):
+            os.makedirs(self.democonf[1]['DemoDirs']['jif_data'])
         # clean up any outstanding exit data
         files = os.listdir(self.exit_data)
         logger.demo('--Demo Startup--')
@@ -73,10 +78,11 @@ class DemoController:
         self.first_run = 0
         logger.demo('Demo Status == 1')
         self.demo_status = 1
+        logger.debug(self.active_targets)
         for k in self.active_targets:
+            logger.debug('Target {}'.format(k))
             jifconstruct = jif_assembler.JIFBuilder(k, self.jif_folder, getattr(self, k)['multi_step'],
                                                     self.democonf, self.jifconfig)
-
             getattr(self, k)['jobid'].append(jifconstruct.gen_jifs())
             logger.demo('Creating initial job for target: {}'.format(k.upper()))
         logger.debug('Demo Initialized.')
@@ -114,7 +120,8 @@ class DemoController:
                 if jobid in getattr(self, k)['jobid']:
                     exit_dir = self.exit_data
 
-                    logger.io('--New Job--\n Copying data for job {}.'.format(jobid))
+                    logger.io('--New Job--')
+                    logger.io('Creating new job for target {}'.format(k))
                     if getattr(self, k)['piece_sheet'].lower() == 'piece':
                         data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
                         target = os.path.join(getattr(self, k)['path'], 'piece_{}.txt'.format(jobid))
@@ -124,11 +131,13 @@ class DemoController:
                     shutil.copyfile(data_file, target)
                     not_found = False
             if data[0] == 'Failed':
-                logger.io('--New Job--\n JIF for Job {} failed to load into APT.'.format(jobid))
+                logger.io('--New Job--')
+                logger.io('JIF for Job {} failed to load into APT.'.format(jobid))
                 self.complete_job(['Complete', jobid])
 
         if not_found:
-            logger.error('--New Job--\n Job {} was not found in an ICD, could not complete copy.'.format(jobid))
+            logger.error('--New Job--')
+            logger.error('Job {} was not found in an ICD, could not complete copy.'.format(jobid))
 
     def proc_phase(self, data):
         jobid = data[1]
@@ -198,7 +207,8 @@ class DemoController:
                  os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)),
                  os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))]
 
-        logger.io('--Job Completed--\n JobID {}'.format(jobid))
+        logger.io('--Job Completed--')
+        logger.io('JobID {}'.format(jobid))
         logger.io('Cleaning old job data.')
 
         for file in files:
@@ -209,7 +219,10 @@ class DemoController:
             if jobid in getattr(self, target)['jobid']:
                 icd = getattr(self, target)
                 try:
-                    self.completed_jobs.append(icd['jobid'].pop(jobid))
+                    if len(icd['jobid']) > 1:
+                        self.completed_jobs.append(icd['jobid'].remove(jobid))
+                    else:
+                        self.completed_jobs.append(icd['jobid'].pop())
                 except AttributeError:
                     logger.error('Attempted to remove {} from {}, non existent jobid'.format(jobid, target))
                 if prefix == 'A4':

@@ -22,10 +22,11 @@ class Dispatcher(threading.Thread):
                     self.controller.reprint_job(payload)
                 if payload[0] in 'Proc':
                     self.controller.proc_phase(payload)
-                if payload[0] == 'demo state':
+                if payload[0] == 'demo control':
                     if payload[1] == 'start':
                         logger.dispatch('Start Demo Request')
                         self.controller.start_demo()
+                        self.controller.demo_status = 1
                     if payload[1] == 'stop':
                         logger.dispatch('Stop Demo Request')
                         self.controller.stop_demo()
