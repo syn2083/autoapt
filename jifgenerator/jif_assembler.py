@@ -224,6 +224,11 @@ class JIFBuilder:
                         reprint_set.update(sheet_reprints)
                         reprint_set.update(piece_reprints)
                         self.gen_reprints(reprint_set, conv_dict)
+                        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                               'output\\aptdemo\\jif_output',
+                                               'damlist_' + self.current_jobid + '.txt'), 'a') as fp:
+                            fp.write('SDam List: {}\n PDam list {}\n RepSet {}\n'.format(sheet_reprints,
+                                                                                         piece_reprints, reprint_set))
                     else:
                         self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
                         self.gen_piece_data(create_damages=0, ops=conv_dict)
@@ -290,6 +295,8 @@ class JIFBuilder:
                                                                 time=self.curr_time,
                                                                 result='1',
                                                                 op=operator))
+                    with open(path.join(out_path, 'sdam_' + job_string + '.txt'), 'a') as fp:
+                        fp.write(sheet_strings[-1])
                 else:
                     sheet_strings.append("{jobid},{pieceid},{cur_sheet},{total_sheet},{time},"
                                          "{result},{op}".format(jobid=job_string,
@@ -346,11 +353,17 @@ class JIFBuilder:
                                                                                              time=self.curr_time,
                                                                                              result=choice(['1', '2']),
                                                                                              op=operator))
+                        with open(path.join(out_path, 'pdam_' + job_string + '.txt'), 'a') as fp:
+                            fp.write(piece_strings[-1])
                     else:
                         if 5 <= randint(1, 10):
                             piece_strings.append('')
+                            with open(path.join(out_path, 'pdam_' + job_string + '.txt'), 'a') as fp:
+                                fp.write(piece_strings[-1])
                         else:
                             pass
+                        with open(path.join(out_path, 'pdam_' + job_string + '.txt'), 'a') as fp:
+                            fp.write('{} pass'.format(i))
                 else:
                     piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
                                                                                          pieceid=str(i).zfill(6),
