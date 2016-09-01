@@ -14,6 +14,7 @@ class SocketServer(threading.Thread):
         super().__init__()
         self.lock = controller.lock
         self.command_queue = controller.command_queue
+        self.demo_status = controller.demo_status
 
     def rec_data(self, conn):
         chunks = []
@@ -73,6 +74,3 @@ class SocketServer(threading.Thread):
                 self.command_queue.append(in_data)
                 self.lock.release()
                 conn.close()
-
-
-
