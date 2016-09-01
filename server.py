@@ -69,6 +69,7 @@ class SocketServer(threading.Thread):
                 in_data = json.loads(self.rec_data(conn).decode('utf-8'))
                 logger.sock('Incoming data: {}'.format(in_data))
                 self.lock.acquire()
+                logger.sock(in_data)
                 self.command_queue.append(in_data)
                 self.lock.release()
                 conn.close()

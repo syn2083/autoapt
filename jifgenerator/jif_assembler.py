@@ -1,6 +1,7 @@
 import datetime
 import os
 import shutil
+import copy
 from random import choice, randint, sample
 from os import path
 from .prog_utilities import folder_construct, str_to_list, find_shift
@@ -21,39 +22,23 @@ logger = init_logging()
 
 
 class JIFBuilder:
-    def __init__(self, icd_target, jdf_folder, multi_step, dconf, jconf):
+    def __init__(self, icd_target, jdf_folder, dconf, jconf):
         for k in jconf[0]['JIF'].keys():
             setattr(self, k, jconf[0]['JIF'][k])
         for k in jconf[0]['OPTS'].keys():
             setattr(self, k, jconf[0]['OPTS'][k])
+        for k in dconf[0][icd_target].keys():
+            setattr(self, k, dconf[0][icd_target][k])
+        self.reprinters = {}
+        for t in dconf[2]['reprint_pool']:
+            self.reprinters[t] = {'shift1': dconf[0][t]['shift1'], 'shift2': dconf[0][t]['shift2'],
+                                  'shift3': dconf[0][t]['shift3']}
         self.out = jdf_folder
         self.target = icd_target
-        self.multi_step = multi_step
-        self.site_prefix = None
-        if icd_target == 'icd_1':
-            self.site_prefix = 'A10'
-            self.proc_phase = '10, 30'
-            self.end_phase = '30'
-            self.piece_or_sheet = dconf[0]['icd_1']['piece_sheet']
-            self.speed = ((dconf[0]['icd_1']['sph'] // 60) // 60)
-        if icd_target == 'icd_2':
-            self.site_prefix = 'A20'
-            self.proc_phase = '20'
-            self.end_phase = '20'
-            self.piece_or_sheet = dconf[0]['icd_2']['piece_sheet']
-            self.speed = ((dconf[0]['icd_2']['sph'] // 60) // 60)
-        if icd_target == 'icd_3':
-            self.site_prefix = 'A30'
-            self.proc_phase = '30'
-            self.end_phase = '30'
-            self.piece_or_sheet = dconf[0]['icd_3']['piece_sheet']
-            self.speed = ((dconf[0]['icd_3']['sph'] // 60) // 60)
-        if icd_target == 'td':
-            self.site_prefix = 'A40'
-            self.proc_phase = '30'
-            self.end_phase = '30'
-            self.piece_or_sheet = 'piece'
-            self.speed = 1
+        if self.speed:
+            self.speed = (self.speed // 60) // 60
+            if self.speed == 0:
+                self.speed = 1
         self.r_speed = 2
         t = datetime.datetime.now() - datetime.timedelta(hours=3)
         self.initial_seed = '0000001'
@@ -172,8 +157,10 @@ class JIFBuilder:
             jif_strings.append(" <JobID>{pref}{jobid}</JobID>".format(pref=self.site_prefix,
                                                                       jobid=self.id_to_str(self.current_jobid)))
             jif_strings.append(" <JobType>{}</JobType>".format(choice(conv_dict['jtype'][1])))
-            jif_strings.append(" <JobName>{}</JobName>".format(choice(conv_dict['jname'][1])))
-            jif_strings.append(" <JobNumber>{}</JobNumber>".format(choice(conv_dict['jnum'][1])))
+            jif_strings.append(" <JobName>{}{}-{}</JobName>".format(choice(conv_dict['jname'][1]),
+                                                                    randint(100, 999),
+                                                                    randint(1, 9999)))
+            jif_strings.append(" <JobNumber>{}{}</JobNumber>".format(choice(conv_dict['jnum'][1]), randint(1000, 9999)))
             jif_strings.append(" <ProductName>{}</ProductName>".format(choice(conv_dict['prodname'][1])))
             jif_strings.append(" <AccountID>{}</AccountID>".format(choice(conv_dict['actid'][1])))
             jif_strings.append(" <StartSequence>000001</StartSequence>")
@@ -224,16 +211,15 @@ class JIFBuilder:
                         reprint_set.update(sheet_reprints)
                         reprint_set.update(piece_reprints)
                         self.gen_reprints(reprint_set, conv_dict)
-                        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                               'output\\aptdemo\\jif_output',
-                                               'damlist_' + self.current_jobid + '.txt'), 'a') as fp:
-                            fp.write('SDam List: {}\n PDam list {}\n RepSet {}\n'.format(sheet_reprints,
-                                                                                         piece_reprints, reprint_set))
                     else:
                         self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
                         self.gen_piece_data(create_damages=0, ops=conv_dict)
-                if make_damages:
-                    self.gen_sheet_data(create_damages=1, num_sheets=sheet_list, ops=conv_dict)
+                else:
+                    if make_damages:
+                        sheet_reprints = self.gen_sheet_data(create_damages=1, num_sheets=sheet_list, ops=conv_dict)
+                        self.gen_reprints(sheet_reprints, conv_dict)
+                    else:
+                        self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
             if self.piece_or_sheet.lower() == 'piece':
                 if make_damages:
                     piece_reprints = self.gen_piece_data(create_damages=1, ops=conv_dict)
@@ -268,8 +254,9 @@ class JIFBuilder:
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         self.curr_time = self.creation[1]
         sheet_count = 0
-        damage_list = []
+        sheet_damage_list = []
         operator = None
+        prange = range(1, self.current_piececount + 1)
 
         if find_shift() == 1:
             operator = choice(ops['shift_1_ops'][1])
@@ -279,14 +266,11 @@ class JIFBuilder:
             operator = choice(ops['shift_3_ops'][1])
 
         if create_damages:
-            damage_list = sample(range(1, self.current_piececount + 1), choice([1, 5, 10, 15, 20, 25]))
+            sheet_damage_list = sample(prange, choice([1, 5, 10, 15, 20, 25]))
 
-        for n, i in enumerate(range(1, self.current_piececount + 1)):
-            if 'piece' in self.piece_or_sheet.lower():
-                if n % self.speed == 0:
-                    self.curr_time = self.add_seconds(self.curr_time, 1)
+        for i in prange:
             for t in range(1, num_sheets[i - 1] + 1):
-                if i in damage_list:
+                if i in sheet_damage_list:
                     sheet_strings.append("{jobid},{pieceid},{cur_sheet},{total_sheet},{time},"
                                          "{result},{op}".format(jobid=job_string,
                                                                 pieceid=str(i).zfill(6),
@@ -295,8 +279,6 @@ class JIFBuilder:
                                                                 time=self.curr_time,
                                                                 result='1',
                                                                 op=operator))
-                    with open(path.join(out_path, 'sdam_' + job_string + '.txt'), 'a') as fp:
-                        fp.write(sheet_strings[-1])
                 else:
                     sheet_strings.append("{jobid},{pieceid},{cur_sheet},{total_sheet},{time},"
                                          "{result},{op}".format(jobid=job_string,
@@ -317,7 +299,7 @@ class JIFBuilder:
             fp.write(out_str.join(sheet_strings) + '\n')
         fp.close()
         self.curr_time = None
-        return damage_list
+        return sheet_damage_list
 
     def gen_piece_data(self, create_damages=0, ops=None):
         out_str = "\n"
@@ -326,6 +308,7 @@ class JIFBuilder:
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         damage_list = []
         operator = None
+        prange = range(1, self.current_piececount + 1)
 
         if self.multi_step == 1:
             self.curr_time = self.creation[1] + datetime.timedelta(hours=1)
@@ -341,9 +324,9 @@ class JIFBuilder:
 
         if create_damages:
             if create_damages:
-                damage_list = sample(range(1, self.current_piececount + 1), choice([1, 5, 10, 15, 20, 25]))
+                damage_list = sample(prange, choice([1, 5, 10, 15, 20, 25]))
 
-        for i in range(1, self.current_piececount + 1):
+        for i in prange:
             if i in damage_list:
                 if self.multi_step == 1 or self.target.lower() == 'td':
                     if i == 1:
@@ -351,19 +334,20 @@ class JIFBuilder:
                         piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
                                                                                              pieceid=str(i).zfill(6),
                                                                                              time=self.curr_time,
-                                                                                             result=choice(['1', '2']),
+                                                                                             result='0',
                                                                                              op=operator))
-                        with open(path.join(out_path, 'pdam_' + job_string + '.txt'), 'a') as fp:
-                            fp.write(piece_strings[-1])
+                    elif i == prange[-1]:
+                        damage_list.remove(i)
+                        piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
+                                                                                             pieceid=str(i).zfill(6),
+                                                                                             time=self.curr_time,
+                                                                                             result='0',
+                                                                                             op=operator))
                     else:
                         if 5 <= randint(1, 10):
                             piece_strings.append('')
-                            with open(path.join(out_path, 'pdam_' + job_string + '.txt'), 'a') as fp:
-                                fp.write(piece_strings[-1])
                         else:
                             pass
-                        with open(path.join(out_path, 'pdam_' + job_string + '.txt'), 'a') as fp:
-                            fp.write('{} pass'.format(i))
                 else:
                     piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
                                                                                          pieceid=str(i).zfill(6),
@@ -399,13 +383,26 @@ class JIFBuilder:
             self.curr_time = self.creation[1] + datetime.timedelta(hours=2)
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         operator = None
+        ostrings = []
 
         if find_shift() == 1:
-            operator = choice(ops['shift_1_ops'][1])
+            for k in self.reprinters.keys():
+                if self.reprinters[k]['shift1']:
+                    for t in self.reprinters[k]['shift1'].split(','):
+                        ostrings.append(t)
+            operator = choice(ostrings)
         if find_shift() == 2:
-            operator = choice(ops['shift_2_ops'][1])
+            for k in self.reprinters.keys():
+                if self.reprinters[k]['shift2']:
+                    for t in self.reprinters[k]['shift1'].split(','):
+                        ostrings.append(t)
+            operator = choice(ostrings)
         if find_shift() == 3:
-            operator = choice(ops['shift_3_ops'][1])
+            for k in self.reprinters.keys():
+                if self.reprinters[k]['shift3']:
+                    for t in self.reprinters[k]['shift1'].split(','):
+                        ostrings.append(t)
+            operator = choice(ostrings)
 
         unique_damages = [i for i in set(damage_list)]
 

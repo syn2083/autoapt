@@ -81,8 +81,7 @@ class DemoController:
         logger.debug(self.active_targets)
         for k in self.active_targets:
             logger.debug('Target {}'.format(k))
-            jifconstruct = jif_assembler.JIFBuilder(k, self.jif_folder, getattr(self, k)['multi_step'],
-                                                    self.democonf, self.jifconfig)
+            jifconstruct = jif_assembler.JIFBuilder(k, self.jif_folder, self.democonf, self.jifconfig)
             getattr(self, k)['jobid'].append(jifconstruct.gen_jifs())
             logger.demo('Creating initial job for target: {}'.format(k.upper()))
         logger.debug('Demo Initialized.')
@@ -122,7 +121,7 @@ class DemoController:
 
                     logger.io('--New Job--')
                     logger.io('Creating new job for target {}'.format(k))
-                    if getattr(self, k)['piece_sheet'].lower() == 'piece':
+                    if getattr(self, k)['piece_or_sheet'].lower() == 'piece':
                         data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
                         target = os.path.join(getattr(self, k)['path'], 'piece_{}.txt'.format(jobid))
                     else:
@@ -228,8 +227,7 @@ class DemoController:
                 if prefix == 'A4':
                     logger.io('Initial TD Job Completed. {}'.format(jobid))
                 else:
-                    gen = jif_assembler.JIFBuilder(origin, self.jif_folder, getattr(self, origin)['multi_step'],
-                                                   self.democonf, self.jifconfig)
+                    gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
                     logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
                     getattr(self, origin)['jobid'].append(gen.gen_jifs())
 

@@ -1,4 +1,5 @@
 import threading
+import time
 from logging_setup import init_logging
 __author__ = 'Syn'
 
@@ -35,3 +36,4 @@ class Dispatcher(threading.Thread):
                         pass
             except IndexError:
                 pass
+            time.sleep(5)
