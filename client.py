@@ -4,9 +4,6 @@ import json
 
 TCP_IP = '127.0.0.1'
 TCP_PORT = 8091
-BUFFER_SIZE = 4096
-MESSAGE = "Hello, World!"
-eod = '-eod'
 
 t = json.dumps(['demo control', 'start'])
 

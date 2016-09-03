@@ -114,6 +114,8 @@ class JIFBuilder:
     def gen_jifs(self):
         bstr = "\n"
         make_damages = 0
+        pcomp_to_use = choice(['1', '2'])
+        pcomp = '{}'.format(pcomp_to_use)
 
         self.jobid_loader()
         logger.jifgen('Starting to build JIF {}{}.'.format(self.site_prefix, self.id_to_str(self.current_jobid)))
@@ -137,7 +139,7 @@ class JIFBuilder:
                      'shift_2_ops': [self.shift2, None],
                      'shift_3_ops': [self.shift3, None]}
 
-        for k,v in conv_dict.items():
+        for k, v in conv_dict.items():
             v[1] = str_to_list(v[0])
 
         if 4 <= randint(1, 10):
@@ -145,6 +147,7 @@ class JIFBuilder:
             self.damages = 1
 
         for i in range(0, self.num_jifs):
+
             if not self.generated_jobs:
                 self.generated_jobs = 0
             if self.damages:
@@ -157,9 +160,7 @@ class JIFBuilder:
             jif_strings.append(" <JobID>{pref}{jobid}</JobID>".format(pref=self.site_prefix,
                                                                       jobid=self.id_to_str(self.current_jobid)))
             jif_strings.append(" <JobType>{}</JobType>".format(choice(conv_dict['jtype'][1])))
-            jif_strings.append(" <JobName>{}{}-{}</JobName>".format(choice(conv_dict['jname'][1]),
-                                                                    randint(100, 999),
-                                                                    randint(1, 9999)))
+            jif_strings.append(" <JobName>{}</JobName>".format(choice(conv_dict['jname'][1])))
             jif_strings.append(" <JobNumber>{}{}</JobNumber>".format(choice(conv_dict['jnum'][1]), randint(1000, 9999)))
             jif_strings.append(" <ProductName>{}</ProductName>".format(choice(conv_dict['prodname'][1])))
             jif_strings.append(" <AccountID>{}</AccountID>".format(choice(conv_dict['actid'][1])))
@@ -170,7 +171,9 @@ class JIFBuilder:
             jif_strings.append(" <PieceCount>{}</PieceCount>".format(str(self.current_piececount)))
             jif_strings.append(" <CreationDate>{}</CreationDate>".format(self.creation[0]))
             jif_strings.append(" <JobDeadLine/>")
-            jif_strings.append(" <PrintMode>1</PrintMode>\n <PageComposition>2</PageComposition>")
+            jif_strings.append(" <PrintMode>1</PrintMode>")
+            pcomp = choice(['1', '2'])
+            jif_strings.append(" <PageComposition>{}</PageComposition>".format(pcomp))
             jif_strings.append(" <ProcessingPhases>{}</ProcessingPhases>".format(self.proc_phase))
             jif_strings.append(" <EndProcess>{}</EndProcess>".format(self.end_phase))
             jif_strings.append(" <ProductionLocation>{}</ProductionLocation>".format(choice(conv_dict['prodloc'][1])))
@@ -178,9 +181,14 @@ class JIFBuilder:
             jif_strings.append(" <EnvelopeID>{}</EnvelopeID>".format(choice(conv_dict['envid'][1])))
             jif_strings.append(" <StockID>{}</StockID>".format(choice(conv_dict['stockid'][1])))
             jif_strings.append(" <StockType>{}</StockType>".format(choice(conv_dict['stocktype'][1])))
-            jif_strings.append(" <UserInfo1>{}</UserInfo1>".format(choice(conv_dict['ui1'][1])))
-            jif_strings.append(" <UserInfo2>{}</UserInfo2>".format(choice(conv_dict['ui2'][1])))
-            jif_strings.append(" <UserInfo3>{}</UserInfo3>".format(choice(conv_dict['ui3'][1])))
+            if '30' in self.end_phase:
+                jif_strings.append(" <UserInfo1>None</UserInfo1>")
+                jif_strings.append(" <UserInfo2>{}</UserInfo2>".format(choice(conv_dict['ui2'][1])))
+            else:
+                jif_strings.append(" <UserInfo1>{}</UserInfo1>".format(choice(conv_dict['ui1'][1])))
+                jif_strings.append(" <UserInfo2>None</UserInfo2>")
+            jif_strings.append(" <UserInfo3>{}{}-{}</UserInfo3>".format(choice(conv_dict['ui3'][1]),
+                                                                        randint(100, 999), randint(1000, 9999)))
             jif_strings.append(" <UserInfo4>{}</UserInfo4>".format(choice(conv_dict['ui4'][1])))
             jif_strings.append(" <UserInfo5>{}</UserInfo5>".format(choice(conv_dict['ui5'][1])))
             # jif_strings.append("  <JobManifest>")
@@ -190,13 +198,12 @@ class JIFBuilder:
                 # jif_strings.append(result[0])
                 sheet_list.append(result[1])
             # jif_strings.append("  </JobManifest>")
-            multi = int(choice(conv_dict['imp_mult'][1]))
+            multi = int(pcomp)
             sheets = 0
             for x in sheet_list:
                 sheets += x
-            scount = sheets
-            jif_strings.append(" <SheetCount>{sheet_count}</SheetCount>".format(sheet_count=scount))
-            jif_strings.append(" <PageCount>{page_count}</PageCount>".format(page_count=(multi * scount)))
+            jif_strings.append(" <SheetCount>{}</SheetCount>".format(sheets))
+            jif_strings.append(" <PageCount>{}</PageCount>".format(multi * sheets))
             jif_strings.append(" </JobTicket>\n")
             jstr = bstr.join(jif_strings)
 
@@ -210,20 +217,20 @@ class JIFBuilder:
                         reprint_set = set()
                         reprint_set.update(sheet_reprints)
                         reprint_set.update(piece_reprints)
-                        self.gen_reprints(reprint_set, conv_dict)
+                        self.gen_reprints(reprint_set)
                     else:
                         self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
                         self.gen_piece_data(create_damages=0, ops=conv_dict)
                 else:
                     if make_damages:
                         sheet_reprints = self.gen_sheet_data(create_damages=1, num_sheets=sheet_list, ops=conv_dict)
-                        self.gen_reprints(sheet_reprints, conv_dict)
+                        self.gen_reprints(sheet_reprints)
                     else:
                         self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
             if self.piece_or_sheet.lower() == 'piece':
                 if make_damages:
                     piece_reprints = self.gen_piece_data(create_damages=1, ops=conv_dict)
-                    self.gen_reprints(piece_reprints, conv_dict)
+                    self.gen_reprints(piece_reprints)
                 else:
                     self.gen_piece_data(ops=conv_dict)
 
@@ -233,6 +240,8 @@ class JIFBuilder:
             logger.debug('Saving Job Seed')
             self.jobid_saver()
             temp_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output\\aptdemo\\jif_output')
+            if not os.path.exists(temp_folder):
+                os.makedirs(temp_folder)
             filename = path.join(temp_folder, present_jobid + ".jif")
             with open(filename, 'w') as fp:
                 fp.write(jstr)
@@ -249,7 +258,7 @@ class JIFBuilder:
 
     def gen_sheet_data(self, create_damages=None, num_sheets=None, ops=None):
         out_str = "\n"
-        out_path = folder_construct()[2]
+        out_path = folder_construct()
         sheet_strings = []
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         self.curr_time = self.creation[1]
@@ -303,7 +312,7 @@ class JIFBuilder:
 
     def gen_piece_data(self, create_damages=0, ops=None):
         out_str = "\n"
-        out_path = folder_construct()[2]
+        out_path = folder_construct()
         piece_strings = []
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         damage_list = []
@@ -373,9 +382,9 @@ class JIFBuilder:
         self.curr_time = None
         return damage_list
 
-    def gen_reprints(self, damage_list, ops):
+    def gen_reprints(self, damage_list):
         out_str = "\n"
-        out_path = folder_construct()[2]
+        out_path = folder_construct()
         reprint_strings = []
         if self.multi_step == 1 or self.target == 'td':
             self.curr_time = datetime.datetime.now()

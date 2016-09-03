@@ -1,14 +1,22 @@
-import sys
 import config
 import os
 import json
 import psutil
-import pprint
 import datetime
 import time
 from logging_setup import init_logging
 
 logger = init_logging()
+
+
+def clean_reprints(control):
+    count = 0
+    path_to_reprints = control.democonf[1]['APTDirs']['REPRINT']
+    reprints = [i for i in os.listdir(control.democonf[1]['APTDirs']['REPRINT'])]
+    for file in reprints:
+        os.remove(os.path.join(path_to_reprints, file))
+        count += 1
+    return count
 
 
 def init_configs():
@@ -44,18 +52,6 @@ def init_configs():
 
     return demo_file, jif_file
 
-
-def sys_snapshot():
-    proc = psutil.Process()
-    pp = pprint.PrettyPrinter(indent=4)
-    snappy = {'Sys Info': {'Boot Time': proc.create_time(), 'Process Name': proc.name(), 'Status': proc.status()},
-              'Hardware': {'CPU': {'Cores': psutil.cpu_count(), 'Current Utilization': proc.cpu_percent(),
-                                   'Threads': proc.num_threads()},
-                           'RAM': {'Stats': proc.memory_info(), '% of Memory': proc.memory_percent()},
-                           'HDD': {'Disk Usage': psutil.disk_usage('/'), 'I/O': psutil.disk_io_counters()},
-                           'NIC': {'I/O': psutil.net_io_counters()}}}
-    snap_string = pp.pformat(snappy)
-    return snappy, snap_string
 
 def sysTimeStamp(timeval):
     """

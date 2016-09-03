@@ -77,9 +77,8 @@ def check_log():
             os.remove(os.path.join(config.log_dir, dated_files[0][i]))
 
     # Rotate log if it is over 1MB in size
-    if file_size >= 8388608:
+    if file_size >= 1024:
         now = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
-        old_log = os.path.join(config.log_dir, )
         shutil.copy(config.log_file, '{}.log'.format(now))
         with open(config.log_file, 'w') as fp:
             fp.write('---Logging Init---')

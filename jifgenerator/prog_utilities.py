@@ -3,22 +3,15 @@ from os import path, makedirs
 
 
 def folder_construct():
-        pathers = []
         local_path = path.dirname(path.abspath(__file__))
         template_dir = path.join(local_path, "output\\" + 'aptdemo')
-        pathers.append(template_dir)
-        outjif = path.join(template_dir, "jif_output")
-        pathers.append(outjif)
-        feed_d = path.join(template_dir, "feed_data")
-        pathers.append(feed_d)
+
         exit_d = path.join(template_dir, "exit_data")
-        pathers.append(exit_d)
 
-        for item in pathers:
-            if not path.exists(item):
-                makedirs(item)
+        if not path.exists(exit_d):
+            makedirs(exit_d)
 
-        return [outjif, feed_d, exit_d]
+        return exit_d
 
 
 def str_to_list(in_str):

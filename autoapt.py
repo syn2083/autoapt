@@ -1,8 +1,7 @@
 __author__ = 'Syn'
-import server
 import utilities
 import time
-import json
+from webinterface import aptinterface
 from logging_setup import init_logging
 from init import init_controller
 from server import SocketServer
@@ -21,6 +20,13 @@ def autoapt():
     control = init_controller()
     control.socket_server = SocketServer(control)
     control.socket_server.start()
+    logger.boot('--Cleaning Reprint Directory--')
+    clean_files = utilities.clean_reprints(control)
+    logger.boot('Removed {} files from APT Reprint Folder.'.format(clean_files))
+    logger.debug('JDF {}'.format(control.jif_folder))
+    logger.boot('--Starting Web Interface--')
+    web_server = aptinterface.app
+    web_server.run(host='127.0.0.1', port=8080)
     logger.boot('--System Startup Complete, Entering Main Loop--')
 
     while True:

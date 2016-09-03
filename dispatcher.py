@@ -22,14 +22,29 @@ class Dispatcher(threading.Thread):
                                 self.controller.demo_status = 1
                             elif payload[1] == 'stop':
                                 self.controller.demo_status = 0
+                            elif payload[1] == 'reset_seed':
+                                pass
                             else:
                                 pass
                 except IndexError:
                     pass
             elif self.controller.demo_status == 0:
                 if len(self.command_queue) >= 1:
-                    logger.dispatch('Demo stopped, but incoming dispatches, clearing deque')
-                    self.command_queue.clear()
+                    try:
+                        payload = self.command_queue.popleft()
+                        if payload[0] == 'demo control':
+                            if payload[1] == 'start':
+                                logger.dispatch('Start Demo Request')
+                                self.controller.start_demo()
+                                self.controller.demo_status = 1
+                            elif payload[1] == 'reset_seed':
+                                self.controller.reset_seed()
+                        else:
+                            pass
+                    except IndexError:
+                        pass
+                else:
+                    pass
             else:
                 try:
                     payload = self.command_queue.popleft()
@@ -42,9 +57,12 @@ class Dispatcher(threading.Thread):
                         self.controller.proc_phase(payload)
                     if payload[0] == 'demo control':
                         if payload[1] == 'start':
-                            logger.dispatch('Start Demo Request')
-                            self.controller.start_demo()
-                            self.controller.demo_status = 1
+                            if self.controller.demo_status is not 1:
+                                logger.dispatch('Start Demo Request')
+                                self.controller.start_demo()
+                                self.controller.demo_status = 1
+                            else:
+                                logger.dispatch('Start request when already started, ignored.')
                         if payload[1] == 'stop':
                             logger.dispatch('Stop Demo Request')
                             self.controller.stop_demo()
@@ -52,6 +70,8 @@ class Dispatcher(threading.Thread):
                             logger.dispatch('Pause Demo Request')
                             self.controller.demo_status = 2
                             pass
+                        if payload[1] == 'reset_seed':
+                            pass
                 except IndexError:
                     pass
-            time.sleep(5)
+            time.sleep(1)

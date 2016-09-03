@@ -8,7 +8,7 @@ class Pulse:
     def __init__(self):
         now = time.time()
         self.width = .25
-        self.log_check = 300
+        self.log_check = 100
         self._point = {'log_check': now + self.log_check}
         logger.debug('Now == %s (%f)', time.ctime(now), now)
         logger.debug('Tick len == %f', self.log_check)
