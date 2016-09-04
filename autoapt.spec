@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['autoapt.py'],
-             pathex=['C:/Users/trogers/AppData/Local/Programs/Python/Python35/Lib/site-packages', 'c:\\Users\\trogers\\PycharmProjects\\autoapt'],
+             pathex=['C:/Users/trogers/AppData/Local/Programs/Python/Python35/Lib/site-packages', 'C:\\Users\\trogers\\PycharmProjects\\autoapt'],
              binaries=None,
              datas=None,
              hiddenimports=[],

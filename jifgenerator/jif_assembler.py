@@ -142,7 +142,7 @@ class JIFBuilder:
         for k, v in conv_dict.items():
             v[1] = str_to_list(v[0])
 
-        if 4 <= randint(1, 10):
+        if 2 <= randint(1, 10):
             self.damage_count = 1
             self.damages = 1
 

@@ -151,16 +151,22 @@ class DemoController:
         else:
             for target in self.active_targets:
                 if jobid in getattr(self, target)['jobid']:
-                    if getattr(self, target)['multi_step'] == 1:
+                    if jobid in getattr(self, target)['jobid'] and getattr(self, target)['multi_step'] == 1:
                         logger.io('Multi-step transition not yet complete!')
                     else:
-                        if jobid[:2] != 'A4':
+                        if jobid[:2] in ['A1', 'A2', 'A3']:
                             getattr(self, target)['jobid'].remove(jobid)
-                            gen = jif_assembler.JIFBuilder(getattr(self, target)['origin'], self.jif_folder,
-                                                           self.democonf, self.jifconfig)
-                            logger.io('Creating {} JIF/Exit Data'.format(target.upper()))
-                            getattr(self, target)['jobid'].append(gen.gen_jifs())
-
+                            rep_target = None
+                            for origin in self.active_targets:
+                                if jobid[:2] == getattr(self, origin)['site_prefix'][:2]:
+                                    rep_target = origin
+                            try:
+                                gen = jif_assembler.JIFBuilder(rep_target, self.jif_folder,
+                                                               self.democonf, self.jifconfig)
+                                logger.io('Creating {} JIF/Exit Data'.format(target.upper()))
+                                getattr(self, target)['jobid'].append(gen.gen_jifs())
+                            except:
+                                pass
                         exit_dir = self.exit_data
                         data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
                         logger.io('Copying {} to reprint directory'.format(jobid))
