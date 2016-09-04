@@ -64,14 +64,14 @@ class Dispatcher(threading.Thread):
                     pass
                 try:
                     reprint = self.reprint_queue.popleft()
-                    if jifack[0] in ['Reprint', 'Complete']:
+                    if reprint[0] in ['Reprint', 'Complete']:
                         logger.dispatch('Calling reprint controller')
                         self.controller.reprint_job(reprint)
                 except IndexError:
                     pass
                 try:
                     proc = self.proc_queue.popleft()
-                    if jifack[0] in ['Proc']:
+                    if proc[0] in ['Proc']:
                         logger.dispatch('Calling process change controller')
                         self.controller.proc_phase(proc)
                 except IndexError:
@@ -84,11 +84,11 @@ class Dispatcher(threading.Thread):
                 except IndexError:
                     pass
                 try:
-                    self.jifack_queue.popleft()
+                    self.reprint_queue.popleft()
                 except IndexError:
                     pass
                 try:
-                    self.jifack_queue.popleft()
+                    self.proc_queue.popleft()
                 except IndexError:
                     pass
             time.sleep(.250)
