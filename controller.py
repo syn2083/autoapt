@@ -147,12 +147,12 @@ class DemoController:
 
                 if getattr(self, icd)['piece_or_sheet'].lower() == 'sheet':
                     os.remove(os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)))
+                if len(getattr(self, icd)['jobid']) == 0:
+                    gen = jif_assembler.JIFBuilder(icd, self.jif_folder, self.democonf, self.jifconfig)
+                    logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
+                    getattr(self, icd)['jobid'].append(gen.gen_jifs())
 
-                gen = jif_assembler.JIFBuilder(icd, self.jif_folder, self.democonf, self.jifconfig)
-                logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
-                getattr(self, icd)['jobid'].append(gen.gen_jifs())
-
-                self.active_jobs[getattr(self, icd)['jobid']] = [icd, icd]
+                    self.active_jobs[getattr(self, icd)['jobid']] = [icd, icd]
                 self.active_jobs[jobid][0] = self.td['origin']
 
     def reprint_job(self, data):
@@ -165,7 +165,8 @@ class DemoController:
             if getattr(self, icd)['multi_step'] == 1:
                 logger.io('Multi-step transition not yet complete!')
             else:
-                if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, icd)['jobid']) == 1:
+                getattr(self, icd)['jobid'].remove(jobid)
+                if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, icd)['jobid']) == 0:
                     gen = jif_assembler.JIFBuilder(icd, self.jif_folder, self.democonf, self.jifconfig)
                     logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
                     getattr(self, icd)['jobid'].append(gen.gen_jifs())
@@ -187,7 +188,6 @@ class DemoController:
                                         pass
                         else:
                             break
-                getattr(self, icd)['jobid'].remove(jobid)
                 send_to = os.path.join(getattr(self, reprint_target)['path'], 'reprint_{}.txt'.format(jobid))
                 getattr(self, reprint_target)['jobid'].append(jobid)
                 self.active_jobs[jobid][0] = reprint_target
