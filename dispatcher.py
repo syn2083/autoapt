@@ -54,6 +54,7 @@ class Dispatcher(threading.Thread):
             except IndexError:
                 pass
             if self.controller.demo_status == 1:
+                logger.dispatch('testing')
                 try:
                     jifack = self.jifack_queue.popleft()
                     if jifack[0] in ['Accepted', 'Failed']:
