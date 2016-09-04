@@ -24,7 +24,7 @@ class Dispatcher(threading.Thread):
                         if self.controller.demo_status == 1:
                             logger.dispatch('Start demo request sent, but already started.')
                         if self.controller.demo_status == 2:
-                            logger.dispatch('Pausing Demo.')
+                            logger.dispatch('Unpause Demo.')
                             self.controller.demo_status = 1
                         if self.controller.demo_status == 0:
                             logger.dispatch('Starting Demo.')
@@ -39,7 +39,6 @@ class Dispatcher(threading.Thread):
                             self.controller.demo_status = 1
                         if self.controller.demo_status == 0:
                             logger.dispatch('Pause sent to stopped demo, ignoring.')
-                            pass
                     if payload[1] == 'stop':
                         if self.controller.demo_status == 1:
                             logger.dispatch('Stopping Demo.')
@@ -49,12 +48,10 @@ class Dispatcher(threading.Thread):
                             logger.dispatch('Resuming Demo.')
                             self.controller.demo_status = 1
                         if self.controller.demo_status == 0:
-                            logger.dispatch('Pause sent to stopped demo, ignoring.')
-                            pass
+                            logger.dispatch('Demo Stopped.')
             except IndexError:
                 pass
             if self.controller.demo_status == 1:
-                logger.dispatch('testing')
                 try:
                     jifack = self.jifack_queue.popleft()
                     if jifack[0] in ['Accepted', 'Failed']:

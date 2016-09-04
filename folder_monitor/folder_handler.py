@@ -1,7 +1,9 @@
 import os
 import xmltodict
+import time
 from logging_setup import init_logging
 from watchdog.events import PatternMatchingEventHandler
+
 
 logger = init_logging()
 
@@ -64,6 +66,7 @@ class ReprintHandler(PatternMatchingEventHandler):
         """
         full_filename = str(event.src_path).split('\\')[-1]
         job_id = full_filename.split('.')[0]
+        time.sleep(2)
 
         if os.path.getsize(event.src_path) == 0:
             logger.debug('Reprint - Completed Job {}'.format(job_id))

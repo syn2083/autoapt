@@ -64,5 +64,5 @@ DEF_JIF_CONF = [{'JIF': {'temp_name': 'APTDemo', 'jtype': 'Checks, Statements, N
                          'stocktype': 'Matte, Gloss', 'ui1': 'Saddle Stitch, Perfect Bind',
                          'ui2': '10, 6x9, 9x12', 'ui3': '0X-, 1D-, AQ-', 'ui4': '', 'ui5': '',
                          'cemail': 'support@ironsidestech.com'},
-                'OPTS': {'prange': '1000, 3000', 'srange': '1, 8', 'num_jifs': 1}}]
+                'OPTS': {'prange': '2500, 5000', 'srange': '1, 6', 'num_jifs': 1}}]
 

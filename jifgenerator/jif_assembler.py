@@ -142,7 +142,7 @@ class JIFBuilder:
         for k, v in conv_dict.items():
             v[1] = str_to_list(v[0])
 
-        if 25 >= randint(1, 100):
+        if 20 >= randint(1, 100):
             self.damage_count = 1
             self.damages = 1
 
@@ -172,10 +172,10 @@ class JIFBuilder:
             jif_strings.append(" <CreationDate>{}</CreationDate>".format(self.creation[0]))
             if 9 >= randint(1, 100):
                 if self.multi_step == 1:
-                    jif_strings.append(" <JobDeadLine>{}</JobDeadline>".format(self.creation[1] +
+                    jif_strings.append(" <JobDeadLine>{}</JobDeadLine>".format(self.creation[1] +
                                                                                datetime.timedelta(hours=1, minutes=4)))
                 else:
-                    jif_strings.append(" <JobDeadLine>{}</JobDeadline>".format(self.creation[1] +
+                    jif_strings.append(" <JobDeadLine>{}</JobDeadLine>".format(self.creation[1] +
                                                                                datetime.timedelta(minutes=4)))
             else:
                 jif_strings.append(" <JobDeadLine/>")
