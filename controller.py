@@ -71,7 +71,7 @@ class DemoController:
             logger.debug('Target {}'.format(k))
             jifconstruct = jif_assembler.JIFBuilder(k, self.jif_folder, self.democonf, self.jifconfig)
             getattr(self, k)['jobid'].append(jifconstruct.gen_jifs())
-            self.active_jobs[getattr(self, k)['jobid']] = [k, k]
+            self.active_jobs[getattr(self, k)['jobid'][-1]] = [k, k]
             logger.demo('Creating initial job for target: {}'.format(k.upper()))
         logger.debug('Demo Initialized.')
         return 'Demo initialization and startup complete.'
@@ -151,8 +151,7 @@ class DemoController:
                     gen = jif_assembler.JIFBuilder(icd, self.jif_folder, self.democonf, self.jifconfig)
                     logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
                     getattr(self, icd)['jobid'].append(gen.gen_jifs())
-
-                    self.active_jobs[getattr(self, icd)['jobid']] = [icd, icd]
+                    self.active_jobs[getattr(self, icd)['jobid'][-1]] = [icd, icd]
                 self.active_jobs[jobid][0] = self.td['origin']
 
     def reprint_job(self, data):
@@ -170,7 +169,7 @@ class DemoController:
                     gen = jif_assembler.JIFBuilder(icd, self.jif_folder, self.democonf, self.jifconfig)
                     logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
                     getattr(self, icd)['jobid'].append(gen.gen_jifs())
-                    self.active_jobs[getattr(self, icd)['jobid']] = [icd, icd]
+                    self.active_jobs[getattr(self, icd)['jobid'][-1]] = [icd, icd]
                 exit_dir = self.exit_data
                 data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
                 logger.io('Copying {} to reprint directory'.format(jobid))
@@ -221,5 +220,5 @@ class DemoController:
                 gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
                 logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
                 getattr(self, origin)['jobid'].append(gen.gen_jifs())
-                self.active_jobs[getattr(self, origin)['jobid']] = [origin, origin]
+                self.active_jobs[getattr(self, origin)['jobid'][-1]] = [origin, origin]
         del self.active_jobs[jobid]
