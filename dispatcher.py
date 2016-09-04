@@ -19,7 +19,7 @@ class Dispatcher(threading.Thread):
         while True:
             try:
                 payload = self.command_queue.popleft()
-                if payload[0] == 'demo_control':
+                if payload[0] == 'demo control':
                     if payload[1] == 'start':
                         if self.controller.demo_status == 1:
                             logger.dispatch('Start demo request sent, but already started.')
@@ -79,15 +79,15 @@ class Dispatcher(threading.Thread):
                 pass
             if self.controller.demo_status == 0:
                 try:
-                    jifack = self.jifack_queue.popleft()
+                    self.jifack_queue.popleft()
                 except IndexError:
                     pass
                 try:
-                    reprint = self.jifack_queue.popleft()
+                    self.jifack_queue.popleft()
                 except IndexError:
                     pass
                 try:
-                    proc = self.jifack_queue.popleft()
+                    self.jifack_queue.popleft()
                 except IndexError:
                     pass
-            time.sleep(1)
+            time.sleep(.250)
