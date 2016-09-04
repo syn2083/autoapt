@@ -11,67 +11,83 @@ class Dispatcher(threading.Thread):
         super().__init__()
         self.controller = controller
         self.command_queue = controller.command_queue
+        self.reprint_queue = controller.reprint_queue
+        self.jifack_queue = controller.jifack_queue
+        self.proc_queue = controller.proc_queue
 
     def run(self):
         while True:
-            if self.controller.demo_status == 2:
+            try:
+                payload = self.command_queue.popleft()
+                if payload[0] == 'demo_control':
+                    if payload[1] == 'start':
+                        if self.controller.demo_status == 1:
+                            logger.dispatch('Start demo request sent, but already started.')
+                        if self.controller.demo_status == 2:
+                            logger.dispatch('Pausing Demo.')
+                            self.controller.demo_status = 1
+                        if self.controller.demo_status == 0:
+                            logger.dispatch('Starting Demo.')
+                            self.controller.start_demo()
+                            self.controller.demo_status = 1
+                    if payload[1] == 'pause':
+                        if self.controller.demo_status == 1:
+                            logger.dispatch('Pausing Demo.')
+                            self.controller.demo_status = 2
+                        if self.controller.demo_status == 2:
+                            logger.dispatch('Resuming Demo.')
+                            self.controller.demo_status = 1
+                        if self.controller.demo_status == 0:
+                            logger.dispatch('Pause sent to stopped demo, ignoring.')
+                            pass
+                    if payload[1] == 'stop':
+                        if self.controller.demo_status == 1:
+                            logger.dispatch('Stopping Demo.')
+                            self.controller.stop_demo()
+                            self.controller.demo_status = 0
+                        if self.controller.demo_status == 2:
+                            logger.dispatch('Resuming Demo.')
+                            self.controller.demo_status = 1
+                        if self.controller.demo_status == 0:
+                            logger.dispatch('Pause sent to stopped demo, ignoring.')
+                            pass
+            except IndexError:
+                pass
+            if self.controller.demo_status == 1:
                 try:
-                    for payload in self.command_queue:
-                        if payload[0] == 'demo control':
-                            if payload[1] == 'start':
-                                self.controller.demo_status = 1
-                            elif payload[1] == 'stop':
-                                self.controller.demo_status = 0
-                            elif payload[1] == 'reset_seed':
-                                pass
-                            else:
-                                pass
+                    jifack = self.jifack_queue.popleft()
+                    if jifack[0] in ['Accepted', 'Failed']:
+                        logger.dispatch('Calling new job controller')
+                        self.controller.new_job(jifack)
                 except IndexError:
                     pass
-            elif self.controller.demo_status == 0:
-                if len(self.command_queue) >= 1:
-                    try:
-                        payload = self.command_queue.popleft()
-                        if payload[0] == 'demo control':
-                            if payload[1] == 'start':
-                                logger.dispatch('Start Demo Request')
-                                self.controller.start_demo()
-                                self.controller.demo_status = 1
-                            elif payload[1] == 'reset_seed':
-                                self.controller.reset_seed()
-                        else:
-                            pass
-                    except IndexError:
-                        pass
-                else:
-                    pass
-            else:
                 try:
-                    payload = self.command_queue.popleft()
-                    if payload[0] in ['Accepted', 'Failed']:
-                        logger.dispatch('Calling new job controller')
-                        self.controller.new_job(payload)
-                    if payload[0] in ['Reprint', 'Complete']:
-                        self.controller.reprint_job(payload)
-                    if payload[0] in 'Proc':
-                        self.controller.proc_phase(payload)
-                    if payload[0] == 'demo control':
-                        if payload[1] == 'start':
-                            if self.controller.demo_status is not 1:
-                                logger.dispatch('Start Demo Request')
-                                self.controller.start_demo()
-                                self.controller.demo_status = 1
-                            else:
-                                logger.dispatch('Start request when already started, ignored.')
-                        if payload[1] == 'stop':
-                            logger.dispatch('Stop Demo Request')
-                            self.controller.stop_demo()
-                        if payload[1] == 'pause':
-                            logger.dispatch('Pause Demo Request')
-                            self.controller.demo_status = 2
-                            pass
-                        if payload[1] == 'reset_seed':
-                            pass
+                    reprint = self.reprint_queue.popleft()
+                    if jifack[0] in ['Reprint', 'Complete']:
+                        logger.dispatch('Calling reprint controller')
+                        self.controller.reprint_job(reprint)
+                except IndexError:
+                    pass
+                try:
+                    proc = self.proc_queue.popleft()
+                    if jifack[0] in ['Proc']:
+                        logger.dispatch('Calling process change controller')
+                        self.controller.proc_phase(proc)
+                except IndexError:
+                    pass
+            if self.controller.demo_status == 2:
+                pass
+            if self.controller.demo_status == 0:
+                try:
+                    jifack = self.jifack_queue.popleft()
+                except IndexError:
+                    pass
+                try:
+                    reprint = self.jifack_queue.popleft()
+                except IndexError:
+                    pass
+                try:
+                    proc = self.jifack_queue.popleft()
                 except IndexError:
                     pass
             time.sleep(1)

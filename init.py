@@ -45,19 +45,19 @@ def init_controller():
 
     logger.boot('Starting jif monitor.')
     jifack = Observer()
-    jifack.schedule(fmh.JIFAckHandler(control.command_queue, control.lock),
+    jifack.schedule(fmh.JIFAckHandler(control.jifack_queue, control.lock),
                     path=config.DEF_DEMO_CONF[1]['APTDirs']['JIFACK'])
     jifack.start()
     control.observers.append(jifack)
     logger.boot('Starting reprint monitor.')
     reprintmon = Observer()
-    reprintmon.schedule(fmh.ReprintHandler(control.command_queue, control.lock),
+    reprintmon.schedule(fmh.ReprintHandler(control.reprint_queue, control.lock),
                         path=config.DEF_DEMO_CONF[1]['APTDirs']['REPRINT'])
     reprintmon.start()
     control.observers.append(reprintmon)
     logger.boot('Starting proc change monitor.')
     proc_mon = Observer()
-    proc_mon.schedule(fmh.ProcChangeManager(control.command_queue, control.lock),
+    proc_mon.schedule(fmh.ProcChangeManager(control.proc_queue, control.lock),
                       path=config.DEF_DEMO_CONF[1]['APTDirs']['PROC'])
     proc_mon.start()
     control.observers.append(proc_mon)

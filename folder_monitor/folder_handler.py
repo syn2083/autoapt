@@ -10,9 +10,9 @@ class JIFAckHandler(PatternMatchingEventHandler):
     accept_pattern = ['*.accepted']
     fail_pattern = ['*.failed']
 
-    def __init__(self, command_queue, lock):
+    def __init__(self, jifack_queue, lock):
         super().__init__()
-        self.command_queue = command_queue
+        self.jifack_queue = jifack_queue
         self.lock = lock
 
     def process(self, event):
@@ -31,15 +31,15 @@ class JIFAckHandler(PatternMatchingEventHandler):
 
         if 'accepted' in result:
             logger.debug('JIF ACK - Accepted Job {}'.format(job_id))
-            self.lock.acquire()
-            self.command_queue.append(['Accepted', job_id])
-            self.lock.release()
+            # self.lock.acquire()
+            self.jifack_queue.append(['Accepted', job_id])
+            # self.lock.release()
 
         if 'failed' in result:
             logger.debug('JIF ACK - Failed Job {}'.format(job_id))
-            self.lock.acquire()
-            self.command_queue.append(['Failed', job_id])
-            self.lock.release()
+            # self.lock.acquire()
+            self.jifack_queue.append(['Failed', job_id])
+            # self.lock.release()
 
     def on_created(self, event):
         self.process(event)
@@ -48,9 +48,9 @@ class JIFAckHandler(PatternMatchingEventHandler):
 class ReprintHandler(PatternMatchingEventHandler):
     reprint_pattern = ['*.txt']
 
-    def __init__(self, command_queue, lock):
+    def __init__(self, reprint_queue, lock):
         super().__init__()
-        self.command_queue = command_queue
+        self.reprint_queue = reprint_queue
         self.lock = lock
 
     def process(self, event):
@@ -67,25 +67,25 @@ class ReprintHandler(PatternMatchingEventHandler):
 
         if os.path.getsize(event.src_path) == 0:
             logger.debug('Reprint - Completed Job {}'.format(job_id))
-            self.lock.acquire()
-            self.command_queue.append(['Complete', job_id])
-            self.lock.release()
+            # self.lock.acquire()
+            self.reprint_queue.append(['Complete', job_id])
+            # self.lock.release()
         else:
             logger.debug('Reprint - Reprint Job {}'.format(job_id))
-            self.lock.acquire()
-            self.command_queue.append(['Reprint', job_id])
-            self.lock.release()
+            # self.lock.acquire()
+            self.reprint_queue.append(['Reprint', job_id])
+            # self.lock.release()
 
     def on_created(self, event):
         self.process(event)
 
 
 class ProcChangeManager(PatternMatchingEventHandler):
-    reprint_pattern = ['*.xml']
+    proc_pattern = ['*.xml']
 
-    def __init__(self, command_queue, lock):
+    def __init__(self, proc_queue, lock):
         super().__init__()
-        self.command_queue = command_queue
+        self.proc_queue = proc_queue
         self.lock = lock
 
     def process(self, event):
@@ -111,9 +111,9 @@ class ProcChangeManager(PatternMatchingEventHandler):
         if element['ID'][:2] == 'A1':
             if element['JobStatus'] == '1026' or element['JobStatus'] == '1030':
                 logger.debug('Proc Mon - Multi-Step Print Finished Job {}'.format(element['ID']))
-                self.lock.acquire()
-                self.command_queue.append(['Proc', element['ID']])
-                self.lock.release()
+                # self.lock.acquire()
+                self.proc_queue.append(['Proc', element['ID']])
+                # self.lock.release()
 
     def on_created(self, event):
         self.process(event)
