@@ -2,7 +2,7 @@ import datetime
 import os
 import shutil
 import copy
-from random import choice, randint, sample
+from random import choice, randint, sample, random
 from os import path
 from .prog_utilities import folder_construct, str_to_list, find_shift
 from logging_setup import init_logging
@@ -142,7 +142,7 @@ class JIFBuilder:
         for k, v in conv_dict.items():
             v[1] = str_to_list(v[0])
 
-        if 2 <= randint(1, 10):
+        if 25 >= randint(1, 100):
             self.damage_count = 1
             self.damages = 1
 
@@ -170,7 +170,11 @@ class JIFBuilder:
             jif_strings.append(" <EndSequence>{}</EndSequence>".format(str(self.current_piececount).zfill(6)))
             jif_strings.append(" <PieceCount>{}</PieceCount>".format(str(self.current_piececount)))
             jif_strings.append(" <CreationDate>{}</CreationDate>".format(self.creation[0]))
-            jif_strings.append(" <JobDeadLine/>")
+            if 9 >= randint(1, 100):
+                jif_strings.append(" <JobDeadLine>{}</JobDeadline>".format(self.creation[1] -
+                                                                           datetime.timedelta(hours=2, minutes=30)))
+            else:
+                jif_strings.append(" <JobDeadLine/>")
             jif_strings.append(" <PrintMode>1</PrintMode>")
             pcomp = choice(['1', '2'])
             jif_strings.append(" <PageComposition>{}</PageComposition>".format(pcomp))
