@@ -19,6 +19,16 @@ def clean_reprints(control):
     return count
 
 
+def clean_td(control):
+    count = 0
+    path_to_td = control.democonf[0]['td']['path']
+    td_files = [i for i in os.listdir(control.democonf[0]['td']['path'])]
+    for file in td_files:
+        os.remove(os.path.join(path_to_td, file))
+        count += 1
+    return count
+
+
 def init_configs():
     demo_file = None
     jif_file = None

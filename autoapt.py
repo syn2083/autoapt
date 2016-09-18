@@ -21,8 +21,11 @@ def autoapt():
     control.socket_server = SocketServer(control)
     control.socket_server.start()
     logger.boot('--Cleaning Reprint Directory--')
-    clean_files = utilities.clean_reprints(control)
-    logger.boot('Removed {} files from APT Reprint Folder.'.format(clean_files))
+    cleaned_reprint_files = utilities.clean_reprints(control)
+    logger.boot('Removed {} files from APT Reprint Folder.'.format(cleaned_reprint_files))
+    logger.boot('--Cleaning TD Directory--')
+    cleaned_td_files = utilities.clean_td(control)
+    logger.boot('Removed {} files from APT TD Folder.'.format(cleaned_td_files))
     logger.debug('JDF {}'.format(control.jif_folder))
     logger.boot('--Starting Web Interface--')
     web_server = aptinterface.app

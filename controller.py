@@ -28,6 +28,7 @@ class DemoController:
         self.proc_queue = deque()
         self.active_jobs = {}
         self.completed_jobs = []
+        self.reprinting_jobs = []
         self.exit_data = dconf[1]['DemoDirs']['exit_data']
         self.jif_data = dconf[1]['DemoDirs']['jif_data']
         self.jif_folder = dconf[1]['APTDirs']['JDF']
@@ -132,11 +133,15 @@ class DemoController:
 
         if jobid in self.active_jobs.keys():
             icd = self.active_jobs[jobid][0]
+            origin = self.active_jobs[jobid][1]
             if getattr(self, icd)['multi_step'] == 1:
-                if icd.lower() != 'td':
+                if icd.lower() != 'td' and jobid not in self.td['jobid']:
                     logger.io('Multi process change to insert - removing {}'.format(jobid))
                     self.td['jobid'].append(jobid)
-                    getattr(self, icd)['jobid'].remove(jobid)
+                    try:
+                        getattr(self, icd)['jobid'].remove(jobid)
+                    except ValueError:
+                        pass
 
                     exit_dir = self.exit_data
                     data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
@@ -147,21 +152,28 @@ class DemoController:
                     logger.io('Cleaning previous data.')
 
                     if getattr(self, icd)['piece_or_sheet'].lower() == 'sheet':
-                        os.remove(os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)))
-                    if len(getattr(self, icd)['jobid']) == 0 and len(self.td['jobid']) <= 2:
-                        gen = jif_assembler.JIFBuilder(icd, self.jif_folder, self.democonf, self.jifconfig)
-                        logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
-                        getattr(self, icd)['jobid'].append(gen.gen_jifs())
-                        self.active_jobs[getattr(self, icd)['jobid'][-1]] = [icd, icd]
+                        try:
+                            os.remove(os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)))
+                        except FileNotFoundError:
+                            pass
+                    if len(getattr(self, icd)['jobid']) <= 1 and len(self.td['jobid']) <= 3:
+                        gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
+                        logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
+                        new_job = gen.gen_jifs()
+                        getattr(self, origin)['jobid'].append(new_job)
+                        self.active_jobs[new_job] = [origin, origin]
                     self.active_jobs[jobid][0] = self.td['origin']
 
     def reprint_job(self, data):
         jobid = data[1]
 
         if data[0] == 'Complete':
+            logger.io('Complete call passing to completion {}'.format(jobid))
             self.complete_job(data)
         else:
-            if jobid in self.active_jobs.keys():
+            logger.io('Reprint Call incoming data {} and active jobs {} '
+                      'listed reprinting jobs {}'.format(jobid, self.active_jobs.keys(), self.reprinting_jobs))
+            if jobid in self.active_jobs.keys() and jobid not in self.reprinting_jobs:
                 origin = self.active_jobs[jobid][1]
                 icd = self.active_jobs[jobid][0]
                 if getattr(self, icd)['multi_step'] == 1:
@@ -171,11 +183,12 @@ class DemoController:
                         getattr(self, icd)['jobid'].remove(jobid)
                     except ValueError:
                         pass
-                    if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, origin)['jobid']) == 0:
+                    if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, origin)['jobid']) <= 1:
                         gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
                         logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
-                        getattr(self, origin)['jobid'].append(gen.gen_jifs())
-                        self.active_jobs[getattr(self, origin)['jobid'][-1]] = [icd, icd]
+                        new_job = gen.gen_jifs()
+                        getattr(self, origin)['jobid'].append(new_job)
+                        self.active_jobs[new_job] = [origin, origin]
                     exit_dir = self.exit_data
                     data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
                     logger.io('Copying {} to reprint directory'.format(jobid))
@@ -196,12 +209,13 @@ class DemoController:
                     send_to = os.path.join(getattr(self, reprint_target)['path'], 'reprint_{}.txt'.format(jobid))
                     getattr(self, reprint_target)['jobid'].append(jobid)
                     self.active_jobs[jobid][0] = reprint_target
+                    self.reprinting_jobs.append(jobid)
                     shutil.copyfile(data_file, send_to)
 
     def complete_job(self, data):
         jobid = data[1]
         prefix = jobid[:2]
-        if jobid in self.active_jobs.keys():
+        if jobid in self.active_jobs.keys() and jobid not in self.completed_jobs:
             origin = self.active_jobs[jobid][1]
             icd = self.active_jobs[jobid][0]
 
@@ -219,13 +233,21 @@ class DemoController:
                     os.remove(file)
 
             self.completed_jobs.append(jobid)
-            getattr(self, icd)['jobid'].remove(jobid)
-            if len(getattr(self, origin)['jobid']) == 0:
+            if jobid in self.reprinting_jobs:
+                self.reprinting_jobs.remove(jobid)
+            try:
+                getattr(self, icd)['jobid'].remove(jobid)
+            except ValueError:
+                pass
+            if len(getattr(self, origin)['jobid']) <= 1:
                 if prefix == 'A4':
                     logger.io('Initial TD Job Completed. {}'.format(jobid))
                 else:
                     gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
                     logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
-                    getattr(self, origin)['jobid'].append(gen.gen_jifs())
-                    self.active_jobs[getattr(self, origin)['jobid'][-1]] = [origin, origin]
+                    new_job = gen.gen_jifs()
+                    getattr(self, origin)['jobid'].append(new_job)
+                    self.active_jobs[new_job] = [origin, origin]
             del self.active_jobs[jobid]
+        else:
+            logger.io('Completed job call, but job is already listed as complete {}'.format(jobid))

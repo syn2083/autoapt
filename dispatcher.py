@@ -60,10 +60,11 @@ class Dispatcher(threading.Thread):
                 except IndexError:
                     pass
                 try:
-                    reprint = self.reprint_queue.popleft()
-                    if reprint[0] in ['Reprint', 'Complete']:
-                        logger.dispatch('Calling reprint controller')
-                        self.controller.reprint_job(reprint)
+                    # reprint = self.reprint_queue.popleft()
+                    self.reprint_queue.popleft()
+                    # if reprint[0] in ['Reprint', 'Complete']:
+                        # logger.dispatch('Calling reprint controller')
+                        # self.controller.reprint_job(reprint)
                 except IndexError:
                     pass
                 try:
@@ -71,6 +72,12 @@ class Dispatcher(threading.Thread):
                     if proc[0] in ['Proc']:
                         logger.dispatch('Calling process change controller')
                         self.controller.proc_phase(proc)
+                    if proc[0] in ['Reprint', 'Complete']:
+                        logger.dispatch('Calling reprint controller from Proc Monitor')
+                        self.controller.reprint_job(proc)
+                    if proc[0] in ['Accepted', 'Failed']:
+                        logger.dispatch('Calling new job controller')
+                        self.controller.new_job(proc)
                 except IndexError:
                     pass
             if self.controller.demo_status == 2:

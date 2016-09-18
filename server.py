@@ -14,6 +14,7 @@ class SocketServer(threading.Thread):
         super().__init__()
         self.lock = controller.lock
         self.command_queue = controller.command_queue
+        self.proc_queue = controller.proc_queue
         self.demo_status = controller.demo_status
 
     def rec_data(self, conn):
@@ -71,6 +72,9 @@ class SocketServer(threading.Thread):
                 logger.sock('Incoming data: {}'.format(in_data))
                 # self.lock.acquire()
                 logger.sock(in_data)
-                self.command_queue.append(in_data)
+                if in_data[0] == 'demo control':
+                    self.command_queue.append(in_data)
+                else:
+                    self.proc_queue.append(in_data)
                 # self.lock.release()
                 conn.close()

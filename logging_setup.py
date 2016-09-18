@@ -3,6 +3,7 @@ import os
 import config
 import shutil
 import datetime
+from logging.handlers import RotatingFileHandler
 
 master_logger = None
 
@@ -44,11 +45,10 @@ def init_logging():
             os.makedirs(config.log_dir)
             with open(config.log_file, 'w') as fp:
                 fp.write('---Logging Init---')
-
-        logging.basicConfig(filename='{}'.format(config.log_file),
-                            level=logging.DEBUG,
+        handler = RotatingFileHandler(filename='{}'.format(config.log_file), maxBytes=524288, backupCount=10)
+        logging.basicConfig(level=logging.DEBUG,
                             format='[%(levelname)-11s] %(asctime)s %(module)14s| %(message)s',
-                            datefmt='%m/%d/%Y %I:%M:%S %p')
+                            datefmt='%m/%d/%Y %I:%M:%S %p', handlers=[handler])
         logging.addLevelName(31, 'BOOT')
         logging.addLevelName(30, 'SOCK_SERVER')
         logging.addLevelName(29, 'DEMO_STATE')

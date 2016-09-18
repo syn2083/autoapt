@@ -170,7 +170,7 @@ class JIFBuilder:
             jif_strings.append(" <EndSequence>{}</EndSequence>".format(str(self.current_piececount).zfill(6)))
             jif_strings.append(" <PieceCount>{}</PieceCount>".format(str(self.current_piececount)))
             jif_strings.append(" <CreationDate>{}</CreationDate>".format(self.creation[0]))
-            if 9 >= randint(1, 100):
+            if 15 >= randint(1, 100):
                 if self.multi_step == 1:
                     jif_strings.append(" <JobDeadLine>{}</JobDeadLine>".format(self.creation[1] +
                                                                                datetime.timedelta(hours=1, minutes=4)))

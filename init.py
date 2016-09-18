@@ -43,7 +43,7 @@ def init_controller():
     control.dispatcher = Dispatcher(control)
     control.dispatcher.start()
 
-    logger.boot('Starting jif monitor.')
+    '''logger.boot('Starting jif monitor.')
     jifack = Observer()
     jifack.schedule(fmh.JIFAckHandler(control.jifack_queue, control.lock),
                     path=config.DEF_DEMO_CONF[1]['APTDirs']['JIFACK'])
@@ -61,6 +61,6 @@ def init_controller():
                       path=config.DEF_DEMO_CONF[1]['APTDirs']['PROC'])
     proc_mon.start()
     control.observers.append(proc_mon)
-    logger.boot('Monitors initialized.')
+    logger.boot('Monitors initialized.')'''
     return control
 
