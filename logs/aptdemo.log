@@ -1,55 +1,440 @@
-[DEBUG      ] 09/14/2016 09:26:02 AM          pulse| Tick time == Wed Sep 14 09:27:42 2016 (1473859662.327327)
-[SOCK_SERVER] 09/14/2016 09:26:02 AM         server| Socket Server initializing.
-[BOOT       ] 09/14/2016 09:26:02 AM        autoapt| --Cleaning Reprint Directory--
-[SOCK_SERVER] 09/14/2016 09:26:02 AM         server| Server bound to 127.0.0.1, port 8091
-[SOCK_SERVER] 09/14/2016 09:26:02 AM         server| ---Server now listening---
-[BOOT       ] 09/14/2016 09:26:02 AM        autoapt| Removed 42 files from APT Reprint Folder.
-[BOOT       ] 09/14/2016 09:26:02 AM        autoapt| --Cleaning TD Directory--
-[BOOT       ] 09/14/2016 09:26:02 AM        autoapt| Removed 49 files from APT TD Folder.
-[DEBUG      ] 09/14/2016 09:26:02 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
-[BOOT       ] 09/14/2016 09:26:02 AM        autoapt| --Starting Web Interface--
-[INFO       ] 09/14/2016 09:26:02 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| --System Booting--
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| Snapshot time: 2016-09-14 10:40:53
-                                                   System booted at: 2016-09-12 16:34:08
-                                                   System has 1340M of 8106M available (83.500% used)
-                                                   Driver started at: 2016-09-14 10:40:52
+[BOOT       ] 09/02/2016 02:41:21 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 02:41:21 PM        autoapt| Snapshot time: 2016-09-02 14:41:21
+                                                   System booted at: 2016-09-02 12:04:54
+                                                   System has 3958M of 8106M available (51.200% used)
+                                                   Driver started at: 2016-09-02 14:41:21
                                                    Driver is currently using 26M of RAM
-                                                   Driver has performed 467 read and 2 write I/O operations.
-[SOCK_SERVER] 09/14/2016 10:40:53 AM        autoapt| --Socket Server Initialization-
-[INFO       ] 09/14/2016 10:40:53 AM        autoapt| --Pulse Updater Initialization--
-[DEBUG      ] 09/14/2016 10:40:53 AM          pulse| Now == Wed Sep 14 10:40:53 2016 (1473864053.676287)
-[DEBUG      ] 09/14/2016 10:40:53 AM          pulse| Tick len == 100.000000
-[DEBUG      ] 09/14/2016 10:40:53 AM          pulse| Tick time == Wed Sep 14 10:42:33 2016 (1473864153.676287)
-[SOCK_SERVER] 09/14/2016 10:40:53 AM         server| Socket Server initializing.
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| --Cleaning Reprint Directory--
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| Removed 0 files from APT Reprint Folder.
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| --Cleaning TD Directory--
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| Removed 0 files from APT TD Folder.
-[DEBUG      ] 09/14/2016 10:40:53 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
-[SOCK_SERVER] 09/14/2016 10:40:53 AM         server| Server bound to 127.0.0.1, port 8091
-[BOOT       ] 09/14/2016 10:40:53 AM        autoapt| --Starting Web Interface--
-[SOCK_SERVER] 09/14/2016 10:40:53 AM         server| ---Server now listening---
-[INFO       ] 09/14/2016 10:40:53 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| --System Booting--
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| Snapshot time: 2016-09-14 10:42:42
-                                                   System booted at: 2016-09-12 16:34:08
-                                                   System has 1260M of 8106M available (84.400% used)
-                                                   Driver started at: 2016-09-14 10:42:41
+                                                   Driver has performed 469 read and 3 write I/O operations.
+[SOCK_SERVER] 09/02/2016 02:41:21 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 02:41:21 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 02:41:21 PM          pulse| Now == Fri Sep  2 14:41:21 2016 (1472841681.954465)
+[DEBUG      ] 09/02/2016 02:41:21 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 02:41:21 PM          pulse| Tick time == Fri Sep  2 14:43:01 2016 (1472841781.954465)
+[BOOT       ] 09/02/2016 02:41:21 PM           init| Demo config file not found, creating from template..
+[BOOT       ] 09/02/2016 02:41:21 PM           init| Demo config file not found, creating from template..
+[BOOT       ] 09/02/2016 02:41:21 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 02:41:21 PM           init| Starting reprint monitor.
+[BOOT       ] 09/02/2016 02:41:21 PM           init| Starting proc change monitor.
+[BOOT       ] 09/02/2016 02:41:21 PM           init| Monitors initialized.
+[SOCK_SERVER] 09/02/2016 02:41:21 PM         server| Socket Server initializing.
+[BOOT       ] 09/02/2016 02:41:21 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/02/2016 02:41:21 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/02/2016 02:41:21 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/02/2016 02:41:21 PM         server| Server bind failed. Error:
+[INFO       ] 09/02/2016 02:41:22 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/02/2016 02:41:48 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 02:41:48 PM        autoapt| Snapshot time: 2016-09-02 14:41:48
+                                                   System booted at: 2016-09-02 12:04:55
+                                                   System has 3986M of 8106M available (50.800% used)
+                                                   Driver started at: 2016-09-02 14:41:47
                                                    Driver is currently using 26M of RAM
-                                                   Driver has performed 467 read and 2 write I/O operations.
-[SOCK_SERVER] 09/14/2016 10:42:42 AM        autoapt| --Socket Server Initialization-
-[INFO       ] 09/14/2016 10:42:42 AM        autoapt| --Pulse Updater Initialization--
-[DEBUG      ] 09/14/2016 10:42:42 AM          pulse| Now == Wed Sep 14 10:42:42 2016 (1473864162.051727)
-[DEBUG      ] 09/14/2016 10:42:42 AM          pulse| Tick len == 100.000000
-[DEBUG      ] 09/14/2016 10:42:42 AM          pulse| Tick time == Wed Sep 14 10:44:22 2016 (1473864262.051727)
-[SOCK_SERVER] 09/14/2016 10:42:42 AM         server| Socket Server initializing.
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| --Cleaning Reprint Directory--
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| Removed 0 files from APT Reprint Folder.
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| --Cleaning TD Directory--
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| Removed 0 files from APT TD Folder.
-[DEBUG      ] 09/14/2016 10:42:42 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
-[SOCK_SERVER] 09/14/2016 10:42:42 AM         server| Server bound to 127.0.0.1, port 8091
-[BOOT       ] 09/14/2016 10:42:42 AM        autoapt| --Starting Web Interface--
-[SOCK_SERVER] 09/14/2016 10:42:42 AM         server| ---Server now listening---
-[INFO       ] 09/14/2016 10:42:42 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+                                                   Driver has performed 467 read and 1 write I/O operations.
+[SOCK_SERVER] 09/02/2016 02:41:48 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 02:41:48 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 02:41:48 PM          pulse| Now == Fri Sep  2 14:41:48 2016 (1472841708.032887)
+[DEBUG      ] 09/02/2016 02:41:48 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 02:41:48 PM          pulse| Tick time == Fri Sep  2 14:43:28 2016 (1472841808.032887)
+[BOOT       ] 09/02/2016 02:41:48 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 02:41:48 PM           init| Starting reprint monitor.
+[BOOT       ] 09/02/2016 02:41:48 PM           init| Starting proc change monitor.
+[BOOT       ] 09/02/2016 02:41:48 PM           init| Monitors initialized.
+[SOCK_SERVER] 09/02/2016 02:41:48 PM         server| Socket Server initializing.
+[BOOT       ] 09/02/2016 02:41:48 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/02/2016 02:41:48 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/02/2016 02:41:48 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/02/2016 02:41:48 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/02/2016 02:41:48 PM         server| ---Server now listening---
+[INFO       ] 09/02/2016 02:41:48 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/02/2016 02:46:11 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 02:46:11 PM        autoapt| Snapshot time: 2016-09-02 14:46:11
+                                                   System booted at: 2016-09-02 12:04:54
+                                                   System has 4013M of 8106M available (50.500% used)
+                                                   Driver started at: 2016-09-02 14:46:10
+                                                   Driver is currently using 26M of RAM
+                                                   Driver has performed 469 read and 2 write I/O operations.
+[SOCK_SERVER] 09/02/2016 02:46:11 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 02:46:11 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 02:46:11 PM          pulse| Now == Fri Sep  2 14:46:11 2016 (1472841971.516585)
+[DEBUG      ] 09/02/2016 02:46:11 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 02:46:11 PM          pulse| Tick time == Fri Sep  2 14:47:51 2016 (1472842071.516585)
+[BOOT       ] 09/02/2016 02:46:11 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 02:46:11 PM           init| Starting reprint monitor.
+[BOOT       ] 09/02/2016 02:46:11 PM           init| Starting proc change monitor.
+[BOOT       ] 09/02/2016 02:46:11 PM           init| Monitors initialized.
+[SOCK_SERVER] 09/02/2016 02:46:11 PM         server| Socket Server initializing.
+[BOOT       ] 09/02/2016 02:46:11 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/02/2016 02:46:11 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/02/2016 02:46:11 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/02/2016 02:46:11 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/02/2016 02:46:11 PM         server| ---Server now listening---
+[INFO       ] 09/02/2016 02:46:11 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/02/2016 02:50:29 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 02:50:29 PM        autoapt| Snapshot time: 2016-09-02 14:50:29
+                                                   System booted at: 2016-09-02 12:04:54
+                                                   System has 4049M of 8106M available (50.100% used)
+                                                   Driver started at: 2016-09-02 14:50:28
+                                                   Driver is currently using 26M of RAM
+                                                   Driver has performed 469 read and 2 write I/O operations.
+[SOCK_SERVER] 09/02/2016 02:50:29 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 02:50:29 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 02:50:29 PM          pulse| Now == Fri Sep  2 14:50:29 2016 (1472842229.240048)
+[DEBUG      ] 09/02/2016 02:50:29 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 02:50:29 PM          pulse| Tick time == Fri Sep  2 14:52:09 2016 (1472842329.240048)
+[BOOT       ] 09/02/2016 02:50:29 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 02:50:29 PM           init| Starting reprint monitor.
+[BOOT       ] 09/02/2016 02:50:29 PM           init| Starting proc change monitor.
+[BOOT       ] 09/02/2016 02:50:29 PM           init| Monitors initialized.
+[SOCK_SERVER] 09/02/2016 02:50:29 PM         server| Socket Server initializing.
+[BOOT       ] 09/02/2016 02:50:29 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/02/2016 02:50:29 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/02/2016 02:50:29 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/02/2016 02:50:29 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/02/2016 02:50:29 PM         server| ---Server now listening---
+[INFO       ] 09/02/2016 02:50:29 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/02/2016 10:21:13 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 10:38:00 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 10:38:00 PM        autoapt| Snapshot time: 2016-09-02 22:38:00
+                                                   System booted at: 2016-08-27 20:35:16
+                                                   System has 3762M of 8175M available (54.000% used)
+                                                   Driver started at: 2016-09-02 22:37:59
+                                                   Driver is currently using 26M of RAM
+                                                   Driver has performed 498 read and 1 write I/O operations.
+[SOCK_SERVER] 09/02/2016 10:38:00 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 10:38:00 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 10:38:00 PM          pulse| Now == Fri Sep  2 22:38:00 2016 (1472870280.046111)
+[DEBUG      ] 09/02/2016 10:38:00 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 10:38:00 PM          pulse| Tick time == Fri Sep  2 22:39:40 2016 (1472870380.046111)
+[BOOT       ] 09/02/2016 10:38:00 PM           init| Demo config file not found, creating from template..
+[BOOT       ] 09/02/2016 10:38:00 PM           init| Demo config file not found, creating from template..
+[BOOT       ] 09/02/2016 10:38:00 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 10:39:09 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 10:39:09 PM        autoapt| Snapshot time: 2016-09-02 22:39:09
+                                                   System booted at: 2016-08-27 20:35:16
+                                                   System has 3766M of 8175M available (53.900% used)
+                                                   Driver started at: 2016-09-02 22:39:08
+                                                   Driver is currently using 25M of RAM
+                                                   Driver has performed 497 read and 1 write I/O operations.
+[SOCK_SERVER] 09/02/2016 10:39:09 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 10:39:09 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 10:39:09 PM          pulse| Now == Fri Sep  2 22:39:09 2016 (1472870349.203869)
+[DEBUG      ] 09/02/2016 10:39:09 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 10:39:09 PM          pulse| Tick time == Fri Sep  2 22:40:49 2016 (1472870449.203869)
+[BOOT       ] 09/02/2016 10:39:09 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 10:39:59 PM        autoapt| --System Booting--
+[BOOT       ] 09/02/2016 10:39:59 PM        autoapt| Snapshot time: 2016-09-02 22:39:59
+                                                   System booted at: 2016-08-27 20:35:15
+                                                   System has 3757M of 8175M available (54.000% used)
+                                                   Driver started at: 2016-09-02 22:39:59
+                                                   Driver is currently using 25M of RAM
+                                                   Driver has performed 497 read and 1 write I/O operations.
+[SOCK_SERVER] 09/02/2016 10:39:59 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/02/2016 10:39:59 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/02/2016 10:39:59 PM          pulse| Now == Fri Sep  2 22:39:59 2016 (1472870399.520770)
+[DEBUG      ] 09/02/2016 10:39:59 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/02/2016 10:39:59 PM          pulse| Tick time == Fri Sep  2 22:41:39 2016 (1472870499.520770)
+[BOOT       ] 09/02/2016 10:39:59 PM           init| Starting jif monitor.
+[BOOT       ] 09/02/2016 10:39:59 PM           init| Starting reprint monitor.
+[BOOT       ] 09/02/2016 10:39:59 PM           init| Starting proc change monitor.
+[BOOT       ] 09/02/2016 10:39:59 PM           init| Monitors initialized.
+[SOCK_SERVER] 09/02/2016 10:39:59 PM         server| Socket Server initializing.
+[BOOT       ] 09/02/2016 10:39:59 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/02/2016 10:39:59 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[DEBUG      ] 09/02/2016 10:39:59 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/02/2016 10:39:59 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/02/2016 10:39:59 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/02/2016 10:39:59 PM         server| ---Server now listening---
+[INFO       ] 09/02/2016 10:39:59 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/03/2016 10:59:42 PM        autoapt| --System Booting--
+[BOOT       ] 09/03/2016 10:59:42 PM        autoapt| Snapshot time: 2016-09-03 22:59:42
+                                                   System booted at: 2016-08-27 20:35:15
+                                                   System has 3539M of 8175M available (56.700% used)
+                                                   Driver started at: 2016-09-03 22:59:39
+                                                   Driver is currently using 33M of RAM
+                                                   Driver has performed 729 read and 3 write I/O operations.
+[SOCK_SERVER] 09/03/2016 10:59:42 PM        autoapt| --Socket Server Initialization-
+[INFO       ] 09/03/2016 10:59:42 PM        autoapt| --Pulse Updater Initialization--
+[DEBUG      ] 09/03/2016 10:59:42 PM          pulse| Now == Sat Sep  3 22:59:42 2016 (1472957982.778756)
+[DEBUG      ] 09/03/2016 10:59:42 PM          pulse| Tick len == 100.000000
+[DEBUG      ] 09/03/2016 10:59:42 PM          pulse| Tick time == Sat Sep  3 23:01:22 2016 (1472958082.778756)
+[BOOT       ] 09/03/2016 10:59:42 PM           init| Starting jif monitor.
+[BOOT       ] 09/03/2016 10:59:42 PM           init| Starting reprint monitor.
+[BOOT       ] 09/03/2016 10:59:42 PM           init| Starting proc change monitor.
+[BOOT       ] 09/03/2016 10:59:42 PM           init| Monitors initialized.
+[BOOT       ] 09/03/2016 10:59:42 PM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 09/03/2016 10:59:42 PM         server| Socket Server initializing.
+[SOCK_SERVER] 09/03/2016 10:59:42 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/03/2016 10:59:42 PM         server| ---Server now listening---
+[BOOT       ] 09/03/2016 10:59:42 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[DEBUG      ] 09/03/2016 10:59:42 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/03/2016 10:59:42 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/03/2016 10:59:42 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET / HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET /static/css/bootstrap-theme.css HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET /static/css/APTDemo.css HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET /static/js/jquery-3.1.0.min.js HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET /static/js/main.js HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:50 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:50] "GET /static/imgs/isl-trans.png HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:51 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:51] "GET /static/css/bootstrap.css HTTP/1.1" 200 -
+[INFO       ] 09/03/2016 10:59:51 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:51] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[SOCK_SERVER] 09/03/2016 10:59:54 PM         server| Connection established from 127.0.0.1:61789
+[INFO       ] 09/03/2016 10:59:54 PM      _internal| 127.0.0.1 - - [03/Sep/2016 22:59:54] "GET /start_demo/ HTTP/1.1" 200 -
+[SOCK_SERVER] 09/03/2016 10:59:54 PM         server| Incoming data: ['demo control', 'start']
+[SOCK_SERVER] 09/03/2016 10:59:54 PM         server| ['demo control', 'start']
+[INFO       ] 09/03/2016 11:00:38 PM      _internal| 127.0.0.1 - - [03/Sep/2016 23:00:38] "GET /start_demo/ HTTP/1.1" 200 -
+[SOCK_SERVER] 09/03/2016 11:01:19 PM         server| Connection established from 127.0.0.1:61835
+[SOCK_SERVER] 09/03/2016 11:01:19 PM         server| Incoming data: ['demo control', 'start']
+[SOCK_SERVER] 09/03/2016 11:01:19 PM         server| ['demo control', 'start']
+[INFO       ] 09/03/2016 11:01:39 PM      _internal| 127.0.0.1 - - [03/Sep/2016 23:01:39] "GET /start_demo/ HTTP/1.1" 200 -
+[SOCK_SERVER] 09/03/2016 11:01:43 PM         server| Connection established from 127.0.0.1:61898
+[SOCK_SERVER] 09/03/2016 11:01:43 PM         server| Incoming data: ['demo control', 'start']
+[SOCK_SERVER] 09/03/2016 11:01:43 PM         server| ['demo control', 'start']
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| --System Booting--
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| --Starting AutoAPT Controller--
+[BOOT       ] 09/17/2016 09:53:23 PM           init| Demo config file not found, creating from template..
+[BOOT       ] 09/17/2016 09:53:23 PM           init| Demo config file not found, creating from template..
+[SOCK_SERVER] 09/17/2016 09:53:23 PM        autoapt| --Socket Server Initialization-
+[SOCK_SERVER] 09/17/2016 09:53:23 PM         server| Socket Server initializing.
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/17/2016 09:53:23 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/17/2016 09:53:23 PM         server| ---Server now listening---
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/17/2016 09:53:23 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/17/2016 09:53:23 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/17/2016 09:53:24 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| --System Booting--
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/17/2016 10:25:21 PM        autoapt| --Socket Server Initialization-
+[SOCK_SERVER] 09/17/2016 10:25:21 PM         server| Socket Server initializing.
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/17/2016 10:25:21 PM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/17/2016 10:25:21 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/17/2016 10:25:21 PM         server| ---Server now listening---
+[BOOT       ] 09/17/2016 10:25:21 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/17/2016 10:25:22 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET / HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/css/bootstrap.css HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/css/APTDemo.css HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/js/jquery-3.1.0.min.js HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/css/bootstrap-theme.css HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/imgs/isl-trans.png HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/js/main.js HTTP/1.1" 200 -
+[INFO       ] 09/17/2016 10:25:29 PM      _internal| 127.0.0.1 - - [17/Sep/2016 22:25:29] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| --Starting AutoAPT Controller--
+[BOOT       ] 09/18/2016 12:20:17 AM           init| Demo config file not found, creating from template..
+[SOCK_SERVER] 09/18/2016 12:20:17 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:20:17 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/18/2016 12:20:17 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/18/2016 12:20:17 AM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/18/2016 12:20:17 AM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/18/2016 12:20:17 AM         server| ---Server now listening---
+[INFO       ] 09/18/2016 12:20:17 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:20:24 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:20:24] "GET / HTTP/1.1" 200 -
+[ERROR      ] 09/18/2016 12:20:26 AM            app| Exception on /instructions [GET]
+Traceback (most recent call last):
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python35\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\PyDev\autoapt\webinterface\aptinterface.py", line 36, in instructions
+    return render_template('intrusctions.html')
+  File "C:\Python35\lib\site-packages\flask\templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Python35\lib\site-packages\jinja2\environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Python35\lib\site-packages\jinja2\environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Python35\lib\site-packages\jinja2\environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "C:\Python35\lib\site-packages\flask\templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Python35\lib\site-packages\flask\templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: intrusctions.html
+[INFO       ] 09/18/2016 12:20:26 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:20:26] "GET /instructions HTTP/1.1" 500 -
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:20:58 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:20:58 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/18/2016 12:20:58 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/18/2016 12:20:58 AM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/18/2016 12:20:58 AM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/18/2016 12:20:58 AM         server| ---Server now listening---
+[INFO       ] 09/18/2016 12:20:58 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[ERROR      ] 09/18/2016 12:21:01 AM            app| Exception on /instructions [GET]
+Traceback (most recent call last):
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python35\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python35\lib\site-packages\flask\app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\PyDev\autoapt\webinterface\aptinterface.py", line 36, in instructions
+    return render_template('instrusctions.html')
+  File "C:\Python35\lib\site-packages\flask\templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Python35\lib\site-packages\jinja2\environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Python35\lib\site-packages\jinja2\environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Python35\lib\site-packages\jinja2\environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "C:\Python35\lib\site-packages\flask\templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Python35\lib\site-packages\flask\templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: instrusctions.html
+[INFO       ] 09/18/2016 12:21:01 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:21:01] "GET /instructions HTTP/1.1" 500 -
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:21:17 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:21:17 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/18/2016 12:21:17 AM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/18/2016 12:21:17 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/18/2016 12:21:17 AM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/18/2016 12:21:17 AM         server| ---Server now listening---
+[INFO       ] 09/18/2016 12:21:18 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:21:19 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:21:19] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:21:31 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:21:31] "GET / HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:21:32 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:21:32] "GET / HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:21:33 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:21:33] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/css/bootstrap.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/css/bootstrap-theme.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/css/APTDemo.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/js/jquery-3.1.0.min.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/js/main.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:06 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:06] "GET /static/imgs/isl-trans.png HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/css/bootstrap.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/css/bootstrap-theme.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/css/APTDemo.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/js/jquery-3.1.0.min.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/js/main.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:22:13 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:22:13] "GET /static/imgs/isl-trans.png HTTP/1.1" 304 -
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:31:14 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:31:14 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/18/2016 12:31:14 AM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/18/2016 12:31:14 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/18/2016 12:31:14 AM         server| ---Server now listening---
+[BOOT       ] 09/18/2016 12:31:14 AM        autoapt| --Starting Web Interface--
+[INFO       ] 09/18/2016 12:31:14 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:31:17 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:31:17] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:31:17 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:31:17] "GET /static/imgs/alert_setup.png HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:31:17 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:31:17] "GET /static/imgs/StatusCode-Mapping.png HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:31:17 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:31:17] "GET /static/imgs/icd_sheet_settings.png HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:31:17 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:31:17] "GET /static/imgs/icd_piece_settings.png HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:31:17 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:31:17] "GET /static/imgs/system_config.png HTTP/1.1" 200 -
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:33:09 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:33:09 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/18/2016 12:33:09 AM         server| Server bound to 127.0.0.1, port 8091
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/18/2016 12:33:09 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/18/2016 12:33:09 AM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/18/2016 12:33:09 AM         server| ---Server now listening---
+[INFO       ] 09/18/2016 12:33:09 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:33:11 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:11] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:33:42 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:42] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/css/bootstrap.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/css/bootstrap-theme.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/css/APTDemo.css HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/js/jquery-3.1.0.min.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/js/main.js HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/imgs/isl-trans.png HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/imgs/alert_setup.png HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/imgs/StatusCode-Mapping.png HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/imgs/icd_sheet_settings.png HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/imgs/icd_piece_settings.png HTTP/1.1" 304 -
+[INFO       ] 09/18/2016 12:33:45 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:45] "GET /static/imgs/system_config.png HTTP/1.1" 304 -
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:33:48 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:33:48 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/18/2016 12:33:48 AM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/18/2016 12:33:48 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/18/2016 12:33:48 AM         server| ---Server now listening---
+[BOOT       ] 09/18/2016 12:33:48 AM        autoapt| --Starting Web Interface--
+[INFO       ] 09/18/2016 12:33:48 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:33:50 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:33:50] "GET /instructions HTTP/1.1" 200 -
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:35:47 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:35:47 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/18/2016 12:35:47 AM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/18/2016 12:35:47 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/18/2016 12:35:47 AM         server| ---Server now listening---
+[BOOT       ] 09/18/2016 12:35:47 AM        autoapt| --Starting Web Interface--
+[INFO       ] 09/18/2016 12:35:47 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:35:49 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:35:49] "GET /instructions HTTP/1.1" 200 -
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/18/2016 12:42:10 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 12:42:10 AM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/18/2016 12:42:10 AM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/18/2016 12:42:10 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/18/2016 12:42:10 AM         server| ---Server now listening---
+[BOOT       ] 09/18/2016 12:42:10 AM        autoapt| --Starting Web Interface--
+[INFO       ] 09/18/2016 12:42:10 AM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[INFO       ] 09/18/2016 12:42:14 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:42:14] "GET /instructions HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:42:37 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:42:37] "GET / HTTP/1.1" 200 -
+[INFO       ] 09/18/2016 12:42:38 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:42:38] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -

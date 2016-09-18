@@ -1,0 +1,9 @@
+Device
+DeviceID, DeviceName, DeviceTypeID, EVPerHour, EVPerHour_sheet, EVPerDay, EVPerMonth, HourPerDay, DayPerWeek, DayPerMonth, ConnectionType, DataInputFolder, State, TrackingProcess, Status, DeviceSiteID, RelatedDeviceID, IsMainEngine, IndirectDeviceTextMap, ActivityState, IdleSecondsLimit, ICDFileExts, StatusMapName, RealTimeSimulation, AutoConfirm, Icon, SiteID, enableControl, ControlFileFolder, enableDivert, stopOnDuplicate, PostageTracker, CombinedFileInput, RequestReprint
+1, CS3900Z, 110103, 27270, 54540, , , 24, 7, 30, 1, C:\APTApplication\ICD\icd_1\, 1, 10, 1, 0, 0, 0, Delimited Sheet, 2, 10, dat;log;txt;xml, Default, 1, 1, Printer - Oce ColorStream 3500.png, , 0, , 0, 0, 0, 0, 0
+2, Flex-PSeal, 114120, 12500, 22000, , , 24, 7, 30, 1, C:\APTApplication\ICD\icd_2\, 1, 20, 1, 0, 0, 0, Delimited Piece, 2, 10, dat;log;txt;xml, Default, 1, 1, Finisher - Horizon BQ470.gif, , 0, , 0, 0, 0, 0, 0
+3, BB700, 112115, 16000, 32000, , , 24, 7, 30, 0, , 1, 30, 1, 0, 0, 0, Default, 2, 10, dat;log;txt;xml, Default, 0, 1, Inserter - WD BB700.png, , 0, , 0, 0, 0, 0, 0
+4, MPS, 112100, 22000, 60000, , , 24, 7, 30, 1, C:\APTApplication\ICD\icd_3\, 1, 30, 1, 0, 0, 0, Delimited Piece, 2, 10, dat;log;txt;xml, Default, 1, 1, Inserter - PB MPS.png, , 0, , 0, 0, 0, 0, 0
+5, Reprint Station A, 113100, 100, 100, , , 24, 7, 30, 1, C:\APTApplication\ICD\icd_4\, 1, 0, 1, 0, 0, 0, Delimited Piece, 2, 10, dat;log;txt;xml, Default, 1, 1, Manual Station.gif, , 0, , 0, 0, 0, 0, 0
+6, Reprint Station B, 113100, 100, 100, , , 24, 7, 30, 1, C:\APTApplication\ICD\icd_5\, 1, 0, 1, 0, 0, 0, Delimited Piece, 2, 10, dat;log;txt;xml, Default, 1, 1, Manual Station.gif, , 0, , 0, 0, 0, 0, 0
+7, Reprint Station C, 113100, 100, 100, , , 24, 7, 30, 1, C:\APTApplication\ICD\icd_6\, 1, 0, 1, 0, 0, 0, Delimited Piece, 2, 10, dat;log;txt;xml, Default, 1, 1, Manual Station.gif, , 0, , 0, 0, 0, 0, 0
