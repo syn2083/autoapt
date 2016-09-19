@@ -11,13 +11,26 @@ logger = init_logging()
 
 class SocketServer(threading.Thread):
     def __init__(self, controller):
+        """
+        The socketserver thread. With my limited understanding of threading, and obvious problems trying to run the
+        socketserver directly in a main app loop, I decided to pass the socketserver into it's own thread. It contains
+        the deques needed to add incoming payloads appropriately for the dispatcher to then deal with later.
+        :param controller:
+        :type controller: controller.DemoController
+        """
         super().__init__()
-        self.lock = controller.lock
         self.command_queue = controller.command_queue
         self.proc_queue = controller.proc_queue
         self.demo_status = controller.demo_status
 
     def rec_data(self, conn):
+        """
+        Based on examples and tutorials, the rec_data method.
+        :param conn:
+        :type conn: socket.socket
+        :return: bytestring containing json payload
+        :rtype: bytes
+        """
         chunks = []
 
         while True:
@@ -28,24 +41,12 @@ class SocketServer(threading.Thread):
                 chunks.append(stream)
         return b''.join(chunks)
 
-    def client_handler(self, conn):
-        request = json.loads(self.rec_data(conn))
-        if 'demo control' == request[0]:
-            if 'start' == request[1]:
-                pass
-            if 'stop' == request[1]:
-                pass
-            if 'pause' == request[1]:
-                pass
-        if 'demo config' == request[0]:
-            if 'demo' == request[1]:
-                pass
-            if 'jif' == request[1]:
-                pass
-        if 'status check' == request[0]:
-            pass
-
     def server_init(self):
+        """
+        Initialize the socketserver with values from config.py.
+        :return: initialized and bound SocketServer.server
+        :rtype: socket.socket
+        """
         logger.sock('Socket Server initializing.')
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -62,6 +63,13 @@ class SocketServer(threading.Thread):
         return server
 
     def run(self):
+        """
+        Worker process for the socketserver, loops looking for connections, and handles any incoming request.
+        Passes off to rec_data, and then json.loads resultant bytestring.
+        Passes the payload to either self.command_queue or self.proc_queue depending on payload contents.
+        :return: None
+        :rtype: None
+        """
         socket_server = self.server_init()
 
         while True:
@@ -70,11 +78,9 @@ class SocketServer(threading.Thread):
                 logger.sock('Connection established from {}:{}'.format(addr[0], addr[1]))
                 in_data = json.loads(self.rec_data(conn).decode('utf-8'))
                 logger.sock('Incoming data: {}'.format(in_data))
-                # self.lock.acquire()
                 logger.sock(in_data)
                 if in_data[0] == 'demo control':
                     self.command_queue.append(in_data)
                 else:
                     self.proc_queue.append(in_data)
-                # self.lock.release()
                 conn.close()

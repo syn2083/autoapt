@@ -2,6 +2,8 @@ __author__ = 'Syn'
 import socket
 import json
 
+"""Backup method to starting the demo system if webinterface is not working for some reason."""
+
 TCP_IP = '127.0.0.1'
 TCP_PORT = 8091
 

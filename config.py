@@ -1,10 +1,10 @@
 __author__ = 'Syn'
 import os
 
-
-BASE_DIR = os.getcwd()
-
 # Logger Configs
+scriptdir, script = os.path.split(__file__)
+BASE_DIR = scriptdir
+# For packaged
 log_dir = os.path.join(BASE_DIR, 'logs')
 log_file = os.path.join(log_dir, 'aptdemo.log')
 
@@ -19,10 +19,12 @@ SOCK_PORT = 8091
 CHUNK_SIZE = 4096
 
 # System Configs
-DEMO_CONF_DIR = os.path.join(os.getcwd(), 'config_files')
+DEMO_CONF_DIR = os.path.join(BASE_DIR, 'config_files')
 DEMO_CONF_FILE = os.path.join(DEMO_CONF_DIR, 'demo.config')
 JIF_CONF_FILE = os.path.join(DEMO_CONF_DIR, 'jif.config')
 
+"""Learned about configparser after doing all this.. refactor in the future."""
+# TODO utilize config-parser instead of this
 DEF_DEMO_CONF = [{'icd_1': {'origin': 'icd_1', 'path': 'C:/APTApplication/ICD/icd_1', 'speed': 54540,
                             'piece_or_sheet': 'sheet', 'multi_step': 1, 'site_prefix': 'A10', 'shift1': 'Jim, John, Amy',
                             'shift2': 'Kent, Laura, Chris', 'shift3': 'Jason, Ray, Sean', 'proc_phase': '10, 30',
@@ -64,5 +66,5 @@ DEF_JIF_CONF = [{'JIF': {'temp_name': 'APTDemo', 'jtype': 'Checks, Statements, N
                          'stocktype': 'Matte, Gloss', 'ui1': 'Saddle Stitch, Perfect Bind',
                          'ui2': '10, 6x9, 9x12', 'ui3': '0X-, 1D-, AQ-', 'ui4': '', 'ui5': '',
                          'cemail': 'support@ironsidestech.com'},
-                'OPTS': {'prange': '3000, 4000', 'srange': '1, 6', 'num_jifs': 1}}]
+                'OPTS': {'prange': '2000, 2600', 'srange': '1, 6', 'num_jifs': 1}}]
 

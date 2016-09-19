@@ -1,28 +1,36 @@
+__author__ = 'venom'
 import datetime
 import os
 import shutil
-import copy
-from random import choice, randint, sample, random
+from random import choice, randint, sample
 from os import path
 from .prog_utilities import folder_construct, str_to_list, find_shift
 from logging_setup import init_logging
 
-__author__ = 'venom'
 
 """This module handles utilizing a JIF Template to produce output. It has builtin assemblers for the
-job ticket and piece manifesting, feed scan data, and exit scan data where appropriate. The output data will be placed
-in a local directory in the following format:
-Output
--TemplateName
---feed_data
---exit_data
---jif_output"""
+job ticket and piece manifesting, sheet scan data, and piece scan data where appropriate. The output data will be placed
+in a local directory."""
 
 logger = init_logging()
+
+# TODO Get JIFBuilder to dynamically load configs.
 
 
 class JIFBuilder:
     def __init__(self, icd_target, jdf_folder, dconf, jconf):
+        """
+        Use some magic to initialize the JIFBuilder class with templatized configuration data.
+        As ICD data is a representation of the past, set time value into the past for creation/processing reasons.
+        :param icd_target: Target device the job is being built for
+        :type icd_target: str
+        :param jdf_folder: APT Server JDF folder location
+        :type jdf_folder: str
+        :param dconf: demo config dict
+        :type dconf: list[dict, dict]
+        :param jconf: jif config dict
+        :type jconf: list[dict, dict]
+        """
         for k in jconf[0]['JIF'].keys():
             setattr(self, k, jconf[0]['JIF'][k])
         for k in jconf[0]['OPTS'].keys():
@@ -56,36 +64,60 @@ class JIFBuilder:
         self.current_bad = 0
 
     def id_to_int(self):
+        """
+        Helper function to convert the jobid to an int.
+        :return: Jobid as Int
+        :rtype: int
+        """
         try:
             return int(self.job_id)
         except ValueError:
             return None
 
     def id_to_str(self, input_id):
+        """
+        Helper function to conver the given input_id into a string, zfilling 7 (JobID string output must be 10 chars)
+        :param input_id: Int jobid input
+        :type input_id: int
+        :return: Jobid as a string, zfill 7
+        :rtype: str
+        """
         try:
             return str(input_id).zfill(7)
         except:
             return None
 
     def jobid_loader(self):
-        logger.debug('JobID Loader called')
-        local_path = path.dirname(path.abspath(__file__))
-        logger.debug('Data path = {}'.format(local_path))
+        """
+        Find the current jobid seed at the specified file location, or, initialize to 1 and save the file if none exists.
+        :return: None
+        :rtype: None
+        """
+        logger.jifgen('JobID Loader called')
+        scriptdir, script = os.path.split(__file__)
+        local_path = scriptdir
+        logger.jifgen('Data path = {}'.format(local_path))
         seeder = path.join(local_path, "job_seed.txt")
         if not path.isfile(seeder):
             with open(seeder, 'w') as fp:
                 fp.write('0000001')
             fp.close()
             self.current_jobid = 1
-            logger.debug('Jobid set to 1 called inside non found seed file.')
+            logger.jifgen('Jobid set to 1 called inside non found seed file.')
         else:
             with open(seeder, 'r') as fp:
                 self.current_jobid = int(fp.read())
-                logger.debug('Jobid = {}'.format(self.current_jobid))
+                logger.jifgen('Jobid = {}'.format(self.current_jobid))
             fp.close()
 
     def jobid_saver(self):
-        local_path = path.dirname(path.abspath(__file__))
+        """
+        Save the current jobid seed to the jobid_seed.txt file.
+        :return: None
+        :rtype: None
+        """
+        scriptdir, script = os.path.split(__file__)
+        local_path = scriptdir
         seeder = path.join(local_path, "job_seed.txt")
         if not path.isfile(seeder):
             with open(seeder, 'w') as fp:
@@ -99,23 +131,29 @@ class JIFBuilder:
     def add_seconds(self, in_time, secs):
         return in_time + datetime.timedelta(seconds=secs)
 
-    def piece_builder(self, piece_id):
-        plist = []
-        bstr = "\n"
-
-        plist.append("   <Piece>")
-        plist.append("    <ID>{pieceid}</ID>".format(pieceid=str(piece_id).zfill(6)))
+    def piece_builder(self):
+        """
+        Find a sheet count and return it.
+        :return: random int based on sheet range
+        :rtype: int
+        """
         rlist = [i.strip() for i in self.srange.split(',')]
         sheet_count = randint(int(rlist[0]), int(rlist[1]))
-        plist.append("    <TotalSheets>{totals}</TotalSheets>".format(totals=str(sheet_count)))
-        plist.append("   </Piece>")
-        return [bstr.join(plist), sheet_count]
+        return sheet_count
 
     def gen_jifs(self):
+        """
+        This is the core of the jif_assembler. This function takes a given series of specifications and generates a
+        randomized jif for APT to consume. Upong creation of the template, it will also create sheet and piece scan data
+        depending on the device target (ICD) and if it is single or multi-step.
+        It will randomly determine if damages occur during the job, and generate require reprint processing files as
+        well.
+        :return: Jobid
+        :rtype: str
+        """
         bstr = "\n"
         make_damages = 0
-        pcomp_to_use = choice(['1', '2'])
-        pcomp = '{}'.format(pcomp_to_use)
+        scriptdir, script = os.path.split(__file__)
 
         self.jobid_loader()
         logger.jifgen('Starting to build JIF {}{}.'.format(self.site_prefix, self.id_to_str(self.current_jobid)))
@@ -199,13 +237,10 @@ class JIFBuilder:
                                                                         randint(100, 999), randint(1000, 9999)))
             jif_strings.append(" <UserInfo4>{}</UserInfo4>".format(choice(conv_dict['ui4'][1])))
             jif_strings.append(" <UserInfo5>{}</UserInfo5>".format(choice(conv_dict['ui5'][1])))
-            # jif_strings.append("  <JobManifest>")
-            logger.debug('Building Sheets.')
+            logger.jifgen('Building Sheets.')
             for t in range(1, self.current_piececount + 1):
-                result = self.piece_builder(t)
-                # jif_strings.append(result[0])
-                sheet_list.append(result[1])
-            # jif_strings.append("  </JobManifest>")
+                result = self.piece_builder()
+                sheet_list.append(result)
             multi = int(pcomp)
             sheets = 0
             for x in sheet_list:
@@ -215,7 +250,7 @@ class JIFBuilder:
             jif_strings.append(" </JobTicket>\n")
             jstr = bstr.join(jif_strings)
 
-            logger.debug('Generating ICD Data.')
+            logger.jifgen('Generating ICD Data.')
 
             if self.piece_or_sheet.lower() == 'sheet':
                 if self.multi_step:
@@ -245,26 +280,41 @@ class JIFBuilder:
             present_jobid = '{}{}'.format(self.site_prefix, str(self.current_jobid).zfill(7))
             self.current_jobid += 1
             self.generated_jobs += 1
-            logger.debug('Saving Job Seed')
+            logger.jifgen('Saving Job Seed')
             self.jobid_saver()
-            temp_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output\\aptdemo\\jif_output')
+            temp_folder = os.path.join(scriptdir, 'output\\aptdemo\\jif_output')
             if not os.path.exists(temp_folder):
                 os.makedirs(temp_folder)
             filename = path.join(temp_folder, present_jobid + ".jif")
             with open(filename, 'w') as fp:
                 fp.write(jstr)
             fp.close()
-            logger.debug('Copying JIF to JDF folder.')
+            logger.jifgen('Copying JIF to JDF folder.')
             shutil.copyfile(filename, os.path.join(self.out, present_jobid + '.jif'))
-            logger.debug('Cleaning temp JIF')
+            logger.jifgen('Cleaning temp JIF')
             try:
                 os.remove(filename)
             except PermissionError:
                 pass
-            logger.debug('JIF creation completed. {} has been sent to APT.'.format(present_jobid))
+            logger.jifgen('JIF creation completed. {} has been sent to APT.'.format(present_jobid))
             return present_jobid
 
     def gen_sheet_data(self, create_damages=None, num_sheets=None, ops=None):
+        """
+        This method will create all sheet scan data for the ICD target. String format is:
+        Jobid,pieceid,cur_sheet,total_sheet,time,result,op
+
+        If damages were selected, it will randomly determine a damage list via random.sample and then decide what
+        type of damage during processing.
+        :param create_damages: Effectively a bool, 1 yes, 0/None, no
+        :type create_damages: int or None
+        :param num_sheets: Pre-set number of sheets
+        :type num_sheets: int or None
+        :param ops: Operator selection dict
+        :type ops: dict[str][list] or None
+        :return: damages list
+        :rtype: list
+        """
         out_str = "\n"
         out_path = folder_construct()
         sheet_strings = []
@@ -311,14 +361,27 @@ class JIFBuilder:
                         self.curr_time = self.add_seconds(self.curr_time, 1)
 
         filename = path.join(out_path, "sheet_" + job_string + ".txt")
-        logger.debug('Writing Sheet File.')
+        logger.jifgen('Writing Sheet File.')
         with open(filename, 'w') as fp:
             fp.write(out_str.join(sheet_strings) + '\n')
         fp.close()
         self.curr_time = None
         return sheet_damage_list
 
-    def gen_piece_data(self, create_damages=0, ops=None):
+    def gen_piece_data(self, create_damages=None, ops=None):
+        """
+        This method will create all piece scan data for the ICD target. String format is:
+        Jobid,pieceid,time,result,op
+
+        If damages were selected, it will randomly determine a damage list via random.sample and then decide what
+        type of damage during processing. Due to issues on APT side, a damage cannot be the first or last piece.
+        :param create_damages: Effectively a bool, 1 == yes, 0/None == no
+        :type create_damages: int or None
+        :param ops: oeprator selection dict containing list of operators per shift
+        :type ops: dict[str][list]
+        :return: piece damage list
+        :rtype: list
+        """
         out_str = "\n"
         out_path = folder_construct()
         piece_strings = []
@@ -340,8 +403,7 @@ class JIFBuilder:
             operator = choice(ops['shift_3_ops'][1])
 
         if create_damages:
-            if create_damages:
-                damage_list = sample(prange, choice([1, 5, 10, 15, 20, 25]))
+            damage_list = sample(prange, choice([1, 5, 10, 15, 20, 25]))
 
         for i in prange:
             if i in damage_list:
@@ -383,7 +445,7 @@ class JIFBuilder:
                     self.curr_time = self.add_seconds(self.curr_time, 1)
 
         filename = path.join(out_path, "piece_" + job_string + ".txt")
-        logger.debug('Writing Piece File.')
+        logger.jifgen('Writing Piece File.')
         with open(filename, 'w') as fp:
             fp.write(out_str.join(piece_strings) + '\n')
         fp.close()
@@ -391,6 +453,16 @@ class JIFBuilder:
         return damage_list
 
     def gen_reprints(self, damage_list):
+        """
+        This method will create all reprint scan data for the ICD target. String format is:
+        Jobid,pieceid,time,result,op
+
+        All reprints are processed at a ICD piece level defined device only, so output strings are piece level.
+        :param damage_list: list of pieces damaged in this job that will require reprint strings
+        :type damage_list: list
+        :return: None
+        :rtype: None
+        """
         out_str = "\n"
         out_path = folder_construct()
         reprint_strings = []
@@ -433,7 +505,7 @@ class JIFBuilder:
                 self.curr_time = self.add_seconds(self.curr_time, 1)
 
         filename = path.join(out_path, "reprint_" + job_string + ".txt")
-        logger.debug('Writing Reprint File.')
+        logger.jifgen('Writing Reprint File.')
         with open(filename, 'w') as fp:
             fp.write(out_str.join(reprint_strings) + '\n')
         fp.close()

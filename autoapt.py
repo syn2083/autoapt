@@ -1,23 +1,27 @@
 __author__ = 'Syn'
 import utilities
-import time
 from webinterface import aptinterface
 from logging_setup import init_logging
 from init import init_controller
 from server import SocketServer
-from pulse import Pulse
 
 logger = init_logging()
 
 
 def autoapt():
+    """
+    System intilization method. Starts all necesarry components to run the system:
+    Controller == central intelligence
+    SocketServer == Threaded TCP Socket server
+    Web_server == flask interface with some instructions and controls for the system.
+    Also cleans old data out of some APT folder locations to keep hdd footprint low for APT.
+    :return:
+    :rtype:
+    """
     logger.boot('--System Booting--')
-    start_snapshot = utilities.ResourceSnapshot()
-    logger.boot(start_snapshot.log_data())
-    logger.sock('--Socket Server Initialization-')
-    logger.info('--Pulse Updater Initialization--')
-    pulse = Pulse()
+    logger.boot('--Starting AutoAPT Controller--')
     control = init_controller()
+    logger.sock('--Socket Server Initialization--')
     control.socket_server = SocketServer(control)
     control.socket_server.start()
     logger.boot('--Cleaning Reprint Directory--')
@@ -31,16 +35,6 @@ def autoapt():
     web_server = aptinterface.app
     web_server.run(host='127.0.0.1', port=8080)
     logger.boot('--System Startup Complete, Entering Main Loop--')
-
-    while True:
-        top_of_loop = time.time()
-        pulse.perform_updates()
-        time_spent = time.time() - top_of_loop
-        nap_time = pulse.width - time_spent
-        if nap_time > 0.0:
-            time.sleep(nap_time)
-        else:
-            logger.warn('Exceeded time slice by %.3f seconds!', abs(nap_time))
 
 if __name__ == '__main__':
     autoapt()
