@@ -26,15 +26,11 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.1 (C:\Users\trogers\AppData\Local\Programs\Python\Python35\python.exe)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 (C:\Python35\python.exe)" project-jdk-type="Python SDK" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="windows-1252" />
     <option name="myConnectionType" value="DEPLOYMENT_SERVER" />
     <option name="myConnectionId" value="d0481123-6599-4468-a776-4dc18b124385" />
-  </component>
-  <component name="VagrantProjectSettings">
-    <option name="instanceFolder" value="" />
-    <option name="provider" value="" />
   </component>
   <component name="masterDetails">
     <states>
