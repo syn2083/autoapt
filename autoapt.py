@@ -9,9 +9,16 @@ logger = init_logging()
 
 
 def autoapt():
+    """
+    System intilization method. Starts all necesarry components to run the system:
+    Controller == central intelligence
+    SocketServer == Threaded TCP Socket server
+    Web_server == flask interface with some instructions and controls for the system.
+    Also cleans old data out of some APT folder locations to keep hdd footprint low for APT.
+    :return:
+    :rtype:
+    """
     logger.boot('--System Booting--')
-    # start_snapshot = utilities.ResourceSnapshot()
-    # logger.boot(start_snapshot.log_data())
     logger.boot('--Starting AutoAPT Controller--')
     control = init_controller()
     logger.sock('--Socket Server Initialization--')

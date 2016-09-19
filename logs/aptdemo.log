@@ -438,3 +438,18 @@ jinja2.exceptions.TemplateNotFound: instrusctions.html
 [INFO       ] 09/18/2016 12:42:14 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:42:14] "GET /instructions HTTP/1.1" 200 -
 [INFO       ] 09/18/2016 12:42:37 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:42:37] "GET / HTTP/1.1" 200 -
 [INFO       ] 09/18/2016 12:42:38 AM      _internal| 127.0.0.1 - - [18/Sep/2016 00:42:38] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| --System Booting--
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| --Starting AutoAPT Controller--
+[BOOT       ] 09/18/2016 09:24:07 PM           init| Demo config file not found, creating from template..
+[BOOT       ] 09/18/2016 09:24:07 PM           init| JIF config file not found, creating from template..
+[SOCK_SERVER] 09/18/2016 09:24:07 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/18/2016 09:24:07 PM         server| Socket Server initializing.
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/18/2016 09:24:07 PM         server| Server bound to 127.0.0.1, port 8091
+[SOCK_SERVER] 09/18/2016 09:24:07 PM         server| ---Server now listening---
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/18/2016 09:24:07 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/18/2016 09:24:07 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/18/2016 09:24:07 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)

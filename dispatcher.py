@@ -8,14 +8,28 @@ logger = init_logging()
 
 class Dispatcher(threading.Thread):
     def __init__(self, controller):
+        """
+        Init the dispatcher thread, this is the gatekeeper, in my attempt to keep the application threadsafe.
+        The dispatcher will never add to the deque, only popleft. It simply dispatches incoming payloads appropriately.
+        :param controller: Allow the dispatcher access to the controller brain, to modify demo state.
+        :type controller: controller.DemoController
+        """
         super().__init__()
         self.controller = controller
         self.command_queue = controller.command_queue
-        self.reprint_queue = controller.reprint_queue
-        self.jifack_queue = controller.jifack_queue
         self.proc_queue = controller.proc_queue
 
     def run(self):
+        """
+        This is the main loop of the dispatcher, it is setup around the 2 deques, command_queue and proc_queue.
+        self.command_queue will contain demo state controls, start/pause/stop and is independant of the job control
+        queue. I did this to de-couple overall state logic from actual processing logic and allow for a paused demo
+        to resume as is once a start request arrives.
+        I set the while loop to run with a 250ms delay between actions, I do not need it to be any faster, and even this
+        is likely overkill.
+        :return: None
+        :rtype: None
+        """
         while True:
             try:
                 payload = self.command_queue.popleft()
@@ -35,8 +49,7 @@ class Dispatcher(threading.Thread):
                             logger.dispatch('Pausing Demo.')
                             self.controller.demo_status = 2
                         if self.controller.demo_status == 2:
-                            logger.dispatch('Resuming Demo.')
-                            self.controller.demo_status = 1
+                            pass
                         if self.controller.demo_status == 0:
                             logger.dispatch('Pause sent to stopped demo, ignoring.')
                     if payload[1] == 'stop':

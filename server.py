@@ -11,12 +11,26 @@ logger = init_logging()
 
 class SocketServer(threading.Thread):
     def __init__(self, controller):
+        """
+        The socketserver thread. With my limited understanding of threading, and obvious problems trying to run the
+        socketserver directly in a main app loop, I decided to pass the socketserver into it's own thread. It contains
+        the deques needed to add incoming payloads appropriately for the dispatcher to then deal with later.
+        :param controller:
+        :type controller: controller.DemoController
+        """
         super().__init__()
         self.command_queue = controller.command_queue
         self.proc_queue = controller.proc_queue
         self.demo_status = controller.demo_status
 
     def rec_data(self, conn):
+        """
+        Based on examples and tutorials, the rec_data method.
+        :param conn:
+        :type conn: socket.socket
+        :return: bytestring containing json payload
+        :rtype: bytes
+        """
         chunks = []
 
         while True:
@@ -28,6 +42,11 @@ class SocketServer(threading.Thread):
         return b''.join(chunks)
 
     def server_init(self):
+        """
+        Initialize the socketserver with values from config.py.
+        :return: initialized and bound SocketServer.server
+        :rtype: socket.socket
+        """
         logger.sock('Socket Server initializing.')
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -44,6 +63,13 @@ class SocketServer(threading.Thread):
         return server
 
     def run(self):
+        """
+        Worker process for the socketserver, loops looking for connections, and handles any incoming request.
+        Passes off to rec_data, and then json.loads resultant bytestring.
+        Passes the payload to either self.command_queue or self.proc_queue depending on payload contents.
+        :return: None
+        :rtype: None
+        """
         socket_server = self.server_init()
 
         while True:
