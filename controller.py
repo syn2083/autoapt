@@ -256,7 +256,7 @@ class DemoController:
                     except ValueError:
                         pass
                     if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, origin)['jobid']) <= 1:
-                        if getattr(self, origin)['multi_step'] == 1 and len(self.td['jobid']) >= 2:
+                        if getattr(self, origin)['multi_step'] == 1 and len(self.td['jobid']) <= 2:
                             self.create_job(origin)
                         if getattr(self, origin)['multi_step'] == 0:
                             self.create_job(origin)
