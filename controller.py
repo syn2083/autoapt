@@ -54,6 +54,21 @@ class DemoController:
         if self.demo_status == 2:
             return 'Paused'
 
+    def create_job(self, origin):
+        """
+        DRY.. job creator helper method. Adds new job to active jobs, and adds the jobid to the origins list as well.
+        :param origin: string representation of origin ICD
+        :type origin: str
+        :return: string representation of new jobid if needed in the future.
+        :rtype: str
+        """
+        gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
+        logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
+        new_job = gen.gen_jifs()
+        getattr(self, origin)['jobid'].append(new_job)
+        self.active_jobs[new_job] = [origin, origin]
+        return new_job
+
     def reset_seed(self):
         """
         Method for a flask call to reset jifgenerator seed to 1, effectively restarting demo.
@@ -91,9 +106,7 @@ class DemoController:
         logger.debug(self.active_targets)
         for k in self.active_targets:
             logger.debug('Target {}'.format(k))
-            jifconstruct = jif_assembler.JIFBuilder(k, self.jif_folder, self.democonf, self.jifconfig)
-            getattr(self, k)['jobid'].append(jifconstruct.gen_jifs())
-            self.active_jobs[getattr(self, k)['jobid'][-1]] = [k, k]
+            self.create_job(k)
             logger.demo('Creating initial job for target: {}'.format(k.upper()))
         logger.debug('Demo Initialized.')
         return 'Demo initialization and startup complete.'
@@ -208,11 +221,7 @@ class DemoController:
                         except FileNotFoundError:
                             pass
                     if len(getattr(self, icd)['jobid']) <= 1 and len(self.td['jobid']) <= 2:
-                        gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
-                        logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
-                        new_job = gen.gen_jifs()
-                        getattr(self, origin)['jobid'].append(new_job)
-                        self.active_jobs[new_job] = [origin, origin]
+                        self.create_job(origin)
                     self.active_jobs[jobid][0] = self.td['origin']
 
     def reprint_job(self, data):
@@ -247,12 +256,10 @@ class DemoController:
                     except ValueError:
                         pass
                     if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, origin)['jobid']) <= 1:
-                        if (getattr(self, origin)['multi_step'] == 1 and self.td['jobid'] >= 2) or getattr(self, origin)['multi_step'] == 0:
-                            gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
-                            logger.io('Creating {} JIF/Exit Data'.format(icd.upper()))
-                            new_job = gen.gen_jifs()
-                            getattr(self, origin)['jobid'].append(new_job)
-                            self.active_jobs[new_job] = [origin, origin]
+                        if getattr(self, origin)['multi_step'] == 1 and self.td['jobid'] >= 2:
+                            self.create_job(origin)
+                        if getattr(self, origin)['multi_step'] == 0:
+                            self.create_job(origin)
                     exit_dir = self.exit_data
                     data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
                     logger.io('Copying {} to reprint directory'.format(jobid))
@@ -318,11 +325,7 @@ class DemoController:
                 if prefix == 'A4':
                     logger.io('Initial TD Job Completed. {}'.format(jobid))
                 else:
-                    gen = jif_assembler.JIFBuilder(origin, self.jif_folder, self.democonf, self.jifconfig)
-                    logger.io('Creating {} JIF/Exit Data'.format(origin.upper()))
-                    new_job = gen.gen_jifs()
-                    getattr(self, origin)['jobid'].append(new_job)
-                    self.active_jobs[new_job] = [origin, origin]
+                    self.create_job(origin)
             del self.active_jobs[jobid]
         else:
             logger.io('Completed job call, but job is already listed as complete {}'.format(jobid))
