@@ -23,6 +23,8 @@ SOFTWARE.
 """
 __author__ = 'Syn'
 import utilities
+import argparse
+from client import console_input
 from webinterface import aptinterface
 from logging_setup import init_logging
 from init import init_controller
@@ -31,7 +33,7 @@ from server import SocketServer
 logger = init_logging()
 
 
-def autoapt():
+def autoapt(start_cmds=None):
     """
     System intilization method. Starts all necesarry components to run the system:
     Controller == central intelligence
@@ -54,10 +56,21 @@ def autoapt():
     cleaned_td_files = utilities.clean_td(control)
     logger.boot('Removed {} files from APT TD Folder.'.format(cleaned_td_files))
     logger.debug('JDF {}'.format(control.jif_folder))
+    if start_cmds:
+        logger.boot('--Start command received from cmd line--')
+        console_input(start_cmds)
     logger.boot('--Starting Web Interface--')
     web_server = aptinterface.app
     web_server.run(host='127.0.0.1', port=8080)
     logger.boot('--System Startup Complete, Entering Main Loop--')
 
+
 if __name__ == '__main__':
-    autoapt()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('control')
+    args = parser.parse_args()
+    if args.control:
+        autoapt(args.control)
+    else:
+        autoapt()
+

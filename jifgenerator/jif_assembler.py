@@ -129,7 +129,7 @@ class JIFBuilder:
             fp.close()
 
     def add_seconds(self, in_time, secs):
-        return in_time + datetime.timedelta(seconds=secs)
+        return in_time + datetime.timedelta(seconds=secs, microseconds=100)
 
     def piece_builder(self):
         """
