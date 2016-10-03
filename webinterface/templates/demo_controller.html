@@ -6,7 +6,10 @@
               <h3 class="panel-title">APT Demo Console</h3>
             </div>
             <div class="panel-body text-center">
-              <div id="demo_status" style="text-align: center; color: #0f0f0f"><br/> {% if demo_status == 1 %}Started {% elif demo_status == 0 %} Stopped {% endif %}</div><br/>
+                <hr>
+                    <h3>Demo System Status : {% if control == 0 %}<span class="label label-danger">Not Running</span>{% endif %}<span id="message"></span></h3>
+                <hr>
+              <div id="demo_status" style="text-align: center; color: #0f0f0f"><br/> </div><br/>
                 <div class="center-block">
                     <button type="button" class="btn btn-primary" id="start"><span class="glyphicon glyphicon-play"></span> Start Demo</button>
                     <button type="button" class="btn btn-warning" id="pause"><span class="glyphicon glyphicon-pause"></span> Pause Demo</button>

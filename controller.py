@@ -1,5 +1,8 @@
 import os
 import shutil
+import threading
+import time
+import random
 from collections import deque
 from logging_setup import init_logging
 from jifgenerator import jif_assembler
@@ -10,8 +13,129 @@ This is the Demo Controller Brain.
 logger = init_logging()
 
 
+class DataWorker(threading.Thread):
+    def __init__(self, job_queue, spr, exit_dir, target):
+        threading.Thread.__init__(self)
+        self.paused = False
+        self._pause_cond = threading.Condition(threading.Lock())
+        self.spr = spr
+        self.exit_dir = exit_dir
+        self.target = target
+        self.job_queue = job_queue
+        self.interval = None
+
+    def find_files(self, jobid):
+        output_files = []
+        file_dump = [f for f in os.listdir(self.exit_dir) if jobid in f if self.spr in f]
+        for ind in range(0, len(file_dump)):
+            for file in file_dump:
+                if ind == int(file.split('.')[2]):
+                    output_files.append(file)
+
+        interval = int(file_dump[0].split('.')[1]) + 5
+        
+        return output_files, interval
+
+    def run(self):
+        running = True
+        jobid = None
+
+        while running:
+            try:
+                jobid = self.job_queue.popleft()
+            except IndexError:
+                pass
+            if jobid:
+                logger.io('New jobid in {}'.format(jobid))
+                # Add a little variation to when files start copying
+                time.sleep(random.randint(10, 30))
+                files, interval = self.find_files(jobid)
+                logger.io(files)
+                with self._pause_cond:
+                    for file in files:
+                        try:
+                            original_loc = os.path.join(self.exit_dir, file)
+                            target_loc = os.path.join(self.target, file)
+                            logger.io('Copying data file {}'.format(file))
+                            shutil.copyfile(original_loc, target_loc)
+                        except FileNotFoundError:
+                            interval = 0
+                        while self.paused:
+                            self._pause_cond.wait()
+                        time.sleep(interval)
+                    jobid = None
+            time.sleep(.5)
+
+    def pause(self):
+        self.paused = True
+        # If in sleep, we acquire immediately, otherwise we wait for thread
+        # to release condition. In race, worker will still see self.paused
+        # and begin waiting until it's set back to False
+        self._pause_cond.acquire()
+
+    def resume(self):
+        self.paused = False
+        # Notify so thread will wake after lock released
+        self._pause_cond.notify()
+        # Now release the lock
+        self._pause_cond.release()
+
+
+class DataController:
+    def __init__(self, all_targets, reprint_targets, target_data, exit_dir):
+        self.all_targets = {k: None for k in all_targets}
+        self.reprints = reprint_targets
+        self.exit_dir = exit_dir
+        for i in target_data.keys():
+            setattr(self, i, target_data[i])
+
+    def setup_workers(self):
+        for target in self.all_targets.keys():
+            new_queue = deque()
+            new_thread = DataWorker(new_queue, getattr(self, target)['piece_or_sheet'], self.exit_dir,
+                                    getattr(self, target)['path'])
+            self.all_targets[target] = [new_queue, new_thread]
+            
+            new_thread.start()
+            logger.io('Worker threads initialized.')
+
+    def new_data(self, jobid, target_device):
+        logger.io('Data controller, target {}'.format(target_device))
+        self.all_targets[target_device][0].append(jobid)
+        logger.io('Deque {}'.format(self.all_targets[target_device][0]))
+
+    def pause_worker(self, worker):
+        if isinstance(worker, list):
+            try:
+                for i in worker:
+                    logger.io('Pausing worker: {}'.format(i))
+                    self.all_targets[i][1].pause()
+            except ValueError:
+                logger.debug('Blank list passed to pause_worker.')
+        else:
+            logger.io('Pausing worker: {}'.format(worker))
+            self.all_targets[worker][1].pause()
+
+    def resume_work(self, worker):
+        if isinstance(worker, list):
+            try:
+                for i in worker:
+                    logger.io('Resuming work: {}'.format(i))
+                    self.all_targets[i][1].resume()
+            except ValueError:
+                logger.debug('Blank list passed to resume_work.')
+        else:
+            logger.io('Resuming work: {}'.format(worker))
+            self.all_targets[worker][1].resume()
+
+    def clear_queues(self):
+        logger.io('Clearing worker queues.')
+        for worker in self.all_targets.values():
+            worker[0].clear()
+
+
 class DemoController:
-    def __init__(self, dconf, jconf):
+    def __init__(self, dconf, jconf, sysconf):
         """
         Init the Demo Controller, taking in the JIF Config object, and Demo Config object
         :param dconf: 
@@ -25,22 +149,27 @@ class DemoController:
         for k in dconf[2].keys():
             setattr(self, k, dconf[2][k])
         self.monitors = []
+        self.clients = None
         self.lock = None
         self.dispatcher = None
         self.observers = []
         self.socket_server = None
+        self.data_controller = None
         self.command_queue = deque()
         self.proc_queue = deque()
         self.active_jobs = {}
         self.completed_jobs = []
         self.reprinting_jobs = []
-        self.exit_data = dconf[1]['DemoDirs']['exit_data']
+        self.data_workers = []
+        self.exit_dir = dconf[1]['DemoDirs']['exit_data']
         self.jif_data = dconf[1]['DemoDirs']['jif_data']
-        self.jif_folder = dconf[1]['APTDirs']['JDF']
+        self.jif_folder = dconf[1]['APTDirs']['jdf']
         self.first_run = 1
+        self.num_jobs = 0
         self.target_dirs = {k: dconf[0][k]['path'] for k in dconf[0].keys()}
         self.jifconfig = jconf
         self.democonf = dconf
+        self.sysconf = sysconf
 
     def __repr__(self):
         """
@@ -53,6 +182,22 @@ class DemoController:
             return 'Running'
         if self.demo_status == 2:
             return 'Paused'
+
+    def pause_demo(self):
+        logger.demo('Sending pause signal to data controller.')
+        self.data_controller.pause_worker(self.all_targets)
+
+    def resume_demo(self):
+        logger.demo('Sending resume signal to data controller.')
+        self.data_controller.resume_work(self.all_targets)
+
+    def pause_target(self, target):
+        logger.demo('Pausing single target, sending signal to data controller.')
+        self.data_controller.pause_worker(target)
+
+    def resume_target(self, target):
+        logger.demo('Resuming single target, sending signal to data controller.')
+        self.data_controller.resume_work(target)
 
     def create_job(self, origin):
         """
@@ -67,6 +212,7 @@ class DemoController:
         new_job = gen.gen_jifs()
         getattr(self, origin)['jobid'].append(new_job)
         self.active_jobs[new_job] = [origin, origin]
+        self.num_jobs += 1
         return new_job
 
     def reset_seed(self):
@@ -90,22 +236,20 @@ class DemoController:
         :rtype: str
         """
         # create exit directories if needed
-        if not os.path.exists(self.democonf[1]['DemoDirs']['exit_data']):
-            os.makedirs(self.democonf[1]['DemoDirs']['exit_data'])
-        if not os.path.exists(self.democonf[1]['DemoDirs']['jif_data']):
-            os.makedirs(self.democonf[1]['DemoDirs']['jif_data'])
+        if not os.path.exists(self.exit_dir):
+            os.makedirs(self.exit_dir)
+        if not os.path.exists(self.jif_data):
+            os.makedirs(self.jif_data)
         # clean up any outstanding exit data
-        files = os.listdir(self.exit_data)
+        files = os.listdir(self.exit_dir)
         logger.demo('--Demo Startup--')
         for file in files:
-            os.remove(self.exit_data + '/' + file)
+            os.remove(self.exit_dir + '/' + file)
         logger.demo('Exit directory cleaned up.')
         self.first_run = 0
         logger.demo('Demo Status == 1')
         self.demo_status = 1
-        logger.debug(self.active_targets)
         for k in self.active_targets:
-            logger.debug('Target {}'.format(k))
             self.create_job(k)
             logger.demo('Creating initial job for target: {}'.format(k.upper()))
         logger.debug('Demo Initialized.')
@@ -126,13 +270,16 @@ class DemoController:
             
         self.active_jobs = {}
         self.reprinting_jobs = []
+        
+        # Clear the worker queues
+        self.data_controller.clear_queues()
 
         # clean up exit data
-        files = os.listdir(self.exit_data)
+        files = os.listdir(self.exit_dir)
         logger.demo('Cleaning exit directory.')
 
         for file in files:
-            os.remove(self.exit_data + '/' + file)
+            os.remove(self.exit_dir + '/' + file)
 
         logger.demo('Resetting demo state')
         self.first_run = 1
@@ -160,16 +307,9 @@ class DemoController:
         if data[0] == 'Accepted':
             try:
                 icd = self.active_jobs[jobid][0]
-                exit_dir = self.exit_data
                 logger.io('--New Job--')
                 logger.io('Job {} accepted by APT, sending data.'.format(icd))
-                if getattr(self, icd)['piece_or_sheet'].lower() == 'piece':
-                    data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
-                    target = os.path.join(getattr(self, icd)['path'], 'piece_{}.txt'.format(jobid))
-                else:
-                    data_file = os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid))
-                    target = os.path.join(getattr(self, icd)['path'], 'sheet_{}.txt'.format(jobid))
-                shutil.copyfile(data_file, target)
+                self.data_controller.new_data(jobid, icd)
             except KeyError:
                 logger.io('Job not found...')
                 not_found = True
@@ -207,20 +347,18 @@ class DemoController:
                     except ValueError:
                         pass
 
-                    exit_dir = self.exit_data
-                    data_file = os.path.join(exit_dir, 'piece_{}.txt'.format(jobid))
-                    file_out = os.path.join(self.td['path'], 'piece_{}.txt'.format(jobid))
-
                     logger.io('Sending data to TD from multi-step.')
-                    shutil.copyfile(data_file, file_out)
+                    self.data_controller.new_data(jobid, 'td')
                     logger.io('Cleaning previous data.')
 
                     if getattr(self, icd)['piece_or_sheet'].lower() == 'sheet':
                         try:
-                            os.remove(os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)))
+                            files = [f for f in os.listdir(self.exit_dir) if 'sheet' in f if jobid in f]
+                            for file in files:
+                                os.remove(os.path.join(self.exit_dir, file))
                         except FileNotFoundError:
                             pass
-                    if len(getattr(self, icd)['jobid']) <= 1 and len(self.td['jobid']) <= 2:
+                    if len(getattr(self, icd)['jobid']) < 1 and len(self.td['jobid']) <= 1:
                         self.create_job(origin)
                     self.active_jobs[jobid][0] = self.td['origin']
 
@@ -256,12 +394,10 @@ class DemoController:
                     except ValueError:
                         pass
                     if jobid[:2] in ['A1', 'A2', 'A3'] and len(getattr(self, origin)['jobid']) <= 1:
-                        if getattr(self, origin)['multi_step'] == 1 and len(self.td['jobid']) <= 2:
+                        if getattr(self, origin)['multi_step'] == 1 and len(self.td['jobid']) <= 1:
                             self.create_job(origin)
                         if getattr(self, origin)['multi_step'] == 0:
                             self.create_job(origin)
-                    exit_dir = self.exit_data
-                    data_file = os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))
                     logger.io('Copying {} to reprint directory'.format(jobid))
                     done = False
                     reprint_target = None
@@ -277,11 +413,10 @@ class DemoController:
                                             pass
                             else:
                                 break
-                    send_to = os.path.join(getattr(self, reprint_target)['path'], 'reprint_{}.txt'.format(jobid))
                     getattr(self, reprint_target)['jobid'].append(jobid)
+                    self.data_controller.new_data(jobid, reprint_target)
                     self.active_jobs[jobid][0] = reprint_target
                     self.reprinting_jobs.append(jobid)
-                    shutil.copyfile(data_file, send_to)
 
     def complete_job(self, data):
         """
@@ -301,10 +436,7 @@ class DemoController:
             origin = self.active_jobs[jobid][1]
             icd = self.active_jobs[jobid][0]
 
-            exit_dir = self.exit_data
-            files = [os.path.join(exit_dir, 'piece_{}.txt'.format(jobid)),
-                     os.path.join(exit_dir, 'sheet_{}.txt'.format(jobid)),
-                     os.path.join(exit_dir, 'reprint_{}.txt'.format(jobid))]
+            files = [os.path.join(self.exit_dir, i) for i in os.listdir(self.exit_dir) if jobid in i]
 
             logger.io('--Job Completed--')
             logger.io('JobID {}'.format(jobid))

@@ -1,5 +1,6 @@
 __author__ = 'Syn'
 import os
+import configparser
 
 # Logger Configs
 scriptdir, script = os.path.split(__file__)
@@ -68,3 +69,169 @@ DEF_JIF_CONF = [{'JIF': {'temp_name': 'APTDemo', 'jtype': 'Checks, Statements, N
                          'cemail': 'support@ironsidestech.com'},
                 'OPTS': {'prange': '2000, 2600', 'srange': '1, 6', 'num_jifs': 1}}]
 
+
+def save_default_sys():
+    if not os.path.isfile(os.path.join(DEMO_CONF_DIR, 'sys.ini')):
+        with open(os.path.join(DEMO_CONF_DIR, 'sys.ini'), 'w') as syscfg:
+            config = configparser.ConfigParser()
+            http = 'HTTPServer'
+            sock = 'SocketServer'
+            db = 'DB'
+            config.add_section(http)
+            config.set(http, 'host', '0.0.0.0')
+            config.set(http, 'port', '8888')
+            config.add_section(sock)
+            config.set(sock, 'host', '0.0.0.0')
+            config.set(sock, 'port', '8091')
+            config.add_section(db)
+            config.set(db, 'dbname', 'aptdemo.db')
+            config.write(syscfg)
+
+
+def save_default_demo():
+    if not os.path.isfile(os.path.join(DEMO_CONF_DIR, 'demo.ini')):
+        with open(os.path.join(DEMO_CONF_DIR, 'demo.ini'),  'w') as democfg:
+            config = configparser.ConfigParser()
+            for i in DEF_DEMO_CONF:
+                for k, v in i.items():
+                    config.add_section(k)
+                    if isinstance(v, list):
+                        config.set(k, k, ', '.join(v))
+                    else:
+                        for nk, nv in v.items():
+                            config.set(k, nk, str(nv))
+            config.write(democfg)
+
+
+def save_default_jif():
+    if not os.path.isfile(os.path.join(DEMO_CONF_DIR, 'jif.ini')):
+        with open(os.path.join(DEMO_CONF_DIR, 'jif.ini'), 'w') as jifcfg:
+            config = configparser.ConfigParser()
+            for i in DEF_JIF_CONF:
+                for k, v in i.items():
+                    config.add_section(k)
+                    if isinstance(v, list):
+                        config.set(k, k, ', '.join(v))
+                    else:
+                        for nk, nv in v.items():
+                            config.set(k, nk, str(nv))
+            config.write(jifcfg)
+
+
+def parse_demo_config(config):
+    """
+    Takes the demo ini file, parses out the values as I need them, and passes back a list of the 3 archetypes used for
+    the system
+    :param config:
+    :type config: configparser object
+    :return: list[dict, dict, dict]
+    :rtype: list
+    """
+    out = []
+    icd_dict = {}
+    targets = {}
+    dirs = {}
+
+    for k in config.keys():
+        # Pull out the icd/td sections, and re-construct the dicts
+        if k[:2] in ('ic', 'td'):
+            x = {}
+            for subk, subv in config[k].items():
+                # Rebuild the jobid list section
+                if '[]' in subv:
+                    x[subk] = []
+                else:
+                    try:
+                        # Reconstitute ints
+                        x[subk] = int(subv)
+                    except ValueError:
+                        # Leave strings/string lists alone
+                        x[subk] = subv
+            icd_dict[k] = x
+
+        # Pull out the target sections and re-construct the dicts
+        if k[:3] in ('act', 'rep', 'all'):
+            targets[k] = [i.strip() for z in config[k].values() for i in z.split(',')]
+
+        # Pull out the dirs sections and re-construct the dicts
+        if 'Dirs' in k:
+            y = {}
+            for subk, subv in config[k].items():
+                y[subk] = subv
+            dirs[k] = y
+
+    out.append(icd_dict)
+    out.append(dirs)
+    out.append(targets)
+
+    return out
+
+
+def parse_sys_config(config):
+    out = {}
+    for k in config.keys():
+        if 'HTTP' in k:
+            x = {}
+            for subk, subv in config[k].items():
+                try:
+                    x[subk] = int(subv)
+                except ValueError:
+                    x[subk] = subv
+            out[k] = x
+        if 'Socket' in k:
+            y = {}
+            for subk, subv in config[k].items():
+                try:
+                    y[subk] = int(subv)
+                except ValueError:
+                    y[subk] = subv
+            out[k] = y
+        if 'DB' in k:
+            z = {}
+            for subk, subv in config[k].items():
+                z[subk] = subv
+            out[k] = z
+
+    return out
+
+
+def parse_jif_config(config):
+    jif = {}
+    out = []
+
+    for k in config.keys():
+        if 'JIF' in k:
+            x = {}
+            for subk, subv in config[k].items():
+                x[subk] = subv
+            jif[k] = x
+
+        if 'OPTS' in k:
+            y = {}
+            for subk, subv in config[k].items():
+                try:
+                    y[subk] = int(subv)
+                except ValueError:
+                    y[subk] = subv
+            jif[k] = y
+
+    out.append(jif)
+
+    return out
+
+
+def load_config(target):
+    out = {}
+    config = configparser.ConfigParser()
+    for starget in target.split(','):
+        config.read(os.path.join(DEMO_CONF_DIR, '{}.ini'.format(starget.strip())))
+    if 'demo' in target:
+        out['dconf'] = parse_demo_config(config)
+
+    if 'sys' in target:
+        out['sysconf'] = parse_sys_config(config)
+
+    if 'jif' in target:
+        out['jconf'] = parse_jif_config(config)
+
+    return out

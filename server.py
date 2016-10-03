@@ -22,6 +22,8 @@ class SocketServer(threading.Thread):
         self.command_queue = controller.command_queue
         self.proc_queue = controller.proc_queue
         self.demo_status = controller.demo_status
+        self.port = controller.sysconf['SocketServer']['port']
+        self.host = controller.sysconf['SocketServer']['host']
 
     def rec_data(self, conn):
         """
@@ -51,8 +53,8 @@ class SocketServer(threading.Thread):
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
         try:
-            server.bind((config.SERV_ADDR, config.SOCK_PORT))
-            logger.sock('Server bound to {}, port {}'.format(config.SERV_ADDR, config.SOCK_PORT))
+            server.bind((self.host, self.port))
+            logger.sock('Server bound to {}, port {}'.format(self.host, self.port))
         except socket.error:
             logger.sock('Server bind failed. Error: '.format(sys.exc_info()))
             pass

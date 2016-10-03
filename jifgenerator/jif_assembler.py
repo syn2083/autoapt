@@ -4,7 +4,7 @@ import os
 import shutil
 from random import choice, randint, sample
 from os import path
-from .prog_utilities import folder_construct, str_to_list, find_shift
+from .prog_utilities import folder_construct, str_to_list, find_shift, chunk_data_lists, str_to_datetime
 from logging_setup import init_logging
 
 
@@ -227,7 +227,7 @@ class JIFBuilder:
             jif_strings.append(" <EnvelopeID>{}</EnvelopeID>".format(choice(conv_dict['envid'][1])))
             jif_strings.append(" <StockID>{}</StockID>".format(choice(conv_dict['stockid'][1])))
             jif_strings.append(" <StockType>{}</StockType>".format(choice(conv_dict['stocktype'][1])))
-            if '30' in self.end_phase:
+            if self.end_phase == 30:
                 jif_strings.append(" <UserInfo1>None</UserInfo1>")
                 jif_strings.append(" <UserInfo2>{}</UserInfo2>".format(choice(conv_dict['ui2'][1])))
             else:
@@ -320,6 +320,7 @@ class JIFBuilder:
         sheet_strings = []
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         self.curr_time = self.creation[1]
+        start_time = self.curr_time
         sheet_count = 0
         sheet_damage_list = []
         operator = None
@@ -360,11 +361,15 @@ class JIFBuilder:
                     if sheet_count % self.speed == 0:
                         self.curr_time = self.add_seconds(self.curr_time, 1)
 
-        filename = path.join(out_path, "sheet_" + job_string + ".txt")
-        logger.jifgen('Writing Sheet File.')
-        with open(filename, 'w') as fp:
-            fp.write(out_str.join(sheet_strings) + '\n')
-        fp.close()
+        chunked_list = list(chunk_data_lists(sheet_strings, 100))
+        last_time = str_to_datetime(chunked_list[0][-1].split(',')[4])
+        g = (last_time - start_time) + datetime.timedelta(seconds=30)
+        interval = int(g.seconds)
+        for n, i in enumerate(chunked_list):
+            filename = path.join(out_path, 'sheet_{}.{}.{}.txt'.format(job_string, interval, n))
+            logger.jifgen('Writing Sheet File {}.'.format(n))
+            with open(filename, 'w') as fp:
+                fp.write(out_str.join(i) + '\n')
         self.curr_time = None
         return sheet_damage_list
 
@@ -394,6 +399,8 @@ class JIFBuilder:
             self.curr_time = self.creation[1] + datetime.timedelta(hours=1)
         else:
             self.curr_time = self.creation[1]
+
+        start_time = self.curr_time
 
         if find_shift() == 1:
             operator = choice(ops['shift_1_ops'][1])
@@ -444,11 +451,15 @@ class JIFBuilder:
                 if i % self.speed == 0:
                     self.curr_time = self.add_seconds(self.curr_time, 1)
 
-        filename = path.join(out_path, "piece_" + job_string + ".txt")
-        logger.jifgen('Writing Piece File.')
-        with open(filename, 'w') as fp:
-            fp.write(out_str.join(piece_strings) + '\n')
-        fp.close()
+        chunked_list = list(chunk_data_lists(piece_strings, 100))
+        last_time = str_to_datetime(chunked_list[0][-1].split(',')[2])
+        g = last_time - start_time
+        interval = int(g.seconds)
+        for n, i in enumerate(chunked_list):
+            filename = path.join(out_path, 'piece_{}.{}.{}.txt'.format(job_string, interval, n))
+            logger.jifgen('Writing Piece File {}.'.format(n))
+            with open(filename, 'w') as fp:
+                fp.write(out_str.join(i) + '\n')
         self.curr_time = None
         return damage_list
 
@@ -467,12 +478,13 @@ class JIFBuilder:
         out_path = folder_construct()
         reprint_strings = []
         if self.multi_step == 1 or self.target == 'td':
-            self.curr_time = datetime.datetime.now()
+            self.curr_time = datetime.datetime.now() + datetime.timedelta(hours=1, minutes=30)
         else:
             self.curr_time = self.creation[1] + datetime.timedelta(hours=2)
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         operator = None
         ostrings = []
+        start_time = self.curr_time
 
         if find_shift() == 1:
             for k in self.reprinters.keys():
@@ -504,9 +516,13 @@ class JIFBuilder:
             if i % self.r_speed == 0:
                 self.curr_time = self.add_seconds(self.curr_time, 1)
 
-        filename = path.join(out_path, "reprint_" + job_string + ".txt")
-        logger.jifgen('Writing Reprint File.')
-        with open(filename, 'w') as fp:
-            fp.write(out_str.join(reprint_strings) + '\n')
-        fp.close()
+        chunked_list = list(chunk_data_lists(reprint_strings, 100))
+        last_time = str_to_datetime(chunked_list[0][-1].split(',')[2])
+        g = (last_time - start_time) + datetime.timedelta(seconds=30)
+        interval = int(g.seconds)
+        for n, i in enumerate(chunked_list):
+            filename = path.join(out_path, 'reprint_{}.{}.{}.txt'.format(job_string, interval, n))
+            logger.jifgen('Writing Reprint File {}.'.format(n))
+            with open(filename, 'w') as fp:
+                fp.write(out_str.join(reprint_strings) + '\n')
         self.curr_time = None

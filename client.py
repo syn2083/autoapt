@@ -10,6 +10,7 @@ logger = init_logging()
 TCP_IP = '127.0.0.1'
 TCP_PORT = 8091
 
+k = ['Accepted', 'A400000056']
 
 def sock_connect(jdump):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -29,4 +30,5 @@ def console_input(in_data):
         logger.error('Unknown console command: {}'.format(in_data))
 
 
-
+if __name__ == '__main__':
+    sock_connect(json.dumps(k))

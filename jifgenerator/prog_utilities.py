@@ -44,4 +44,13 @@ def find_shift():
         return 1
 
 
+def chunk_data_lists(in_list, chunk_size):
+    if len(in_list) <= chunk_size:
+        yield in_list
+    else:
+        for i in range(0, len(in_list), chunk_size):
+            yield in_list[i:i + chunk_size]
 
+
+def str_to_datetime(in_string):
+    return datetime.datetime.strptime(in_string, '%Y-%m-%d %H:%M:%S.%f')

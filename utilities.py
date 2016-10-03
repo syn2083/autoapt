@@ -9,8 +9,8 @@ logger = init_logging()
 
 def clean_reprints(control):
     count = 0
-    path_to_reprints = control.democonf[1]['APTDirs']['REPRINT']
-    reprints = [i for i in os.listdir(control.democonf[1]['APTDirs']['REPRINT'])]
+    path_to_reprints = control.democonf[1]['APTDirs']['reprint']
+    reprints = [i for i in os.listdir(control.democonf[1]['APTDirs']['reprint'])]
     for file in reprints:
         os.remove(os.path.join(path_to_reprints, file))
         count += 1
