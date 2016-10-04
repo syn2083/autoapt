@@ -33,8 +33,12 @@ class SocketHandler(websocket.WebSocketHandler):
 
 
 def send_demo_control(in_data):
-    message = ['demo control', in_data]
-    output = json.dumps(message)
+    if in_data == 'status_check':
+        message = ['demo status', in_data]
+        output = json.dumps(message)
+    else:
+        message = ['demo control', in_data]
+        output = json.dumps(message)
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((TCP_IP, TCP_PORT))
@@ -80,6 +84,11 @@ def reset_seed():
     send_demo_control('reset_seed')
     return 'Sent Reset Seed Request!'
 
+
+@app.route('/status_check/')
+def status_check():
+    send_demo_control('status_check')
+    return 'Status Checking'
 
 container = WSGIContainer(app)
 server = Application([(r'/ws', SocketHandler), (r'.*', FallbackHandler, dict(fallback=container))])

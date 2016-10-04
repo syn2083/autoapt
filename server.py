@@ -59,7 +59,7 @@ class SocketServer(threading.Thread):
             logger.sock('Server bind failed. Error: '.format(sys.exc_info()))
             pass
 
-        server.listen(5)
+        server.listen(10)
         logger.sock('---Server now listening---')
 
         return server

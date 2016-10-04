@@ -18,6 +18,7 @@ class Dispatcher(threading.Thread):
         self.controller = controller
         self.command_queue = controller.command_queue
         self.proc_queue = controller.proc_queue
+        self.status_queue = controller.status_queue
 
     def run(self):
         """

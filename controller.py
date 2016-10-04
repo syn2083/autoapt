@@ -3,6 +3,7 @@ import shutil
 import threading
 import time
 import random
+import json
 from collections import deque
 from logging_setup import init_logging
 from jifgenerator import jif_assembler
@@ -157,6 +158,7 @@ class DemoController:
         self.data_controller = None
         self.command_queue = deque()
         self.proc_queue = deque()
+        self.status_queue = deque()
         self.active_jobs = {}
         self.completed_jobs = []
         self.reprinting_jobs = []
@@ -248,6 +250,8 @@ class DemoController:
         logger.demo('Exit directory cleaned up.')
         self.first_run = 0
         logger.demo('Demo Status == 1')
+        for client in self.clients:
+            client.write_message(json.dumps({'id': 'message', 'value': 'started'}))
         self.demo_status = 1
         for k in self.active_targets:
             self.create_job(k)

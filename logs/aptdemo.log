@@ -453,3 +453,2446 @@ jinja2.exceptions.TemplateNotFound: instrusctions.html
 [DEBUG      ] 09/18/2016 09:24:07 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
 [BOOT       ] 09/18/2016 09:24:07 PM        autoapt| --Starting Web Interface--
 [INFO       ] 09/18/2016 09:24:07 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:28:24 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:28:24 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:28:24 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:28:24 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:28:24 PM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 09/23/2016 01:28:24 PM         server| Server bind failed. Error: 
+[BOOT       ] 09/23/2016 01:28:25 PM        autoapt| Removed 76 files from APT Reprint Folder.
+[BOOT       ] 09/23/2016 01:28:25 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/23/2016 01:28:25 PM        autoapt| Removed 54 files from APT TD Folder.
+[DEBUG      ] 09/23/2016 01:28:25 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:28:25 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:28:25 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:29:22 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:29:22 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/23/2016 01:29:22 PM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/23/2016 01:29:22 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/23/2016 01:29:22 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:29:22 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:29:23 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:29:57 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:29:57 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/23/2016 01:29:57 PM         server| Server bound to 127.0.0.1, port 8091
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/23/2016 01:29:57 PM         server| ---Server now listening---
+[DEBUG      ] 09/23/2016 01:29:57 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:29:57 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:29:57 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:30:34 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:30:34 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/23/2016 01:30:34 PM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/23/2016 01:30:34 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:30:34 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/23/2016 01:30:34 PM         server| ---Server now listening---
+[INFO       ] 09/23/2016 01:30:34 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:31:05 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:31:05 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 09/23/2016 01:31:05 PM         server| Server bound to 127.0.0.1, port 8091
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/23/2016 01:31:05 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/23/2016 01:31:05 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:31:05 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:31:05 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:33:26 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:33:26 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/23/2016 01:33:26 PM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/23/2016 01:33:26 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/23/2016 01:33:26 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:33:26 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:33:26 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:34:01 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:34:01 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| Removed 0 files from APT TD Folder.
+[SOCK_SERVER] 09/23/2016 01:34:01 PM         server| Server bound to 127.0.0.1, port 8091
+[DEBUG      ] 09/23/2016 01:34:01 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[SOCK_SERVER] 09/23/2016 01:34:01 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:34:01 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:34:01 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:38:53 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:38:53 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 09/23/2016 01:38:53 PM         server| Server bind failed. Error: 
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/23/2016 01:38:53 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:38:53 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:38:53 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:39:04 PM        autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 09/23/2016 01:39:04 PM         server| Connection established from 127.0.0.1:27941
+[SOCK_SERVER] 09/23/2016 01:39:04 PM         server| Incoming data: ['demo control', 'start']
+[SOCK_SERVER] 09/23/2016 01:39:04 PM         server| ['demo control', 'start']
+[DISPATCH   ] 09/23/2016 01:39:05 PM     dispatcher| Starting Demo.
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| --Demo Startup--
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| Demo Status == 1
+[DEBUG      ] 09/23/2016 01:39:05 PM     controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG      ] 09/23/2016 01:39:05 PM     controller| Target icd_1
+[IO_HANDLER ] 09/23/2016 01:39:05 PM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Jobid = 1
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Starting to build JIF A100000001.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Writing Sheet File.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JIF creation completed. A100000001 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| Creating initial job for target: ICD_1
+[DEBUG      ] 09/23/2016 01:39:05 PM     controller| Target icd_2
+[IO_HANDLER ] 09/23/2016 01:39:05 PM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Jobid = 2
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Starting to build JIF A200000002.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JIF creation completed. A200000002 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| Creating initial job for target: ICD_2
+[DEBUG      ] 09/23/2016 01:39:05 PM     controller| Target icd_3
+[IO_HANDLER ] 09/23/2016 01:39:05 PM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Jobid = 3
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Starting to build JIF A300000003.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JIF creation completed. A300000003 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| Creating initial job for target: ICD_3
+[DEBUG      ] 09/23/2016 01:39:05 PM     controller| Target td
+[IO_HANDLER ] 09/23/2016 01:39:05 PM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Jobid = 4
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Starting to build JIF A400000004.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:39:05 PM  jif_assembler| JIF creation completed. A400000004 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:39:05 PM     controller| Creating initial job for target: TD
+[DEBUG      ] 09/23/2016 01:39:05 PM     controller| Demo Initialized.
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:39:32 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:39:32 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 09/23/2016 01:39:32 PM         server| Server bound to 127.0.0.1, port 8091
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/23/2016 01:39:32 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/23/2016 01:39:32 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:39:32 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:39:32 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:40:22 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:40:22 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 09/23/2016 01:40:22 PM         server| Server bound to 127.0.0.1, port 8091
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/23/2016 01:40:22 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/23/2016 01:40:22 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:40:22 PM        autoapt| --Starting Web Interface--
+[INFO       ] 09/23/2016 01:40:22 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| --System Booting--
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| --Starting AutoAPT Controller--
+[SOCK_SERVER] 09/23/2016 01:43:19 PM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 09/23/2016 01:43:19 PM         server| Socket Server initializing.
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| --Cleaning Reprint Directory--
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 09/23/2016 01:43:19 PM         server| Server bound to 127.0.0.1, port 8091
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| --Cleaning TD Directory--
+[SOCK_SERVER] 09/23/2016 01:43:19 PM         server| ---Server now listening---
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 09/23/2016 01:43:19 PM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| --Start command received from cmd line--
+[SOCK_SERVER] 09/23/2016 01:43:19 PM         server| Connection established from 127.0.0.1:28127
+[BOOT       ] 09/23/2016 01:43:19 PM        autoapt| --Starting Web Interface--
+[SOCK_SERVER] 09/23/2016 01:43:19 PM         server| Incoming data: ['demo control', 'start']
+[SOCK_SERVER] 09/23/2016 01:43:19 PM         server| ['demo control', 'start']
+[INFO       ] 09/23/2016 01:43:19 PM      _internal|  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[DISPATCH   ] 09/23/2016 01:43:19 PM     dispatcher| Starting Demo.
+[DEMO_STATE ] 09/23/2016 01:43:19 PM     controller| --Demo Startup--
+[DEMO_STATE ] 09/23/2016 01:43:19 PM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 09/23/2016 01:43:19 PM     controller| Demo Status == 1
+[DEBUG      ] 09/23/2016 01:43:19 PM     controller| ['icd_1', 'icd_2', 'icd_3', 'td']
+[DEBUG      ] 09/23/2016 01:43:19 PM     controller| Target icd_1
+[IO_HANDLER ] 09/23/2016 01:43:19 PM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Jobid = 5
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Starting to build JIF A100000005.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Writing Sheet File.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Writing Reprint File.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| JIF creation completed. A100000005 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:43:19 PM     controller| Creating initial job for target: ICD_1
+[DEBUG      ] 09/23/2016 01:43:19 PM     controller| Target icd_2
+[IO_HANDLER ] 09/23/2016 01:43:19 PM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Jobid = 6
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Starting to build JIF A200000006.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| JIF creation completed. A200000006 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:43:19 PM     controller| Creating initial job for target: ICD_2
+[DEBUG      ] 09/23/2016 01:43:19 PM     controller| Target icd_3
+[IO_HANDLER ] 09/23/2016 01:43:19 PM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Jobid = 7
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Starting to build JIF A300000007.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:43:19 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| JIF creation completed. A300000007 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:43:20 PM     controller| Creating initial job for target: ICD_3
+[DEBUG      ] 09/23/2016 01:43:20 PM     controller| Target td
+[IO_HANDLER ] 09/23/2016 01:43:20 PM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| JobID Loader called
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Jobid = 8
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Starting to build JIF A400000008.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Building Sheets.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Writing Piece File.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Writing Reprint File.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 09/23/2016 01:43:20 PM  jif_assembler| JIF creation completed. A400000008 has been sent to APT.
+[DEMO_STATE ] 09/23/2016 01:43:20 PM     controller| Creating initial job for target: TD
+[DEBUG      ] 09/23/2016 01:43:20 PM     controller| Demo Initialized.
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 09:49:40 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 09:49:40 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 09:49:40 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 09:49:40 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/03/2016 09:49:40 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| Removed 1 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 09:49:40 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 09:49:40 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 09:50:03 AM           wsgi| 200 GET / (127.0.0.1) 176.73ms
+[INFO       ] 10/03/2016 09:50:03 AM           wsgi| 200 GET /static/css/bootstrap.css (127.0.0.1) 405.29ms
+[INFO       ] 10/03/2016 09:50:03 AM           wsgi| 200 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 71.24ms
+[INFO       ] 10/03/2016 09:50:04 AM           wsgi| 200 GET /static/js/bootstrap.min.js (127.0.0.1) 156.69ms
+[INFO       ] 10/03/2016 09:50:04 AM           wsgi| 200 GET /static/css/bootstrap-theme.css (127.0.0.1) 87.93ms
+[INFO       ] 10/03/2016 09:50:04 AM           wsgi| 200 GET /static/css/APTDemo.css (127.0.0.1) 4.00ms
+[INFO       ] 10/03/2016 09:50:04 AM           wsgi| 200 GET /static/js/main.js (127.0.0.1) 3.00ms
+[INFO       ] 10/03/2016 09:50:04 AM           wsgi| 200 GET /static/imgs/isl-trans.png (127.0.0.1) 288.15ms
+[INFO       ] 10/03/2016 09:50:04 AM           wsgi| 200 GET /static/fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 179.22ms
+[SOCK_SERVER] 10/03/2016 09:50:05 AM           wsgi| 404 GET /favicon.ico (127.0.0.1) 201.04ms
+[SOCK_SERVER] 10/03/2016 09:50:10 AM         server| Connection established from 127.0.0.1:55013
+[SOCK_SERVER] 10/03/2016 09:50:10 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 09:50:10 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/03/2016 09:50:10 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 09:50:10 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 09:50:10 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 09:50:10 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 09:50:10 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 09:50:10 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Jobid = 53
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Starting to build JIF A100000053.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 73.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 74.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 75.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 76.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 77.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 78.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 79.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 80.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 81.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 82.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 83.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 84.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 85.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 86.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 87.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 88.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Sheet File 89.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 25.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| JIF creation completed. A100000053 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 09:50:10 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 09:50:10 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Jobid = 54
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Starting to build JIF A200000054.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| JIF creation completed. A200000054 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 09:50:10 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 09:50:10 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Jobid = 55
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Starting to build JIF A300000055.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 09:50:10 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| JIF creation completed. A300000055 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 09:50:11 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 09:50:11 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Jobid = 56
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Starting to build JIF A400000056.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Writing Piece File 25.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 09:50:11 AM  jif_assembler| JIF creation completed. A400000056 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 09:50:11 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 09:50:11 AM     controller| Demo Initialized.
+[SOCK_SERVER] 10/03/2016 09:50:25 AM         server| Connection established from 127.0.0.1:55016
+[SOCK_SERVER] 10/03/2016 09:50:25 AM         server| Incoming data: ['demo control', 'stop']
+[INFO       ] 10/03/2016 09:50:25 AM           wsgi| 200 GET /stop_demo/ (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/03/2016 09:50:25 AM         server| ['demo control', 'stop']
+[DISPATCH   ] 10/03/2016 09:50:25 AM     dispatcher| Stopping Demo.
+[DEMO_STATE ] 10/03/2016 09:50:25 AM     controller| --Demo Shutdown Initiated--
+[DEMO_STATE ] 10/03/2016 09:50:25 AM     controller| Setting demo status to 0, stopping demo.
+[IO_HANDLER ] 10/03/2016 09:50:25 AM     controller| Clearing worker queues.
+[DEMO_STATE ] 10/03/2016 09:50:25 AM     controller| Cleaning exit directory.
+[DEMO_STATE ] 10/03/2016 09:50:25 AM     controller| Resetting demo state
+[DEMO_STATE ] 10/03/2016 09:50:25 AM     controller| --Demo Shutdown Complete--
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Connection established from 127.0.0.1:55021
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Incoming data: ['Accepted', 'A300000055']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| ['Accepted', 'A300000055']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Connection established from 127.0.0.1:55023
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Incoming data: ['Accepted', 'A100000053']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| ['Accepted', 'A100000053']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Connection established from 127.0.0.1:55022
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Incoming data: ['Accepted', 'A200000054']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| ['Accepted', 'A200000054']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Connection established from 127.0.0.1:55024
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| Incoming data: ['Accepted', 'A400000056']
+[SOCK_SERVER] 10/03/2016 09:50:45 AM         server| ['Accepted', 'A400000056']
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:07:19 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:07:19 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:07:19 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:07:19 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/03/2016 10:07:19 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:07:19 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:07:19 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:07:21 AM           wsgi| 200 GET / (127.0.0.1) 28.52ms
+[SOCK_SERVER] 10/03/2016 10:07:23 AM         server| Connection established from 127.0.0.1:55252
+[SOCK_SERVER] 10/03/2016 10:07:23 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 10:07:23 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/03/2016 10:07:23 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:07:23 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:07:23 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:07:23 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:07:23 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:07:23 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Jobid = 57
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Starting to build JIF A100000057.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| JIF creation completed. A100000057 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:07:23 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:07:23 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:07:23 AM  jif_assembler| Jobid = 58
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Starting to build JIF A200000058.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 25.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| JIF creation completed. A200000058 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:07:24 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:07:24 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Jobid = 59
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Starting to build JIF A300000059.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| JIF creation completed. A300000059 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:07:24 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:07:24 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Jobid = 60
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Starting to build JIF A400000060.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:07:24 AM  jif_assembler| JIF creation completed. A400000060 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:07:24 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:07:24 AM     controller| Demo Initialized.
+[SOCK_SERVER] 10/03/2016 10:07:31 AM         server| Connection established from 127.0.0.1:55253
+[SOCK_SERVER] 10/03/2016 10:07:31 AM         server| Incoming data: ['Accepted', 'A100000057']
+[SOCK_SERVER] 10/03/2016 10:07:31 AM         server| ['Accepted', 'A100000057']
+[DISPATCH   ] 10/03/2016 10:07:31 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/03/2016 10:07:31 AM     controller| --New Job--
+[IO_HANDLER ] 10/03/2016 10:07:31 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/03/2016 10:07:31 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/03/2016 10:07:31 AM     controller| Deque deque(['A100000057'])
+[IO_HANDLER ] 10/03/2016 10:07:31 AM     controller| New jobid in A100000057
+[SOCK_SERVER] 10/03/2016 10:07:33 AM         server| Connection established from 127.0.0.1:55255
+[SOCK_SERVER] 10/03/2016 10:07:33 AM         server| Incoming data: ['Accepted', 'A200000058']
+[SOCK_SERVER] 10/03/2016 10:07:33 AM         server| ['Accepted', 'A200000058']
+[DISPATCH   ] 10/03/2016 10:07:33 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/03/2016 10:07:33 AM     controller| --New Job--
+[IO_HANDLER ] 10/03/2016 10:07:33 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/03/2016 10:07:33 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/03/2016 10:07:33 AM     controller| Deque deque(['A200000058'])
+[IO_HANDLER ] 10/03/2016 10:07:33 AM     controller| New jobid in A200000058
+[SOCK_SERVER] 10/03/2016 10:07:34 AM         server| Connection established from 127.0.0.1:55256
+[SOCK_SERVER] 10/03/2016 10:07:34 AM         server| Incoming data: ['Accepted', 'A300000059']
+[SOCK_SERVER] 10/03/2016 10:07:34 AM         server| ['Accepted', 'A300000059']
+[DISPATCH   ] 10/03/2016 10:07:34 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/03/2016 10:07:34 AM     controller| --New Job--
+[IO_HANDLER ] 10/03/2016 10:07:34 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/03/2016 10:07:34 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/03/2016 10:07:34 AM     controller| Deque deque(['A300000059'])
+[IO_HANDLER ] 10/03/2016 10:07:34 AM     controller| New jobid in A300000059
+[SOCK_SERVER] 10/03/2016 10:07:35 AM         server| Connection established from 127.0.0.1:55259
+[SOCK_SERVER] 10/03/2016 10:07:35 AM         server| Incoming data: ['Accepted', 'A400000060']
+[SOCK_SERVER] 10/03/2016 10:07:35 AM         server| ['Accepted', 'A400000060']
+[DISPATCH   ] 10/03/2016 10:07:35 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/03/2016 10:07:35 AM     controller| --New Job--
+[IO_HANDLER ] 10/03/2016 10:07:35 AM     controller| Job td accepted by APT, sending data.
+[IO_HANDLER ] 10/03/2016 10:07:35 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/03/2016 10:07:35 AM     controller| Deque deque(['A400000060'])
+[IO_HANDLER ] 10/03/2016 10:07:35 AM     controller| New jobid in A400000060
+[SOCK_SERVER] 10/03/2016 10:07:43 AM         server| Connection established from 127.0.0.1:55262
+[SOCK_SERVER] 10/03/2016 10:07:43 AM         server| Incoming data: ['demo control', 'stop']
+[INFO       ] 10/03/2016 10:07:43 AM           wsgi| 200 GET /stop_demo/ (127.0.0.1) 2.50ms
+[SOCK_SERVER] 10/03/2016 10:07:43 AM         server| ['demo control', 'stop']
+[DISPATCH   ] 10/03/2016 10:07:44 AM     dispatcher| Stopping Demo.
+[DEMO_STATE ] 10/03/2016 10:07:44 AM     controller| --Demo Shutdown Initiated--
+[DEMO_STATE ] 10/03/2016 10:07:44 AM     controller| Setting demo status to 0, stopping demo.
+[IO_HANDLER ] 10/03/2016 10:07:44 AM     controller| Clearing worker queues.
+[DEMO_STATE ] 10/03/2016 10:07:44 AM     controller| Cleaning exit directory.
+[DEMO_STATE ] 10/03/2016 10:07:44 AM     controller| Resetting demo state
+[DEMO_STATE ] 10/03/2016 10:07:44 AM     controller| --Demo Shutdown Complete--
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:13:27 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:13:27 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:13:27 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:13:27 AM         server| Server bound to 0.0.0.0, port 8091
+[SOCK_SERVER] 10/03/2016 10:13:27 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:13:27 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:13:27 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:13:40 AM           wsgi| 200 GET / (127.0.0.1) 34.67ms
+[SOCK_SERVER] 10/03/2016 10:13:42 AM         server| Connection established from 127.0.0.1:55476
+[SOCK_SERVER] 10/03/2016 10:13:42 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 10:13:42 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/03/2016 10:13:42 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:13:42 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:13:42 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:13:42 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:13:42 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:13:42 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Jobid = 61
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Starting to build JIF A100000061.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:13:42 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 73.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 74.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 75.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 76.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 77.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 78.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 79.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 80.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 81.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 82.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 83.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 84.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Sheet File 85.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JIF creation completed. A100000061 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:13:43 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:13:43 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Jobid = 62
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Starting to build JIF A200000062.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JIF creation completed. A200000062 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:13:43 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:13:43 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Jobid = 63
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Starting to build JIF A300000063.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JIF creation completed. A300000063 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:13:43 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:13:43 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Jobid = 64
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Starting to build JIF A400000064.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:13:43 AM  jif_assembler| JIF creation completed. A400000064 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:13:43 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:13:43 AM     controller| Demo Initialized.
+[SOCK_SERVER] 10/03/2016 10:13:57 AM         server| Connection established from 127.0.0.1:55481
+[SOCK_SERVER] 10/03/2016 10:13:57 AM         server| Incoming data: ['demo control', 'stop']
+[INFO       ] 10/03/2016 10:13:57 AM           wsgi| 200 GET /stop_demo/ (127.0.0.1) 8.51ms
+[SOCK_SERVER] 10/03/2016 10:13:57 AM         server| ['demo control', 'stop']
+[DISPATCH   ] 10/03/2016 10:13:57 AM     dispatcher| Stopping Demo.
+[DEMO_STATE ] 10/03/2016 10:13:57 AM     controller| --Demo Shutdown Initiated--
+[DEMO_STATE ] 10/03/2016 10:13:57 AM     controller| Setting demo status to 0, stopping demo.
+[IO_HANDLER ] 10/03/2016 10:13:57 AM     controller| Clearing worker queues.
+[DEMO_STATE ] 10/03/2016 10:13:57 AM     controller| Cleaning exit directory.
+[DEMO_STATE ] 10/03/2016 10:13:57 AM     controller| Resetting demo state
+[DEMO_STATE ] 10/03/2016 10:13:57 AM     controller| --Demo Shutdown Complete--
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:15:20 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:15:20 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:15:20 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:15:20 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/03/2016 10:15:20 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:15:20 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:15:20 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:15:21 AM           wsgi| 200 GET / (127.0.0.1) 32.52ms
+[SOCK_SERVER] 10/03/2016 10:15:23 AM         server| Connection established from 127.0.0.1:55539
+[SOCK_SERVER] 10/03/2016 10:15:23 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 10:15:23 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 2.50ms
+[SOCK_SERVER] 10/03/2016 10:15:23 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:15:23 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:15:23 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:15:23 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:15:23 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:15:23 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Jobid = 65
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Starting to build JIF A100000065.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:15:23 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JIF creation completed. A100000065 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:15:24 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:15:24 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Jobid = 66
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Starting to build JIF A200000066.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JIF creation completed. A200000066 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:15:24 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:15:24 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Jobid = 67
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Starting to build JIF A300000067.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JIF creation completed. A300000067 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:15:24 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:15:24 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Jobid = 68
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Starting to build JIF A400000068.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:15:24 AM  jif_assembler| JIF creation completed. A400000068 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:15:24 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:15:24 AM     controller| Demo Initialized.
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:18:33 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:18:33 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:18:33 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:18:33 AM         server| Server bound to 0.0.0.0, port 8091
+[SOCK_SERVER] 10/03/2016 10:18:33 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:18:33 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:18:33 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 200 GET / (127.0.0.1) 21.51ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 258.68ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 6.50ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 3.48ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.50ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 2.50ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 200 GET /static/js/main.js (127.0.0.1) 9.50ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/imgs/isl-trans.png (127.0.0.1) 6.01ms
+[INFO       ] 10/03/2016 10:18:36 AM           wsgi| 304 GET /static/fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 3.50ms
+[SOCK_SERVER] 10/03/2016 10:18:44 AM         server| Connection established from 127.0.0.1:55683
+[SOCK_SERVER] 10/03/2016 10:18:44 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 10:18:44 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 3.50ms
+[SOCK_SERVER] 10/03/2016 10:18:44 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:18:45 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:18:45 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:18:45 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:18:45 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:18:45 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Jobid = 69
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Starting to build JIF A100000069.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 73.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 74.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 75.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 76.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 77.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 78.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 79.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 80.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 81.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 82.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 83.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 84.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Sheet File 85.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| JIF creation completed. A100000069 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:18:45 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:18:45 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Jobid = 70
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Starting to build JIF A200000070.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 25.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| JIF creation completed. A200000070 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:18:45 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:18:45 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Jobid = 71
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Starting to build JIF A300000071.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:18:45 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| JIF creation completed. A300000071 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:18:46 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:18:46 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Jobid = 72
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Starting to build JIF A400000072.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:18:46 AM  jif_assembler| JIF creation completed. A400000072 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:18:46 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:18:46 AM     controller| Demo Initialized.
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:21:04 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:21:04 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:21:04 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:21:04 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/03/2016 10:21:04 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:21:04 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:21:04 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:21:06 AM           wsgi| 200 GET / (127.0.0.1) 28.52ms
+[SOCK_SERVER] 10/03/2016 10:21:08 AM         server| Connection established from 127.0.0.1:55768
+[SOCK_SERVER] 10/03/2016 10:21:08 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 10:21:08 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/03/2016 10:21:08 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:21:08 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:21:08 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:21:08 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:21:08 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:21:08 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Jobid = 73
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Starting to build JIF A100000073.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 73.
+[JIFGEN     ] 10/03/2016 10:21:08 AM  jif_assembler| Writing Sheet File 74.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 75.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 76.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 77.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 78.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 79.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 80.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 81.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 82.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 83.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 84.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 85.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 86.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 87.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Sheet File 88.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 24.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 25.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JIF creation completed. A100000073 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:21:09 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:21:09 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Jobid = 74
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Starting to build JIF A200000074.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JIF creation completed. A200000074 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:21:09 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:21:09 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Jobid = 75
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Starting to build JIF A300000075.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JIF creation completed. A300000075 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:21:09 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:21:09 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Jobid = 76
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Starting to build JIF A400000076.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:21:09 AM  jif_assembler| JIF creation completed. A400000076 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:21:09 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:21:09 AM     controller| Demo Initialized.
+[SOCK_SERVER] 10/03/2016 10:21:11 AM         server| Connection established from 127.0.0.1:55770
+[SOCK_SERVER] 10/03/2016 10:21:11 AM         server| Incoming data: ['demo control', 'stop']
+[SOCK_SERVER] 10/03/2016 10:21:11 AM         server| ['demo control', 'stop']
+[INFO       ] 10/03/2016 10:21:11 AM           wsgi| 200 GET /stop_demo/ (127.0.0.1) 4.50ms
+[DISPATCH   ] 10/03/2016 10:21:11 AM     dispatcher| Stopping Demo.
+[DEMO_STATE ] 10/03/2016 10:21:11 AM     controller| --Demo Shutdown Initiated--
+[DEMO_STATE ] 10/03/2016 10:21:11 AM     controller| Setting demo status to 0, stopping demo.
+[IO_HANDLER ] 10/03/2016 10:21:11 AM     controller| Clearing worker queues.
+[DEMO_STATE ] 10/03/2016 10:21:11 AM     controller| Cleaning exit directory.
+[DEMO_STATE ] 10/03/2016 10:21:11 AM     controller| Resetting demo state
+[DEMO_STATE ] 10/03/2016 10:21:11 AM     controller| --Demo Shutdown Complete--
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:26:32 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:26:32 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:26:32 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:26:32 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/03/2016 10:26:32 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:26:32 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:26:32 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:26:35 AM           wsgi| 200 GET / (127.0.0.1) 24.51ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 200 GET / (127.0.0.1) 15.48ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 262.19ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 2.50ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 11.02ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 3.00ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 3.00ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 200 GET /static/js/main.js (127.0.0.1) 2.48ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/imgs/isl-trans.png (127.0.0.1) 3.00ms
+[INFO       ] 10/03/2016 10:26:40 AM           wsgi| 304 GET /static/fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 3.50ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 200 GET / (127.0.0.1) 9.51ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 3.50ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 3.50ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 5.01ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 3.00ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 3.51ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/imgs/isl-trans.png (127.0.0.1) 4.50ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/js/main.js (127.0.0.1) 10.51ms
+[INFO       ] 10/03/2016 10:26:44 AM           wsgi| 304 GET /static/fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 4.00ms
+[INFO       ] 10/03/2016 10:27:07 AM           wsgi| 200 GET / (127.0.0.1) 5.50ms
+[SOCK_SERVER] 10/03/2016 10:27:10 AM         server| Connection established from 127.0.0.1:55969
+[INFO       ] 10/03/2016 10:27:10 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 2.00ms
+[SOCK_SERVER] 10/03/2016 10:27:10 AM         server| Incoming data: ['demo control', 'start']
+[SOCK_SERVER] 10/03/2016 10:27:10 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:27:11 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:27:11 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Jobid = 77
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Starting to build JIF A100000077.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 73.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 74.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 75.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 76.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 77.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 78.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 79.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Sheet File 80.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JIF creation completed. A100000077 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:27:11 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Jobid = 78
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Starting to build JIF A200000078.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JIF creation completed. A200000078 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:27:11 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Jobid = 79
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Starting to build JIF A300000079.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JIF creation completed. A300000079 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:27:11 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Jobid = 80
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Starting to build JIF A400000080.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 22.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Piece File 23.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Writing Reprint File 0.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:27:11 AM  jif_assembler| JIF creation completed. A400000080 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:27:11 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:27:11 AM     controller| Demo Initialized.
+[BOOT       ] 10/03/2016 10:27:51 AM        autoapt| --System Booting--
+[BOOT       ] 10/03/2016 10:27:51 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/03/2016 10:27:51 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/03/2016 10:27:51 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/03/2016 10:27:51 AM         server| Socket Server initializing.
+[BOOT       ] 10/03/2016 10:27:51 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/03/2016 10:27:52 AM         server| Server bound to 0.0.0.0, port 8091
+[SOCK_SERVER] 10/03/2016 10:27:52 AM         server| ---Server now listening---
+[BOOT       ] 10/03/2016 10:27:52 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[BOOT       ] 10/03/2016 10:27:52 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/03/2016 10:27:52 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/03/2016 10:27:52 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/03/2016 10:27:52 AM        autoapt| --Starting Web Interface--
+[INFO       ] 10/03/2016 10:27:55 AM           wsgi| 200 GET / (127.0.0.1) 22.02ms
+[INFO       ] 10/03/2016 10:28:03 AM           wsgi| 200 GET / (127.0.0.1) 6.50ms
+[INFO       ] 10/03/2016 10:28:03 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 278.70ms
+[INFO       ] 10/03/2016 10:28:03 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 5.00ms
+[INFO       ] 10/03/2016 10:28:03 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 2.50ms
+[INFO       ] 10/03/2016 10:28:03 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 3.50ms
+[INFO       ] 10/03/2016 10:28:03 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 2.02ms
+[INFO       ] 10/03/2016 10:28:04 AM           wsgi| 200 GET /static/js/main.js (127.0.0.1) 11.51ms
+[INFO       ] 10/03/2016 10:28:04 AM           wsgi| 304 GET /static/imgs/isl-trans.png (127.0.0.1) 3.50ms
+[INFO       ] 10/03/2016 10:28:04 AM           wsgi| 304 GET /static/fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 3.50ms
+[SOCK_SERVER] 10/03/2016 10:28:15 AM         server| Connection established from 127.0.0.1:56007
+[SOCK_SERVER] 10/03/2016 10:28:15 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/03/2016 10:28:15 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 3.01ms
+[SOCK_SERVER] 10/03/2016 10:28:15 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/03/2016 10:28:15 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/03/2016 10:28:15 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/03/2016 10:28:15 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/03/2016 10:28:15 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/03/2016 10:28:15 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Jobid = 81
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Starting to build JIF A100000081.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 0.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 1.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 2.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 3.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 4.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 5.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 6.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 7.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 8.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 9.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 10.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 11.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 12.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 13.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 14.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 15.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 16.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 17.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 18.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 19.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 20.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 21.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 22.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 23.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 24.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 25.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 26.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 27.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 28.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 29.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 30.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 31.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 32.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 33.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 34.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 35.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 36.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 37.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 38.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 39.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 40.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 41.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 42.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 43.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 44.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 45.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 46.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 47.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 48.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 49.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 50.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 51.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 52.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 53.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 54.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 55.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 56.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 57.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 58.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 59.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 60.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 61.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 62.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 63.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 64.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 65.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 66.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 67.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 68.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 69.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 70.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 71.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Sheet File 72.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| JIF creation completed. A100000081 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:28:15 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/03/2016 10:28:15 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Jobid = 82
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Starting to build JIF A200000082.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| JIF creation completed. A200000082 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:28:15 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/03/2016 10:28:15 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Jobid = 83
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Starting to build JIF A300000083.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:28:15 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| JIF creation completed. A300000083 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:28:16 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/03/2016 10:28:16 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Jobid = 84
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Starting to build JIF A400000084.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 0.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 1.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 2.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 3.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 4.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 5.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 6.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 7.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 8.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 9.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 10.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 11.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 12.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 13.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 14.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 15.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 16.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 17.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 18.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 19.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 20.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Writing Piece File 21.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/03/2016 10:28:16 AM  jif_assembler| JIF creation completed. A400000084 has been sent to APT.
+[DEMO_STATE ] 10/03/2016 10:28:16 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/03/2016 10:28:16 AM     controller| Demo Initialized.
+[SOCK_SERVER] 10/03/2016 10:28:30 AM         server| Connection established from 127.0.0.1:56030
+[SOCK_SERVER] 10/03/2016 10:28:30 AM         server| Incoming data: ['demo control', 'stop']
+[INFO       ] 10/03/2016 10:28:30 AM           wsgi| 200 GET /stop_demo/ (127.0.0.1) 3.51ms
+[SOCK_SERVER] 10/03/2016 10:28:30 AM         server| ['demo control', 'stop']
+[DISPATCH   ] 10/03/2016 10:28:30 AM     dispatcher| Stopping Demo.
+[DEMO_STATE ] 10/03/2016 10:28:30 AM     controller| --Demo Shutdown Initiated--
+[DEMO_STATE ] 10/03/2016 10:28:30 AM     controller| Setting demo status to 0, stopping demo.
+[IO_HANDLER ] 10/03/2016 10:28:30 AM     controller| Clearing worker queues.
+[DEMO_STATE ] 10/03/2016 10:28:30 AM     controller| Cleaning exit directory.
+[DEMO_STATE ] 10/03/2016 10:28:30 AM     controller| Resetting demo state
+[DEMO_STATE ] 10/03/2016 10:28:30 AM     controller| --Demo Shutdown Complete--
+[INFO       ] 10/03/2016 10:28:36 AM           wsgi| 200 GET / (127.0.0.1) 6.51ms

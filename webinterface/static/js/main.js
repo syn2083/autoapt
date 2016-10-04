@@ -22,21 +22,42 @@ $.get('/reset_seed/', function(data){
     $('#demo_status').html(data);
 });
 });
-var ws = new WebSocket('ws://127.0.0.1:8888/ws');
+var ws = new WebSocket('ws://is-w10-trogers:8888/ws');
 var $message = $('#message');
 var $control = $('#control');
+var $td = $('#td');
 
 ws.onopen = function(){
   $message.attr("class", 'label label-info');
-  $message.text('checking');
+  $message.text('Checking Status...');
+  $.post('/status_check/')
 };
 ws.onmessage = function(ev){
-  $message.attr("class", 'label label-info');
-  $message.hide();
-  $message.fadeIn("slow");
-  $message.text('recieved message');
   var json = JSON.parse(ev.data);
   $('#' + json.id).hide();
+  if (json.id == "message"){
+    if(json.value == "started"){
+    $message.attr("class", 'label label-success');
+    }
+    else if(json.value == "paused"){
+      $message.attr("class", 'label label-warning');
+    }
+    else{
+      $message.attr("class", 'label label-danger');
+    }
+  }
+  else if(json.id == "td"){
+    if(json.value == "resume"){
+    $td.attr("class", 'label label-success');
+    }
+    else if(json.value == "paused"){
+      $td.attr("class", 'label label-warning');
+    }
+    else{
+      $td.attr("class", 'label label-info');
+    }
+  }
+
   $('#' + json.id).fadeIn("slow");
   $('#' + json.id).text(json.value);
   var $rowid = $('#row' + json.id);
@@ -52,9 +73,9 @@ ws.onmessage = function(ev){
 };
 ws.onclose = function(ev){
   $message.attr("class", 'label label-important');
-  $message.text('closed');
+  $message.text('WebSocket Closed');
 };
 ws.onerror = function(ev){
   $message.attr("class", 'label label-warning');
-  $message.text('error occurred');
+  $message.text('WebSocket Error');
 };
