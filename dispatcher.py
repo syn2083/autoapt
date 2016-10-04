@@ -88,6 +88,10 @@ class Dispatcher(threading.Thread):
                     else:
                         pass
 
+                if payload[0] == 'demo status':
+                    if payload[1] == 'status_check':
+                        self.controller.check_status(payload[2])
+
                 payload = None
 
             if self.controller.demo_status == 1:

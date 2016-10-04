@@ -1,5 +1,6 @@
 import socket
 import json
+import uuid
 from flask import Flask, render_template
 from tornado import websocket
 from tornado.wsgi import WSGIContainer
@@ -13,28 +14,12 @@ app = Flask(__name__)
 TCP_IP = '127.0.0.1'
 TCP_PORT = 8091
 
-cl = []
+cl = {}
 
 
-class SocketHandler(websocket.WebSocketHandler):
-    def check_origin(self, origin):
-        return True
-
-    def open(self):
-        if self not in cl:
-            cl.append(self)
-
-    def on_close(self):
-        if self in cl:
-            cl.remove(self)
-
-    def on_message(self, message):
-        logger.debug('{}'.format(message))
-
-
-def send_demo_control(in_data):
+def send_demo_control(in_data, target=None):
     if in_data == 'status_check':
-        message = ['demo status', in_data]
+        message = ['demo status', in_data, target]
         output = json.dumps(message)
     else:
         message = ['demo control', in_data]
@@ -44,6 +29,27 @@ def send_demo_control(in_data):
     s.connect((TCP_IP, TCP_PORT))
     s.sendall(output.encode('utf-8'))
     s.close()
+
+
+class SocketHandler(websocket.WebSocketHandler):
+    def check_origin(self, origin):
+        return True
+
+    def open(self):
+        new_id = uuid.uuid4()
+        self.id = new_id.urn
+        if self.id not in cl.keys():
+            cl[self.id] = self
+
+    def on_close(self):
+        if self.id in cl.keys():
+            del cl[self.id]
+
+    def on_message(self, message):
+        # logger.debug(type(message))
+        if message == 'status_check':
+            send_demo_control('status_check', self.id)
+        logger.debug('Message from: {}, {}'.format(self.id, message))
 
 
 @app.route('/')

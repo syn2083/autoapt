@@ -188,18 +188,35 @@ class DemoController:
     def pause_demo(self):
         logger.demo('Sending pause signal to data controller.')
         self.data_controller.pause_worker(self.all_targets)
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'message', 'value': 'Paused'}))
 
     def resume_demo(self):
         logger.demo('Sending resume signal to data controller.')
         self.data_controller.resume_work(self.all_targets)
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'message', 'value': 'Running'}))
 
     def pause_target(self, target):
         logger.demo('Pausing single target, sending signal to data controller.')
         self.data_controller.pause_worker(target)
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
 
     def resume_target(self, target):
         logger.demo('Resuming single target, sending signal to data controller.')
         self.data_controller.resume_work(target)
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'td', 'value': 'resume'}))
+
+    def check_status(self, websocket):
+        logger.demo('Websocket status check for {}'.format(websocket))
+        if self.demo_status == 0:
+            self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Stopped'}))
+        if self.demo_status == 1:
+            self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Running'}))
+        if self.demo_status == 2:
+            self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Paused'}))
 
     def create_job(self, origin):
         """
@@ -250,8 +267,8 @@ class DemoController:
         logger.demo('Exit directory cleaned up.')
         self.first_run = 0
         logger.demo('Demo Status == 1')
-        for client in self.clients:
-            client.write_message(json.dumps({'id': 'message', 'value': 'started'}))
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'message', 'value': 'Running'}))
         self.demo_status = 1
         for k in self.active_targets:
             self.create_job(k)
@@ -261,7 +278,7 @@ class DemoController:
 
     def stop_demo(self):
         """
-        Clear active job dict and reprint list, reset exit data to a blank directory, set demo status to 0, stopped.
+        Clear active job dict and reprint list, reset exit data to a blank directory, set demo status to 0, Stopped.
         :return: Shutdown string for web display.
         :rtype: str
         """
@@ -287,6 +304,8 @@ class DemoController:
 
         logger.demo('Resetting demo state')
         self.first_run = 1
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'message', 'value': 'Stopped'}))
         logger.demo('--Demo Shutdown Complete--')
 
         return 'Demo shut down complete.'

@@ -22,39 +22,40 @@ $.get('/reset_seed/', function(data){
     $('#demo_status').html(data);
 });
 });
-var ws = new WebSocket('ws://is-w10-trogers:8888/ws');
+var ws = new WebSocket('ws://127.0.0.1:8888/ws');
 var $message = $('#message');
 var $control = $('#control');
 var $td = $('#td');
 
 ws.onopen = function(){
-  $message.attr("class", 'label label-info');
+  $message.attr("class", 'tag tag-info');
   $message.text('Checking Status...');
-  $.post('/status_check/')
+  ws.send("status_check")
+
 };
 ws.onmessage = function(ev){
   var json = JSON.parse(ev.data);
   $('#' + json.id).hide();
   if (json.id == "message"){
-    if(json.value == "started"){
-    $message.attr("class", 'label label-success');
+    if(json.value == "Running"){
+    $message.attr("class", 'tag tag-success');
     }
-    else if(json.value == "paused"){
-      $message.attr("class", 'label label-warning');
+    else if(json.value == "Paused"){
+      $message.attr("class", 'tag tag-warning');
     }
     else{
-      $message.attr("class", 'label label-danger');
+      $message.attr("class", 'tag tag-danger');
     }
   }
   else if(json.id == "td"){
-    if(json.value == "resume"){
-    $td.attr("class", 'label label-success');
+    if(json.value == "Running"){
+    $td.attr("class", 'tag tag-success');
     }
-    else if(json.value == "paused"){
-      $td.attr("class", 'label label-warning');
+    else if(json.value == "Paused"){
+      $td.attr("class", 'tag tag-warning');
     }
     else{
-      $td.attr("class", 'label label-info');
+      $td.attr("class", 'tag tag-info');
     }
   }
 
@@ -72,10 +73,10 @@ ws.onmessage = function(ev){
   }
 };
 ws.onclose = function(ev){
-  $message.attr("class", 'label label-important');
+  $message.attr("class", 'tag tag-important');
   $message.text('WebSocket Closed');
 };
 ws.onerror = function(ev){
-  $message.attr("class", 'label label-warning');
+  $message.attr("class", 'tag tag-warning');
   $message.text('WebSocket Error');
 };

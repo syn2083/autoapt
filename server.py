@@ -81,7 +81,7 @@ class SocketServer(threading.Thread):
                 in_data = json.loads(self.rec_data(conn).decode('utf-8'))
                 logger.sock('Incoming data: {}'.format(in_data))
                 logger.sock(in_data)
-                if in_data[0] == 'demo control':
+                if in_data[0] in ('demo control', 'demo status', 'job control'):
                     self.command_queue.append(in_data)
                 else:
                     self.proc_queue.append(in_data)
