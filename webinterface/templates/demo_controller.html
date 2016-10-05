@@ -3,36 +3,38 @@
 {% block content %}
     <div class="card">
             <div class="card-header card-primary-header" style="color: #f2f2f2">
-              <h3>Demo Control Console</h3>
+              <h3>Demo Control Console<img style='float:right;margin-left:10px;width:82px;height:57px;' src="{{ url_for('static', filename='imgs/isl-trans-resized.png') }}" /></h3>
             </div>
             <div class="card-primary-body card-block text-xs-center">
-                <div class="card-group">
+<div class="card-deck-wrapper">
+    <div class="card-deck">
   <div class="card card-inverse" style="background-color: #333; border-color: #333;">
     <div class="card-block">
       <h4 class="card-title">Demo Status</h4>
-      <h4 class="card-text"><span id="message"></span></h4>
+      <div class="card-text"><button type="button" id="message"></button></div>
 
     </div>
   </div>
   <div class="card card-inverse" style="background-color: #333; border-color: #333;">
     <div class="card-block">
       <h4 class="card-title">Trackdevice Status</h4>
-      <p class="card-text"><span id="td"></span></p>
+      <div class="card-text"><button type="button" id="td"></button></div>
 
     </div>
   </div>
   <div class="card card-inverse" style="background-color: #333; border-color: #333;">
     <div class="card-block">
       <h4 class="card-title"># Jobs This Run</h4>
-      <p class="card-text"><span id="jobs"></span></p>
+      <div class="card-text"><button type="button" id="jobs"></button></div>
 
     </div>
   </div>
-</div>
+        </div></div>
+
 
               <div id="demo_status" style="text-align: center; color: #0f0f0f"><br/> </div><br/>
                 <div class="center-block">
-                    <button type="button" class="btn btn-primary" id="start"><i class="fa fa-play"></i> Start Demo</button>
+                    <button type="button" class="btn btn-success" id="start"><i class="fa fa-play"></i> Start Demo</button>
                     <button type="button" class="btn btn-warning" id="pause"><i class="fa fa-pause"></i> Pause Demo</button>
                     <button type="button" class="btn btn-danger" id="stop"><i class="fa fa-stop"></i> Stop Demo</button>
                 </div>

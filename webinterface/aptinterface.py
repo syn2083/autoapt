@@ -40,6 +40,7 @@ class SocketHandler(websocket.WebSocketHandler):
         self.id = new_id.urn
         if self.id not in cl.keys():
             cl[self.id] = self
+        self.ping(b'nonsense')
 
     def on_close(self):
         if self.id in cl.keys():

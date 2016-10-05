@@ -25,11 +25,10 @@ __author__ = 'Syn'
 import utilities
 import argparse
 from client import console_input
-from webinterface import aptinterface
 from logging_setup import init_logging
 from init import init_controller
 from server import SocketServer
-from tornado import ioloop
+
 
 logger = init_logging()
 
@@ -61,10 +60,7 @@ def autoapt(start_cmds=None):
         logger.boot('--Start command received from cmd line--')
         console_input(start_cmds)
     logger.boot('--Starting Web Interface--')
-    control.clients = aptinterface.cl
-    web_server = aptinterface.server
-    web_server.listen(control.sysconf['HTTPServer']['port'], address=control.sysconf['HTTPServer']['host'])
-    ioloop.IOLoop.instance().start()
+
     logger.boot('--System Startup Complete, Entering Main Loop--')
 
 

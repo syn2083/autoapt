@@ -47,7 +47,7 @@ class DataWorker(threading.Thread):
             except IndexError:
                 pass
             if jobid:
-                logger.io('New jobid in {}'.format(jobid))
+                # logger.io('New jobid in {}'.format(jobid))
                 # Add a little variation to when files start copying
                 time.sleep(random.randint(10, 30))
                 files, interval = self.find_files(jobid)
@@ -57,7 +57,7 @@ class DataWorker(threading.Thread):
                         try:
                             original_loc = os.path.join(self.exit_dir, file)
                             target_loc = os.path.join(self.target, file)
-                            logger.io('Copying data file {}'.format(file))
+                            # logger.io('Copying data file {}'.format(file))
                             shutil.copyfile(original_loc, target_loc)
                         except FileNotFoundError:
                             interval = 0
@@ -163,6 +163,7 @@ class DemoController:
         self.completed_jobs = []
         self.reprinting_jobs = []
         self.data_workers = []
+        self.paused_td = None
         self.exit_dir = dconf[1]['DemoDirs']['exit_data']
         self.jif_data = dconf[1]['DemoDirs']['jif_data']
         self.jif_folder = dconf[1]['APTDirs']['jdf']
@@ -190,33 +191,47 @@ class DemoController:
         self.data_controller.pause_worker(self.all_targets)
         for client in self.clients.values():
             client.write_message(json.dumps({'id': 'message', 'value': 'Paused'}))
+            client.write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
 
     def resume_demo(self):
         logger.demo('Sending resume signal to data controller.')
         self.data_controller.resume_work(self.all_targets)
         for client in self.clients.values():
             client.write_message(json.dumps({'id': 'message', 'value': 'Running'}))
+            client.write_message(json.dumps({'id': 'td', 'value': 'Running'}))
 
     def pause_target(self, target):
         logger.demo('Pausing single target, sending signal to data controller.')
         self.data_controller.pause_worker(target)
+        self.paused_td = True
         for client in self.clients.values():
             client.write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
 
     def resume_target(self, target):
         logger.demo('Resuming single target, sending signal to data controller.')
         self.data_controller.resume_work(target)
+        self.paused_td = None
         for client in self.clients.values():
             client.write_message(json.dumps({'id': 'td', 'value': 'resume'}))
 
     def check_status(self, websocket):
         logger.demo('Websocket status check for {}'.format(websocket))
-        if self.demo_status == 0:
-            self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Stopped'}))
-        if self.demo_status == 1:
-            self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Running'}))
-        if self.demo_status == 2:
-            self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Paused'}))
+        try:
+            if self.demo_status == 0:
+                self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Stopped'}))
+                self.clients[websocket].write_message(json.dumps({'id': 'td', 'value': 'Stopped'}))
+            if self.demo_status == 1:
+                self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Running'}))
+                if self.paused_td:
+                    self.clients[websocket].write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
+                else:
+                    self.clients[websocket].write_message(json.dumps({'id': 'td', 'value': 'Running'}))
+            if self.demo_status == 2:
+                self.clients[websocket].write_message(json.dumps({'id': 'message', 'value': 'Paused'}))
+                self.clients[websocket].write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
+            self.clients[websocket].write_message(json.dumps({'id': 'jobs', 'value': '{}'.format(self.num_jobs)}))
+        except KeyError:
+            logger.demo('Tried a status check on non-existant websocket entry.')
 
     def create_job(self, origin):
         """
@@ -232,6 +247,8 @@ class DemoController:
         getattr(self, origin)['jobid'].append(new_job)
         self.active_jobs[new_job] = [origin, origin]
         self.num_jobs += 1
+        for client in self.clients.values():
+            client.write_message(json.dumps({'id': 'jobs', 'value': '{}'.format(self.num_jobs)}))
         return new_job
 
     def reset_seed(self):
@@ -269,6 +286,7 @@ class DemoController:
         logger.demo('Demo Status == 1')
         for client in self.clients.values():
             client.write_message(json.dumps({'id': 'message', 'value': 'Running'}))
+            client.write_message(json.dumps({'id': 'td', 'value': 'Running'}))
         self.demo_status = 1
         for k in self.active_targets:
             self.create_job(k)
@@ -306,6 +324,7 @@ class DemoController:
         self.first_run = 1
         for client in self.clients.values():
             client.write_message(json.dumps({'id': 'message', 'value': 'Stopped'}))
+            client.write_message(json.dumps({'id': 'td', 'value': 'Stopped'}))
         logger.demo('--Demo Shutdown Complete--')
 
         return 'Demo shut down complete.'

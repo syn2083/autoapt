@@ -367,7 +367,6 @@ class JIFBuilder:
         interval = int(g.seconds)
         for n, i in enumerate(chunked_list):
             filename = path.join(out_path, 'sheet_{}.{}.{}.txt'.format(job_string, interval, n))
-            logger.jifgen('Writing Sheet File {}.'.format(n))
             with open(filename, 'w') as fp:
                 fp.write(out_str.join(i) + '\n')
         self.curr_time = None
@@ -457,7 +456,6 @@ class JIFBuilder:
         interval = int(g.seconds)
         for n, i in enumerate(chunked_list):
             filename = path.join(out_path, 'piece_{}.{}.{}.txt'.format(job_string, interval, n))
-            logger.jifgen('Writing Piece File {}.'.format(n))
             with open(filename, 'w') as fp:
                 fp.write(out_str.join(i) + '\n')
         self.curr_time = None
@@ -522,7 +520,6 @@ class JIFBuilder:
         interval = int(g.seconds)
         for n, i in enumerate(chunked_list):
             filename = path.join(out_path, 'reprint_{}.{}.{}.txt'.format(job_string, interval, n))
-            logger.jifgen('Writing Reprint File {}.'.format(n))
             with open(filename, 'w') as fp:
                 fp.write(out_str.join(reprint_strings) + '\n')
         self.curr_time = None

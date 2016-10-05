@@ -7,6 +7,7 @@
     <title>APT Demo System</title>
 
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/APTDemo.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-theme.css') }}">
     <!-- Custom CSS -->
@@ -31,10 +32,10 @@
     &#9776;
   </button>
   <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-    <a class="navbar-brand" href="/">Demo Control Menu</a>
+
     <ul class="nav navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Demo Console <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/instructions">Instructions</a>
@@ -44,23 +45,36 @@
         </div>
 </nav>
     <div class="container" role="main">
-    <div style="align-content: center"><div class="jumbotron jumbotron-primary">
+    <!--<div style="align-content: center"><div class="jumbotron jumbotron-primary">
         <div class="row">
 
             <h1 style="margin-top:20px; text-align:center">APT Demo System <img style='float:right;width:150px;height:100px; margin-left:10px; margin-top:1px;' src="{{ url_for('static', filename='imgs/isl-trans.png') }}" /></h1>
 
     </div>
 
-      </div></div>
+      </div>-->
+
+
         <div class="row">
 
             <div class="container">
             {% block content %}
             {% endblock %}
+                <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+    <div class="card-block">
+
+      <div class="card-text text-xs-center">
+
+          <br/><br/>
+          <p style="font-size:9px">&#169; 2016, Ironsides Technology LLC.</p>
+      </div>
+
+    </div>
+  </div>
             </div>
 
         </div>
-    <p>&#169; 2016, Ironsides Technology LLC.</p>
+
     </div>
   <script>
 

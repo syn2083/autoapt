@@ -1,12 +1,20 @@
 __author__ = 'Syn'
-import threading
 import os
 import config
+import threading
 from controller import DemoController, DataController
 from logging_setup import init_logging
 from dispatcher import Dispatcher
+from webinterface import aptinterface
+from tornado import ioloop
 
 logger = init_logging()
+
+
+def init_web_server(host, port):
+    web_server = aptinterface.server
+    web_server.listen(port, address=host)
+    ioloop.IOLoop.instance().start()
 
 
 def init_controller():
@@ -35,6 +43,10 @@ def init_controller():
     control.data_controller = DataController(control.all_targets, control.reprint_pool,
                                              configs['dconf'][0], control.exit_dir)
     control.data_controller.setup_workers()
+    control.clients = aptinterface.cl
+    web_thread = threading.Thread(target=init_web_server, args=(control.sysconf['HTTPServer']['host'],
+                                                                control.sysconf['HTTPServer']['port']))
+    web_thread.start()
 
     return control
 

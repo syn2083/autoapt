@@ -22,14 +22,18 @@ $.get('/reset_seed/', function(data){
     $('#demo_status').html(data);
 });
 });
-var ws = new WebSocket('ws://is-w10-trogers:8888/ws');
+var ws = new WebSocket('ws://127.0.0.1:8888/ws');
 var $message = $('#message');
-var $control = $('#control');
+var $jobs = $('#jobs');
 var $td = $('#td');
 
 ws.onopen = function(){
-  $message.attr("class", 'tag tag-info');
+  $message.attr("class", 'btn btn-outline-success');
   $message.text('Checking Status...');
+  $td.attr("class", 'btn btn-outline-success');
+  $td.text('Checking Status...');
+  $jobs.attr("class", 'btn btn-outline-success');
+  $jobs.text('Checking Status...');
   ws.send("status_check")
 
 };
@@ -38,24 +42,30 @@ ws.onmessage = function(ev){
   $('#' + json.id).hide();
   if (json.id == "message"){
     if(json.value == "Running"){
-    $message.attr("class", 'tag tag-success');
+    $message.attr("class", 'btn btn-outline-success');
     }
     else if(json.value == "Paused"){
-      $message.attr("class", 'tag tag-warning');
+      $message.attr("class", 'btn btn-outline-warning');
     }
     else{
-      $message.attr("class", 'tag tag-danger');
+      $message.attr("class", 'btn btn-outline-danger');
     }
   }
   else if(json.id == "td"){
     if(json.value == "Running"){
-    $td.attr("class", 'tag tag-success');
+    $td.attr("class", 'btn btn-outline-success');
     }
     else if(json.value == "Paused"){
-      $td.attr("class", 'tag tag-warning');
+      $td.attr("class", 'btn btn-outline-warning');
     }
     else{
-      $td.attr("class", 'tag tag-info');
+      $td.attr("class", 'btn btn-outline-danger');
+    }
+
+  }
+  else {
+    {
+      $jobs.attr("class", 'btn btn-outline-success');
     }
   }
 
@@ -73,10 +83,18 @@ ws.onmessage = function(ev){
   }
 };
 ws.onclose = function(ev){
-  $message.attr("class", 'tag tag-important');
+  $message.attr("class", 'btn btn-outline-danger');
   $message.text('WebSocket Closed');
+  $td.attr("class", 'btn btn-outline-danger');
+  $td.text('WebSocket Closed');
+  $jobs.attr("class", 'btn btn-outline-danger');
+  $jobs.text('WebSocket Closed');
 };
 ws.onerror = function(ev){
-  $message.attr("class", 'tag tag-warning');
+  $message.attr("class", 'btn btn-outline-danger');
   $message.text('WebSocket Error');
+  $td.attr("class", 'btn btn-outline-danger');
+  $td.text('WebSocket Error');
+  $jobs.attr("class", 'btn btn-outline-danger');
+  $jobs.text('WebSocket Error');
 };
