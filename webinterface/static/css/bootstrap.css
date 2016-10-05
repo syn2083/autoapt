@@ -325,7 +325,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
-  background-color: #fff;
+  background-color: #5da2d0;
 }
 
 [tabindex="-1"]:focus {
@@ -4030,8 +4030,18 @@ input[type="button"].btn-block {
 }
 
 .card-primary {
-  background-color: #0275d8;
-  border-color: #0275d8;
+  background-color: #1e4679;
+  border-color: #1e4679;
+}
+
+.card-primary-body {
+   background-color: #5da2d0;
+  border-color: #1e4679;
+}
+
+.card-primary-header {
+  background-color: #1e4679;
+  border-color: #1e4679;
 }
 
 .card-primary .card-header,
@@ -5709,7 +5719,7 @@ button.close {
 
 .bg-primary {
   color: #fff !important;
-  background-color: #0275d8 !important;
+  background-color: #337ab7 !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {

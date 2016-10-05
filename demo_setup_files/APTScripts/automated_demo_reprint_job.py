@@ -1,4 +1,5 @@
 __metaclass__ = type
+__author__ = 'Syn'
 import socket
 
 LogManager.writeLogAddTimeStamp('APT Python - Automated Demo - Reprint Socket Connection', 2)
@@ -18,4 +19,4 @@ except Exception as e:
     LogManager.writeLogAddTimeStamp('APT Python - exception while trying to create socket: {}'.format(e), 2)
 
 if sent:
-LogManager.writeLogAddTimeStamp('APT Python - reprint socket connection for Job, JobID: {}'.format(new_job.jobID), 2)
+    LogManager.writeLogAddTimeStamp('APT Python - reprint socket sonnection for Job, JobID: {}'.format(new_job.jobID), 2)
