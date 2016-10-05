@@ -22,7 +22,7 @@ $.get('/reset_seed/', function(data){
     $('#demo_status').html(data);
 });
 });
-var ws = new WebSocket('ws://127.0.0.1:8888/ws');
+var ws = new WebSocket('ws://is-w10-trogers:8888/ws');
 var $message = $('#message');
 var $jobs = $('#jobs');
 var $td = $('#td');

@@ -32,8 +32,12 @@ class DataWorker(threading.Thread):
             for file in file_dump:
                 if ind == int(file.split('.')[2]):
                     output_files.append(file)
-
-        interval = int(file_dump[0].split('.')[1]) + 5
+        if self.spr == 'sheet':
+            interval = int(file_dump[0].split('.')[1])
+            if interval > 5:
+                interval -= 5
+        else:
+            interval = int(file_dump[0].split('.')[1]) + 4
         
         return output_files, interval
 
@@ -51,7 +55,7 @@ class DataWorker(threading.Thread):
                 # Add a little variation to when files start copying
                 time.sleep(random.randint(10, 30))
                 files, interval = self.find_files(jobid)
-                logger.io(files)
+                # logger.io(files)
                 with self._pause_cond:
                     for file in files:
                         try:
@@ -167,6 +171,7 @@ class DemoController:
         self.exit_dir = dconf[1]['DemoDirs']['exit_data']
         self.jif_data = dconf[1]['DemoDirs']['jif_data']
         self.jif_folder = dconf[1]['APTDirs']['jdf']
+        self.reprint_folder = dconf[1]['APTDirs']['reprint']
         self.first_run = 1
         self.num_jobs = 0
         self.target_dirs = {k: dconf[0][k]['path'] for k in dconf[0].keys()}
@@ -376,11 +381,13 @@ class DemoController:
         :rtype: None
         """
         jobid = data[1]
+        status = int(data[2])
 
-        if jobid in self.active_jobs.keys():
+        if status in (1026, 1030) and jobid in self.active_jobs.keys():
             icd = self.active_jobs[jobid][0]
             origin = self.active_jobs[jobid][1]
             if getattr(self, icd)['multi_step'] == 1:
+
                 if icd.lower() != 'td' and jobid not in self.td['jobid']:
                     logger.io('Multi process change to insert - removing {}'.format(jobid))
                     self.td['jobid'].append(jobid)
@@ -400,7 +407,7 @@ class DemoController:
                                 os.remove(os.path.join(self.exit_dir, file))
                         except FileNotFoundError:
                             pass
-                    if len(getattr(self, icd)['jobid']) < 1 and len(self.td['jobid']) <= 1:
+                    if len(getattr(self, icd)['jobid']) <= 1 and len(self.td['jobid']) <= 2:
                         self.create_job(origin)
                     self.active_jobs[jobid][0] = self.td['origin']
 
@@ -455,10 +462,22 @@ class DemoController:
                                             pass
                             else:
                                 break
+
                     getattr(self, reprint_target)['jobid'].append(jobid)
-                    self.data_controller.new_data(jobid, reprint_target)
-                    self.active_jobs[jobid][0] = reprint_target
-                    self.reprinting_jobs.append(jobid)
+
+                    reprints = None
+
+                    with open(os.path.join(self.reprint_folder, '{}.1.txt'.format(jobid)), 'r') as fp:
+                        reprints = fp.read()
+
+                    reprint_generated = jif_assembler.gen_reprints(jobid, getattr(self, origin), reprints)
+
+                    if reprint_generated:
+                        self.data_controller.new_data(jobid, reprint_target)
+                        self.active_jobs[jobid][0] = reprint_target
+                        self.reprinting_jobs.append(jobid)
+                    else:
+                        logger.debug('Reprint went seriously wrong.')
 
     def complete_job(self, data):
         """

@@ -26,7 +26,7 @@ JIF_CONF_FILE = os.path.join(DEMO_CONF_DIR, 'jif.config')
 
 """Learned about configparser after doing all this.. refactor in the future."""
 # TODO utilize config-parser instead of this
-DEF_DEMO_CONF = [{'icd_1': {'origin': 'icd_1', 'path': 'C:/APTApplication/ICD/icd_1', 'speed': 54540,
+DEF_DEMO_CONF = [{'icd_1': {'origin': 'icd_1', 'path': 'C:/APTApplication/ICD/icd_1', 'speed': 60000,
                             'piece_or_sheet': 'sheet', 'multi_step': 1, 'site_prefix': 'A10', 'shift1': 'Jim, John, Amy',
                             'shift2': 'Kent, Laura, Chris', 'shift3': 'Jason, Ray, Sean', 'proc_phase': '10, 30',
                             'end_phase': '30', 'jobid': []},
@@ -39,16 +39,16 @@ DEF_DEMO_CONF = [{'icd_1': {'origin': 'icd_1', 'path': 'C:/APTApplication/ICD/ic
                             'shift1': 'Zach, Ted, Sharon', 'shift2': 'Wendy, Sara, Ken',
                             'shift3': 'Dennis, Henry, Heather', 'proc_phase': '30', 'end_phase': '30', 'jobid': []},
                   'icd_4': {'origin': 'icd_4', 'path': 'C:/APTApplication/ICD/icd_4', 'speed': 6000,
-                            'piece_or_sheet': 'piece', 'multi_step': 0, 'site_prefix': 'A00',
+                            'piece_or_sheet': 'reprint', 'multi_step': 0, 'site_prefix': 'A00',
                             'shift1': 'Todd, Jeff, Lisa', 'shift2': 'Diane, Greg, James',
                             'shift3': 'Harrold, Doug, Joseph', 'proc_phase': '30', 'end_phase': '30', 'jobid': []},
                   'icd_5': {'origin': 'icd_5', 'path': 'C:/APTApplication/ICD/icd_5', 'speed': 6000,
-                            'piece_or_sheet': 'piece', 'multi_step': 0, 'site_prefix': 'A00', 'shift1': '',
+                            'piece_or_sheet': 'reprint', 'multi_step': 0, 'site_prefix': 'A00', 'shift1': '',
                             'shift2': '', 'shift3': '', 'proc_phase': '30', 'end_phase': '30', 'jobid': []},
                   'icd_6': {'origin': 'icd_6', 'path': 'C:/APTApplication/ICD/icd_6', 'speed': 6000,
-                            'piece_or_sheet': 'piece', 'multi_step': 0, 'site_prefix': 'A00', 'shift1': '',
+                            'piece_or_sheet': 'reprint', 'multi_step': 0, 'site_prefix': 'A00', 'shift1': '',
                             'shift2': '', 'shift3': '', 'proc_phase': '30', 'end_phase': '30', 'jobid': []},
-                  'td': {'origin': 'td', 'path': 'C:/APTApplication/ICD/tdinput', 'speed': 16000,
+                  'td': {'origin': 'td', 'path': 'C:/APTApplication/ICD/tdinput', 'speed': 17500,
                          'piece_or_sheet': 'piece', 'multi_step': 0, 'site_prefix': 'A40', 'shift1': '',
                          'shift2': '', 'shift3': '', 'proc_phase': '30', 'end_phase': '30', 'jobid': []}},
                  {'APTDirs': {'JDF': 'C:/APTApplication/Server/Inputs/JDFInput',
@@ -67,7 +67,7 @@ DEF_JIF_CONF = [{'JIF': {'temp_name': 'APTDemo', 'jtype': 'Checks, Statements, N
                          'stocktype': 'Matte, Gloss', 'ui1': 'Saddle Stitch, Perfect Bind',
                          'ui2': '10, 6x9, 9x12', 'ui3': '0X-, 1D-, AQ-', 'ui4': '', 'ui5': '',
                          'cemail': 'support@ironsidestech.com'},
-                'OPTS': {'prange': '2000, 2600', 'srange': '1, 6', 'num_jifs': 1}}]
+                'OPTS': {'prange': '1000, 1600', 'srange': '1, 4', 'num_jifs': 1}}]
 
 
 def save_default_sys():

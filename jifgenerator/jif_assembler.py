@@ -17,6 +17,62 @@ logger = init_logging()
 # TODO Get JIFBuilder to dynamically load configs.
 
 
+def gen_reprints(jobid, origin, damage_list):
+    """
+    This method will create all reprint scan data for the ICD target. String format is:
+    Jobid,pieceid,time,result,op
+
+    All reprints are processed at a ICD piece level defined device only, so output strings are piece level.
+    :param damage_list: str of pieces damaged in this job that will require reprint strings
+    :type damage_list: str
+    :return: bool
+    :rtype: bool
+    """
+    out_str = "\n"
+    out_path = folder_construct()
+    reprint_strings = []
+    curr_time = datetime.datetime.now() + datetime.timedelta(minutes=40)
+    job_string = jobid
+    operator = None
+    conv_dict = {'shift_1_ops': [origin['shift1'], None],
+                 'shift_2_ops': [origin['shift2'], None],
+                 'shift_3_ops': [origin['shift3'], None]}
+
+    start_time = curr_time
+
+    for k, v in conv_dict.items():
+        v[1] = str_to_list(v[0])
+
+    if find_shift() == 1:
+        operator = choice(conv_dict['shift_1_ops'][1])
+    if find_shift() == 2:
+        operator = choice(conv_dict['shift_2_ops'][1])
+    if find_shift() == 3:
+        operator = choice(conv_dict['shift_3_ops'][1])
+
+    unique_damages = [int(i) for i in damage_list.split('\n') if i]
+
+    for i in unique_damages:
+        reprint_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
+                                                                               pieceid=str(i).zfill(6),
+                                                                               time=curr_time,
+                                                                               result='0',
+                                                                               op=operator))
+        if i % 2 == 0:
+            curr_time = curr_time + datetime.timedelta(seconds=1, microseconds=500)
+
+    chunked_list = list(chunk_data_lists(reprint_strings, 100))
+    last_time = str_to_datetime(chunked_list[0][-1].split(',')[2])
+    g = (last_time - start_time) + datetime.timedelta(seconds=30)
+    interval = int(g.seconds)
+    for n, i in enumerate(chunked_list):
+        filename = path.join(out_path, 'reprint_{}.{}.{}.txt'.format(job_string, interval, n))
+        with open(filename, 'w') as fp:
+            fp.write(out_str.join(reprint_strings) + '\n')
+
+    return True
+
+
 class JIFBuilder:
     def __init__(self, icd_target, jdf_folder, dconf, jconf):
         """
@@ -184,6 +240,10 @@ class JIFBuilder:
             self.damage_count = 1
             self.damages = 1
 
+        if self.site_prefix == 'A10':
+            self.damage_count = 1
+            self.damages = 1
+
         for i in range(0, self.num_jifs):
 
             if not self.generated_jobs:
@@ -257,23 +317,23 @@ class JIFBuilder:
                     if make_damages:
                         sheet_reprints = self.gen_sheet_data(create_damages=1, num_sheets=sheet_list, ops=conv_dict)
                         piece_reprints = self.gen_piece_data(create_damages=1, ops=conv_dict)
-                        reprint_set = set()
+                        '''reprint_set = set()
                         reprint_set.update(sheet_reprints)
                         reprint_set.update(piece_reprints)
-                        self.gen_reprints(reprint_set)
+                        self.gen_reprints(reprint_set)'''
                     else:
                         self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
                         self.gen_piece_data(create_damages=0, ops=conv_dict)
                 else:
                     if make_damages:
                         sheet_reprints = self.gen_sheet_data(create_damages=1, num_sheets=sheet_list, ops=conv_dict)
-                        self.gen_reprints(sheet_reprints)
+                        '''self.gen_reprints(sheet_reprints)'''
                     else:
                         self.gen_sheet_data(create_damages=0, num_sheets=sheet_list, ops=conv_dict)
             if self.piece_or_sheet.lower() == 'piece':
                 if make_damages:
                     piece_reprints = self.gen_piece_data(create_damages=1, ops=conv_dict)
-                    self.gen_reprints(piece_reprints)
+                    '''self.gen_reprints(piece_reprints)'''
                 else:
                     self.gen_piece_data(ops=conv_dict)
 
@@ -361,7 +421,7 @@ class JIFBuilder:
                     if sheet_count % self.speed == 0:
                         self.curr_time = self.add_seconds(self.curr_time, 1)
 
-        chunked_list = list(chunk_data_lists(sheet_strings, 100))
+        chunked_list = list(chunk_data_lists(sheet_strings, 500))
         last_time = str_to_datetime(chunked_list[0][-1].split(',')[4])
         g = (last_time - start_time) + datetime.timedelta(seconds=30)
         interval = int(g.seconds)
@@ -429,10 +489,8 @@ class JIFBuilder:
                                                                                              result='0',
                                                                                              op=operator))
                     else:
-                        if 5 <= randint(1, 10):
-                            piece_strings.append('')
-                        else:
-                            pass
+                        piece_strings.append(' ')
+
                 else:
                     piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
                                                                                          pieceid=str(i).zfill(6),
@@ -461,7 +519,7 @@ class JIFBuilder:
         self.curr_time = None
         return damage_list
 
-    def gen_reprints(self, damage_list):
+    '''def gen_reprints(self, damage_list):
         """
         This method will create all reprint scan data for the ICD target. String format is:
         Jobid,pieceid,time,result,op
@@ -522,4 +580,4 @@ class JIFBuilder:
             filename = path.join(out_path, 'reprint_{}.{}.{}.txt'.format(job_string, interval, n))
             with open(filename, 'w') as fp:
                 fp.write(out_str.join(reprint_strings) + '\n')
-        self.curr_time = None
+        self.curr_time = None'''
