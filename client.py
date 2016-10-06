@@ -12,6 +12,7 @@ TCP_PORT = 8091
 
 k = ['Accepted', 'A400000056']
 
+
 def sock_connect(jdump):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((TCP_IP, TCP_PORT))

@@ -28,6 +28,7 @@ class DataWorker(threading.Thread):
     def find_files(self, jobid):
         output_files = []
         file_dump = [f for f in os.listdir(self.exit_dir) if jobid in f if self.spr in f]
+
         for ind in range(0, len(file_dump)):
             for file in file_dump:
                 if ind == int(file.split('.')[2]):
@@ -37,7 +38,7 @@ class DataWorker(threading.Thread):
             if interval > 5:
                 interval -= 5
         else:
-            interval = int(file_dump[0].split('.')[1]) + 4
+            interval = int(file_dump[0].split('.')[1]) + 2
         
         return output_files, interval
 
@@ -172,6 +173,7 @@ class DemoController:
         self.jif_data = dconf[1]['DemoDirs']['jif_data']
         self.jif_folder = dconf[1]['APTDirs']['jdf']
         self.reprint_folder = dconf[1]['APTDirs']['reprint']
+        self.proc_dir = dconf[1]['APTDirs']['proc']
         self.first_run = 1
         self.num_jobs = 0
         self.target_dirs = {k: dconf[0][k]['path'] for k in dconf[0].keys()}
@@ -324,6 +326,12 @@ class DemoController:
 
         for file in files:
             os.remove(self.exit_dir + '/' + file)
+
+        files = os.listdir(self.proc_dir)
+        logger.demo('Cleaning WIP directory.')
+
+        for file in files:
+            os.remove(self.proc_dir + '/' + file)
 
         logger.demo('Resetting demo state')
         self.first_run = 1

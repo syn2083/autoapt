@@ -452,6 +452,8 @@ class JIFBuilder:
         job_string = self.site_prefix + str(self.current_jobid).zfill(7)
         damage_list = []
         operator = None
+        dupe_limit = 10
+        current_dupes = 0
         prange = range(1, self.current_piececount + 1)
 
         if self.multi_step == 1:
@@ -489,7 +491,10 @@ class JIFBuilder:
                                                                                              result='0',
                                                                                              op=operator))
                     else:
-                        piece_strings.append(' ')
+                        if 50 >= randint(1, 100):
+                            piece_strings.append(' ')
+                        else:
+                            pass
 
                 else:
                     piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
@@ -500,11 +505,24 @@ class JIFBuilder:
                 if i % self.speed == 0:
                     self.curr_time = self.add_seconds(self.curr_time, 1)
             else:
-                piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
-                                                                                     pieceid=str(i).zfill(6),
-                                                                                     time=self.curr_time,
-                                                                                     result='0',
-                                                                                     op=operator))
+                if 15 >= randint(1, 100) and current_dupes < dupe_limit:
+                    piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
+                                                                                         pieceid=str(i).zfill(6),
+                                                                                         time=self.curr_time,
+                                                                                         result='0',
+                                                                                         op=operator))
+                    piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
+                                                                                         pieceid=str(i).zfill(6),
+                                                                                         time=self.curr_time,
+                                                                                         result='0',
+                                                                                         op=operator))
+                    current_dupes += 1
+                else:
+                    piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
+                                                                                         pieceid=str(i).zfill(6),
+                                                                                         time=self.curr_time,
+                                                                                         result='0',
+                                                                                         op=operator))
                 if i % self.speed == 0:
                     self.curr_time = self.add_seconds(self.curr_time, 1)
 

@@ -2258,3 +2258,826 @@ AssertionError
 [SOCK_SERVER] 10/05/2016 04:45:33 PM         server| Incoming data: ['demo status', 'status_check', 'urn:uuid:be3ee0c7-943e-461f-8ff9-87c2e11bba75']
 [SOCK_SERVER] 10/05/2016 04:45:33 PM         server| ['demo status', 'status_check', 'urn:uuid:be3ee0c7-943e-461f-8ff9-87c2e11bba75']
 [DEMO_STATE ] 10/05/2016 04:45:33 PM     controller| Websocket status check for urn:uuid:be3ee0c7-943e-461f-8ff9-87c2e11bba75
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| --System Booting--
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 09:58:54 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/06/2016 09:58:54 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/06/2016 09:58:54 AM         server| Socket Server initializing.
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/06/2016 09:58:54 AM         server| Server bound to 0.0.0.0, port 8091
+[SOCK_SERVER] 10/06/2016 09:58:54 AM         server| ---Server now listening---
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| Removed 1 files from APT Reprint Folder.
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/06/2016 09:58:54 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| --Starting Web Interface--
+[BOOT       ] 10/06/2016 09:58:54 AM        autoapt| --System Startup Complete, Entering Main Loop--
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 200 GET / (127.0.0.1) 72.05ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 217.14ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 4.00ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 1.98ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/css/font-awesome.css (127.0.0.1) 3.00ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 2.00ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 200 GET /static/js/main.js (127.0.0.1) 3.00ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/imgs/isl-trans-resized.png (127.0.0.1) 2.02ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/fonts/OpenSans-Regular.ttf (127.0.0.1) 3.00ms
+[INFO       ] 10/06/2016 09:59:25 AM           wsgi| 304 GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/06/2016 09:59:26 AM         server| Connection established from 127.0.0.1:6667
+[DEBUG      ] 10/06/2016 09:59:26 AM   aptinterface| Message from: urn:uuid:51a52452-3461-499b-bc18-71c34baf1574, status_check
+[SOCK_SERVER] 10/06/2016 09:59:26 AM         server| Incoming data: ['demo status', 'status_check', 'urn:uuid:51a52452-3461-499b-bc18-71c34baf1574']
+[SOCK_SERVER] 10/06/2016 09:59:26 AM         server| ['demo status', 'status_check', 'urn:uuid:51a52452-3461-499b-bc18-71c34baf1574']
+[DEMO_STATE ] 10/06/2016 09:59:26 AM     controller| Websocket status check for urn:uuid:51a52452-3461-499b-bc18-71c34baf1574
+[SOCK_SERVER] 10/06/2016 09:59:26 AM           wsgi| 404 GET /favicon.ico (127.0.0.1) 44.04ms
+[SOCK_SERVER] 10/06/2016 09:59:45 AM         server| Connection established from 127.0.0.1:6689
+[SOCK_SERVER] 10/06/2016 09:59:45 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/06/2016 09:59:45 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 2.00ms
+[SOCK_SERVER] 10/06/2016 09:59:45 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/06/2016 09:59:46 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/06/2016 09:59:46 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Jobid = 1000
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Starting to build JIF A100001000.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JIF creation completed. A100001000 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/06/2016 09:59:46 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Jobid = 1001
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Starting to build JIF A200001001.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JIF creation completed. A200001001 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/06/2016 09:59:46 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Jobid = 1002
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Starting to build JIF A300001002.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JIF creation completed. A300001002 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/06/2016 09:59:46 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Jobid = 1003
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Starting to build JIF A400001003.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 09:59:46 AM  jif_assembler| JIF creation completed. A400001003 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 09:59:46 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/06/2016 09:59:46 AM     controller| Demo Initialized.
+[IO_HANDLER ] 10/06/2016 09:59:49 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 09:59:50 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:50 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:50 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:50 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 09:59:50 AM     controller| Deque deque(['A100001000'])
+[IO_HANDLER ] 10/06/2016 09:59:50 AM   file_handler| Accepted job event
+[IO_HANDLER ] 10/06/2016 09:59:50 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 09:59:51 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| Deque deque(['A200001001'])
+[DISPATCH   ] 10/06/2016 09:59:51 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 09:59:51 AM     controller| Deque deque(['A200001001', 'A200001001'])
+[IO_HANDLER ] 10/06/2016 09:59:51 AM   file_handler| Accepted job event
+[IO_HANDLER ] 10/06/2016 09:59:51 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 09:59:52 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| Deque deque(['A300001002'])
+[IO_HANDLER ] 10/06/2016 09:59:52 AM   file_handler| Accepted job event
+[IO_HANDLER ] 10/06/2016 09:59:52 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 09:59:52 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 09:59:52 AM     controller| Deque deque(['A300001002'])
+[DISPATCH   ] 10/06/2016 09:59:53 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| Job td accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| Deque deque(['A400001003'])
+[DISPATCH   ] 10/06/2016 09:59:53 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| Job td accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 09:59:53 AM     controller| Deque deque(['A400001003', 'A400001003'])
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| --System Booting--
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:05:35 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/06/2016 10:05:35 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/06/2016 10:05:35 AM         server| Socket Server initializing.
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/06/2016 10:05:35 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/06/2016 10:05:35 AM         server| ---Server now listening---
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/06/2016 10:05:35 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| --Starting Web Interface--
+[BOOT       ] 10/06/2016 10:05:35 AM        autoapt| --System Startup Complete, Entering Main Loop--
+[INFO       ] 10/06/2016 10:05:43 AM           wsgi| 200 GET / (127.0.0.1) 38.04ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 212.13ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 2.00ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 3.00ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 3.00ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/css/font-awesome.css (127.0.0.1) 2.02ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 5.01ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/imgs/isl-trans-resized.png (127.0.0.1) 1.00ms
+[INFO       ] 10/06/2016 10:05:44 AM           wsgi| 304 GET /static/js/main.js (127.0.0.1) 2.00ms
+[SOCK_SERVER] 10/06/2016 10:05:44 AM         server| Connection established from 127.0.0.1:6966
+[DEBUG      ] 10/06/2016 10:05:44 AM   aptinterface| Message from: urn:uuid:35bb3c40-7186-475c-a33b-b11edf890347, status_check
+[SOCK_SERVER] 10/06/2016 10:05:44 AM         server| Incoming data: ['demo status', 'status_check', 'urn:uuid:35bb3c40-7186-475c-a33b-b11edf890347']
+[SOCK_SERVER] 10/06/2016 10:05:44 AM         server| ['demo status', 'status_check', 'urn:uuid:35bb3c40-7186-475c-a33b-b11edf890347']
+[DEMO_STATE ] 10/06/2016 10:05:44 AM     controller| Websocket status check for urn:uuid:35bb3c40-7186-475c-a33b-b11edf890347
+[SOCK_SERVER] 10/06/2016 10:05:45 AM         server| Connection established from 127.0.0.1:6968
+[SOCK_SERVER] 10/06/2016 10:05:45 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/06/2016 10:05:45 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 2.00ms
+[SOCK_SERVER] 10/06/2016 10:05:45 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/06/2016 10:05:46 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/06/2016 10:05:46 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Jobid = 1004
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Starting to build JIF A100001004.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JIF creation completed. A100001004 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/06/2016 10:05:46 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Jobid = 1005
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Starting to build JIF A200001005.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JIF creation completed. A200001005 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/06/2016 10:05:46 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Jobid = 1006
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Starting to build JIF A300001006.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JIF creation completed. A300001006 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/06/2016 10:05:46 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Jobid = 1007
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Starting to build JIF A400001007.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:05:46 AM  jif_assembler| JIF creation completed. A400001007 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:05:46 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/06/2016 10:05:46 AM     controller| Demo Initialized.
+[IO_HANDLER ] 10/06/2016 10:05:53 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:05:53 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:05:53 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:05:53 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:05:53 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:05:53 AM     controller| Deque deque(['A100001004'])
+[IO_HANDLER ] 10/06/2016 10:05:54 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:05:55 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:05:55 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:05:55 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:05:55 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 10:05:55 AM     controller| Deque deque(['A200001005'])
+[IO_HANDLER ] 10/06/2016 10:05:55 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:05:56 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:05:56 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:05:56 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:05:56 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 10:05:56 AM     controller| Deque deque(['A300001006'])
+[IO_HANDLER ] 10/06/2016 10:05:56 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:05:57 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:05:57 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:05:57 AM     controller| Job td accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:05:57 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 10:05:57 AM     controller| Deque deque(['A400001007'])
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| --System Booting--
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| --Starting AutoAPT Controller--
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:16:30 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/06/2016 10:16:30 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/06/2016 10:16:30 AM         server| Socket Server initializing.
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/06/2016 10:16:30 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/06/2016 10:16:30 AM         server| ---Server now listening---
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/06/2016 10:16:30 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| --Starting Web Interface--
+[BOOT       ] 10/06/2016 10:16:30 AM        autoapt| --System Startup Complete, Entering Main Loop--
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 200 GET / (127.0.0.1) 38.03ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/css/APTDemo.css (127.0.0.1) 201.14ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/css/font-awesome.css (127.0.0.1) 2.00ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/css/bootstrap.css (127.0.0.1) 3.00ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/css/bootstrap-theme.css (127.0.0.1) 4.01ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/js/jquery-3.1.0.min.js (127.0.0.1) 4.00ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/imgs/isl-trans-resized.png (127.0.0.1) 2.99ms
+[INFO       ] 10/06/2016 10:16:34 AM           wsgi| 304 GET /static/js/main.js (127.0.0.1) 5.00ms
+[SOCK_SERVER] 10/06/2016 10:16:34 AM         server| Connection established from 127.0.0.1:7502
+[DEBUG      ] 10/06/2016 10:16:34 AM   aptinterface| Message from: urn:uuid:6bf281ec-4821-4f16-b892-b79379388223, status_check
+[SOCK_SERVER] 10/06/2016 10:16:34 AM         server| Incoming data: ['demo status', 'status_check', 'urn:uuid:6bf281ec-4821-4f16-b892-b79379388223']
+[SOCK_SERVER] 10/06/2016 10:16:34 AM         server| ['demo status', 'status_check', 'urn:uuid:6bf281ec-4821-4f16-b892-b79379388223']
+[DEMO_STATE ] 10/06/2016 10:16:34 AM     controller| Websocket status check for urn:uuid:6bf281ec-4821-4f16-b892-b79379388223
+[SOCK_SERVER] 10/06/2016 10:16:36 AM         server| Connection established from 127.0.0.1:7504
+[SOCK_SERVER] 10/06/2016 10:16:36 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/06/2016 10:16:36 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 2.00ms
+[SOCK_SERVER] 10/06/2016 10:16:36 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/06/2016 10:16:36 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/06/2016 10:16:36 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/06/2016 10:16:36 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/06/2016 10:16:36 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/06/2016 10:16:36 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Jobid = 1008
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Starting to build JIF A100001008.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| JIF creation completed. A100001008 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:16:36 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/06/2016 10:16:36 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Jobid = 1009
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Starting to build JIF A200001009.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| JIF creation completed. A200001009 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:16:36 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/06/2016 10:16:36 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Jobid = 1010
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Starting to build JIF A300001010.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:16:36 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| JIF creation completed. A300001010 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:16:37 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/06/2016 10:16:37 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Jobid = 1011
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Starting to build JIF A400001011.
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:16:37 AM  jif_assembler| JIF creation completed. A400001011 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:16:37 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/06/2016 10:16:37 AM     controller| Demo Initialized.
+[IO_HANDLER ] 10/06/2016 10:16:38 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:16:39 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:16:39 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:16:39 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:16:39 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:16:39 AM     controller| Deque deque(['A100001008'])
+[IO_HANDLER ] 10/06/2016 10:16:51 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:16:51 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:16:51 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:16:51 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:16:51 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 10:16:51 AM     controller| Deque deque(['A200001009'])
+[IO_HANDLER ] 10/06/2016 10:16:52 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:16:52 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:16:52 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:16:52 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:16:52 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 10:16:52 AM     controller| Deque deque(['A300001010'])
+[IO_HANDLER ] 10/06/2016 10:16:53 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:16:53 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:16:53 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:16:53 AM     controller| Job td accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:16:53 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 10:16:53 AM     controller| Deque deque(['A400001011'])
+[DEBUG      ] 10/06/2016 10:17:04 AM     controller| Type jobid: <class 'str'> jobid A400001011
+[DEBUG      ] 10/06/2016 10:17:04 AM     controller| Exit dir: E:/PyDev/autoapt/jifgenerator/output/APTDemo/exit_data
+[DEBUG      ] 10/06/2016 10:17:04 AM     controller| File dump: []
+[DEBUG      ] 10/06/2016 10:17:07 AM     controller| Type jobid: <class 'str'> jobid A100001008
+[DEBUG      ] 10/06/2016 10:17:07 AM     controller| Exit dir: E:/PyDev/autoapt/jifgenerator/output/APTDemo/exit_data
+[DEBUG      ] 10/06/2016 10:17:07 AM     controller| File dump: []
+[DEBUG      ] 10/06/2016 10:17:11 AM     controller| Type jobid: <class 'str'> jobid A200001009
+[DEBUG      ] 10/06/2016 10:17:11 AM     controller| Exit dir: E:/PyDev/autoapt/jifgenerator/output/APTDemo/exit_data
+[DEBUG      ] 10/06/2016 10:17:11 AM     controller| File dump: []
+[DEBUG      ] 10/06/2016 10:17:14 AM     controller| Type jobid: <class 'str'> jobid A300001010
+[DEBUG      ] 10/06/2016 10:17:14 AM     controller| Exit dir: E:/PyDev/autoapt/jifgenerator/output/APTDemo/exit_data
+[DEBUG      ] 10/06/2016 10:17:14 AM     controller| File dump: []
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| --System Booting--
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| --Starting AutoAPT Controller--
+[BOOT       ] 10/06/2016 10:18:07 AM           init| Demo ini not found, saving default
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[IO_HANDLER ] 10/06/2016 10:18:07 AM     controller| Worker threads initialized.
+[SOCK_SERVER] 10/06/2016 10:18:07 AM        autoapt| --Socket Server Initialization--
+[SOCK_SERVER] 10/06/2016 10:18:07 AM         server| Socket Server initializing.
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| --Cleaning Reprint Directory--
+[SOCK_SERVER] 10/06/2016 10:18:07 AM         server| Server bound to 0.0.0.0, port 8091
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| Removed 0 files from APT Reprint Folder.
+[SOCK_SERVER] 10/06/2016 10:18:07 AM         server| ---Server now listening---
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| --Cleaning TD Directory--
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| Removed 0 files from APT TD Folder.
+[DEBUG      ] 10/06/2016 10:18:07 AM        autoapt| JDF C:/APTApplication/Server/Inputs/JDFInput
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| --Starting Web Interface--
+[BOOT       ] 10/06/2016 10:18:07 AM        autoapt| --System Startup Complete, Entering Main Loop--
+[SOCK_SERVER] 10/06/2016 10:18:09 AM         server| Connection established from 127.0.0.1:7570
+[SOCK_SERVER] 10/06/2016 10:18:09 AM         server| Incoming data: ['demo control', 'start']
+[INFO       ] 10/06/2016 10:18:09 AM           wsgi| 200 GET /start_demo/ (127.0.0.1) 4.00ms
+[SOCK_SERVER] 10/06/2016 10:18:09 AM         server| ['demo control', 'start']
+[DISPATCH   ] 10/06/2016 10:18:09 AM     dispatcher| Starting Demo.
+[DEMO_STATE ] 10/06/2016 10:18:09 AM     controller| --Demo Startup--
+[DEMO_STATE ] 10/06/2016 10:18:10 AM     controller| Exit directory cleaned up.
+[DEMO_STATE ] 10/06/2016 10:18:10 AM     controller| Demo Status == 1
+[IO_HANDLER ] 10/06/2016 10:18:10 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Jobid = 1012
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Starting to build JIF A100001012.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JIF creation completed. A100001012 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:18:10 AM     controller| Creating initial job for target: ICD_1
+[IO_HANDLER ] 10/06/2016 10:18:10 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Jobid = 1013
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Starting to build JIF A200001013.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JIF creation completed. A200001013 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:18:10 AM     controller| Creating initial job for target: ICD_2
+[IO_HANDLER ] 10/06/2016 10:18:10 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Jobid = 1014
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Starting to build JIF A300001014.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JIF creation completed. A300001014 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:18:10 AM     controller| Creating initial job for target: ICD_3
+[IO_HANDLER ] 10/06/2016 10:18:10 AM     controller| Creating TD JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Jobid = 1015
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Starting to build JIF A400001015.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:18:10 AM  jif_assembler| JIF creation completed. A400001015 has been sent to APT.
+[DEMO_STATE ] 10/06/2016 10:18:10 AM     controller| Creating initial job for target: TD
+[DEBUG      ] 10/06/2016 10:18:10 AM     controller| Demo Initialized.
+[IO_HANDLER ] 10/06/2016 10:18:13 AM   file_handler| Accepted job event
+[IO_HANDLER ] 10/06/2016 10:18:13 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:18:14 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| Deque deque(['A100001012'])
+[IO_HANDLER ] 10/06/2016 10:18:14 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:18:14 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 10:18:14 AM     controller| Deque deque(['A200001013'])
+[DISPATCH   ] 10/06/2016 10:18:15 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:18:15 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:18:15 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:18:15 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 10:18:15 AM     controller| Deque deque(['A300001014'])
+[IO_HANDLER ] 10/06/2016 10:18:16 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:18:17 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:18:17 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:18:17 AM     controller| Job td accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:18:17 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 10:18:17 AM     controller| Deque deque(['A400001015'])
+[IO_HANDLER ] 10/06/2016 10:18:29 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:29 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:51 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:51 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:51 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:55 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:18:55 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:23:30 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:23:30 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:24:23 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:24:23 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:24:24 AM     dispatcher| Calling process change controller
+[IO_HANDLER ] 10/06/2016 10:24:24 AM     controller| Multi process change to insert - removing A100001012
+[IO_HANDLER ] 10/06/2016 10:24:24 AM     controller| Sending data to TD from multi-step.
+[IO_HANDLER ] 10/06/2016 10:24:24 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 10:24:24 AM     controller| Deque deque(['A100001012'])
+[IO_HANDLER ] 10/06/2016 10:24:24 AM     controller| Cleaning previous data.
+[IO_HANDLER ] 10/06/2016 10:24:24 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Jobid = 1016
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Starting to build JIF A100001016.
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:24:24 AM  jif_assembler| JIF creation completed. A100001016 has been sent to APT.
+[DISPATCH   ] 10/06/2016 10:24:24 AM     dispatcher| Calling process change controller
+[IO_HANDLER ] 10/06/2016 10:24:27 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:24:28 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:24:28 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:24:28 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:24:28 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:24:28 AM     controller| Deque deque(['A100001016'])
+[IO_HANDLER ] 10/06/2016 10:24:36 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:24:37 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:24:37 AM     controller| Complete call passing to completion A300001014
+[IO_HANDLER ] 10/06/2016 10:24:37 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:24:37 AM     controller| JobID A300001014
+[IO_HANDLER ] 10/06/2016 10:24:37 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:24:37 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Jobid = 1017
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Starting to build JIF A300001017.
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:24:37 AM  jif_assembler| JIF creation completed. A300001017 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:24:38 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:24:39 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:24:39 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:24:39 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:24:39 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 10:24:39 AM     controller| Deque deque(['A300001017'])
+[IO_HANDLER ] 10/06/2016 10:24:53 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:24:53 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:25:09 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:25:09 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:25:28 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:25:28 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:25:28 AM     controller| Complete call passing to completion A400001015
+[IO_HANDLER ] 10/06/2016 10:25:28 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:25:28 AM     controller| JobID A400001015
+[IO_HANDLER ] 10/06/2016 10:25:28 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:25:28 AM     controller| Initial TD Job Completed. A400001015
+[IO_HANDLER ] 10/06/2016 10:25:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:25:53 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:25:53 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:26:25 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:27:31 AM   file_handler| Reprint job event
+[IO_HANDLER ] 10/06/2016 10:27:31 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:27:31 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:27:31 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:27:31 AM     controller| Reprint Call incoming data A200001013 and active jobs dict_keys(['A200001013', 'A100001012', 'A300001017', 'A100001016']) listed reprinting jobs []
+[IO_HANDLER ] 10/06/2016 10:27:31 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Jobid = 1018
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Starting to build JIF A200001018.
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:27:31 AM  jif_assembler| JIF creation completed. A200001018 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:27:31 AM     controller| Copying A200001013 to reprint directory
+[IO_HANDLER ] 10/06/2016 10:27:31 AM     controller| Data controller, target icd_4
+[IO_HANDLER ] 10/06/2016 10:27:31 AM     controller| Deque deque(['A200001013'])
+[IO_HANDLER ] 10/06/2016 10:27:39 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:27:40 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:27:40 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:27:40 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:27:40 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 10:27:40 AM     controller| Deque deque(['A200001018'])
+[IO_HANDLER ] 10/06/2016 10:27:51 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:27:51 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:28:04 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:28:04 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:28:57 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:28:57 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:28:57 AM     controller| Complete call passing to completion A200001013
+[IO_HANDLER ] 10/06/2016 10:28:57 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:28:57 AM     controller| JobID A200001013
+[IO_HANDLER ] 10/06/2016 10:28:57 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:28:57 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Jobid = 1019
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Starting to build JIF A200001019.
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:28:57 AM  jif_assembler| JIF creation completed. A200001019 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:29:01 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:29:01 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:29:01 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:29:01 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:29:01 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 10:29:01 AM     controller| Deque deque(['A200001019'])
+[IO_HANDLER ] 10/06/2016 10:30:34 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:30:34 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:31:31 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:31:31 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:31:32 AM     dispatcher| Calling process change controller
+[IO_HANDLER ] 10/06/2016 10:31:32 AM     controller| Multi process change to insert - removing A100001016
+[IO_HANDLER ] 10/06/2016 10:31:32 AM     controller| Sending data to TD from multi-step.
+[IO_HANDLER ] 10/06/2016 10:31:32 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 10:31:32 AM     controller| Deque deque(['A100001016'])
+[IO_HANDLER ] 10/06/2016 10:31:32 AM     controller| Cleaning previous data.
+[IO_HANDLER ] 10/06/2016 10:31:32 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Jobid = 1020
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Starting to build JIF A100001020.
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:31:32 AM  jif_assembler| JIF creation completed. A100001020 has been sent to APT.
+[DISPATCH   ] 10/06/2016 10:31:32 AM     dispatcher| Calling process change controller
+[IO_HANDLER ] 10/06/2016 10:31:40 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:31:40 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:31:40 AM     controller| Complete call passing to completion A300001017
+[IO_HANDLER ] 10/06/2016 10:31:40 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:31:40 AM     controller| JobID A300001017
+[IO_HANDLER ] 10/06/2016 10:31:40 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:31:40 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:31:40 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:31:40 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:31:40 AM  jif_assembler| Jobid = 1021
+[JIFGEN     ] 10/06/2016 10:31:40 AM  jif_assembler| Starting to build JIF A300001021.
+[JIFGEN     ] 10/06/2016 10:31:40 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:31:41 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:31:41 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:31:41 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:31:41 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:31:41 AM  jif_assembler| JIF creation completed. A300001021 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:31:42 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:31:42 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:31:42 AM   file_handler| Accepted job event
+[IO_HANDLER ] 10/06/2016 10:31:42 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:31:42 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:31:42 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:31:42 AM     controller| Deque deque(['A100001020'])
+[DISPATCH   ] 10/06/2016 10:31:43 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:31:43 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:31:43 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:31:43 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 10:31:43 AM     controller| Deque deque(['A300001021'])
+[IO_HANDLER ] 10/06/2016 10:31:48 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:31:48 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:02 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:02 AM   file_handler| Reprint job event
+[IO_HANDLER ] 10/06/2016 10:32:02 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:02 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:32:03 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:32:03 AM     controller| Reprint Call incoming data A100001012 and active jobs dict_keys(['A300001021', 'A100001020', 'A100001012', 'A200001019', 'A200001018', 'A100001016']) listed reprinting jobs []
+[IO_HANDLER ] 10/06/2016 10:32:03 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Jobid = 1022
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Starting to build JIF A100001022.
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:32:03 AM  jif_assembler| JIF creation completed. A100001022 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:32:03 AM     controller| Copying A100001012 to reprint directory
+[IO_HANDLER ] 10/06/2016 10:32:03 AM     controller| Data controller, target icd_4
+[IO_HANDLER ] 10/06/2016 10:32:03 AM     controller| Deque deque(['A100001012'])
+[IO_HANDLER ] 10/06/2016 10:32:13 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:32:14 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:32:14 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:32:14 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:32:14 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:32:14 AM     controller| Deque deque(['A100001022'])
+[IO_HANDLER ] 10/06/2016 10:32:38 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:38 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:39 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:39 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:32:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:33:51 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:33:51 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:33:51 AM     controller| Complete call passing to completion A100001012
+[IO_HANDLER ] 10/06/2016 10:33:51 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:33:51 AM     controller| JobID A100001012
+[IO_HANDLER ] 10/06/2016 10:33:51 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:35:29 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:35:29 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:35:40 AM   file_handler| Reprint job event
+[IO_HANDLER ] 10/06/2016 10:35:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:35:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:35:41 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:35:41 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:35:41 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:35:41 AM     controller| Reprint Call incoming data A200001018 and active jobs dict_keys(['A300001021', 'A100001020', 'A200001019', 'A200001018', 'A100001022', 'A100001016']) listed reprinting jobs []
+[IO_HANDLER ] 10/06/2016 10:35:41 AM     controller| Creating ICD_2 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Jobid = 1023
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Starting to build JIF A200001023.
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:35:41 AM  jif_assembler| JIF creation completed. A200001023 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:35:41 AM     controller| Copying A200001018 to reprint directory
+[IO_HANDLER ] 10/06/2016 10:35:41 AM     controller| Data controller, target icd_4
+[IO_HANDLER ] 10/06/2016 10:35:41 AM     controller| Deque deque(['A200001018'])
+[IO_HANDLER ] 10/06/2016 10:35:47 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:35:48 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:35:48 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:35:48 AM     controller| Job icd_2 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:35:48 AM     controller| Data controller, target icd_2
+[IO_HANDLER ] 10/06/2016 10:35:48 AM     controller| Deque deque(['A200001023'])
+[IO_HANDLER ] 10/06/2016 10:36:17 AM   file_handler| Status change event
+[INFO       ] 10/06/2016 10:36:17 AM           wsgi| 200 GET / (127.0.0.1) 30.02ms
+[SOCK_SERVER] 10/06/2016 10:36:17 AM         server| Connection established from 127.0.0.1:8414
+[DEBUG      ] 10/06/2016 10:36:17 AM   aptinterface| Message from: urn:uuid:1d305502-5fe4-499f-9f9f-9d7f531eca1c, status_check
+[SOCK_SERVER] 10/06/2016 10:36:17 AM         server| Incoming data: ['demo status', 'status_check', 'urn:uuid:1d305502-5fe4-499f-9f9f-9d7f531eca1c']
+[SOCK_SERVER] 10/06/2016 10:36:17 AM         server| ['demo status', 'status_check', 'urn:uuid:1d305502-5fe4-499f-9f9f-9d7f531eca1c']
+[DEMO_STATE ] 10/06/2016 10:36:17 AM     controller| Websocket status check for urn:uuid:1d305502-5fe4-499f-9f9f-9d7f531eca1c
+[IO_HANDLER ] 10/06/2016 10:36:24 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:36:25 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:37:23 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:37:23 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:37:23 AM     controller| Complete call passing to completion A300001021
+[IO_HANDLER ] 10/06/2016 10:37:23 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:37:23 AM     controller| JobID A300001021
+[IO_HANDLER ] 10/06/2016 10:37:23 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:37:23 AM     controller| Creating ICD_3 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Jobid = 1024
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Starting to build JIF A300001024.
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:37:23 AM  jif_assembler| JIF creation completed. A300001024 has been sent to APT.
+[IO_HANDLER ] 10/06/2016 10:37:31 AM   file_handler| Completed job event
+[DISPATCH   ] 10/06/2016 10:37:31 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:37:31 AM     controller| Complete call passing to completion A200001018
+[IO_HANDLER ] 10/06/2016 10:37:31 AM     controller| --Job Completed--
+[IO_HANDLER ] 10/06/2016 10:37:31 AM     controller| JobID A200001018
+[IO_HANDLER ] 10/06/2016 10:37:31 AM     controller| Cleaning old job data.
+[IO_HANDLER ] 10/06/2016 10:37:32 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:37:32 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:37:32 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:37:32 AM     controller| Job icd_3 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:37:32 AM     controller| Data controller, target icd_3
+[IO_HANDLER ] 10/06/2016 10:37:32 AM     controller| Deque deque(['A300001024'])
+[IO_HANDLER ] 10/06/2016 10:37:40 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:37:40 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:37:40 AM     dispatcher| Calling process change controller
+[IO_HANDLER ] 10/06/2016 10:37:40 AM     controller| Multi process change to insert - removing A100001020
+[IO_HANDLER ] 10/06/2016 10:37:40 AM     controller| Sending data to TD from multi-step.
+[IO_HANDLER ] 10/06/2016 10:37:40 AM     controller| Data controller, target td
+[IO_HANDLER ] 10/06/2016 10:37:40 AM     controller| Deque deque(['A100001020'])
+[IO_HANDLER ] 10/06/2016 10:37:40 AM     controller| Cleaning previous data.
+[IO_HANDLER ] 10/06/2016 10:37:40 AM     controller| Creating ICD_1 JIF/Exit Data
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| JobID Loader called
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Data path = C:\Users\trogers\PycharmProjects\autoapt\jifgenerator
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Jobid = 1025
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Starting to build JIF A100001025.
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Building Sheets.
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Generating ICD Data.
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Saving Job Seed
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Copying JIF to JDF folder.
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| Cleaning temp JIF
+[JIFGEN     ] 10/06/2016 10:37:40 AM  jif_assembler| JIF creation completed. A100001025 has been sent to APT.
+[DISPATCH   ] 10/06/2016 10:37:41 AM     dispatcher| Calling process change controller
+[IO_HANDLER ] 10/06/2016 10:37:43 AM   file_handler| Accepted job event
+[DISPATCH   ] 10/06/2016 10:37:43 AM     dispatcher| Calling new job controller
+[IO_HANDLER ] 10/06/2016 10:37:43 AM     controller| --New Job--
+[IO_HANDLER ] 10/06/2016 10:37:43 AM     controller| Job icd_1 accepted by APT, sending data.
+[IO_HANDLER ] 10/06/2016 10:37:43 AM     controller| Data controller, target icd_1
+[IO_HANDLER ] 10/06/2016 10:37:43 AM     controller| Deque deque(['A100001022', 'A100001025'])
+[IO_HANDLER ] 10/06/2016 10:38:07 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:07 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:24 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:24 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:28 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:28 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:33 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:33 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:33 AM   file_handler| Reprint job event
+[IO_HANDLER ] 10/06/2016 10:38:33 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:38:33 AM   file_handler| Status change event
+[DISPATCH   ] 10/06/2016 10:38:34 AM     dispatcher| Calling reprint controller from Proc Monitor
+[IO_HANDLER ] 10/06/2016 10:38:34 AM     controller| Reprint Call incoming data A100001016 and active jobs dict_keys(['A200001023', 'A100001020', 'A200001019', 'A100001025', 'A300001024', 'A100001022', 'A100001016']) listed reprinting jobs []
+[IO_HANDLER ] 10/06/2016 10:38:34 AM     controller| Copying A100001016 to reprint directory
+[IO_HANDLER ] 10/06/2016 10:38:34 AM     controller| Data controller, target icd_4
+[IO_HANDLER ] 10/06/2016 10:38:34 AM     controller| Deque deque(['A100001016'])
+[IO_HANDLER ] 10/06/2016 10:39:07 AM   file_handler| Status change event
+[IO_HANDLER ] 10/06/2016 10:39:07 AM   file_handler| Status change event
+[SOCK_SERVER] 10/06/2016 10:39:40 AM         server| Connection established from 127.0.0.1:8572
+[SOCK_SERVER] 10/06/2016 10:39:40 AM         server| Incoming data: ['demo control', 'pause']
+[INFO       ] 10/06/2016 10:39:40 AM           wsgi| 200 GET /pause_demo/ (127.0.0.1) 3.00ms
+[SOCK_SERVER] 10/06/2016 10:39:40 AM         server| ['demo control', 'pause']
+[DISPATCH   ] 10/06/2016 10:39:40 AM     dispatcher| Pausing Demo.
+[DEMO_STATE ] 10/06/2016 10:39:40 AM     controller| Sending pause signal to data controller.
+[IO_HANDLER ] 10/06/2016 10:39:40 AM     controller| Pausing worker: icd_1
+[IO_HANDLER ] 10/06/2016 10:40:10 AM     controller| Pausing worker: icd_2
+[IO_HANDLER ] 10/06/2016 10:40:13 AM   file_handler| Completed job event
+[IO_HANDLER ] 10/06/2016 10:40:32 AM     controller| Pausing worker: icd_3
+[IO_HANDLER ] 10/06/2016 10:40:43 AM     controller| Pausing worker: icd_4
+[IO_HANDLER ] 10/06/2016 10:40:43 AM     controller| Pausing worker: icd_5
+[IO_HANDLER ] 10/06/2016 10:40:43 AM     controller| Pausing worker: icd_6
+[IO_HANDLER ] 10/06/2016 10:40:43 AM     controller| Pausing worker: td
+[IO_HANDLER ] 10/06/2016 10:52:22 AM   file_handler| Status change event

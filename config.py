@@ -77,6 +77,7 @@ def save_default_sys():
             http = 'HTTPServer'
             sock = 'SocketServer'
             db = 'DB'
+            mode = 'Mode'
             config.add_section(http)
             config.set(http, 'host', '0.0.0.0')
             config.set(http, 'port', '8888')
@@ -85,6 +86,8 @@ def save_default_sys():
             config.set(sock, 'port', '8091')
             config.add_section(db)
             config.set(db, 'dbname', 'aptdemo.db')
+            config.add_section(mode)
+            config.set(mode, 'connection_type', 'file')
             config.write(syscfg)
 
 
@@ -187,6 +190,11 @@ def parse_sys_config(config):
                     y[subk] = subv
             out[k] = y
         if 'DB' in k:
+            z = {}
+            for subk, subv in config[k].items():
+                z[subk] = subv
+            out[k] = z
+        if 'Mode' in k:
             z = {}
             for subk, subv in config[k].items():
                 z[subk] = subv
