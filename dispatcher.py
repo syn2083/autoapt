@@ -19,6 +19,7 @@ class Dispatcher(threading.Thread):
         self.command_queue = controller.command_queue
         self.proc_queue = controller.proc_queue
         self.status_queue = controller.status_queue
+        self.device_queue = controller.device_queue
 
     def run(self):
         """
@@ -97,15 +98,26 @@ class Dispatcher(threading.Thread):
             if self.controller.demo_status == 1:
                 try:
                     proc = self.proc_queue.popleft()
-                    if proc[0] in ['Proc']:
+                    if proc(2) in ('job_proc_switch',):
                         logger.dispatch('Calling process change controller')
                         self.controller.proc_phase(proc)
-                    if proc[0] in ['Reprint', 'Complete']:
+                    if proc(2) in ('job_reprint', 'job_complete'):
                         logger.dispatch('Calling reprint controller from Proc Monitor')
                         self.controller.reprint_job(proc)
-                    if proc[0] in ['Accepted', 'Failed']:
+                    if proc(2) in ('job_received', 'job_failed'):
                         logger.dispatch('Calling new job controller')
                         self.controller.new_job(proc)
+                except IndexError:
+                    pass
+
+                try:
+                    device = self.device_queue.popleft()
+                    if device[2] in ('device_enable', 'device_disable'):
+                        logger.dispatch('Calling device state controller')
+                        self.controller.device_state(device)
+                    if device[2] in ('device_pause', 'device_resume'):
+                        logger.dispatch('Calling device status controller')
+                        self.controller.device_status(device)
                 except IndexError:
                     pass
 
@@ -115,6 +127,10 @@ class Dispatcher(threading.Thread):
             if self.controller.demo_status == 0:
                 try:
                     self.proc_queue.popleft()
+                except IndexError:
+                    pass
+                try:
+                    self.device_queue.popleft()
                 except IndexError:
                     pass
 

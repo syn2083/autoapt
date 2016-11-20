@@ -35,10 +35,10 @@ class DataWorker(threading.Thread):
                     output_files.append(file)
         if self.spr == 'sheet':
             interval = int(file_dump[0].split('.')[1])
-            if interval > 5:
-                interval -= 5
+            if interval > 10:
+                interval -= 10
         else:
-            interval = int(file_dump[0].split('.')[1]) + 2
+            interval = int(file_dump[0].split('.')[1]) + 9
         
         return output_files, interval
 
@@ -140,6 +140,14 @@ class DataController:
             worker[0].clear()
 
 
+class JobMonitor(threading.Thread):
+    def __init__(self):
+        threading.Thread.__init__(self)
+        self.paused = False
+        self._pause_cond = threading.Condition(threading.Lock())
+
+
+
 class DemoController:
     def __init__(self, dconf, jconf, sysconf):
         """
@@ -150,11 +158,15 @@ class DemoController:
         :type jconf: List[Dict[str, Dict[str, str]]]
         """
         self.demo_status = 0
+        self.site_demo_status = 0
+        self.ent_demo_status = 0
         for k in dconf[0].keys():
             setattr(self, k, dconf[0][k])
         for k in dconf[2].keys():
             setattr(self, k, dconf[2][k])
         self.monitors = []
+        self.sys_type = sysconf['sys_type']
+        self.mode = sysconf['connection_type']
         self.clients = None
         self.lock = None
         self.dispatcher = None
@@ -164,6 +176,7 @@ class DemoController:
         self.command_queue = deque()
         self.proc_queue = deque()
         self.status_queue = deque()
+        self.device_queue = deque()
         self.active_jobs = {}
         self.completed_jobs = []
         self.reprinting_jobs = []
@@ -209,17 +222,19 @@ class DemoController:
 
     def pause_target(self, target):
         logger.demo('Pausing single target, sending signal to data controller.')
-        self.data_controller.pause_worker(target)
-        self.paused_td = True
-        for client in self.clients.values():
-            client.write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
+        if not self.paused_td:
+            self.data_controller.pause_worker(target)
+            self.paused_td = True
+            for client in self.clients.values():
+                client.write_message(json.dumps({'id': 'td', 'value': 'Paused'}))
 
     def resume_target(self, target):
         logger.demo('Resuming single target, sending signal to data controller.')
-        self.data_controller.resume_work(target)
-        self.paused_td = None
-        for client in self.clients.values():
-            client.write_message(json.dumps({'id': 'td', 'value': 'resume'}))
+        if self.paused_td:
+            self.data_controller.resume_work(target)
+            self.paused_td = None
+            for client in self.clients.values():
+                client.write_message(json.dumps({'id': 'td', 'value': 'resume'}))
 
     def check_status(self, websocket):
         logger.demo('Websocket status check for {}'.format(websocket))

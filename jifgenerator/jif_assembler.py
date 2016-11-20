@@ -505,7 +505,7 @@ class JIFBuilder:
                 if i % self.speed == 0:
                     self.curr_time = self.add_seconds(self.curr_time, 1)
             else:
-                if 15 >= randint(1, 100) and current_dupes < dupe_limit:
+                if 15 >= randint(1, 100) and current_dupes <= dupe_limit:
                     piece_strings.append("{jobid},{pieceid},{time},{result},{op}".format(jobid=job_string,
                                                                                          pieceid=str(i).zfill(6),
                                                                                          time=self.curr_time,
